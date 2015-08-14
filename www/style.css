@@ -3,6 +3,33 @@ body {
   background-color: #F7EFE4;
 }
 
+#page {
+  width: 1000px;
+  margin: 40px auto;
+  background-color: #FFFFFF;
+  border: #4B3123 solid 1px;
+}
+
+#head {
+  height: 340px;
+  margin: 30px 0;
+  position: relative;
+  background-color: #DBD3C8;
+}
+#head img {
+  position: absolute;
+  width: 483px;
+  height: 318px;
+  top: 10px;
+  border: #4B3123 solid 1px;
+}
+#head img:first-child {
+  left: 10px;
+}
+#head img:last-child {
+  left: 505px;
+}
+
 .clr {
   clear: both;
 }

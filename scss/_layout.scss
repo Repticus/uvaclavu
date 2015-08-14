@@ -1,0 +1,45 @@
+$fontColor: #4B3123;
+$backColor: #F7EFE4;
+$headColor: #DBD3C8;
+$pageColor: #FFFFFF;
+
+$pageWidth: 1000px;
+$headImgWidth: 483px;
+$headImgHeight: 318px;
+$headMargin: 10px;
+$layoutDir: '/img/layout';
+
+body{
+	color: $fontColor;
+	background-color: $backColor;
+}
+#page{
+	width: $pageWidth;
+	margin: 40px auto;
+	background-color: $pageColor;
+	border: $fontColor solid 1px;
+}
+#head{
+	height: $headImgHeight + 2 + (2 * $headMargin);
+	margin: 30px 0;
+	position: relative;
+	background-color: $headColor;
+	img{
+		position: absolute;
+		width: $headImgWidth;
+		height: $headImgHeight;
+		top: $headMargin;
+		border: $fontColor solid 1px;
+	}
+	img:first-child {
+		left: $headMargin;
+	}
+	img:last-child {
+		left: ($pageWidth / 2) + ($headMargin / 2);
+	}
+
+}
+.clr{
+	clear: both;
+}
+

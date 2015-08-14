@@ -1,14 +1,2 @@
-$fontColor: #4B3123;
-$backColor: #F7EFE4;
-$layoutDir: '/img/layout';
-
-body{
-	color: $fontColor;
-	background-color: $backColor;
-}
-
-.clr{
-	clear: both;
-}
-
+@import "layout";
 @import "nette";

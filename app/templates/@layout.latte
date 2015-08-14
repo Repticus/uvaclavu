@@ -10,14 +10,13 @@
 
 	<body>
 		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
-
-		{block content|indent:2}
-		{/block}
-
-		{block scripts}
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="//nette.github.io/resources/js/netteForms.min.js"></script>
-		<script src="{$basePath}/javascript.js"></script>
-		{/block}
+		<div id="page">
+			<div id="head">
+				<img src="img/head/img1.jpg" alt=""/>
+				<img src="img/head/img2.jpg" alt=""/>
+			</div>
+			{block content|indent:3}
+			{/block}
+		</div>
 	</body>
 </html>
