@@ -1,0 +1,76 @@
+#top{
+	li{
+		width: $pageWidth / 4;
+	}
+	img{
+		margin: 0;
+	}
+}
+#btm{
+	margin: 0;
+	li{
+		width: $pageWidth / 3;
+	}
+}
+.menu{
+	margin: 30px 0;
+	padding: 5px 0;
+	background-color: $headColor;
+	ul{
+		height: $menuHeight;
+		background-color: $menuColor;
+	}
+	li{
+		line-height: $menuHeight;
+		text-align: center;
+		float: left;
+	}
+}
+#head{
+	height: $headImgHeight + 2 + (2 * $headMargin);
+	margin: 30px 0;
+	position: relative;
+	background-color: $headColor;
+	img{
+		position: absolute;
+		width: $headImgWidth;
+		height: $headImgHeight;
+		top: $headMargin;
+		border: $fontColor solid 1px;
+	}
+	img:first-child {
+		left: $headMargin;
+	}
+	img:last-child {
+		left: ($pageWidth / 2) + ($headMargin / 2);
+	}
+
+}
+#info {
+	position: relative;
+	ul{
+		margin-left: $panelMargin;
+		color: $menuColor;
+		cursor: default;
+		position: absolute;
+		top: -$menuHeight - 10;
+	}
+	li{
+		width: $leftPanelWidth / 3;
+		line-height: $menuHeight;
+		text-align: center;
+		float: left;
+	}
+}
+#foot {
+	img{
+		clear: right;
+	}
+	li{
+		width: $pageWidth / 2;
+		line-height: $menuHeight;
+		text-align: center;
+		float: left;
+		margin: 3px 0;
+	}
+}

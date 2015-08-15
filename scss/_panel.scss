@@ -1,0 +1,13 @@
+#leftpanel, #rightpanel{
+	float: left;
+	margin: 0 $panelMargin;
+}
+#leftpanel{
+	width: $leftPanelWidth;
+	padding-bottom: $menuHeight + $panelMargin;
+	text-align: center;
+}
+#rightpanel{
+	width: ($pageWidth / 4) - $panelMargin;
+	margin-left: 0;
+}

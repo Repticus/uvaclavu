@@ -3,37 +3,64 @@ body {
   background-color: #F7EFE4;
 }
 
+h1 {
+  margin: 0 0 30px 0;
+}
+
+a {
+  color: #4B3123;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 #page {
   width: 1000px;
-  margin: 40px auto;
+  margin: 30px auto;
   background-color: #FFFFFF;
   border: #4B3123 solid 1px;
 }
 
-#menu {
+.clr {
+  clear: both;
+}
+
+#top li {
+  width: 250px;
+}
+#top img {
+  margin: 0;
+}
+
+#btm {
+  margin: 0;
+}
+#btm li {
+  width: 333.33333px;
+}
+
+.menu {
   margin: 30px 0;
   padding: 5px 0;
   background-color: #DBD3C8;
 }
-#menu ul {
+.menu ul {
   height: 80px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
   background-color: #CBB895;
 }
-#menu li {
-  width: 250px;
+.menu li {
   line-height: 80px;
   text-align: center;
   float: left;
-}
-#menu img {
-  vertical-align: middle;
-}
-#menu a {
-  color: #4B3123;
-  text-decoration: none;
 }
 
 #head {
@@ -56,8 +83,70 @@ body {
   left: 505px;
 }
 
-.clr {
-  clear: both;
+#info {
+  position: relative;
+}
+#info ul {
+  margin-left: 30px;
+  color: #CBB895;
+  cursor: default;
+  position: absolute;
+  top: -90px;
+}
+#info li {
+  width: 230px;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+}
+
+#foot img {
+  clear: right;
+}
+#foot li {
+  width: 500px;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+  margin: 3px 0;
+}
+
+.button {
+  display: block;
+  padding: 6px 6px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #CBB895;
+  border: #CBB895 solid 1px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.button span {
+  display: block;
+  height: 110px;
+  line-height: 110px;
+  border-radius: 6px;
+  border: #FFFFFF solid 1px;
+}
+
+.button:hover {
+  background-color: #F7EFE4;
+}
+
+#leftpanel, #rightpanel {
+  float: left;
+  margin: 0 30px;
+}
+
+#leftpanel {
+  width: 690px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+#rightpanel {
+  width: 220px;
+  margin-left: 0;
 }
 
 a[href^="error:"] {

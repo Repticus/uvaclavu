@@ -5,15 +5,14 @@
 		<meta name="viewport" content="width=device-width">
 		<title>{include title|striptags|strip}</title>
 		<link rel="stylesheet" href="{$basePath}/style.css">
-		<link rel="shortcut icon" href="{$basePath}/favicon.ico">
 	</head>
 
 	<body>
 		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 		<div id="page">
-		<div id="menu">
+		<div id="top" class="menu">
 			<ul>
-				<li><a href=""><img src="img/layout/uvaclavu.png" alt=""/></a></li>
+				<li><a n:href="Web:uvod"><img src="img/layout/restaurace-uvaclavu.png" alt=""/></a></li>
 				<li><a href="">JÍDELNÍ LÍSTEK</a></li>
 				<li><a href="">POLEDNÍ MENU</a></li>
 				<li><a href="">KONTAKT</a></li>
