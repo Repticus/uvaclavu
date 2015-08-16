@@ -1,0 +1,15 @@
+{block content}
+<div id="content" class="trm">
+	<h1 n:block=title>Turistické tipy v okolí Příbrami</h1>
+	{foreach $tourism as $group}
+		<h2>{$group['group']}</h2>
+		<div class="pnl w13">
+			<img n:ifset="$group['image']" src="img/turistika/{$group['image']}" alt=""/>
+		</div>
+		<div class="pnl w23">
+			<ul n:inner-foreach="$group['place'] as $place">
+				<li>{$place}</li>
+			</ul>
+		</div>
+		<div class="clr"></div>
+	{/foreach}

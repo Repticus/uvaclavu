@@ -6,8 +6,8 @@ use Nette;
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
-	public function renderDefault() {
-
+	public function actionTuristikaPribram() {
+		$this->template->tourism = $this->context->parameters['tourism'];
 	}
 
 }

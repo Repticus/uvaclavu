@@ -1,0 +1,19 @@
+#head{
+	height: $headImgHeight + 2 + (2 * $headMargin);
+	margin: $panelMargin 0;
+	position: relative;
+	background-color: $headColor;
+	img{
+		position: absolute;
+		width: $headImgWidth;
+		height: $headImgHeight;
+		top: $headMargin;
+		border: $fontColor solid 1px;
+	}
+	img:first-child {
+		left: $headMargin;
+	}
+	img:last-child {
+		left: ($pageWidth / 2) + ($headMargin / 2);
+	}
+}

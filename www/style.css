@@ -5,6 +5,11 @@ body {
 
 h1 {
   margin: 0 0 30px 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 10px 0;
 }
 
 a {
@@ -20,7 +25,6 @@ ul {
 
 img {
   vertical-align: middle;
-  margin-right: 10px;
 }
 
 #page {
@@ -30,26 +34,31 @@ img {
   border: #4B3123 solid 1px;
 }
 
+.pnl {
+  float: left;
+}
+
+.w12 {
+  width: 500px;
+}
+
+.w13 {
+  width: 333px;
+}
+
+.w14 {
+  width: 250px;
+}
+
+.w34 {
+  width: 750px;
+}
+
 .clr {
   clear: both;
 }
 
-#top li {
-  width: 250px;
-}
-#top img {
-  margin: 0;
-}
-
-#btm {
-  margin: 0;
-}
-#btm li {
-  width: 333.33333px;
-}
-
 .menu {
-  margin: 30px 0;
   padding: 5px 0;
   background-color: #DBD3C8;
 }
@@ -61,6 +70,20 @@ img {
   line-height: 80px;
   text-align: center;
   float: left;
+}
+
+#top {
+  margin: 30px 0;
+}
+#top li {
+  width: 250px;
+}
+
+#btm li {
+  width: 333px;
+}
+#btm img {
+  margin-right: 8px;
 }
 
 #head {
@@ -87,21 +110,23 @@ img {
   position: relative;
 }
 #info ul {
-  margin-left: 30px;
   color: #CBB895;
   cursor: default;
   position: absolute;
   top: -90px;
 }
 #info li {
-  width: 230px;
+  width: 250px;
   line-height: 80px;
   text-align: center;
   float: left;
 }
+#info img {
+  margin-right: 8px;
+}
 
 #foot img {
-  clear: right;
+  margin-right: 8px;
 }
 #foot li {
   width: 500px;
@@ -133,20 +158,30 @@ img {
   background-color: #F7EFE4;
 }
 
-#leftpanel, #rightpanel {
-  float: left;
-  margin: 0 30px;
-}
-
-#leftpanel {
-  width: 690px;
-  padding-bottom: 110px;
+.int p {
   text-align: center;
 }
-
-#rightpanel {
+.int .w34 {
+  width: 690px;
+  margin: 0 30px 110px 30px;
+}
+.int .w14 {
   width: 220px;
-  margin-left: 0;
+  margin-right: 30px;
+}
+
+.trm h2 {
+  margin-left: 333px;
+}
+.trm img {
+  display: block;
+  margin: 0 0 20px 30px;
+}
+.trm ul {
+  margin-bottom: 20px;
+}
+.trm .w13 {
+  min-height: 1px;
 }
 
 a[href^="error:"] {

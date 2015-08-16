@@ -1,0 +1,54 @@
+parameters:
+	tourism:
+		-
+			group: 'Vrcholy Brd'
+			image: 'vrcholy-brd.jpg'
+			place:
+				- 'Tok'
+				- 'Praha'
+				- 'Třemošná'
+				- 'Jordán'
+				- 'Klobouček'
+				- 'Slonovec'
+				- 'Plešivec'
+				- 'Klouček'
+				- 'Brda'
+				- 'Černá skála'
+		-
+			group: 'Hrady, zámky, kostely'
+			image: 'zamek-ernestinum.jpg'
+			place:
+				- 'Zřícenina hradu Valdek'
+				- 'Tvrziště hradiště Drahlín'
+				- 'Zámeček-Ernestinum'
+				- 'Kostel sv. Jakuba Příbram'
+				- 'Kostel sv. Vojtěcha Příbram'
+				- 'Kostel sv. Prokopa Příbram'
+		-
+			group: 'Muzea, galerie, divadla a knihovny'
+			image: 'hornicke-muzeum.jpg'
+			place:
+				- 'Hornické muzeum Příbram'
+				- 'Muzeum III. odboje'
+				- 'Galerie Františka Drtikola Příbram'
+				- 'Hornické muzeum Příbram - hornický vláček '
+				- 'Podbrdské muzeum Rožmitál pod Třemšínem  '
+				- 'Čechova stodola, Buková u Příbrami 129, tel. 724 236 884'
+				- 'Divadlo A. Dvořáka Příbram'
+				- 'Knihovna Jana Drdy Příbram'
+		-
+			group: 'Další zajímavá místa'
+			image: 'hradiste-drahlin.jpg'
+			place:
+				- 'Základna Protivzdušné obrany státu - Klondajk'
+				- 'Vysoká u Příbrami (Památník Antonína Dvořáka)'
+				- 'Pilský rybník'
+				- 'Padrťské rybníky'
+				- 'Sádka'
+				- 'Octárna'
+				- 'Památník Slivice'
+				- 'Památník Vojna Lešetice'
+				- 'Svatá Hora Příbram'
+				- 'Příbramské podzemí'
+				- 'Aquapark Příbram'
+				- 'Lesopark Litavka'
