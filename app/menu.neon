@@ -1,0 +1,81 @@
+parameters:
+	menu:
+		-
+			group: 'Studené předkrmy'
+			food:
+				-
+					name: 'Domácí škvarková pomazánka s cibulkou, pečivo'
+					amount: '50 g'
+					price: 45
+					alergen: {1,3,7}
+
+				-
+					name: 'Námi naložený utopenec s cibulí, pečivo'
+					amount: '1 ks'
+					price: 30
+					alergen: {1,3,7}
+				-
+					name: 'Hovězí tataráček dochucený a podávaný s topinkami a česnekem'
+					amount: '200 g'
+					price: 189
+					alergen: {1,3,7}
+					note: 'Nutno objednat 24 hodin předem'
+		-
+			group: 'Teplé předkrmy'
+			food:
+				-
+					name: 'Pečené vuřty na černém pivu s feferonkou a cibulí, pečivo'
+					amount: '150 g'
+					price: 50
+					alergen: {1,3,7}
+				-
+					name: 'Restovaná drůbeží játra, pečivo'
+					amount: '100 g'
+					price: 65
+					alergen: {1,3,7}
+		-
+			group: 'Polévky'
+			food:
+				-
+					name: 'Hovězí vývar s játrovými knedlíčky'
+					price: 25
+					alergen: {1,3,9}
+				-
+					name: 'Dle denní nabídky'
+					price: 23
+		-
+			group: 'Něco k pivu'
+			food:
+				-
+					name: 'Topinky s pikantní masovou směsí'
+					amount: '3 ks'
+					price: 60
+					alergen: {1,3,7}
+				-
+					name: 'Hovězí gulášek s pečivem'
+					amount: '120 g'
+					price: 70
+					alergen: {3,7}
+				-
+					name: 'Smažené řízečky z vepřové panenky, kys. okurka, pečivo'
+					amount: '100 g'
+					price: 70
+					alergen: {1,3,7}
+		-
+			group: 'Hlavní chody'
+			food:
+				-
+					name: 'Steak z lososa na pomerančích podávaný s pečenou bagetkou, bylinkové máslo'
+					amount: '200 g'
+					price: 145
+					alergen: {1,3,4,7,9}
+				-
+					name: 'Caesar salát - trhaný řimský salát s grilovaným kuřecím prsíčkem,<br> opečenými krutónky, dresinkem a hoblinkami parmazánu'
+					amount: '350 g'
+					price: 125
+					alergen: {1,3,4,7,10}
+				-
+					name: 'Kuřecí prso s kůží, tymiánem a bylinkovým máslem'
+					amount: '200 g'
+					price: 105
+					alergen: {9}

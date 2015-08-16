@@ -1,0 +1,28 @@
+{block content}
+<div id="content" class="mnu">
+	<h1 n:block=title>Jídelní lístek</h1>
+	<table>
+		{foreach $menu as $group}
+			<tr>
+				<th></th>
+				<th colspan="3">
+					<h2>{$group['group']}</h2>
+				</th>
+			</tr>
+			{foreach $group['food'] as $food}
+				<tr>
+					<td>
+						{ifset $food['amount']}{$food['amount']}{/ifset}
+					</td>
+					<td>
+						{$food['name']|noescape}
+						{ifset $food['alergen']} <span>(A: {$food['alergen']|implode:', '})</span>{/ifset}
+						{ifset $food['note']}<br><i>({$food['note']})</i>{/ifset}
+					</td>
+					<td>
+						{$food['price']} Kč
+					</td>
+				</tr>
+			{/foreach}
+		{/foreach}
+	</table>

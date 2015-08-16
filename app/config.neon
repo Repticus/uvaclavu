@@ -1,5 +1,6 @@
 includes:
 	- tourism.neon
+	- menu.neon
 
 parameters:
 

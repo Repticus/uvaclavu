@@ -1,0 +1,31 @@
+.mnu{
+	tr:not(:first-child) h2{
+		margin-top: 20px;
+	}
+	span{
+		font-size: 0.8em;
+		white-space: nowrap;
+	}
+	table{
+		margin: $panelMargin;
+	}
+	th{
+		text-align: left;
+	}
+	td{
+		padding-right: 10px;
+	}
+	tr>td:nth-child(1){
+		white-space: nowrap;
+		text-align: right;
+		vertical-align: top;
+	}
+	tr>td:nth-child(2){
+		width: 100%;
+	}
+	tr>td:nth-child(3){
+		white-space: nowrap;
+		text-align: right;
+		vertical-align: top;
+	}
+}

@@ -58,6 +58,10 @@ img {
   clear: both;
 }
 
+.menu a:hover {
+  opacity: 0.6;
+}
+
 .menu {
   padding: 5px 0;
   background-color: #DBD3C8;
@@ -182,6 +186,36 @@ img {
 }
 .trm .w13 {
   min-height: 1px;
+}
+
+.mnu tr:not(:first-child) h2 {
+  margin-top: 20px;
+}
+.mnu span {
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+.mnu table {
+  margin: 30px;
+}
+.mnu th {
+  text-align: left;
+}
+.mnu td {
+  padding-right: 10px;
+}
+.mnu tr > td:nth-child(1) {
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: top;
+}
+.mnu tr > td:nth-child(2) {
+  width: 100%;
+}
+.mnu tr > td:nth-child(3) {
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: top;
 }
 
 a[href^="error:"] {
