@@ -62,32 +62,22 @@ img {
   opacity: 0.6;
 }
 
-.menu {
-  padding: 5px 0;
-  background-color: #DBD3C8;
-}
-.menu ul {
-  height: 80px;
-  background-color: #CBB895;
-}
 .menu li {
-  line-height: 80px;
+  display: table-cell;
   text-align: center;
-  float: left;
 }
 
-#top {
-  margin: 30px 0;
-}
-#top li {
-  width: 250px;
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 
-#btm li {
-  width: 333px;
-}
-#btm img {
-  margin-right: 8px;
+.icon a,
+.icon span {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #head {
@@ -108,25 +98,6 @@ img {
 }
 #head img:last-child {
   left: 505px;
-}
-
-#info {
-  position: relative;
-}
-#info ul {
-  color: #CBB895;
-  cursor: default;
-  position: absolute;
-  top: -90px;
-}
-#info li {
-  width: 250px;
-  line-height: 80px;
-  text-align: center;
-  float: left;
-}
-#info img {
-  margin-right: 8px;
 }
 
 #foot img {
@@ -172,6 +143,77 @@ img {
 .int .w14 {
   width: 220px;
   margin-right: 30px;
+}
+
+#info {
+  position: relative;
+}
+#info ul {
+  position: absolute;
+  top: -80px;
+  color: #CBB895;
+}
+#info li {
+  width: 250px;
+}
+#info .icon span {
+  height: 50px;
+}
+
+#top, #btm {
+  padding: 5px 0;
+  background-color: #DBD3C8;
+}
+#top ul, #btm ul {
+  background-color: #CBB895;
+}
+#top a, #btm a {
+  height: 80px;
+}
+
+#top {
+  margin: 30px 0;
+}
+#top li {
+  width: 250px;
+  padding: 10px 0;
+}
+
+#btm {
+  margin: 0;
+}
+#btm li {
+  width: 333px;
+}
+
+.lunch {
+  padding-left: 60px;
+  background-image: url(img/layout/rozvoz-obedu.png);
+}
+
+.nosmoke {
+  padding-left: 60px;
+  background-image: url(img/layout/nekuracka-restaurace.png);
+}
+
+.wifi {
+  padding-left: 50px;
+  background-image: url(img/layout/wifi-restaurace.png);
+}
+
+.tourism {
+  padding-left: 44px;
+  background-image: url(img/layout/zajimavosti-pribram.png);
+}
+
+.inspection {
+  padding-left: 60px;
+  background-image: url(img/layout/prohlidka-restaurace.png);
+}
+
+.maps {
+  padding-left: 40px;
+  background-image: url(img/layout/mapa-restaurace.png);
 }
 
 .trm h2 {

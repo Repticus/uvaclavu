@@ -1,3 +1,4 @@
+$infoHeight: 50px;
 .int{
 	p{
 		text-align: center;
@@ -10,4 +11,65 @@
 		width: $w14 - $panelMargin;
 		margin-right: $panelMargin;
 	}
+}
+#info {
+	position: relative;
+	ul{
+		position: absolute;
+		top: -80px;
+		color: $menuColor;
+	}
+	li{
+		width: $w14;
+	}
+	.icon span{
+		height: $infoHeight;
+	}
+}
+#top, #btm{
+	padding: 5px 0;
+	background-color: $headColor;
+	ul{
+		background-color: $menuColor;
+	}
+	a{
+		height: 80px;
+	}
+}
+#top{
+	margin: $panelMargin 0;
+	li{
+		width: $w14;
+		padding: 10px 0;
+	}
+}
+#btm{
+	margin: 0;
+	li{
+		width: $w13;
+	}
+}
+.lunch{
+	padding-left: 60px;
+	background-image: url(img/layout/rozvoz-obedu.png);
+}
+.nosmoke{
+	padding-left: 60px;
+	background-image: url(img/layout/nekuracka-restaurace.png);
+}
+.wifi{
+	padding-left: 50px;
+	background-image: url(img/layout/wifi-restaurace.png);
+}
+.tourism{
+	padding-left: 44px;
+	background-image: url(img/layout/zajimavosti-pribram.png);
+}
+.inspection{
+	padding-left: 60px;
+	background-image: url(img/layout/prohlidka-restaurace.png);
+}
+.maps{
+	padding-left: 40px;
+	background-image: url(img/layout/mapa-restaurace.png);
 }

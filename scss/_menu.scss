@@ -1,30 +1,18 @@
 .menu a:hover{
 	opacity: 0.6;
 }
-.menu{
-	padding: 5px 0;
-	background-color: $headColor;
-	ul{
-		height: $menuHeight;
-		background-color: $menuColor;
-	}
-	li{
-		line-height: $menuHeight;
-		text-align: center;
-		float: left;
-	}
+.menu li{
+	display: table-cell;
+	text-align: center;
 }
-#top{
-	margin: $panelMargin 0;
-	li{
-		width: $w14;
-	}
+.icon{
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: center left;
 }
-#btm{
-	li{
-		width: $w13;
-	}
-	img{
-		margin-right: 8px;
-	}
+.icon a,
+.icon span{
+	display: table-cell;
+	vertical-align: middle;
 }
