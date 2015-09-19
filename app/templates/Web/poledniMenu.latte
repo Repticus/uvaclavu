@@ -1,0 +1,22 @@
+{block content}
+<div id="content" class="mnu">
+	<h1 n:block=title>Polední menu</h1>
+	<table>
+		{foreach $menu as $date => $food}
+			<tr>
+				<th colspan="2"><h2>{$date|date:'%A %d.%m.%Y'}</h2></th>
+			</tr>
+			<tr>
+				<td>Polévka:</td>
+				<td>{$food['p']}</td>
+			</tr>
+			<tr>
+				<td>Jídlo A:</td>
+				<td>{$food['a']}</td>
+			</tr>
+			<tr>
+				<td>Jídlo B:</td>
+				<td>{$food['b']}</td>
+			</tr>
+		{/foreach}
+	</table>

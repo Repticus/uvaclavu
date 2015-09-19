@@ -21,4 +21,6 @@ if (file_exists(__DIR__ . '/config.local.neon')) {
 
 $container = $configurator->createContainer();
 
+setlocale(LC_ALL, $container->parameters['setlocale']);
+
 return $container;

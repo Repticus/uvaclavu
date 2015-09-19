@@ -1,5 +1,5 @@
 parameters:
-	menu:
+	main-menu:
 		-
 			group: 'Studené předkrmy'
 			food:
@@ -8,7 +8,6 @@ parameters:
 					amount: '50 g'
 					price: 45
 					alergen: {1,3,7}
-
 				-
 					name: 'Námi naložený utopenec s cibulí, pečivo'
 					amount: '1 ks'

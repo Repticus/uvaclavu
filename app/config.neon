@@ -1,8 +1,10 @@
 includes:
 	- tourism.neon
-	- menu.neon
+	- main_menu.neon
+	- lunch_menu.neon
 
 parameters:
+	setlocale: cs_CZ.UTF-8 #nastaveni pro unix
 
 php:
 	date.timezone: Europe/Prague
