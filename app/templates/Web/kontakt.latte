@@ -1,0 +1,31 @@
+{block title}Kontakt{/block}
+{block content}
+<div id="content" class="cnt">
+	<div class="pnl w12">
+		<div class="field">
+			<h2>Kontaktní osoby</h2>
+			<div class="person" title="Manažer a provozovatel restaurace">Václav Scherfer ml.</div>
+			<div class="person" title="Provozovatel restaurace">Jaromír Hassmann</div>
+			<div class="mail" title="Email">restaurace@uvaclavu.cz</div>
+			<div class="phone" title="Telefon">+420 777 802 425</div>
+		</div>
+		<div class="field">
+			<h2>Adresa restaurace</h2>
+			<div class="house" title="Název restaurace">Restaurace U Václavů</div>
+			<div class="street" title="Ulice">Drahlín 219</div>
+			<div class="city" title="PSČ a Město">261 01 Příbram</div>
+		</div>
+		<div class="clr"></div>
+		<h2>Kontaktní formulář</h2>
+		{form sendQuestion}
+			{input name}{input email}{input subject}
+			{input message}
+			{input send}
+			{input spamtest}
+		{/form}
+	</div>
+	<div class="pnl w12">
+		<h2>Mapa restaurace</h2>
+		<iframe src="//api.mapy.cz/frame?params=%7B%22x%22%3A13.966424635170796%2C%22y%22%3A49.732856349966085%2C%22base%22%3A%221%22%2C%22layers%22%3A%5B%5D%2C%22zoom%22%3A18%2C%22url%22%3A%22http%3A%2F%2Fmapy.cz%2Fs%2FlqPq%22%2C%22mark%22%3A%7B%22x%22%3A%2213.966344168900337%22%2C%22y%22%3A%2249.73273846148146%22%2C%22title%22%3A%22Brdsk%C3%A1%20restaurace%20U%20V%C3%A1clav%C5%AF%22%7D%2C%22overview%22%3Atrue%7D&amp;width=440&amp;height=340" width="440" height="340"></iframe>
+	</div>
+	<div class="clr"></div>

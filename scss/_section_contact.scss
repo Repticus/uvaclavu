@@ -1,0 +1,49 @@
+.cnt{
+	.w12{
+		padding: 0 0 $panelMargin $panelMargin;
+		width: $w12 - $panelMargin;
+	}
+	.field{
+		width: ($w12 - $panelMargin) / 2;
+		float: left;
+		margin-bottom: $panelMargin;
+		div{
+			cursor: default;
+		}
+	}
+}
+iframe{
+	border: 1px solid #d2d2d2;
+}
+
+*:before{
+	font-family: webglyphs;
+	font-weight: normal;
+	font-size: 14px;
+	margin-right: 8px;
+	position: relative;
+	top: 1px;
+	cursor: default;
+}
+.person:before {
+	content: '\f133';
+}
+.phone:before {
+	content: '\f0e8';
+}
+.mail:before {
+	content: '\f028';
+	top: 4px;
+}
+.house:before {
+	content: '\f5ed';
+}
+.street:before {
+	content: '\f21b';
+}
+.city:before {
+	content: '\f576';
+}
+.map:before {
+	content: '\f20a';
+}

@@ -11,6 +11,13 @@ $headImgHeight: 318px;
 $headMargin: 10px;
 $panelMargin: 30px;
 
+@font-face {
+	font-family: webglyphs;
+	src: url('../font/webglyphs2.eot');
+	src: url('../font/webglyphs2.woff') format('woff'),
+        url('../font/webglyphs2.ttf') format('truetype');
+}
+
 body{
 	color: $fontColor;
 	background-color: $backColor;

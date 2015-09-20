@@ -5,6 +5,9 @@ includes:
 
 parameters:
 	setlocale: cs_CZ.UTF-8 #nastaveni pro unix
+	owner:
+		name: 'restaurace U Václavů' #alias emailu - jak se bude email zobrazovat
+		mail: 'restaurace@uvaclavu.cz' #email na ktery se budou odesilat prihlasky
 
 php:
 	date.timezone: Europe/Prague

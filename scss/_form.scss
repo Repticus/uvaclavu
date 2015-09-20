@@ -1,0 +1,16 @@
+$formWidth: $w12 - $panelMargin;
+$formMargin: 4px;
+$form13: ($formWidth / 3) - (3 * $formMargin) - 2;
+
+#frm-sendQuestion input,
+#frm-sendQuestion textarea {
+	border: 1px solid #d2d2d2;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1) inset;
+	margin: 0 $formMargin $formMargin 0;
+	padding: $formMargin;
+	width: $form13;
+}
+#frm-sendQuestion textarea {
+	height: 150px;
+	width: $formWidth - (3 * $formMargin) - 2;
+}

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: webglyphs;
+  src: url("../font/webglyphs2.eot");
+  src: url("../font/webglyphs2.woff") format("woff"), url("../font/webglyphs2.ttf") format("truetype");
+}
 body {
   color: #4B3123;
   background-color: #F7EFE4;
@@ -133,6 +138,20 @@ img {
   background-color: #F7EFE4;
 }
 
+#frm-sendQuestion input,
+#frm-sendQuestion textarea {
+  border: 1px solid #d2d2d2;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1) inset;
+  margin: 0 4px 4px 0;
+  padding: 4px;
+  width: 142.66667px;
+}
+
+#frm-sendQuestion textarea {
+  height: 150px;
+  width: 456px;
+}
+
 .int p {
   text-align: center;
 }
@@ -258,6 +277,62 @@ img {
   white-space: nowrap;
   text-align: right;
   vertical-align: top;
+}
+
+.cnt .w12 {
+  padding: 0 0 30px 30px;
+  width: 470px;
+}
+.cnt .field {
+  width: 235px;
+  float: left;
+  margin-bottom: 30px;
+}
+.cnt .field div {
+  cursor: default;
+}
+
+iframe {
+  border: 1px solid #d2d2d2;
+}
+
+*:before {
+  font-family: webglyphs;
+  font-weight: normal;
+  font-size: 14px;
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+  cursor: default;
+}
+
+.person:before {
+  content: '\f133';
+}
+
+.phone:before {
+  content: '\f0e8';
+}
+
+.mail:before {
+  content: '\f028';
+  top: 4px;
+}
+
+.house:before {
+  content: '\f5ed';
+}
+
+.street:before {
+  content: '\f21b';
+}
+
+.city:before {
+  content: '\f576';
+}
+
+.map:before {
+  content: '\f20a';
 }
 
 a[href^="error:"] {

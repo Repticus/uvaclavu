@@ -15,7 +15,7 @@
 					<li><a n:href="Web:uvod"><img src="img/layout/restaurace-uvaclavu.png" alt="Restaurace U Václavů"/></a></li>
 					<li><a n:href="Web:jidelniListek">JÍDELNÍ LÍSTEK</a></li>
 					<li><a n:href="Web:poledniMenu">POLEDNÍ MENU</a></li>
-					<li><a href="">KONTAKT</a></li>
+					<li><a n:href="Web:kontakt">KONTAKT</a></li>
 				</ul>
 			</div>
 			<div id="head">
@@ -25,5 +25,8 @@
 			{block content|indent:3}
 			{/block}
 		</div>
+		{block scripts}
+		<script src="//nette.github.io/resources/js/netteForms.min.js"></script>
+		{/block}
 	</body>
 </html>
