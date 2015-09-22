@@ -14,12 +14,41 @@
 		</p>
 	</div>
 	<div class="pnl w14">
-		<a href="" class="button">
-			<span>akce</span>
-		</a>
-		<a href="" class="button">
-			<span>online rezervace</span>
-		</a>
+		<table class="diary">
+			<tr>
+				<th colspan="7">Online rezervace</th>
+			</tr>
+			<tr>
+				<th>Po</th>
+				<th>Út</th>
+				<th>St</th>
+				<th>Čt</th>
+				<th>Pá</th>
+				<th>So</th>
+				<th>Ne</th>
+			</tr>
+			{foreach $calendar as $week}
+				<tr>
+					{foreach $week as $day}
+						<td>
+							<a n:href="Web:uvod $day">{$day|date:"d"}</a>
+						</td>
+					{/foreach}
+				</tr>
+			{/foreach}
+		</table>
+		<table class="diary opentime">
+			<tr>
+				<th colspan="7">Otevírací doba</th>
+			</tr>
+			{foreach $opentime as $day => $time}
+				<tr>
+					<td>{$day}</td>
+					<td{if !$time} colspan="2"{/if}>{$time ? $time['od'] : "zavřeno"}</td>
+					<td n:if="$time">{$time ? $time['do']}</td>
+				</tr>
+			{/foreach}
+		</table>
 	</div>
 	<div id="info" class="clr">
 		<ul class="menu">

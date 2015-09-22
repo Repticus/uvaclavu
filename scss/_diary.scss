@@ -1,0 +1,27 @@
+.diary{
+	width: 100%;
+	text-align: center;
+	margin-bottom: $panelMargin;
+}
+.diary td,
+.diary th{
+	border: $fontColor solid 1px;
+	background-color: $headColor;
+	cursor: default;
+}
+.diary th,
+.opentime tr td:first-child{
+	background-color: $menuColor;
+}
+
+.diary tr:first-child th{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.diary tr:last-child td:first-child{
+	border-bottom-left-radius: 8px;
+}
+.diary tr:last-child td:last-child{
+	border-bottom-right-radius: 8px;
+}

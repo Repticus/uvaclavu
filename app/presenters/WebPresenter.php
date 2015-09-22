@@ -10,6 +10,7 @@ use Nette,
 class WebPresenter extends Nette\Application\UI\Presenter {
 
 	public function actionUvod($date = null) {
+		$this->template->opentime = $this->context->parameters['opentime'];
 		$this->template->calendar = $this->getCalendarData();
 	}
 

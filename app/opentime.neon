@@ -1,0 +1,19 @@
+parameters:
+	opentime:
+		Po:
+		Út:
+		St:
+			od: 16:00
+			do: 22:00
+		Čt:
+			od: 16:00
+			do: 22:00
+		Pá:
+			od: 16:00
+			do: 24:00
+		So:
+			od: 11:00
+			do: 23:00
+		Ne:
+			od: 11:00
+			do: 20:00
