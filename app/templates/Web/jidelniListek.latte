@@ -5,24 +5,54 @@
 		{foreach $menu as $group}
 			<tr>
 				<th></th>
-				<th colspan="3">
-					<h2>{$group['group']}</h2>
-				</th>
+				<th colspan="2">
+			<h2>{$group['group']}</h2>
+			</th>
 			</tr>
 			{foreach $group['food'] as $food}
 				<tr>
 					<td>
-						{ifset $food['amount']}{$food['amount']}{/ifset}
-					</td>
-					<td>
-						{$food['name']|noescape}
-						{ifset $food['alergen']} <span>(A: {$food['alergen']|implode:', '})</span>{/ifset}
-						{ifset $food['note']}<br><i>({$food['note']})</i>{/ifset}
-					</td>
-					<td>
-						{$food['price']} Kč
-					</td>
-				</tr>
-			{/foreach}
+					{ifset $food['amount']}{$food['amount']}{/ifset}
+				</td>
+				<td>
+					{$food['name']|noescape}
+					{ifset $food['alergen']} <span>(A: {$food['alergen']|implode:', '})</span>{/ifset}
+					{ifset $food['note']|noescape}<br><i>({$food['note']})</i>{/ifset}
+				</td>
+				<td>
+					{$food['price']} Kč
+				</td>
+			</tr>
 		{/foreach}
-	</table>
+	{/foreach}
+</table>
+
+<table>
+	{foreach $drink as $group}
+		<tr>
+			<th></th>
+			<th colspan="2">
+		<h2>{$group['group']}</h2>
+		</th>
+		</tr>
+		{foreach $group['drink'] as $drink}
+			<tr>
+				<td>
+					{$drink['amount']}
+				</td>
+				<td>
+					{$drink['name']|noescape}
+				</td>
+				<td>
+					{$drink['price']} Kč
+				</td>
+			</tr>
+			<tr n:ifset="$drink['description']">
+				<td></td>
+				<td>
+					<i>{$drink['description']|noescape}</i>
+				</td>
+			</tr>
+		{/foreach}
+	{/foreach}
+</table>

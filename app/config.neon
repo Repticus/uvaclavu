@@ -1,6 +1,7 @@
 includes:
 	- tourism.neon
 	- main_menu.neon
+	- drink_menu.neon
 	- lunch_menu.neon
 
 parameters:

@@ -13,19 +13,18 @@
 		text-align: left;
 	}
 	td{
-		padding-right: 10px;
-	}
-	tr>td:nth-child(1){
-		white-space: nowrap;
-		text-align: right;
 		vertical-align: top;
+		i{
+			display: block;
+			padding-bottom: 10px;
+		}
 	}
-	tr>td:nth-child(2){
+	h2, tr td:nth-child(2){
+		padding: 0 10px 0 10px;
 		width: 100%;
 	}
-	tr>td:nth-child(3){
+	td:not(:nth-child(2))	{
 		white-space: nowrap;
 		text-align: right;
-		vertical-align: top;
 	}
 }

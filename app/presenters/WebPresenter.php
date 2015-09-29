@@ -9,12 +9,17 @@ use Nette,
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
+	public function actionUvod($date = null) {
+		$this->template->calendar = $this->getCalendarData();
+	}
+
 	public function actionTuristikaPribram() {
 		$this->template->tourism = $this->context->parameters['tourism'];
 	}
 
 	public function actionJidelniListek() {
 		$this->template->menu = $this->context->parameters['main-menu'];
+		$this->template->drink = $this->context->parameters['drink-menu'];
 	}
 
 	public function actionPoledniMenu() {
@@ -27,6 +32,20 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 			}
 		}
 		$this->template->menu = $menu;
+	}
+
+	private function getCalendarData() {
+		$date = strtotime('this week monday');
+		$calendar = array();
+		for ($week = 1; $week <= 5; $week++) {
+			$weekData = array();
+			for ($day = 1; $day <= 7; $day++) {
+				$weekData[$day] = $date;
+				$date = strtotime("+1 day", $date);
+			}
+			$calendar[$week] = $weekData;
+		}
+		return $calendar;
 	}
 
 	protected function createComponentSendQuestion() {

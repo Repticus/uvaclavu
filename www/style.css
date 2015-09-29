@@ -263,20 +263,19 @@ img {
   text-align: left;
 }
 .mnu td {
-  padding-right: 10px;
-}
-.mnu tr > td:nth-child(1) {
-  white-space: nowrap;
-  text-align: right;
   vertical-align: top;
 }
-.mnu tr > td:nth-child(2) {
+.mnu td i {
+  display: block;
+  padding-bottom: 10px;
+}
+.mnu h2, .mnu tr td:nth-child(2) {
+  padding: 0 10px 0 10px;
   width: 100%;
 }
-.mnu tr > td:nth-child(3) {
+.mnu td:not(:nth-child(2)) {
   white-space: nowrap;
   text-align: right;
-  vertical-align: top;
 }
 
 .cnt .w12 {

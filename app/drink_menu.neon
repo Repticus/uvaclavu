@@ -1,0 +1,294 @@
+parameters:
+	drink-menu:
+		-
+			group: 'Točená piva'
+			drink:
+				-
+					name: 'Bakalář světlý výčepní 10°'
+					amount: '0,3 / 0,5 l'
+					price: '16 / 21'
+					description: 'Příjemné hořké pivo vyvážené chuti a zlaté barvy.'
+				-
+					name: 'Bakalář světlý ležák za studena chmelený 12°'
+					amount: '0,3 / 0,5 l'
+					price: 19 / 25
+					description: 'Nezaměnitelné pivo s vyšší původní stupňovitostí, charakteristické nádherným aroma sušených<br> chmelových hlávek Žateckého poloraného červeňáku a sytou barvou s temně zlatými odlesky.'
+				-
+					name: 'Bakalář za studena chmelený nealkoholický'
+					amount: '0,3 / 0,5 l'
+					price: 16 / 21
+				-
+					name: 'Velkopopoviczký Kozel 11°'
+					amount: '0,3 / 0,5 l'
+					price: 18 / 24
+		-
+			group: 'Lahvové pivo'
+			drink:
+				-
+					name: 'Velkopopovický kozel tmavý 10°'
+					amount: '0,5 l'
+					price: 23
+				-
+					name: 'Pilsner Urquell ležák 12°'
+					amount: '0,5 l'
+					price: 31
+		-
+			group: 'Nealkoholické rozlévané nápoje'
+			drink:
+				-
+					name: 'Točená kofola'
+					amount: '1 dl'
+					price: 5
+				-
+					name: 'Coca Cola, Fanta, Sprite, Tonic'
+					amount: '3 dl'
+					price: 20
+				-
+					name: 'Džus (dle nabídky)'
+					amount: '3 dl'
+					price: 27
+				-
+					name: 'Soda'
+					amount: '3 dl'
+					price: 12
+		-
+			group: 'Lahvové nealkoholické nápoje'
+			drink:
+				-
+					name: 'Mattoni'
+					amount: '3,3 dl'
+					price: 22
+				-
+					name: 'Bonaqua (jemně perlivá, neperlivá)'
+					amount: '2,5 dl'
+					price: 22
+				-
+					name: 'Coca Cola, Fanta, Sprite'
+					amount: '3 dl'
+					price: 27
+				-
+					name: 'Kinley Tonic'
+					amount: '2,5 dl'
+					price: 27
+				-
+					name: 'Kinley Ginger'
+					amount: '2,5 dl'
+					price: 27
+				-
+					name: 'Cappy (dle nabídky)'
+					amount: '2 dl'
+					price: 27
+				-
+					name: 'Ice Tea (dle nabídky)'
+					amount: '2 dl'
+					price: 55
+				-
+					name: 'Red Bull'
+					amount: '2 dl'
+					price: 55
+		-
+			group: 'Alkoholické nápoje'
+			drink:
+				-
+					name: 'Cinzano Bianco'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Slivovice Fleret'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Hruškovice Fleret'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Beefeater Gin'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Becherovka'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Becherovka Lemond'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Amundsen (dle nabídky)'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Božkov Peprmintový likér'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Fernet Stock'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Fernet Stock citrus'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Jagermeister'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Magister'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Vaječný likér'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Griotte'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Captain Morgan'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Bacardi rum'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Božkov rum tuzemský'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Tequila Sierra silver'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Božkov vodka'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Finlandia vodka'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Koskenkorva peach vodka'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Jim Beam'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Jameson'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Tullamore Dew'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Ballantines'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+				-
+					name: 'Johnnie Walker Red Label'
+					amount: '2 / 4 cl'
+					price: '18 / 35'
+		-
+			group: 'Rozlévaná vína'
+			drink:
+				-
+					name: 'Bílé víno (dle nabídky)'
+					amount: '2 dl'
+					price: '35'
+				-
+					name: 'Frankovka – červené'
+					amount: '2 dl'
+					price: '35'
+		-
+			group: 'Šumivá vína'
+			drink:
+				-
+					name: 'Bohemia sekt (demi)'
+					amount: '0,7 l'
+					price: '220'
+		-
+			group: 'Káva'
+			drink:
+				-
+					name: 'Káva espresso'
+					amount:
+					price: 30
+				-
+					name: 'Café Latté'
+					amount:
+					price: 36
+				-
+					name: 'Capuccino'
+					amount:
+					price: 33
+				-
+					name: 'Káva nescafé'
+					amount:
+					price: 25
+				-
+					name: 'Káva vídeňská'
+					amount:
+					price: 35
+				-
+					name: 'Káva turecká'
+					amount:
+					price: 17
+				-
+					name: 'Káva alžírská'
+					amount:
+					price: 45
+		-
+			group: 'Teplé nápoje'
+			drink:
+				-
+					name: 'Horký čaj (dle nabídky)'
+					amount: '2 dl'
+					price: 20
+				-
+					name: 'Horký čaj s medem a citrónem (dle nabídky)'
+					amount: '2 dl'
+					price: 25
+				-
+					name: 'Čaj Revolution'
+					amount: '2 dl'
+					price: 35
+				-
+					name: 'Svařené víno'
+					amount: '2 dl'
+					price: 40
+				-
+					name: 'Grog'
+					amount: '2 / 0,4 dl'
+					price: 30
+				-
+					name: 'Horká griotka'
+					amount: '2 / 0,4 dl'
+					price: 30
+		-
+			group: 'Pochutiny'
+			drink:
+				-
+					name: 'Mandle pražené'
+					amount: '60 g'
+					price: 32
+				-
+					name: 'Čerstvě pražené mandle'
+					amount: '60 g'
+					price: 37
+				-
+					name: 'Arašídy'
+					amount: '100 g'
+					price: 23
+				-
+					name: 'Brambůrky Bohemia Chips (dle nabídky)'
+					amount:
+					price: 30
+				-
+					name: 'Pivní tyčinky'
+					amount:
+					price: 25
