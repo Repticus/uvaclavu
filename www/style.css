@@ -105,17 +105,6 @@ img {
   left: 505px;
 }
 
-#foot img {
-  margin-right: 8px;
-}
-#foot li {
-  width: 500px;
-  line-height: 80px;
-  text-align: center;
-  float: left;
-  margin: 3px 0;
-}
-
 .diary {
   width: 100%;
   text-align: center;
@@ -174,19 +163,14 @@ img {
 }
 
 #info {
-  position: relative;
-}
-#info ul {
-  position: absolute;
-  top: -80px;
   color: #CBB895;
 }
 #info li {
-  width: 187.5px;
+  width: 250px;
   cursor: default;
 }
 #info .icon span {
-  height: 50px;
+  height: 80px;
 }
 
 #top, #btm {

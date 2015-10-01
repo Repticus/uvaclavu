@@ -1,4 +1,3 @@
-$infoHeight: 50px;
 .int{
 	p{
 		text-align: center;
@@ -13,18 +12,13 @@ $infoHeight: 50px;
 	}
 }
 #info {
-	position: relative;
-	ul{
-		position: absolute;
-		top: -80px;
-		color: $menuColor;
-	}
+	color: $menuColor;
 	li{
-		width: $w34 / 4;
+		width: $w14;
 		cursor: default;
 	}
 	.icon span{
-		height: $infoHeight;
+		height: $menuHeight;
 	}
 }
 #top, #btm{
