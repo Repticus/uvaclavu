@@ -182,7 +182,8 @@ img {
   color: #CBB895;
 }
 #info li {
-  width: 250px;
+  width: 187.5px;
+  cursor: default;
 }
 #info .icon span {
   height: 50px;
@@ -231,7 +232,7 @@ img {
 
 .tourism {
   padding-left: 44px;
-  background-image: url(img/layout/zajimavosti-pribram.png);
+  background-image: url(img/layout/turistika-pribram.png);
 }
 
 .inspection {
@@ -241,7 +242,12 @@ img {
 
 .maps {
   padding-left: 40px;
-  background-image: url(img/layout/mapa-restaurace.png);
+  background-image: url(img/layout/cyklostezky-pribram.png);
+}
+
+.nobarrier {
+  padding-left: 40px;
+  background-image: url(img/layout/bezbarierovy-pristup.png);
 }
 
 .trm h2 {

@@ -20,7 +20,8 @@ $infoHeight: 50px;
 		color: $menuColor;
 	}
 	li{
-		width: $w14;
+		width: $w34 / 4;
+		cursor: default;
 	}
 	.icon span{
 		height: $infoHeight;
@@ -63,7 +64,7 @@ $infoHeight: 50px;
 }
 .tourism{
 	padding-left: 44px;
-	background-image: url(img/layout/zajimavosti-pribram.png);
+	background-image: url(img/layout/turistika-pribram.png);
 }
 .inspection{
 	padding-left: 60px;
@@ -71,5 +72,9 @@ $infoHeight: 50px;
 }
 .maps{
 	padding-left: 40px;
-	background-image: url(img/layout/mapa-restaurace.png);
+	background-image: url(img/layout/cyklostezky-pribram.png);
+}
+.nobarrier{
+	padding-left: 40px;
+	background-image: url(img/layout/bezbarierovy-pristup.png);
 }
