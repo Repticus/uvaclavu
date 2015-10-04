@@ -1,19 +1,26 @@
 parameters:
 	opentime:
-		Po:
-		Út:
-		St:
-			od: 16:00
-			do: 22:00
-		Čt:
-			od: 16:00
-			do: 22:00
-		Pá:
-			od: 16:00
-			do: 24:00
-		So:
-			od: 11:00
-			do: 23:00
-		Ne:
-			od: 11:00
-			do: 20:00
+		1:
+			name: 'Po'
+		2:
+			name: 'Út'
+		3:
+			name: 'St'
+			from: 16:00
+			end: 22:00
+		4:
+			name: 'Čt'
+			from: 16:00
+			end: 22:00
+		5:
+			name: 'Pá'
+			from: 16:00
+			end: 24:00
+		6:
+			name: 'So'
+			from: 11:00
+			end: 23:00
+		7:
+			name: 'Ne'
+			from: 11:00
+			end: 20:00

@@ -32,6 +32,20 @@ img {
   vertical-align: middle;
 }
 
+button {
+  font-size: 22px;
+  color: #4B3123;
+  background-color: #CBB895;
+  border: #4B3123 solid 1px;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #DBD3C8;
+}
+
 #page {
   width: 1000px;
   margin: 30px auto;
@@ -105,6 +119,10 @@ img {
   left: 505px;
 }
 
+.diary a {
+  display: block;
+}
+
 .diary {
   width: 100%;
   text-align: center;
@@ -136,6 +154,24 @@ img {
   border-bottom-right-radius: 8px;
 }
 
+.calendar td.closed {
+  background-color: #FF7373;
+}
+
+.calendar td.party {
+  background-color: #FFF085;
+}
+
+.calendar td.event {
+  background-color: #76BBF4;
+}
+
+.calendar td:hover,
+.calendar td a:hover {
+  border-color: #05A500;
+  color: #05A500;
+}
+
 #frm-sendQuestion input,
 #frm-sendQuestion textarea {
   border: 1px solid #d2d2d2;
@@ -151,6 +187,9 @@ img {
 }
 
 .int p {
+  text-align: center;
+}
+.int h2 {
   text-align: center;
 }
 .int .w34 {

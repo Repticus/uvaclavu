@@ -9,9 +9,25 @@ use Nette,
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
-	public function actionUvod($date = null) {
-		$this->template->opentime = $this->context->parameters['opentime'];
-		$this->template->calendar = $this->getCalendarData();
+	public function actionKalendar($date = null) {
+		$opentime = $this->context->parameters['opentime'];
+		$this->template->opentime = $opentime;
+		$this->template->calendar = $this->setCalendarData($opentime);
+		$this->template->date = $date;
+		$menu = $this->convertDates("lunch-menu");
+		if (isset($menu[$date])) {
+			$this->template->food = $menu[$date];
+		}
+		$event = $this->convertDates("calendar");
+		if (isset($event[$date]['name'])) {
+			$this->template->event = $event[$date];
+		}
+		$dayId = date("N", $date);
+		if (isset($opentime[$dayId]['from'])) {
+			$openDay['from'] = $opentime[$dayId]['from'];
+			$openDay['end'] = $opentime[$dayId]['end'];
+			$this->template->openDay = $openDay;
+		}
 	}
 
 	public function actionTuristikaPribram() {
@@ -24,29 +40,41 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	public function actionPoledniMenu() {
-		$menu = $this->context->parameters['lunch-menu'];
-		$today = strtotime('today 00:00:00');
-		foreach ($menu as $date => $food) {
-			$day = strtotime($date);
-			if ($day < $today) {
-				unset($menu[$date]);
-			}
-		}
-		$this->template->menu = $menu;
+		$this->template->menu = $this->convertDates("lunch-menu");
 	}
 
-	private function getCalendarData() {
+	private function setCalendarData($opentime) {
 		$date = strtotime('this week monday');
+		$data = $this->convertDates("calendar");
 		$calendar = array();
 		for ($week = 1; $week <= 5; $week++) {
 			$weekData = array();
 			for ($day = 1; $day <= 7; $day++) {
-				$weekData[$day] = $date;
+				if (isset($data[$date])) {
+					$weekData[$date] = $data[$date];
+				} elseif (!isset($opentime[$day]['from'])) {
+					$weekData[$date] = 0;
+				} else {
+					$weekData[$date] = null;
+				}
 				$date = strtotime("+1 day", $date);
 			}
 			$calendar[$week] = $weekData;
 		}
 		return $calendar;
+	}
+
+	private function convertDates($section) {
+		$today = strtotime('today 00:00:00');
+		$data = $this->context->parameters[$section];
+		foreach ($data as $date => $value) {
+			$stamp = strtotime($date);
+			if ($stamp >= $today) {
+				$data[$stamp] = $value;
+			}
+			unset($data[$date]);
+		}
+		return $data;
 	}
 
 	protected function createComponentSendQuestion() {
