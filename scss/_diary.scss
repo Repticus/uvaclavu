@@ -1,3 +1,6 @@
+.diary a{
+	display: block;
+}
 .diary{
 	width: 100%;
 	text-align: center;
@@ -24,4 +27,18 @@
 }
 .diary tr:last-child td:last-child{
 	border-bottom-right-radius: 8px;
+}
+.calendar td.closed{
+	background-color: #FF7373;
+}
+.calendar td.party{
+	background-color: #FFF085;
+}
+.calendar td.event{
+	background-color: #76BBF4;
+}
+.calendar td:hover,
+.calendar td a:hover{
+	border-color: #05A500;
+	color: #05A500;
 }
