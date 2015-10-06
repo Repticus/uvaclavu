@@ -1,0 +1,4 @@
+parameters:
+#	setlocale: czech #nastaveni pro windows
+	owner:
+		mail: 'bubik@flashlink.cz'
