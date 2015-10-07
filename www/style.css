@@ -84,6 +84,8 @@ button:hover {
 .menu li {
   display: table-cell;
   text-align: center;
+  vertical-align: middle;
+  height: 80px;
 }
 
 .icon {
@@ -194,7 +196,7 @@ button:hover {
 }
 .int .w34 {
   width: 690px;
-  margin: 0 30px 110px 30px;
+  margin: 0 30px 0 30px;
 }
 .int .w14 {
   width: 220px;
@@ -219,21 +221,17 @@ button:hover {
 #top ul, #btm ul {
   background-color: #CBB895;
 }
-#top a, #btm a {
-  height: 80px;
-}
 
 #top {
   margin: 30px 0;
 }
-#top li {
-  width: 250px;
-  padding: 10px 0;
+#top li:first-child {
+  width: 300px;
+}
+#top li:not(:first-child) {
+  width: 175px;
 }
 
-#btm {
-  margin: 0;
-}
 #btm li {
   width: 333px;
 }
@@ -253,24 +251,24 @@ button:hover {
   background-image: url(img/layout/wifi-restaurace.png);
 }
 
+.nobarrier {
+  padding-left: 40px;
+  background-image: url(img/layout/bezbarierovy-pristup.png);
+}
+
 .tourism {
-  padding-left: 44px;
+  padding: 5px 0 5px 44px;
   background-image: url(img/layout/turistika-pribram.png);
 }
 
 .inspection {
-  padding-left: 60px;
+  padding: 5px 0 5px 60px;
   background-image: url(img/layout/prohlidka-restaurace.png);
 }
 
 .maps {
-  padding-left: 40px;
+  padding: 5px 0 5px 40px;
   background-image: url(img/layout/cyklostezky-pribram.png);
-}
-
-.nobarrier {
-  padding-left: 40px;
-  background-image: url(img/layout/bezbarierovy-pristup.png);
 }
 
 .trm h2 {

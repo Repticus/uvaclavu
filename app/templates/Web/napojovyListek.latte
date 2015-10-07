@@ -1,0 +1,32 @@
+{block content}
+<div id="content" class="mnu">
+	<h1 n:block=title>Nápojový lístek</h1>
+	<table>
+		{foreach $drink as $group}
+			<tr>
+				<th></th>
+				<th colspan="2">
+			<h2>{$group['group']}</h2>
+			</th>
+			</tr>
+			{foreach $group['drink'] as $drink}
+				<tr>
+					<td>
+						{$drink['amount']}
+					</td>
+					<td>
+						{$drink['name']|noescape}
+					</td>
+					<td>
+						{$drink['price']} Kč
+					</td>
+				</tr>
+				<tr n:ifset="$drink['description']">
+					<td></td>
+					<td>
+						<i>{$drink['description']|noescape}</i>
+					</td>
+				</tr>
+			{/foreach}
+		{/foreach}
+	</table>
