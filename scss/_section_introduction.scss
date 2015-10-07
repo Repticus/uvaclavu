@@ -7,7 +7,7 @@
 	}
 	.w34{
 		width: $w34 - 2 * $panelMargin;
-		margin: 0 $panelMargin $menuHeight + 30 $panelMargin;
+		margin: 0 $panelMargin 0 $panelMargin;
 	}
 	.w14{
 		width: $w14 - $panelMargin;
@@ -30,19 +30,18 @@
 	ul{
 		background-color: $menuColor;
 	}
-	a{
-		height: 80px;
-	}
 }
+$logoWidth: 300px;
 #top{
 	margin: $panelMargin 0;
-	li{
-		width: $w14;
-		padding: 10px 0;
+	li:first-child{
+		width: $logoWidth;
+	}
+	li:not(:first-child){
+		width: floor(($pageWidth - $logoWidth) / 4);
 	}
 }
 #btm{
-	margin: 0;
 	li{
 		width: $w13;
 	}
@@ -59,19 +58,19 @@
 	padding-left: 50px;
 	background-image: url(img/layout/wifi-restaurace.png);
 }
-.tourism{
-	padding-left: 44px;
-	background-image: url(img/layout/turistika-pribram.png);
-}
-.inspection{
-	padding-left: 60px;
-	background-image: url(img/layout/prohlidka-restaurace.png);
-}
-.maps{
-	padding-left: 40px;
-	background-image: url(img/layout/cyklostezky-pribram.png);
-}
 .nobarrier{
 	padding-left: 40px;
 	background-image: url(img/layout/bezbarierovy-pristup.png);
+}
+.tourism{
+	padding: 5px 0 5px 44px;
+	background-image: url(img/layout/turistika-pribram.png);
+}
+.inspection{
+	padding: 5px 0 5px 60px;
+	background-image: url(img/layout/prohlidka-restaurace.png);
+}
+.maps{
+	padding: 5px 0 5px 40px;
+	background-image: url(img/layout/cyklostezky-pribram.png);
 }
