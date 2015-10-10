@@ -53,20 +53,6 @@ ul{
 img{
 	vertical-align: middle;
 }
-button{
-	font-size: 22px;
-	color: $fontColor;
-	background-color: $menuColor;
-	border: $fontColor solid 1px;
-	border-radius: 8px;
-	padding: 12px;
-	cursor: pointer;
-}
-button:hover{
-	background-color: $headColor;
-}
-
-
 #page{
 	width: $pageWidth;
 	margin: $panelMargin auto;

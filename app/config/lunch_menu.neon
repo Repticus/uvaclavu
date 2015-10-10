@@ -1,46 +1,42 @@
 parameters:
 	lunch-menu:
-		'5.10.2015':
+		'19.10.2015':
 			p: 'Bramborová'
 			a: 'Cmunda po kaplicku'
 			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'6.10.2015':
+		'20.10.2015':
 			p: 'Drůbeží vývar s domácími nudlemi'
 			a: 'Plněná kuřecí roláda, bramborová kaše'
 			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'7.10.2015':
+		'21.10.2015':
 			p: 'Zelná s párkem'
 			a: 'Štěpánská hovězí pečeně, dušená rýže'
 			b: 'Zeleninový salát se smaženými kuřecími nugetkami'
-		'8.10.2015':
+		'22.10.2015':
 			p: 'Bramborová'
 			a: 'Cmunda po kaplicku'
 			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'9.10.2015':
+		'23.10.2015':
 			p: 'Šalotkový krém'
 			a: 'Slovenská pochoutka, bramborové placky'
 			b: 'Smažená vepřová játra, opečené brambory'
-		'12.10.2015':
+		'26.10.2015':
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Smažený vepřový řízek, bramborový salát'
 			b: 'Zapečené palačinky s tvarohem a rozinkami'
-		'13.10.2015':
+		'27.10.2015':
 			p: 'Drůbeží vývar s domácími nudlemi'
 			a: 'Plněná kuřecí roláda, bramborová kaše'
 			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'14.10.2015':
+		'28.10.2015':
 			p: 'Drůbeží vývar s domácími nudlemi'
 			a: 'Plněná kuřecí roláda, bramborová kaše'
 			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'15.10.2015':
+		'29.10.2015':
 			p: 'Drůbeží vývar s domácími nudlemi'
 			a: 'Plněná kuřecí roláda, bramborová kaše'
 			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'16.10.2015':
-			p: 'Drůbeží vývar s domácími nudlemi'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'17.10.2015':
+		'30.10.2015':
 			p: 'Drůbeží vývar s domácími nudlemi'
 			a: 'Plněná kuřecí roláda, bramborová kaše'
 			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
