@@ -3,26 +3,20 @@
 namespace App\Presenters;
 
 use Nette,
-	 App\BaseForm,
+	 App\Calendar,
 	 Nette\Mail\Message,
-	 Nette\Mail\SendmailMailer;
+	 Nette\Mail\SendmailMailer,
+	 Nette\Application\UI\Form;
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
-	public function actionKalendar($date = null) {
-		$opentime = $this->context->parameters['opentime'];
-		$calendar = $this->convertDates("calendar");
-		$this->template->opentime = $opentime;
-		$this->template->calendar = $this->setCalendarData($opentime, $calendar);
+	public $openTime;
+
+	public function actionKalendar($date) {
+		$this->openTime = $this['calendar']->getActiveOpenTime($date);
 		$this->template->date = $date;
-		$menu = $this->convertDates("lunch-menu");
-		if (isset($menu[$date])) {
-			$this->template->food = $menu[$date];
-		}
-		if (isset($calendar[$date]['event'])) {
-			$this->template->event = $calendar[$date];
-		}
-		$this->template->openDay = $this->setOpenTime($date, $opentime, $calendar);
+		$this->template->event = $this['calendar']->getEvent($date);
+		$this->template->changed = $this['calendar']->isTimeChanged($date);
 	}
 
 	public function actionJidelniListek() {
@@ -41,75 +35,136 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->template->tourism = $this->context->parameters['tourism'];
 	}
 
-	private function setCalendarData($opentime, $calendar) {
-		$date = strtotime('this week monday');
-		$data = array();
-		for ($week = 1; $week <= 5; $week++) {
-			for ($day = 1; $day <= 7; $day++) {
-				$dayOpen = $this->setOpenTime($date, $opentime, $calendar);
-				if ($dayOpen['event']) {
-					$data[$date]['title'] = $dayOpen['event'];
-					$data[$date]['class'] = "e";
-				} elseif ($dayOpen['changed']) {
-					$data[$date]['title'] = "Změna otevírací doby";
-					$data[$date]['class'] = "d";
-				} elseif ($dayOpen) {
-					$data[$date]['title'] = "Otevřeno";
-					$data[$date]['class'] = NULL;
-				} else {
-					$data[$date]['title'] = "Zavřeno";
-					$data[$date]['class'] = "c";
-				}
-				$date = strtotime("+1 day", $date);
-			}
-		}
-		return $data;
+	protected function createComponentCalendar() {
+		$opentime = $this->presenter->context->parameters['opentime'];
+		$calendar = $this->convertDates("calendar");
+		return new Calendar($opentime, $calendar);
 	}
 
-	private function setOpenTime($date, $opentime, $calendar) {
-		$dayId = date("N", $date);
-		$open = FALSE;
-		$close = FALSE;
-		$changed = FALSE;
-		if (isset($opentime[$dayId]['open'])) {
-			$open = $opentime[$dayId]['open'];
+	protected function createComponentQuestion() {
+		$form = new Form();
+		$form->addText('name', 'Jméno', NULL, 100)
+				  ->setAttribute('placeholder', 'Jméno a přijmení')
+				  ->setRequired('Zadejte jméno a přijmení.');
+		$form->addText('email', 'Email', NULL, 60)
+				  ->setAttribute('placeholder', 'Váš email')
+				  ->setRequired('Zadejte email na který Vám odpovíme.')
+				  ->addRule(Form::EMAIL, 'Email není správně vyplněn.');
+		$form->addText('subject', 'Předmět', NULL, 100)
+				  ->setAttribute('placeholder', 'Předmět');
+		$form->addTextArea('message', 'Zpráva', NULL, NULL)
+				  ->setAttribute('placeholder', 'Vaše Zpráva. Jméno a přijmení bude vloženo jako podpis.')
+				  ->setRequired('Zadejte text zprávy.')
+				  ->addRule(Form::MAX_LENGTH, 'Zprava je příliš dlouhá. Povoleno je maximálně 1000 znaků.', 1000);
+		$form->addHidden('spamtest')
+				  ->addRule(Form::EQUAL, 'Robot', array(NULL));
+		$form->addSubmit('send', 'Odeslat');
+		$form->onError[] = array($this, 'showFormError');
+		$form->onSuccess[] = array($this, 'submitQuestion');
+		return $form;
+	}
+
+	protected function createComponentReservation() {
+		$form = new Form();
+		$form->addText('name', 'Jméno', NULL, 100)
+				  ->setAttribute('placeholder', 'Jméno a přijmení')
+				  ->setRequired('Zadejte jméno a přijmení.');
+		$form->addText('phone', 'Telefon', NULL, 100)
+				  ->setAttribute('placeholder', 'Telefon');
+		$form->addText('email', 'Email', NULL, 60)
+				  ->setAttribute('placeholder', 'Váš email')
+				  ->setRequired('Zadejte email na který Vám odpovíme.')
+				  ->addRule(Form::EMAIL, 'Email není správně vyplněn.');
+		$form->addSelect('time', 'Čas', $this->getHourList());
+		$form->addSelect('hours', 'Počet hodin', $this->getHourCount());
+		$form->addSelect('quantity', 'Počet osob', $this->getPersonList());
+		$form->addCheckbox('voucher', 'Chci využít voucher');
+		$form->addTextArea('message', 'Poznámka', NULL, NULL)
+				  ->setAttribute('placeholder', 'Poznámka')
+				  ->addRule(Form::MAX_LENGTH, 'Poznámka je příliš dlouhá. Povoleno je maximálně 1000 znaků.', 1000);
+		$form->addHidden('spamtest')
+				  ->addRule(Form::EQUAL, 'Robot', array(NULL));
+		$form->addSubmit('send', 'Rezervovat');
+		$form->addSubmit('storno', 'Storno')
+							 ->setValidationScope(FALSE)
+				  ->onClick[] = array($this, "stornoReservation");
+		$form->onError[] = array($this, 'showFormError');
+		$form->onSuccess[] = array($this, 'submitReservation');
+		return $form;
+	}
+
+	public function submitQuestion($form) {
+		$formData = $form->getValues();
+		unset($formData['spamtest']);
+		$clientMail = $formData['email'];
+		$template = $this->createTemplate();
+		$template->formData = $formData;
+		$template->setFile(__DIR__ . "/../templates/Mail/question.latte");
+		$this->sendMail($clientMail, $template);
+		$flashMessage = "Děkujeme, Vaše zpráva byla úspěšně odeslána.";
+		$this->flashMessage($flashMessage, 'success');
+		$this->redirect('this');
+	}
+
+	public function submitReservation($form) {
+		$formData = $form->getValues();
+		unset($formData['spamtest']);
+		$clientMail = $formData['email'];
+		$template = $this->createTemplate();
+		$template->formData = $formData;
+		$template->setFile(__DIR__ . "/../templates/Mail/reservation.latte");
+		$this->sendMail($clientMail, $template);
+		$flashMessage = "Děkujeme, Vaše rezervace byla úspěšně odeslána.";
+		$this->flashMessage($flashMessage, 'success');
+		$this->redirect('this');
+	}
+
+	public function stornoReservation() {
+		$this->redirect('this');
+	}
+
+	public function showFormError($form) {
+		foreach ($form->errors as $error) {
+			$this->flashMessage($error, 'error');
 		}
-		if (isset($calendar[$date]['start']) and ! $open) {
-			$open = $calendar[$date]['start'];
-			$changed = TRUE;
+	}
+
+	private function getPersonList() {
+		return array(
+			 1 => "1 osoba",
+			 2 => "2 osoby",
+			 3 => "3 osoby",
+			 4 => "4 osoby",
+			 5 => "5 osob",
+			 6 => "6 osob a více");
+	}
+
+	private function getHourList() {
+		$hour = (int) $this->openTime['open'];
+		$close = (int) $this->openTime['close'];
+		$hourList = array();
+		while ($hour < $close) {
+			$hourList[$hour] = "od " . $hour . ":00 h";
+			$hour++;
 		}
-		if (isset($calendar[$date]['open'])) {
-			if ($calendar[$date]['open']) {
-				$open = $calendar[$date]['open'];
-				$changed = TRUE;
-			} else {
-				$open = FALSE;
-			}
+		return $hourList;
+	}
+
+	private function getHourCount() {
+		$hour = (int) $this->openTime['open'];
+		$close = (int) $this->openTime['close'];
+		$hourList = array();
+		$count = 1;
+		while ($hour < $close) {
+			$hourList[$count] = "po dobu " . $count . " h";
+			$count++;
+			$hour++;
 		}
-		if (isset($opentime[$dayId]['close'])) {
-			$close = $opentime[$dayId]['close'];
-		}
-		if (isset($calendar[$date]['close'])) {
-			$close = $calendar[$date]['close'];
-			$changed = TRUE;
-		}
-		if ($open and $close) {
-			$time['open'] = $open;
-			$time['close'] = $close;
-			$time['changed'] = $changed;
-			if (isset($calendar[$date]['event']) and isset($calendar[$date]['start'])) {
-				$time['event'] = $calendar[$date]['event'];
-			} else {
-				$time['event'] = FALSE;
-			}
-		} else {
-			$time = FALSE;
-		}
-		return $time;
+		return $hourList;
 	}
 
 	private function convertDates($section) {
-		$today = strtotime('today 00:00:00');
+		$today = strtotime(date('o-\\WW'));
 		$data = $this->context->parameters[$section];
 		foreach ($data as $date => $value) {
 			$stamp = strtotime($date);
@@ -121,51 +176,13 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		return $data;
 	}
 
-	protected function createComponentSendQuestion() {
-		$form = new BaseForm();
-		$form->addText('name', 'Jméno', NULL, 100)
-				  ->setAttribute('placeholder', 'Jméno a přijmení')
-				  ->setRequired('Zadejte jméno a přijmení.');
-		$form->addText('email', 'Email', NULL, 60)
-				  ->setAttribute('placeholder', 'Váš email')
-				  ->setRequired('Zadejte email na který Vám odpovíme.')
-				  ->addRule(BaseForm::EMAIL, 'Email není správně vyplněn.');
-		$form->addText('subject', 'Předmět', NULL, 100)
-				  ->setAttribute('placeholder', 'Předmět');
-		$form->addTextArea('message', 'Zpráva', NULL, NULL)
-				  ->setAttribute('placeholder', 'Vaše Zpráva. Jméno a přijmení bude vloženo jako podpis.')
-				  ->setRequired('Zadejte text zprávy.')
-				  ->addRule(BaseForm::MAX_LENGTH, 'Zprava je příliš dlouhá. Povoleno je maximálně 1000 znaků.', 1000);
-		$form->addHidden('spamtest')
-				  ->addRule($form::EQUAL, 'Robot', array(NULL));
-		$form->addSubmit('send', 'Odeslat');
-		$form->onSuccess[] = array($this, 'submitSendQuestion');
-		return $form;
-	}
-
-	public function submitSendQuestion($form) {
-		$formData = $form->getValues();
-		unset($formData['spamtest']);
-		$this->sendQuestion($formData);
-		$flashMessage = "Děkujeme, Vaše zpráva byla úspěšně odeslána.";
-		$this->flashMessage($flashMessage, 'success');
-		$this->redirect('this');
-	}
-
-	public function sendQuestion($formData) {
-		$clientMail = $formData['email'];
+	private function sendMail($clientMail, $template) {
 		$ownerMail = $this->context->parameters['owner']['mail'];
 		$ownerName = $this->context->parameters['owner']['name'];
-
-		$template = $this->createTemplate();
-		$template->formData = $formData;
-		$template->setFile(__DIR__ . "/../templates/Mail/sendQuestion.latte");
-
 		$mail = new Message;
 		$mail->setFrom($clientMail)
 				  ->addTo($ownerMail, $ownerName)
 				  ->setHtmlBody($template);
-
 		$mailer = new SendmailMailer;
 		$mailer->send($mail);
 	}

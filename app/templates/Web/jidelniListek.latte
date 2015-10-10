@@ -1,6 +1,7 @@
+{block title}Jídelní lístek restaurace{/block}
 {block content}
 <div id="content" class="mnu">
-	<h1 n:block=title>Jídelní lístek</h1>
+	<h1>Jídelní lístek</h1>
 	<table>
 		{foreach $menu as $group}
 			<tr>
@@ -16,8 +17,8 @@
 				</td>
 				<td>
 					{$food['name']|noescape}
-					{ifset $food['alergen']} <span>(A: {$food['alergen']|implode:', '})</span>{/ifset}
-					{ifset $food['note']|noescape}<br><i>({$food['note']})</i>{/ifset}
+					<span n:ifset="$food['alergen']">(A: {$food['alergen']|implode:', '})</span>
+					<i n:ifset="$food['note']">({$food['note']|noescape})</i>
 				</td>
 				<td>
 					{$food['price']} Kč
@@ -26,3 +27,4 @@
 		{/foreach}
 	{/foreach}
 </table>
+</div>

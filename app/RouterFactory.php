@@ -13,7 +13,7 @@ class RouterFactory {
 	 */
 	public static function createRouter() {
 		$router = new RouteList();
-		$router[] = new Route('<action>[/<date>]', 'Web:kalendar');
+		$router[] = new Route('<action>[/<date [0-9]{10}>]', 'Web:restaurace');
 		return $router;
 	}
 

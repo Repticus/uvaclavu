@@ -6,22 +6,23 @@ parameters:
 # event: nazev akce #nastavi nazev akce pro dany den. Musi byt zadany parametr start. Pokud je v dany den zavreno, musi byt zadan parametr close.
 
 	calendar:
-		'15.10.2015':
-			event: 'Příbramské vinobraní'
-			start: 17:00
-		'16.10.2015':
-			open: 18:00
+		'17.10.2015':
 			close: 20:00
 		'20.10.2015':
 			open: 18:00
-		'29.10.2015':
-			open: false
+		'24.10.2015':
+			event:
+				name: 'Příbramské vinobraní'
+				start: 17:00
 		'27.10.2015':
 			open: 12:00
 			close: 20:00
+		'29.10.2015':
+			open: false
 		'3.11.2015':
-			event: 'Halloween party'
-			start: 19:00
 			close: 24:00
+			event:
+				name: 'Halloween party'
+				start: 19:00
 		'5.11.2015':
 			close: 20:00

@@ -3,16 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>{include title|striptags|strip}</title>
+		<title>{block title|striptags|strip}Restaurace U Václavů{/block}</title>
 		<link rel="stylesheet" href="{$basePath}/style.css">
 	</head>
 
 	<body>
+		{block flash}
 		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+		{/block}
 		<div id="page">
 			<div id="top" class="menu">
 				<ul>
-					<li><a n:href="Web:kalendar"><img src="/img/layout/restaurace-uvaclavu.png" alt="Restaurace U Václavů"/></a></li>
+					<li><a n:href="Web:restaurace"><img src="/img/layout/restaurace-uvaclavu.png" alt="Restaurace U Václavů"/></a></li>
 					<li><a n:href="Web:jidelniListek">JÍDELNÍ<br>LÍSTEK</a></li>
 					<li><a n:href="Web:napojovyListek">NÁPOJOVÝ<br>LÍSTEK</a></li>
 					<li><a n:href="Web:poledniMenu">POLEDNÍ<br>MENU</a></li>
@@ -25,9 +27,35 @@
 			</div>
 			{block content|indent:3}
 			{/block}
+			<div id="btm" class="menu">
+				<ul>
+					<li>
+						<a class="icon tourism" n:href="Web:turistika-pribram">TURISTIKA<br>PŘÍBRAM</a>
+					</li>
+					<li>
+						<a class="icon inspection" n:href="Web:virtualniProhlidka">VIRTUÁLNÍ<br>PROHLÍDKA</a>
+					</li>
+					<li>
+						<a class="icon maps" target="_blank" href="http://www.tourmapy.cz/#lang=cs@e=mapy@tab=hledani@mt=turist@lat=49.7316221164185@lon=13.9607357315955@z=15@rp=criterion|fast@pg=0@srch=drahl%C3%ADn">CYKLOSTEZKY<br>PŘÍBRAM</a>
+					</li>
+				</ul>
+			</div>
+			<div id="info" class="clr">
+				<ul class="menu">
+					<li>
+						<span class="icon nosmoke"><span>Nekuřácká<br>restaurace</span></span>
+					</li>
+					<li>
+						<span class="icon wifi"><span>Wifi<br>pokrytí</span></span>
+					</li>
+					<li>
+						<span class="icon lunch"><span>Rozvoz<br>obědů</span></span>
+					</li>
+					<li>
+						<span class="icon nobarrier"><span>Bezbariérový<br>přístup</span></span>
+					</li>
+				</ul>
+			</div>
 		</div>
-		{block scripts}
-		<script src="//nette.github.io/resources/js/netteForms.min.js"></script>
-		{/block}
 	</body>
 </html>

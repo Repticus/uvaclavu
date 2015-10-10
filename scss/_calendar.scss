@@ -1,0 +1,74 @@
+$closedColor: #FFB6C1;
+$diffColor: #FFF9B0;
+$eventColor: #9FE6C2;
+
+.cld{
+	table{
+		margin-bottom: $panelMargin;
+		td[rowspan="3"]{
+			width: 100%;
+		}
+	}
+	select{
+		width: 110px;
+	}
+	input[type="text"] {
+		width: 190px;
+	}
+	input[type="submit"] {
+		width: 98px;
+	}
+	textarea{
+		width: 360px;
+		height: 80px;
+	}
+}
+
+.opentime, .calendar{
+	width: 219px;
+	text-align: center;
+	margin-bottom: $panelMargin;
+	cursor: default;
+	th{
+		background-color: $menuColor;
+		border: $fontColor solid 1px;
+		border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
+		padding: 0;
+	}
+	td{
+		padding: 0;
+	}
+	a{
+		width: 27px;
+		height: 22px;
+		display: block;
+		border: $fontColor solid 1px;
+		border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
+		background-color: $backColor;
+	}
+	a:hover{
+		border-color: #C19C74 #E5D5C1 #D6B996 #B28C5F;
+		font-size: 14px;
+		color: #B28C5F;
+	}
+	.c{
+		background-color: $closedColor;
+	}
+	.d{
+		background-color: $diffColor;
+	}
+	.e{
+		background-color: $eventColor;
+	}
+
+}
+.opentime{
+	tr:not(:first-child) th{
+		width: 54px;
+	}
+	td{
+		border: $fontColor solid 1px;
+		border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
+		background-color: $backColor;
+	}
+}

@@ -1,0 +1,23 @@
+<table class="calendar">
+	<tr>
+		<th colspan="7">Online rezervace</th>
+	</tr>
+	<tr>
+		<th>Po</th>
+		<th>Út</th>
+		<th>St</th>
+		<th>Čt</th>
+		<th>Pá</th>
+		<th>So</th>
+		<th>Ne</th>
+	</tr>
+	{foreach $calendar as $day => $data}
+		{first 7}<tr>{/first}
+			<td>
+				<a n:class="$control->getAttr($day, 'class')" href="{plink kalendar $day}" title="{$control->getAttr($day, 'title')}">
+					{$day|date:"d"}
+				</a>
+			</td>
+			{last 7}</tr>{/last}
+		{/foreach}
+</table>

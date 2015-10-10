@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Rezervační formulář</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td style="text-align:right">Jméno:</td>
+				<td>{$formData->name}</td>
+			</tr>
+			<tr n:if="$formData->phone">
+				<td style="text-align:right">Telefon:</td>
+				<td>{$formData->phone}</td>
+			</tr>
+			<tr>
+				<td style="text-align:right">od:</td>
+				<td>{$formData->time}:00 h</td>
+			</tr>
+			<tr>
+				<td style="text-align:right">do:</td>
+				<td>{$formData->time + $formData->hours}:00 h</td>
+			</tr>
+			<tr>
+				<td style="text-align:right">Osoby:</td>
+				<td>{$formData->quantity}</td>
+			</tr>
+			<tr n:if="$formData->voucher">
+				<td colspan="2">Chci využít voucher</td>
+			</tr>
+		</table>
+		{$formData->message}
+	</body>
+</html>
