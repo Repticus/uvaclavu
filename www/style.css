@@ -121,57 +121,65 @@ button:hover {
   left: 505px;
 }
 
-.diary a {
-  display: block;
-}
-
-.diary {
-  width: 100%;
+.opentime,
+.calendar {
+  width: 219px;
   text-align: center;
   margin-bottom: 30px;
-}
-
-.diary td,
-.diary th {
-  border: #4B3123 solid 1px;
-  background-color: #DBD3C8;
   cursor: default;
 }
-
-.diary th,
-.opentime tr td:first-child {
+.opentime th,
+.calendar th {
   background-color: #CBB895;
+  border: #4B3123 solid 1px;
+  padding: 1px 0 1px 0;
 }
-
-.diary tr:first-child th {
+.opentime tr:first-child th,
+.opentime tr:first-child th,
+.calendar tr:first-child th,
+.calendar tr:first-child th {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 
-.diary tr:last-child td:first-child {
+.calendar td {
+  padding: 0;
+}
+.calendar a {
+  width: 27px;
+  padding: 1px 0 1px 0;
+  background-color: #DBD3C8;
+  border: #4B3123 solid 1px;
+  display: block;
+}
+.calendar a:hover {
+  opacity: 0.4;
+}
+.calendar tr:last-child td:first-child a {
   border-bottom-left-radius: 8px;
 }
-
-.diary tr:last-child td:last-child {
+.calendar tr:last-child td:last-child a {
   border-bottom-right-radius: 8px;
 }
-
-.calendar td.closed {
+.calendar .c {
   background-color: #FF7373;
 }
-
-.calendar td.party {
-  background-color: #FFF085;
+.calendar .d {
+  background-color: yellow;
 }
-
-.calendar td.event {
+.calendar .e {
   background-color: #76BBF4;
 }
 
-.calendar td:hover,
-.calendar td a:hover {
-  border-color: #05A500;
-  color: #05A500;
+.opentime td {
+  background-color: #DBD3C8;
+  border: #4B3123 solid 1px;
+}
+.opentime tr:last-child th {
+  border-bottom-left-radius: 8px;
+}
+.opentime tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
 }
 
 #frm-sendQuestion input,
@@ -196,11 +204,11 @@ button:hover {
 }
 .int .w34 {
   width: 690px;
-  margin: 0 30px 0 30px;
+  margin: 0 30px 30px 30px;
 }
 .int .w14 {
   width: 220px;
-  margin-right: 30px;
+  margin: 0 30px 0 0;
 }
 
 #info {

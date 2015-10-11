@@ -11,23 +11,18 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 
 	public function actionKalendar($date = null) {
 		$opentime = $this->context->parameters['opentime'];
+		$calendar = $this->convertDates("calendar");
 		$this->template->opentime = $opentime;
-		$this->template->calendar = $this->setCalendarData($opentime);
+		$this->template->calendar = $this->setCalendarData($opentime, $calendar);
 		$this->template->date = $date;
 		$menu = $this->convertDates("lunch-menu");
 		if (isset($menu[$date])) {
 			$this->template->food = $menu[$date];
 		}
-		$event = $this->convertDates("calendar");
-		if (isset($event[$date]['name'])) {
-			$this->template->event = $event[$date];
+		if (isset($calendar[$date]['event'])) {
+			$this->template->event = $calendar[$date];
 		}
-		$dayId = date("N", $date);
-		if (isset($opentime[$dayId]['from'])) {
-			$openDay['from'] = $opentime[$dayId]['from'];
-			$openDay['end'] = $opentime[$dayId]['end'];
-			$this->template->openDay = $openDay;
-		}
+		$this->template->openDay = $this->setOpenTime($date, $opentime, $calendar);
 	}
 
 	public function actionJidelniListek() {
@@ -46,25 +41,71 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->template->tourism = $this->context->parameters['tourism'];
 	}
 
-	private function setCalendarData($opentime) {
+	private function setCalendarData($opentime, $calendar) {
 		$date = strtotime('this week monday');
-		$data = $this->convertDates("calendar");
-		$calendar = array();
+		$data = array();
 		for ($week = 1; $week <= 5; $week++) {
-			$weekData = array();
 			for ($day = 1; $day <= 7; $day++) {
-				if (isset($data[$date])) {
-					$weekData[$date] = $data[$date];
-				} elseif (!isset($opentime[$day]['from'])) {
-					$weekData[$date] = 0;
+				$dayOpen = $this->setOpenTime($date, $opentime, $calendar);
+				if ($dayOpen['event']) {
+					$data[$date]['title'] = $dayOpen['event'];
+					$data[$date]['class'] = "e";
+				} elseif ($dayOpen['changed']) {
+					$data[$date]['title'] = "Změna otevírací doby";
+					$data[$date]['class'] = "d";
+				} elseif ($dayOpen) {
+					$data[$date]['title'] = "Otevřeno";
+					$data[$date]['class'] = NULL;
 				} else {
-					$weekData[$date] = null;
+					$data[$date]['title'] = "Zavřeno";
+					$data[$date]['class'] = "c";
 				}
 				$date = strtotime("+1 day", $date);
 			}
-			$calendar[$week] = $weekData;
 		}
-		return $calendar;
+		return $data;
+	}
+
+	private function setOpenTime($date, $opentime, $calendar) {
+		$dayId = date("N", $date);
+		$open = FALSE;
+		$close = FALSE;
+		$changed = FALSE;
+		if (isset($opentime[$dayId]['open'])) {
+			$open = $opentime[$dayId]['open'];
+		}
+		if (isset($calendar[$date]['start']) and ! $open) {
+			$open = $calendar[$date]['start'];
+			$changed = TRUE;
+		}
+		if (isset($calendar[$date]['open'])) {
+			if ($calendar[$date]['open']) {
+				$open = $calendar[$date]['open'];
+				$changed = TRUE;
+			} else {
+				$open = FALSE;
+			}
+		}
+		if (isset($opentime[$dayId]['close'])) {
+			$close = $opentime[$dayId]['close'];
+		}
+		if (isset($calendar[$date]['close'])) {
+			$close = $calendar[$date]['close'];
+			$changed = TRUE;
+		}
+		if ($open and $close) {
+			$time['open'] = $open;
+			$time['close'] = $close;
+			$time['changed'] = $changed;
+			if (isset($calendar[$date]['event']) and isset($calendar[$date]['start'])) {
+				$time['event'] = $calendar[$date]['event'];
+			} else {
+				$time['event'] = FALSE;
+			}
+		} else {
+			$time = FALSE;
+		}
+		return $time;
 	}
 
 	private function convertDates($section) {

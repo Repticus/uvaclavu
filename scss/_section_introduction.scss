@@ -7,11 +7,11 @@
 	}
 	.w34{
 		width: $w34 - 2 * $panelMargin;
-		margin: 0 $panelMargin 0 $panelMargin;
+		margin: 0 $panelMargin $panelMargin $panelMargin;
 	}
 	.w14{
 		width: $w14 - $panelMargin;
-		margin-right: $panelMargin;
+		margin: 0 $panelMargin 0 0;
 	}
 }
 #info {

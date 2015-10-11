@@ -1,44 +1,67 @@
-.diary a{
-	display: block;
-}
-.diary{
-	width: 100%;
+$closedColor: #FF7373;
+$diffColor: yellow;
+$eventColor: #76BBF4;
+
+.opentime,
+.calendar{
+	width: 219px;
 	text-align: center;
 	margin-bottom: $panelMargin;
-}
-.diary td,
-.diary th{
-	border: $fontColor solid 1px;
-	background-color: $headColor;
 	cursor: default;
+	th{
+		background-color: $menuColor;
+		border: $fontColor solid 1px;
+		padding: 1px 0 1px 0;
+	}
+	tr:first-child th,
+		tr:first-child th{
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
 }
-.diary th,
-.opentime tr td:first-child{
-	background-color: $menuColor;
+.calendar{
+	td{
+		padding: 0;
+	}
+	a{
+		width: 27px;
+		padding: 1px 0 1px 0;
+		background-color: $headColor;
+		border: $fontColor solid 1px;
+		display: block;
+	}
+	a:hover{
+		opacity: 0.4;
+	}
+	tr:last-child{
+		td:first-child a{
+			border-bottom-left-radius: 8px;
+		}
+		td:last-child a{
+			border-bottom-right-radius: 8px;
+		}
+	}
+	.c{
+		background-color: $closedColor;
+	}
+	.d{
+		background-color: $diffColor;
+	}
+	.e{
+		background-color: $eventColor;
+	}
 }
-
-.diary tr:first-child th{
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-}
-
-.diary tr:last-child td:first-child{
-	border-bottom-left-radius: 8px;
-}
-.diary tr:last-child td:last-child{
-	border-bottom-right-radius: 8px;
-}
-.calendar td.closed{
-	background-color: #FF7373;
-}
-.calendar td.party{
-	background-color: #FFF085;
-}
-.calendar td.event{
-	background-color: #76BBF4;
-}
-.calendar td:hover,
-.calendar td a:hover{
-	border-color: #05A500;
-	color: #05A500;
+.opentime{
+	td{
+		background-color: $headColor;
+		border: $fontColor solid 1px;
+	}
+	tr:last-child{
+		th{
+			border-bottom-left-radius: 8px;
+		}
+		td:last-child{
+			border-bottom-right-radius: 8px;
+		}
+	}
 }
