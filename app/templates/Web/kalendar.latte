@@ -9,9 +9,9 @@
 			{include #info}
 		{/ifset}
 	</div>
-
+	{dump $calendar}
 	<div class="pnl w14">
-		<table class="diary calendar">
+		<table class="calendar">
 			<tr>
 				<th colspan="7">Online rezervace</th>
 			</tr>
@@ -24,32 +24,28 @@
 				<th>So</th>
 				<th>Ne</th>
 			</tr>
-			{foreach $calendar as $week}
-				<tr>
-					{foreach $week as $day => $status}
-						{php $title = "Otevřeno"}
-						{php $status === 0 ? $title = "Zavřeno"}
-						{php $status === 1 ? $title = "Uzavřená společnost"}
-						{php is_array($status) ? $title = "Akce"}
-						<td n:class="$status === 0 ? closed, $status == 1 ? party, is_array($status) ? event" n:attr="title => $title">
-							<a n:href="Web:kalendar $day">{$day|date:"d"}</a>
-						</td>
-					{/foreach}
-				</tr>
-			{/foreach}
+			{foreach $calendar as $day => $data}
+				{first 7}<tr>{/first}
+					<td>
+						<a n:class="$data['class'] ? $data['class']" n:href="Web:kalendar $day" title="{$data['title']}">
+							{$day|date:"d"}
+						</a>
+					</td>
+					{last 7}</tr>{/last}
+				{/foreach}
 		</table>
-		<table class="diary opentime">
+		<table class="opentime">
 			<tr>
 				<th colspan="7">Otevírací doba</th>
 			</tr>
 			{foreach $opentime as $day}
 				<tr>
-					<td>{$day['name']}</td>
-					<td{if !isset($day['from'])} colspan="2"{/if}>
-						{isset($day['from']) ? $day['from'] : "zavřeno"}
+					<th>{$day['name']}</th>
+					<td{if !isset($day['open'])} colspan="2"{/if}>
+						{isset($day['open']) ? $day['open'] : "zavřeno"}
 					</td>
-					<td n:ifset="$day['end']">
-						{$day['end']}
+					<td n:ifset="$day['close']">
+						{$day['close']}
 					</td>
 				</tr>
 			{/foreach}
@@ -110,36 +106,26 @@
 
 	{block calendar}
 	<h1>{$date|date:'%A %d. %B %Y'}</h1>
-	{ifset $openDay}
-		<h2>Otevřeno od {$openDay['from']} do {$openDay['end']} h</h2>
+	{if $openDay}
+		<h2 n:if="$openDay['changed']">Změna otevírací doby</h2>
+		<h2>Otevřeno od {$openDay['open']} do {$openDay['close']} h</h2>
 		<p>
 			<button>Online rezervace</button>
 		</p>
+		{ifset $event}
+			<br>
+			<h2>{$event['event']}</h2>
+			<p>
+				začátek: {$event['start']} h
+			</p>
+		{/ifset}
 	{else}
 		<h2>Zavřeno</h2>
-	{/ifset}
-	{ifset $event}
-		<br>
-		<h2>{$event['name']}</h2>
-		<p>
-			začátek: {$event['start']} h
-		</p>
-	{/ifset}
+	{/if}
 	{ifset $food}
 		<br>
 		<h2>Polední menu</h2>
-		<table>
-			<tr>
-				<td>Polévka:</td>
-				<td>{$food['p']}</td>
-			</tr>
-			<tr>
-				<td>Jídlo A:</td>
-				<td>{$food['a']}</td>
-			</tr>
-			<tr>
-				<td>Jídlo B:</td>
-				<td>{$food['b']}</td>
-			</tr>
-		</table>
+		<p>{$food['p']}</p>
+		<p>{$food['a']}</p>
+		<p>{$food['b']}</p>
 	{/ifset}
