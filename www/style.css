@@ -3,9 +3,17 @@
   src: url("../font/webglyphs2.eot");
   src: url("../font/webglyphs2.woff") format("woff"), url("../font/webglyphs2.ttf") format("truetype");
 }
+@font-face {
+  font-family: buenard;
+  src: url("../font/buenard.eot");
+  src: url("../font/buenard.eot?#iefix") format("embedded-opentype"), url("../font/buenard.woff2") format("woff2"), url("../font/buenard.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   color: #4B3123;
   background-color: #F7EFE4;
+  font-family: buenard;
 }
 
 h1 {

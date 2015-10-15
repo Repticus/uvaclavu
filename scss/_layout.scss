@@ -18,9 +18,21 @@ $panelMargin: 30px;
 		url('../font/webglyphs2.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: buenard;
+	src: url('../font/buenard.eot');
+	src: url('../font/buenard.eot?#iefix') format('embedded-opentype'),
+		url('../font/buenard.woff2') format('woff2'),
+		url('../font/buenard.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 body{
 	color: $fontColor;
 	background-color: $backColor;
+	font-family: buenard;
 }
 h1{
 	margin: 0 0 $panelMargin 0;
