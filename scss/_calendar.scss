@@ -1,5 +1,5 @@
 $closedColor: #FFB6C1;
-$diffColor: #FFF9B0;
+$changedColor: #FFF9B0;
 $eventColor: #9FE6C2;
 
 .cld{
@@ -38,6 +38,8 @@ $eventColor: #9FE6C2;
 	td{
 		padding: 0;
 	}
+}
+.calendar{
 	a{
 		width: 27px;
 		height: 22px;
@@ -51,22 +53,23 @@ $eventColor: #9FE6C2;
 		font-size: 14px;
 		color: #B28C5F;
 	}
-	.c{
+	.closed{
 		background-color: $closedColor;
 	}
-	.d{
-		background-color: $diffColor;
+	.changed{
+		background-color: $changedColor;
 	}
-	.e{
+	.event{
 		background-color: $eventColor;
 	}
-
 }
 .opentime{
-	tr:not(:first-child) th{
-		width: 54px;
+	th:not([colspan]) {
+		padding-left: 18px;
+		text-align: left;
 	}
 	td{
+		width: 58px;
 		border: $fontColor solid 1px;
 		border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
 		background-color: $backColor;

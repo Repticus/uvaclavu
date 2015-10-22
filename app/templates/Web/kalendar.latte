@@ -4,7 +4,7 @@
 <div id="content" class="cld">
 	<h1>{$date|date:'%A %d. %B %Y'}</h1>
 	{if $presenter->openTime}
-		<h2>{if $changed}Změna otevírací doby{else}Otevřeno{/if} od {$presenter->openTime['open']} do {$presenter->openTime['close']} h</h2>
+		<h2>{if $changed}Změna otevírací doby{else}Otevřeno{/if} od {$presenter->openTime[0]} do {$presenter->openTime[1]} h</h2>
 		<p>
 			{form reservation}
 			<table>
@@ -32,9 +32,9 @@
 		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 	</p>
 	{if $event}
-		<h2>{$event['name']}</h2>
+		<h2>{$event[1]}</h2>
 		<p>
-			začátek: {$event['start']} h
+			začátek: {$event[0]} h
 		</p>
 	{/if}
 

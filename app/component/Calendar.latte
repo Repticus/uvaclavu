@@ -3,18 +3,15 @@
 		<th colspan="7">Online rezervace</th>
 	</tr>
 	<tr>
-		<th>Po</th>
-		<th>Út</th>
-		<th>St</th>
-		<th>Čt</th>
-		<th>Pá</th>
-		<th>So</th>
-		<th>Ne</th>
+		{foreach $days as $day}
+			<th>{$day}</th>
+			{/foreach}
 	</tr>
-	{foreach $calendar as $day => $data}
+	{foreach $calendar as $day}
+		{php $attr = $control->getAttr($day)}
 		{first 7}<tr>{/first}
 			<td>
-				<a n:class="$control->getAttr($day, 'class')" href="{plink kalendar $day}" title="{$control->getAttr($day, 'title')}">
+				<a n:class="$attr['class']" href="{plink kalendar $day}" title="{$attr['title']}">
 					{$day|date:"d"}
 				</a>
 			</td>

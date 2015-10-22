@@ -150,7 +150,8 @@ img {
 .opentime td, .calendar td {
   padding: 0;
 }
-.opentime a, .calendar a {
+
+.calendar a {
   width: 27px;
   height: 22px;
   display: block;
@@ -158,25 +159,27 @@ img {
   border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
   background-color: #F7EFE4;
 }
-.opentime a:hover, .calendar a:hover {
+.calendar a:hover {
   border-color: #C19C74 #E5D5C1 #D6B996 #B28C5F;
   font-size: 14px;
   color: #B28C5F;
 }
-.opentime .c, .calendar .c {
+.calendar .closed {
   background-color: #FFB6C1;
 }
-.opentime .d, .calendar .d {
+.calendar .changed {
   background-color: #FFF9B0;
 }
-.opentime .e, .calendar .e {
+.calendar .event {
   background-color: #9FE6C2;
 }
 
-.opentime tr:not(:first-child) th {
-  width: 54px;
+.opentime th:not([colspan]) {
+  padding-left: 18px;
+  text-align: left;
 }
 .opentime td {
+  width: 58px;
   border: #4B3123 solid 1px;
   border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
   background-color: #F7EFE4;
