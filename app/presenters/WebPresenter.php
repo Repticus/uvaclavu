@@ -10,10 +10,12 @@ use Nette,
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
+	public $date;
 	public $openTime;
 
 	public function actionKalendar($date) {
-		$this->openTime = $this['calendar']->getActiveOpenTime($date);
+		$this->date = $date;
+		$this->openTime = $this['calendar']->getOpenTime($date);
 		$this->template->date = $date;
 		$this->template->event = $this['calendar']->getEvent($date);
 		$this->template->changed = $this['calendar']->isTimeChanged($date);
@@ -37,8 +39,8 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 
 	protected function createComponentCalendar() {
 		$opentime = $this->presenter->context->parameters['opentime'];
-		$calendar = $this->convertDates("calendar");
-		return new Calendar($opentime, $calendar);
+		$event = $this->convertDates("event");
+		return new Calendar($opentime, $event, $this->date);
 	}
 
 	protected function createComponentQuestion() {
@@ -140,8 +142,8 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	private function getHourList() {
-		$hour = (int) $this->openTime['open'];
-		$close = (int) $this->openTime['close'];
+		$hour = (int) $this->openTime[0];
+		$close = (int) $this->openTime[1];
 		$hourList = array();
 		while ($hour < $close) {
 			$hourList[$hour] = "od " . $hour . ":00 h";
@@ -151,8 +153,8 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	private function getHourCount() {
-		$hour = (int) $this->openTime['open'];
-		$close = (int) $this->openTime['close'];
+		$hour = (int) $this->openTime[0];
+		$close = (int) $this->openTime[1];
 		$hourList = array();
 		$count = 1;
 		while ($hour < $close) {
@@ -164,11 +166,11 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	private function convertDates($section) {
-		$today = strtotime(date('o-\\WW'));
+		$firstDay = strtotime(date('o-\\WW'));
 		$data = $this->context->parameters[$section];
 		foreach ($data as $date => $value) {
 			$stamp = strtotime($date);
-			if ($stamp >= $today) {
+			if ($stamp >= $firstDay) {
 				$data[$stamp] = $value;
 			}
 			unset($data[$date]);

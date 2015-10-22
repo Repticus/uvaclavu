@@ -4,7 +4,7 @@ includes:
 	- main_menu.neon
 	- drink_menu.neon
 	- lunch_menu.neon
-	- calendar.neon
+	- event.neon
 
 parameters:
 	setlocale: cs_CZ.UTF-8 #nastaveni pro unix

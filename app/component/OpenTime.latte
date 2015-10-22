@@ -1,16 +1,20 @@
-		<table class="opentime">
-			<tr>
-				<th colspan="7">Otevírací doba</th>
-			</tr>
-			{foreach $opentime as $day}
-				<tr>
-					<th>{$day['name']}</th>
-					<td{if !isset($day['open'])} colspan="2"{/if}>
-						{isset($day['open']) ? $day['open'] : "zavřeno"}
-					</td>
-					<td n:ifset="$day['close']">
-						{$day['close']}
-					</td>
-				</tr>
-			{/foreach}
-		</table>
+<table class="opentime">
+	<tr>
+		<th colspan="3">Otevírací doba</th>
+	</tr>
+	{foreach $days as $id => $day}
+		<tr>
+			<th>{$day}</th>
+			<td{if !$opentime[$id]} colspan="2"{/if}>
+				{$opentime[$id] ? $opentime[$id][0] : "zavřeno"}
+			</td>
+			<td n:ifset="$opentime[$id][1]">
+				{$opentime[$id][1]}
+			</td>
+
+		</tr>
+	{/foreach}
+	<tr>
+		<th colspan="3">{$season[0]} - {$season[1]}</th>
+	</tr>
+</table>
