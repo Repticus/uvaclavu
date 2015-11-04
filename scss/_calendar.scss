@@ -40,15 +40,17 @@ $eventColor: #9FE6C2;
 	}
 }
 .calendar{
-	a{
+	td a{
 		width: 27px;
 		height: 22px;
-		display: block;
 		border: $fontColor solid 1px;
 		border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
 		background-color: $backColor;
 	}
-	a:hover{
+	th a, td a{
+		display: block;
+	}
+	a:hover:not(.disabled){
 		border-color: #C19C74 #E5D5C1 #D6B996 #B28C5F;
 		font-size: 14px;
 		color: #B28C5F;
@@ -61,6 +63,10 @@ $eventColor: #9FE6C2;
 	}
 	.event{
 		background-color: $eventColor;
+	}
+	.disabled{
+		color: #B28C5F;
+		background-color: $headColor;
 	}
 }
 .opentime{

@@ -4,16 +4,14 @@ parameters:
 # event: {16:00,'nazev akce'} #Nastavi zacatek a nazev akce pro dany den. Pokud je v dany den zavreno, musi byt zadana oteviraci doba.
 
 	event:
-		'20.10.2015':
-			open: {12:00,22:00}
+		'1.1.2016':
+			open: {16:00,22:00}
 			event: {16:00,'Příbramské vinobraní'}
-		'23.10.2015':
-			open: {17:00,24:00}
-		'29.10.2015':
+		'3.1.2016':
+			open: {16:00,24:00}
+		'5.1.2016':
 			open: false
-		'4.11.2015':
-			event: {16:00,'Halloween party'}
-		'9.11.2015':
-			open: {12:00,20:00}
-		'13.11.2015':
+		'8.1.2016':
+			event: {18:00,'Halloween party'}
+		'29.2.2016':
 			open: {12:00,20:00}

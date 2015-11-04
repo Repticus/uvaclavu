@@ -7,14 +7,30 @@
 			<th>{$day}</th>
 			{/foreach}
 	</tr>
-	{foreach $calendar as $day}
-		{php $attr = $control->getAttr($day)}
+	{foreach $calendar as $date}
+		{php $date >= $firstDay && $date <= $lastDay	? $attr = $control->getAttr($date) : $attr['class'] = "disabled"}
 		{first 7}<tr>{/first}
 			<td>
-				<a n:class="$attr['class']" href="{plink kalendar $day}" title="{$attr['title']}">
-					{$day|date:"d"}
-				</a>
+				{block|strip}
+				<a n:class="$attr['class']"
+					{if $attr['class'] <> "disabled"}
+						href="{plink Web:rezervace $date}"
+						title="{$attr['title']}"
+					{/if}
+					>{$date|date:"d"}</a>
+				{/block}
 			</td>
 			{last 7}</tr>{/last}
 		{/foreach}
+	<tr>
+		<th>
+			<a href="{plink Web:rezervace $prevMonth}"> <<  </a>
+		</th>
+		<th colspan="5">
+			<a href="{plink Web:rezervace $thisDate}">{$firstDay|date:"%B %Y"}</a>
+		</th>
+		<th>
+			<a href="{plink Web:rezervace $nextMonth}"> >>  </a>
+		</th>
+	</tr>
 </table>

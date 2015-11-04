@@ -7,20 +7,22 @@ use Nette,
 	 App\QuestionForm,
 	 App\ReservationForm,
 	 Nette\Mail\Message,
-	 Nette\Mail\SendmailMailer,
-	 Nette\Application\UI\Form;
+	 Nette\Mail\SendmailMailer;
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
 	public $date;
 	public $openTime;
 
-	public function actionKalendar($date) {
+	public function actionRezervace($date) {
+		$calendar = $this['calendar'];
+		$calendar->setDate($date);
 		$this->date = $date;
-		$this->openTime = $this['calendar']->getOpenTime($date);
+		$this->openTime = $calendar->getOpenTime($date);
 		$this->template->date = $date;
-		$this->template->event = $this['calendar']->getEvent($date);
-		$this->template->changed = $this['calendar']->isTimeChanged($date);
+		$this->template->opentime = $this->openTime;
+		$this->template->changed = $calendar->isTimeChanged($date);
+		$this->template->event = $calendar->getEvent($date);
 	}
 
 	public function actionJidelniListek() {
@@ -40,24 +42,15 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	protected function createComponentCalendar() {
-		$opentime = $this->presenter->context->parameters['opentime'];
-		$event = $this->convertDates("event");
-		return new Calendar($opentime, $event, $this->date);
+		$timeData = $this->presenter->context->parameters['opentime'];
+		$eventData = $this->convertDates("event");
+		return new Calendar($timeData, $eventData);
 	}
 
 	protected function createComponentQuestion() {
 		$form = new QuestionForm();
 		$form->onError[] = array($this, 'showFormError');
 		$form->onSuccess[] = array($this, 'submitQuestion');
-		return $form;
-	}
-
-	protected function createComponentReservation() {
-		$form = new ReservationForm($this->openTime, $this->date);
-		$form->addSubmit('storno', 'Storno')->setValidationScope(FALSE)
-				  ->onClick[] = array($this, "stornoReservation");
-		$form->onError[] = array($this, 'showFormError');
-		$form->onSuccess[] = array($this, 'submitReservation');
 		return $form;
 	}
 
@@ -73,6 +66,15 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->redirect('this');
 	}
 
+	protected function createComponentReservation() {
+		$form = new ReservationForm($this->openTime, $this->date);
+		$form->addSubmit('reset', 'Reset')->setValidationScope(FALSE)
+				  ->onClick[] = array($this, "resetReservation");
+		$form->onError[] = array($this, 'showFormError');
+		$form->onSuccess[] = array($this, 'submitReservation');
+		return $form;
+	}
+
 	public function submitReservation($form) {
 		$formData = $form->getValues();
 		$clientMail = $formData['email'];
@@ -85,7 +87,7 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->redirect('this');
 	}
 
-	public function stornoReservation() {
+	public function resetReservation() {
 		$this->redirect('this');
 	}
 
