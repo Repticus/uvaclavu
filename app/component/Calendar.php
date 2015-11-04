@@ -2,9 +2,9 @@
 
 namespace App;
 
-use Nette\Application\UI;
+use Nette\Application\UI\Control;
 
-class Calendar extends UI\Control {
+class Calendar extends Control {
 
 	private $firstDate;
 	private $requestDate;

@@ -4,6 +4,8 @@ namespace App\Presenters;
 
 use Nette,
 	 App\Calendar,
+	 App\QuestionForm,
+	 App\ReservationForm,
 	 Nette\Mail\Message,
 	 Nette\Mail\SendmailMailer,
 	 Nette\Application\UI\Form;
@@ -44,51 +46,15 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	protected function createComponentQuestion() {
-		$form = new Form();
-		$form->addText('name', 'Jméno', NULL, 100)
-				  ->setAttribute('placeholder', 'Jméno a přijmení')
-				  ->setRequired('Zadejte jméno a přijmení.');
-		$form->addText('email', 'Email', NULL, 60)
-				  ->setAttribute('placeholder', 'Váš email')
-				  ->setRequired('Zadejte email na který Vám odpovíme.')
-				  ->addRule(Form::EMAIL, 'Email není správně vyplněn.');
-		$form->addText('subject', 'Předmět', NULL, 100)
-				  ->setAttribute('placeholder', 'Předmět');
-		$form->addTextArea('message', 'Zpráva', NULL, NULL)
-				  ->setAttribute('placeholder', 'Vaše Zpráva. Jméno a přijmení bude vloženo jako podpis.')
-				  ->setRequired('Zadejte text zprávy.')
-				  ->addRule(Form::MAX_LENGTH, 'Zprava je příliš dlouhá. Povoleno je maximálně 1000 znaků.', 1000);
-		$form->addHidden('spamtest')
-				  ->addRule(Form::EQUAL, 'Robot', array(NULL));
-		$form->addSubmit('send', 'Odeslat');
+		$form = new QuestionForm();
 		$form->onError[] = array($this, 'showFormError');
 		$form->onSuccess[] = array($this, 'submitQuestion');
 		return $form;
 	}
 
 	protected function createComponentReservation() {
-		$form = new Form();
-		$form->addText('name', 'Jméno', NULL, 100)
-				  ->setAttribute('placeholder', 'Jméno a přijmení')
-				  ->setRequired('Zadejte jméno a přijmení.');
-		$form->addText('phone', 'Telefon', NULL, 100)
-				  ->setAttribute('placeholder', 'Telefon');
-		$form->addText('email', 'Email', NULL, 60)
-				  ->setAttribute('placeholder', 'Váš email')
-				  ->setRequired('Zadejte email na který Vám odpovíme.')
-				  ->addRule(Form::EMAIL, 'Email není správně vyplněn.');
-		$form->addSelect('time', 'Čas', $this->getHourList());
-		$form->addSelect('hours', 'Počet hodin', $this->getHourCount());
-		$form->addSelect('quantity', 'Počet osob', $this->getPersonList());
-		$form->addCheckbox('voucher', 'Chci využít voucher');
-		$form->addTextArea('message', 'Poznámka', NULL, NULL)
-				  ->setAttribute('placeholder', 'Poznámka')
-				  ->addRule(Form::MAX_LENGTH, 'Poznámka je příliš dlouhá. Povoleno je maximálně 1000 znaků.', 1000);
-		$form->addHidden('spamtest')
-				  ->addRule(Form::EQUAL, 'Robot', array(NULL));
-		$form->addSubmit('send', 'Rezervovat');
-		$form->addSubmit('storno', 'Storno')
-							 ->setValidationScope(FALSE)
+		$form = new ReservationForm($this->openTime, $this->date);
+		$form->addSubmit('storno', 'Storno')->setValidationScope(FALSE)
 				  ->onClick[] = array($this, "stornoReservation");
 		$form->onError[] = array($this, 'showFormError');
 		$form->onSuccess[] = array($this, 'submitReservation');
@@ -97,9 +63,8 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 
 	public function submitQuestion($form) {
 		$formData = $form->getValues();
-		unset($formData['spamtest']);
 		$clientMail = $formData['email'];
-		$template = $this->createTemplate();
+		$template = $this->template;
 		$template->formData = $formData;
 		$template->setFile(__DIR__ . "/../templates/Mail/question.latte");
 		$this->sendMail($clientMail, $template);
@@ -110,9 +75,8 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 
 	public function submitReservation($form) {
 		$formData = $form->getValues();
-		unset($formData['spamtest']);
 		$clientMail = $formData['email'];
-		$template = $this->createTemplate();
+		$template = $this->template;
 		$template->formData = $formData;
 		$template->setFile(__DIR__ . "/../templates/Mail/reservation.latte");
 		$this->sendMail($clientMail, $template);
@@ -129,40 +93,6 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		foreach ($form->errors as $error) {
 			$this->flashMessage($error, 'error');
 		}
-	}
-
-	private function getPersonList() {
-		return array(
-			 1 => "1 osoba",
-			 2 => "2 osoby",
-			 3 => "3 osoby",
-			 4 => "4 osoby",
-			 5 => "5 osob",
-			 6 => "6 osob a více");
-	}
-
-	private function getHourList() {
-		$hour = (int) $this->openTime[0];
-		$close = (int) $this->openTime[1];
-		$hourList = array();
-		while ($hour < $close) {
-			$hourList[$hour] = "od " . $hour . ":00 h";
-			$hour++;
-		}
-		return $hourList;
-	}
-
-	private function getHourCount() {
-		$hour = (int) $this->openTime[0];
-		$close = (int) $this->openTime[1];
-		$hourList = array();
-		$count = 1;
-		while ($hour < $close) {
-			$hourList[$count] = "po dobu " . $count . " h";
-			$count++;
-			$hour++;
-		}
-		return $hourList;
 	}
 
 	private function convertDates($section) {

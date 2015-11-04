@@ -6,6 +6,10 @@
 	<body>
 		<table>
 			<tr>
+				<td style="text-align:right">Datum:</td>
+				<td>{$formData->date|date:'%A %d. %B %Y'}</td>
+			</tr>
+			<tr>
 				<td style="text-align:right">Jméno:</td>
 				<td>{$formData->name}</td>
 			</tr>
@@ -19,7 +23,7 @@
 			</tr>
 			<tr>
 				<td style="text-align:right">do:</td>
-				<td>{$formData->time + $formData->hours}:00 h</td>
+				<td>{$formData->time + $formData->hour}:00 h</td>
 			</tr>
 			<tr>
 				<td style="text-align:right">Osoby:</td>
