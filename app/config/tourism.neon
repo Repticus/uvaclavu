@@ -1,9 +1,12 @@
 parameters:
 	tourism:
 		-
-			group: 'Vrcholy Brd'
-			image: 'vrcholy-brd.jpg'
+			group: 'Hrady a vrcholy Brd'
+			image: 'hrad-valdek.jpg'
 			place:
+				- 'Tvrziště hradiště Drahlín'
+				- 'Zřícenina hradu Valdek'
+				- 'Lovecký zámeček Tři trubky'
 				- 'Tok'
 				- 'Praha'
 				- 'Třemošná'
@@ -13,42 +16,39 @@ parameters:
 				- 'Plešivec'
 				- 'Klouček'
 				- 'Brda'
-				- 'Černá skála'
+
 		-
-			group: 'Hrady, zámky, kostely'
-			image: 'zamek-ernestinum.jpg'
+			group: 'Muzea a památníky'
+			image: 'hornicke-muzeum.jpg'
 			place:
-				- 'Zřícenina hradu Valdek'
-				- 'Tvrziště hradiště Drahlín'
-				- 'Zámeček-Ernestinum'
+
+				- 'Hornické muzeum Příbram - hornický vláček'
+				- 'Muzeum III. odboje'
+				- 'Vysoká u Příbrami (Památník Antonína Dvořáka)'
+				- 'Památník Slivice'
+				- 'Památník Vojna Lešetice'
+		-
+			group: 'Kostely, divadla, galerie'
+			image: 'svata-hora.jpg'
+			place:
+				- 'Barokní areál a poutní místo Svatá hora'
+				- 'Galerie Františka Drtikola Příbram'
 				- 'Kostel sv. Jakuba Příbram'
 				- 'Kostel sv. Vojtěcha Příbram'
 				- 'Kostel sv. Prokopa Příbram'
-		-
-			group: 'Muzea, galerie, divadla a knihovny'
-			image: 'hornicke-muzeum.jpg'
-			place:
-				- 'Hornické muzeum Příbram'
-				- 'Muzeum III. odboje'
-				- 'Galerie Františka Drtikola Příbram'
-				- 'Hornické muzeum Příbram - hornický vláček '
-				- 'Podbrdské muzeum Rožmitál pod Třemšínem  '
-				- 'Čechova stodola, Buková u Příbrami 129, tel. 724 236 884'
 				- 'Divadlo A. Dvořáka Příbram'
 				- 'Knihovna Jana Drdy Příbram'
 		-
 			group: 'Další zajímavá místa'
-			image: 'hradiste-drahlin.jpg'
+			image: 'vojensky-bunkr.jpg'
 			place:
 				- 'Základna Protivzdušné obrany státu - Klondajk'
-				- 'Vysoká u Příbrami (Památník Antonína Dvořáka)'
+				- 'Vojenský bunkr na Jordánu'
+				- 'Vojenský bunkr na Houpáku'
+				- 'Památník Vojna'
+				- 'Památník Slivice'
 				- 'Pilský rybník'
 				- 'Padrťské rybníky'
-				- 'Sádka'
 				- 'Octárna'
-				- 'Památník Slivice'
-				- 'Památník Vojna Lešetice'
-				- 'Svatá Hora Příbram'
+				- 'Sádka'
 				- 'Příbramské podzemí'
-				- 'Aquapark Příbram'
-				- 'Lesopark Litavka'

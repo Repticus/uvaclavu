@@ -18,14 +18,14 @@ parameters:
 					amount: '0,3 / 0,5 l'
 					price: 16 / 21
 				-
-					name: 'Velkopopoviczký Kozel 11°'
+					name: 'Velkopopovický Kozel 11°'
 					amount: '0,3 / 0,5 l'
 					price: 18 / 24
 		-
 			group: 'Lahvové pivo'
 			drink:
 				-
-					name: 'Velkopopovický kozel tmavý 10°'
+					name: 'Bakalář tmavý 10°'
 					amount: '0,5 l'
 					price: 23
 				-
@@ -91,8 +91,8 @@ parameters:
 			drink:
 				-
 					name: 'Cinzano Bianco'
-					amount: '2 / 4 cl'
-					price: '18 / 35'
+					amount: '1 dl'
+					price: '40'
 				-
 					name: 'Slivovice Fleret'
 					amount: '2 / 4 cl'
@@ -104,7 +104,7 @@ parameters:
 				-
 					name: 'Beefeater Gin'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '22 / 40'
 				-
 					name: 'Becherovka'
 					amount: '2 / 4 cl'
@@ -116,83 +116,87 @@ parameters:
 				-
 					name: 'Amundsen (dle nabídky)'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '13 / 25'
 				-
 					name: 'Božkov Peprmintový likér'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '12 / 22'
 				-
 					name: 'Fernet Stock'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '15 / 27'
 				-
 					name: 'Fernet Stock citrus'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '15 / 27'
 				-
 					name: 'Jagermeister'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '25 / 45'
 				-
 					name: 'Magister'
 					amount: '2 / 4 cl'
 					price: '18 / 35'
 				-
+					name: 'Metaxa (5*)'
+					amount: '2 / 4 cl'
+					price: '30 / 55'
+				-
 					name: 'Vaječný likér'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '12 / 23'
 				-
 					name: 'Griotte'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '12 / 23'
 				-
 					name: 'Captain Morgan'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '22 / 40'
 				-
 					name: 'Bacardi rum'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '25 / 45'
 				-
 					name: 'Božkov rum tuzemský'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '12 / 23'
 				-
 					name: 'Tequila Sierra silver'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '30 / 50'
 				-
 					name: 'Božkov vodka'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '12 / 23'
 				-
 					name: 'Finlandia vodka'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '22 / 40'
 				-
 					name: 'Koskenkorva peach vodka'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '13 / 25'
 				-
 					name: 'Jim Beam'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '30 / 50'
 				-
 					name: 'Jameson'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '32 / 55'
 				-
 					name: 'Tullamore Dew'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '32 / 55'
 				-
 					name: 'Ballantines'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '32 / 55'
 				-
 					name: 'Johnnie Walker Red Label'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '32 / 55'
 		-
 			group: 'Rozlévaná vína'
 			drink:
@@ -201,7 +205,7 @@ parameters:
 					amount: '2 dl'
 					price: '35'
 				-
-					name: 'Frankovka – červené'
+					name: 'Červené - Modrý portugal'
 					amount: '2 dl'
 					price: '35'
 		-
@@ -275,11 +279,11 @@ parameters:
 				-
 					name: 'Mandle pražené'
 					amount: '60 g'
-					price: 32
+					price: 38
 				-
 					name: 'Čerstvě pražené mandle'
 					amount: '60 g'
-					price: 37
+					price: 45
 				-
 					name: 'Arašídy'
 					amount: '100 g'
