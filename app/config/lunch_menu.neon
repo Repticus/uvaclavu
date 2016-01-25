@@ -1,42 +1,22 @@
 parameters:
 	lunch-menu:
-		'19.10.2015':
-			p: 'Bramborová'
-			a: 'Cmunda po kaplicku'
-			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'20.10.2015':
-			p: 'Drůbeží vývar s domácími nudlemi'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'21.10.2015':
-			p: 'Zelná s párkem'
-			a: 'Štěpánská hovězí pečeně, dušená rýže'
-			b: 'Zeleninový salát se smaženými kuřecími nugetkami'
-		'22.10.2015':
-			p: 'Bramborová'
-			a: 'Cmunda po kaplicku'
-			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'23.10.2015':
-			p: 'Šalotkový krém'
-			a: 'Slovenská pochoutka, bramborové placky'
-			b: 'Smažená vepřová játra, opečené brambory'
-		'26.10.2015':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Smažený vepřový řízek, bramborový salát'
-			b: 'Zapečené palačinky s tvarohem a rozinkami'
-		'27.10.2015':
-			p: 'Drůbeží vývar s domácími nudlemi'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'28.10.2015':
-			p: 'Drůbeží vývar s domácími nudlemi'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'29.10.2015':
-			p: 'Drůbeží vývar s domácími nudlemi'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'30.10.2015':
-			p: 'Drůbeží vývar s domácími nudlemi'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
+		'1.2.2016':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Smažený holandský řízek, bramborová kaše'
+			b: 'Zapečené palačinky s tvarohem'
+		'2.2.2016':
+			p: 'Květáková'
+			a: 'Kuřecí plátek zapečený s nivou a jablky, vařené brambory'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'3.2.2016':
+			p: 'Ovarová s kroupami'
+			a: 'Vepřová krkovice po selsku, houskové knedlík, zelí'
+			b: 'Smažená vepřová játra, vařené brambory'
+		'4.2.2016':
+			p: 'Čočková'
+			a: 'Masový špíz se zeleninou, vařené brambory'
+			b: 'Špagety Aglio olio'
+		'5.2.2016':
+			p: 'Hovězí vývar s játrovou zavářkou'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Kus kus s kuřecím masem a zeleninou'

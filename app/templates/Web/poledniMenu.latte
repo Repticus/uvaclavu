@@ -1,7 +1,13 @@
 {block title}Polední menu restaurace{/block}
 {block content}
+<style media="print">
+	#head,.menu{
+		display: none;
+	}
+</style>
 <div id="content" class="mnu">
 	<h1>Polední menu</h1>
+	<h1 n:if="!$menu">Polední menu pro tento týden ještě nebylo vypsáno.</h1>
 	<table>
 		{foreach $menu as $date => $food}
 			<tr>
