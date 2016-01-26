@@ -2,22 +2,29 @@
 {block content}
 <div id="content" class="int">
 	<div class="pnl w34">
-		{block info}
-		<h1>ČESKÁ KUCHYNĚ<br>V MODERNÍM POJETÍ</h1>
-		<p>
-			Dle Vašeho přání zajistíme svatební hostiny, catering, promoce, oslavy narozenin, podnikové večírky, rauty, firemní semináře, smuteční hostiny a podobně.
-		</p>
-		<p>
-			K dispozici také zastřešená terasa.
-		</p>
-		<br>
-		<p>
-			<img src="/img/layout/pivo-bakalar.png" alt=""/>
-		</p>
-		<p>
-			Čepujeme tradiční rakovnické pivo Bakalář
-		</p>
-		{/block}
+		<div id="eventScroll">
+			{block info}
+			<h1>ČESKÁ KUCHYNĚ<br>V MODERNÍM POJETÍ</h1>
+			<p>
+				Dle Vašeho přání zajistíme svatební hostiny, catering, promoce, oslavy narozenin, podnikové večírky, rauty, firemní semináře, smuteční hostiny a podobně.
+			</p>
+			<p>
+				K dispozici také zastřešená terasa.
+			</p>
+			<br>
+			<div id="event">
+				<p>Nejbližší akce:</p>
+				<h2>{$event['date']|date:'d.m.Y'} - {$event[1]}</h2>
+			</div>
+			<p>
+				<img src="/img/layout/pivo-bakalar.png" alt=""/>
+			</p>
+			<p>
+				Čepujeme tradiční rakovnické pivo Bakalář
+			</p>
+			{/block}
+		</div>
+		{include leaflet|indent:2}
 	</div>
 	<div class="pnl w14">
 		{control calendar}

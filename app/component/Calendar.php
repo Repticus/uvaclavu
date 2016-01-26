@@ -10,6 +10,7 @@ class Calendar extends Control {
 	public $firstDate;
 	public $lastDate;
 	public $firstDay;
+	public $nextEvent;
 	public $lastDay;
 	public $nextMonth;
 	public $prevMonth;
@@ -22,6 +23,7 @@ class Calendar extends Control {
 		$this->timeData = $timeData;
 		$this->eventData = $eventData;
 		$this->thisDate = strtotime("today");
+		$this->nextEvent = $this->setNextEvent();
 	}
 
 	public function render() {
@@ -108,6 +110,17 @@ class Calendar extends Control {
 	public function getEvent($date) {
 		if (isset($this->eventData[$date]['event'])) {
 			return $this->eventData[$date]['event'];
+		}
+		return FALSE;
+	}
+
+	public function setNextEvent() {
+		$event = $this->eventData;
+		foreach ($event as $date => $data) {
+			if ($this->thisDate <= $date) {
+				$data['event']['date'] = $date;
+				return $data['event'];
+			}
 		}
 		return FALSE;
 	}

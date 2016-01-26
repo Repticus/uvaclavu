@@ -14,6 +14,10 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	public $date;
 	public $openTime;
 
+	public function actionRestaurace() {
+		$calendar = $this['calendar'];
+		$this->template->event = $calendar->nextEvent;
+	}
 	public function actionRezervace($date) {
 		$calendar = $this['calendar'];
 		$calendar->setDate($date);
@@ -107,6 +111,7 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 			}
 			unset($data[$date]);
 		}
+		ksort($data);
 		return $data;
 	}
 

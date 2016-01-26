@@ -115,6 +115,24 @@ img {
   left: 505px;
 }
 
+#event {
+  background-color: #CBB895;
+  border: #CBB895 solid 1px;
+  border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#event:hover {
+  background-color: #F7EFE4;
+}
+
+#leaflet {
+  display: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
 .cld table {
   margin-bottom: 30px;
 }

@@ -1,42 +1,40 @@
 {layout 'restaurace.latte'}
 {block info}
-<div id="content" class="cld">
-	<h1>{$date|date:'%A %d. %B %Y'}</h1>
-		{if $opentime}
-			<h2>{if $changed}Změna otevírací doby{else}Otevřeno{/if} od {$opentime[0]} do {$opentime[1]} h</h2>
-			<p>
-				{form reservation}
-				<table>
-					<tr>
-						<td>{input name}</td>
-						<td>{input time}</td>
-						<td rowspan="3">{input message}</td>
-					</tr>
-					<tr>
-						<td>{input email}</td>
-						<td>{input hour}</td>
-					</tr>
-					<tr>
-						<td>{input phone}</td>
-						<td>{input quantity}</td>
-					</tr>
-					<tr>
-						<td colspan="2">{input send} {input reset}</td>
-						<td>{input voucher}</td>
-					</tr>
-				</table>
-				{input spamtest}
-			{/form}
-			{block flash}{/block}
-			<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
-		</p>
-		{if $event}
-			<h2>{$event[1]}</h2>
-			<p>
-				začátek: {$event[0]} h
-			</p>
-		{/if}
-	{else}
-		<h2>Zavřeno</h2>
+<h1>{$date|date:'%A %d. %B %Y'}</h1>
+{if $opentime}
+	<h2>{if $changed}Změna otevírací doby{else}Otevřeno{/if} od {$opentime[0]} do {$opentime[1]} h</h2>
+	<div class="cld">
+		{form reservation}
+			<table>
+				<tr>
+					<td>{input name}</td>
+					<td>{input time}</td>
+					<td rowspan="3">{input message}</td>
+				</tr>
+				<tr>
+					<td>{input email}</td>
+					<td>{input hour}</td>
+				</tr>
+				<tr>
+					<td>{input phone}</td>
+					<td>{input quantity}</td>
+				</tr>
+				<tr>
+					<td colspan="2">{input send} {input reset}</td>
+					<td>{input voucher}</td>
+				</tr>
+			</table>
+			{input spamtest}
+		{/form}
+		{block flash}{/block}
+		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+	</div>
+	{if $event}
+		<div id="event">
+			<p>Akce na tento den:</p>
+			<h2>Od {$event[0]} - {$event[1]}</h2>
+		</div>
 	{/if}
-</div>
+{else}
+	<h2>Zavřeno</h2>
+{/if}
