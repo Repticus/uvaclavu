@@ -26,9 +26,17 @@ class Calendar extends Control {
 		$this->nextEvent = $this->setNextEvent();
 	}
 
+	private function registerFilter() {
+		$this->template->addFilter('czMonth', function($date) {
+			$month = date('n', $date);
+			static $months = array(1 => 'leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec');
+			return $months[$month];
+		});
+	}
+
 	public function render() {
 		$this->calendar = $this->setCalendar();
-		$template = $this->template;
+		$this->registerFilter();
 		$this->template->thisDate = $this->thisDate;
 		$this->template->firstDay = $this->firstDay;
 		$this->template->lastDay = $this->lastDay;
@@ -36,16 +44,15 @@ class Calendar extends Control {
 		$this->template->prevMonth = $this->prevMonth;
 		$this->template->days = array('Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne');
 		$this->template->calendar = $this->calendar;
-		$template->render(__DIR__ . '/Calendar.latte');
+		$this->template->render(__DIR__ . '/Calendar.latte');
 	}
 
 	public function renderOpenTime() {
-		$template = $this->template;
 		$seasonId = $this->getSeasonId($this->firstDay);
 		$this->template->days = array('Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek', 'Sobota', 'Neděle');
 		$this->template->opentime = $this->timeData[$seasonId]['days'];
 		$this->template->season = $this->getSeason($seasonId);
-		$template->render(__DIR__ . '/OpenTime.latte');
+		$this->template->render(__DIR__ . '/OpenTime.latte');
 	}
 
 	public function setDate($date) {
@@ -81,8 +88,8 @@ class Calendar extends Control {
 
 	private function getSeason($seasonId) {
 		$months = $this->timeData[$seasonId]['months'];
-		$start = strftime('%B', mktime(0, 0, 0, $months[0], 1, 2000));
-		$end = strftime('%B', mktime(0, 0, 0, end($months), 1, 2000));
+		$start = mktime(0, 0, 0, $months[0], 1, 2000);
+		$end = mktime(0, 0, 0, end($months), 1, 2000);
 		return array($start, $end);
 	}
 

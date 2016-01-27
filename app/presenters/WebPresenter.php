@@ -18,6 +18,7 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$calendar = $this['calendar'];
 		$this->template->event = $calendar->nextEvent;
 	}
+
 	public function actionRezervace($date) {
 		$calendar = $this['calendar'];
 		$calendar->setDate($date);
