@@ -108,10 +108,10 @@ img {
   top: 10px;
   border: #4B3123 solid 1px;
 }
-#head img:first-child {
+#head img:nth-child(even) {
   left: 10px;
 }
-#head img:last-child {
+#head img:nth-child(odd) {
   left: 505px;
 }
 

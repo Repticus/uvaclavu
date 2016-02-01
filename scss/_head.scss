@@ -10,10 +10,10 @@
 		top: $headMargin;
 		border: $fontColor solid 1px;
 	}
-	img:first-child {
+	img:nth-child(even){
 		left: $headMargin;
 	}
-	img:last-child {
+	img:nth-child(odd){
 		left: ($pageWidth / 2) + ($headMargin / 2);
 	}
 }
