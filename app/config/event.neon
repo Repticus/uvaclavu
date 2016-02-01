@@ -10,3 +10,7 @@ parameters:
 		'14.2.2016':
 			open: {12:00,20:00}
 			event: {12:00,'Valentýnské menu'}
+		'17.2.2016':
+			open: false
+		'18.2.2016':
+			open: false

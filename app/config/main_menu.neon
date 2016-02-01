@@ -78,3 +78,139 @@ parameters:
 					amount: '200 g'
 					price: 105
 					alergen: {9}
+				-
+					name: 'Kuřecí prso s kůží, pepřová omáčka, zelené fazolky s česnekem'
+					amount: '200 g'
+					price: 130
+					alergen: {7}
+				-
+					name: 'Pikantní kuřecí prso s barevnými fazolemi, pečivo'
+					amount: '200 g'
+					price: 120
+					alergen: {1,3,7}
+				-
+					name: 'Pečená vepřová panenka ve slanině podávaná s listovým špenátem a restovanými brambůrky'
+					amount: '200 g'
+					price: 145
+					alergen: {1,7}
+
+				-
+					name: 'Vepřová panenka se švestkovou omáčkou, šťouchané brambory se smetanou'
+					amount: '200 g'
+					price: 145
+					alergen: {1,7}
+				-
+					name: 'Pivovarská vepřová krkovice s drůbežími játry, jasmínová rýže'
+					amount: '200 g'
+					price: 130
+					alergen: {1}
+				-
+					name: 'Vepřová krkovice s nadívanými žampióny'
+					amount: '200 g'
+					price: 125
+					alergen: {1,7}
+		-
+			group: 'Maso na grilu'
+			food:
+				-
+					name: 'Hovězí steak z pravé svíčkové (býk)'
+					amount: '200 g'
+					price: 249
+				-
+					name: 'Špalíčky z vepřové panenky'
+					amount: '200 g'
+					price: 125
+
+				-
+					name: 'Vepřový steak z krkovice, hořčice, beraní rohy, chléb'
+					amount: '200 g'
+					price: 99
+					alergen: {1,3,7,10}
+		-
+			group: 'K steaku doporučujeme omáčky'
+			food:
+				-
+					name: 'Pepřová'
+					price: 25
+					alergen: {7}
+				-
+					name: 'Česneková'
+					price: 25
+					alergen: {1}
+				-
+					name: 'Žampiónová'
+					price: 25
+					alergen: {1}
+				-
+					name: 'Sýrová'
+					price: 30
+					alergen: {7}
+				-
+					name: 'Brusinková'
+					price: 30
+				-
+					name: 'Domácí tatarská omáčka'
+					price: 15
+					alergen: {7,10}
+
+		-
+			group: 'Bezmasá jídla'
+			food:
+				-
+					name: 'Smažený obalovaný sýr, hranolky, domácí tatarská omáčka'
+					amount: '100 g'
+					price: 85
+					alergen: {1,3,7,10}
+		-
+			group: 'Dětská jídla'
+			food:
+				-
+					name: 'Kuřecí prsa na másle, restované brambůrky'
+					amount: '80 g'
+					price: 65
+				-
+					name: 'Smažená kuřecí prsa, hranolky'
+					amount: '80 g'
+					price: 70
+					alergen: {1,3,7}
+
+				-
+					name: 'Smažený obalovaný sýr, hranolky, kečup'
+					amount: '60 g'
+					price: 65
+					alergen: {1,3,7}
+		-
+			group: 'Přílohy'
+			food:
+				-
+					name: 'Šťouchané brambory se smetanou'
+					price: 35
+					alergen: {7}
+				-
+					name: 'Restované brambůrky na másle'
+					price: 30
+				-
+					name: 'Smažené hranolky'
+					price: 27
+				-
+					name: 'Smažené americké brambory'
+					price: 30
+				-
+					name: 'Grilovaná zelenina'
+					price: 35
+				-
+					name: 'Dušená zelenina na másle'
+					price: 35
+				-
+					name: 'Fazolové lusky s česnekem a slaninou'
+					price: 39
+				-
+					name: 'Jasmínová rýže'
+					price: 30
+		-
+			group: 'Dezerty'
+			food:
+				-
+					name: 'Horké maliny s vanilkovou zmrzlinou a šlehačkou'
+					price: 65
+					note: 'Dle denní nabídky'
