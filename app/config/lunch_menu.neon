@@ -1,22 +1,22 @@
 parameters:
 	lunch-menu:
-		'1.2.2016':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Zapečené palačinky s tvarohem'
-		'2.2.2016':
-			p: 'Květáková'
-			a: 'Kuřecí plátek zapečený s nivou a jablky, vařené brambory'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
-		'3.2.2016':
-			p: 'Ovarová s kroupami'
-			a: 'Vepřová krkovice po selsku, houskové knedlík, zelí'
-			b: 'Smažená vepřová játra, vařené brambory'
-		'4.2.2016':
-			p: 'Čočková'
-			a: 'Masový špíz se zeleninou, vařené brambory'
-			b: 'Špagety Aglio olio'
-		'5.2.2016':
-			p: 'Hovězí vývar s játrovou zavářkou'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Kus kus s kuřecím masem a zeleninou'
+		'8.2.2016':
+			p: 'Hovězí vývar s vaječnou sedlinou'
+			a: 'Plněná vepřová pečeně "Avignon" (šunka, cibule), šťouchané brambory'
+			b: 'Uzená krkovice, hrachová kaše s cibulkou'
+		'9.2.2016':
+			p: 'Zelná s uzeninou'
+			a: 'Pikantní masová směs, dušená rýže'
+			b: 'Brokolicové řízečky, bramborová kaše'
+		'10.2.2016':
+			p: 'Bramborová'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: 'Těstovinový salát s kuřecím masem'
+		'11.2.2016':
+			p: 'Drůbková'
+			a: 'Smažený kuřecí Gordon Bleu (šunka, sýr), vařené brambory'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'12.2.2016':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Hovězí guláš z kližky, houskové knedlíky'
+			b: 'Domácí sekaná, lepenice'
