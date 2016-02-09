@@ -47,6 +47,29 @@ img {
   border: #4B3123 solid 1px;
 }
 
+#leaflet {
+  display: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.menuButton {
+  padding: 0 0 30px 30px;
+}
+
+.button {
+  background-color: #CBB895;
+  border: #CBB895 solid 1px;
+  border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button.active {
+  background-color: #F7EFE4;
+}
+
 .pnl {
   float: left;
 }
@@ -113,24 +136,6 @@ img {
 }
 #head img:nth-child(odd) {
   left: 505px;
-}
-
-#event {
-  background-color: #CBB895;
-  border: #CBB895 solid 1px;
-  border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
-  padding: 10px;
-  cursor: pointer;
-}
-
-#event:hover {
-  background-color: #F7EFE4;
-}
-
-#leaflet {
-  display: none;
-  overflow: hidden;
-  cursor: pointer;
 }
 
 .cld table {
@@ -350,7 +355,7 @@ iframe {
   white-space: nowrap;
 }
 .mnu table {
-  margin: 30px;
+  margin: 0 30px 30px 30px;
 }
 .mnu th {
   text-align: left;

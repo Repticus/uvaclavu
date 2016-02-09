@@ -38,8 +38,24 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->template->drink = $this->context->parameters['drink-menu'];
 	}
 
-	public function actionPoledniMenu() {
-		$this->template->menu = $this->convertDates("lunch-menu");
+	public function actionPoledniMenu($week = NULL) {
+		$data = $this->convertDates("lunch-menu");
+		$week = (int) $week;
+		if (!$week) {
+			$week = (int) date('W');
+		}
+		$setWeek = array();
+		foreach ($data as $key => $date) {
+			$weekId = (int) date('W', $key);
+			if ($weekId == $week) {
+				$setWeek[$weekId] = TRUE;
+			} else {
+				$setWeek[$weekId] = FALSE;
+				unset($data[$key]);
+			}
+		}
+		$this->template->menu = $data;
+		$this->template->week = $setWeek;
 	}
 
 	public function actionTuristikaPribram() {
@@ -104,7 +120,7 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 
 	private function convertDates($section) {
 		$firstDay = strtotime(date('o-\\WW'));
-		$data = $this->context->parameters[$section];
+		$data = (array) $this->context->parameters[$section];
 		foreach ($data as $date => $value) {
 			$stamp = strtotime($date);
 			if ($stamp >= $firstDay) {

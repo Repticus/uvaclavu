@@ -20,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Hovězí guláš z kližky, houskové knedlíky'
 			b: 'Domácí sekaná, lepenice'
+		'15.2.2016':
+			p: 'Drůbeží vývar s domácími nudlemi'
+			a: 'Čevabčiči, opékané brambory'
+			b: 'Gnocchi "Siciliána"'
+		'16.2.2016':
+			p: 'Zeleninová'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'17.2.2016':
+			p: 'Polévka z fazolových lusků'
+			a: 'Znojemská hovězí pečeně, houskové knedlíky'
+			b: 'Opečená vinná klobása, šťouchané brambory'
+		'18.2.2016':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Plněné knedlíky uzeným masem, zelí'
+			b: 'Gruzínská rýže (hovězí maso, cibule, protlak), kys.okurka'
+		'19.2.2016':
+			p: 'Boršč'
+			a: 'Masové kuličky z mletého masa, brusinková omáčka, vařené brambory'
+			b: 'Maminčino kuře'

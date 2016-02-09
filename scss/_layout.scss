@@ -59,6 +59,25 @@ img{
 	background-color: $pageColor;
 	border: $fontColor solid 1px;
 }
+#leaflet{
+	display: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+.menuButton{
+	padding: 0 0 $panelMargin $panelMargin;
+}
+.button{
+	background-color: $menuColor;
+	border: $menuColor solid 1px;
+	border-color: #E5D5C1 #C19C74 #B28C5F #D6B996;
+	padding: 2px 10px;
+	cursor: pointer;
+}
+.button:hover,
+.button.active{
+	background-color: $backColor;
+}
 .pnl{
 	float: left;
 }

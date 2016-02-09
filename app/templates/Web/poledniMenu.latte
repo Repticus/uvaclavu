@@ -1,12 +1,19 @@
 {block title}Polední menu restaurace{/block}
 {block content}
 <style media="print">
-	#head,.menu{
+	#head,.menu,.menuButton{
 		display: none;
+	}
+	#page{
+		border: none;
+		font-size: 26px;
 	}
 </style>
 <div id="content" class="mnu">
 	<h1>Polední menu</h1>
+	<div n:if="$week" class="menuButton">
+		<a n:foreach="$week as $weekId => $active" n:class="button, $active ? active" n:href="poledniMenu $weekId">Týden {$weekId}</a>
+	</div>
 	<h1 n:if="!$menu">Polední menu pro tento týden ještě nebylo vypsáno.</h1>
 	<table>
 		{foreach $menu as $date => $food}
