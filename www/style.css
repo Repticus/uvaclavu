@@ -185,9 +185,12 @@ img {
   display: block;
 }
 .calendar a:hover:not(.disabled) {
-  border-color: #C19C74 #E5D5C1 #D6B996 #B28C5F;
+  border-color: #278BD8;
   font-size: 14px;
   color: #B28C5F;
+}
+.calendar .active {
+  border-color: #278BD8;
 }
 .calendar .closed {
   background-color: #FFB6C1;

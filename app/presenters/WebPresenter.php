@@ -119,13 +119,10 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	private function convertDates($section) {
-		$firstDay = strtotime(date('o-\\WW'));
 		$data = (array) $this->context->parameters[$section];
 		foreach ($data as $date => $value) {
 			$stamp = strtotime($date);
-			if ($stamp >= $firstDay) {
-				$data[$stamp] = $value;
-			}
+			$data[$stamp] = $value;
 			unset($data[$date]);
 		}
 		ksort($data);

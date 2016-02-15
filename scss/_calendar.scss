@@ -1,3 +1,4 @@
+$activeColor: #278BD8;
 $closedColor: #FFB6C1;
 $changedColor: #FFF9B0;
 $eventColor: #9FE6C2;
@@ -51,9 +52,12 @@ $eventColor: #9FE6C2;
 		display: block;
 	}
 	a:hover:not(.disabled){
-		border-color: #C19C74 #E5D5C1 #D6B996 #B28C5F;
+		border-color: $activeColor;
 		font-size: 14px;
 		color: #B28C5F;
+	}
+	.active{
+		border-color: $activeColor;
 	}
 	.closed{
 		background-color: $closedColor;

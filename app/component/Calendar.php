@@ -7,6 +7,7 @@ use Nette\Application\UI\Control;
 class Calendar extends Control {
 
 	public $thisDate;
+	public $activeDate;
 	public $firstDate;
 	public $lastDate;
 	public $firstDay;
@@ -23,6 +24,7 @@ class Calendar extends Control {
 		$this->timeData = $timeData;
 		$this->eventData = $eventData;
 		$this->thisDate = strtotime("today");
+		$this->activeDate = $this->thisDate;
 		$this->nextEvent = $this->setNextEvent();
 	}
 
@@ -56,6 +58,7 @@ class Calendar extends Control {
 	}
 
 	public function setDate($date) {
+		$this->activeDate = $date;
 		$this->firstDay = strtotime('first day of this month', $date);
 		$this->lastDay = strtotime('last day of this month', $date);
 		$this->firstDate = strtotime(date('o-\\WW', $this->firstDay));
@@ -133,17 +136,23 @@ class Calendar extends Control {
 
 	public function getAttr($date) {
 		$opentime = $this->getOpenTime($date);
+		if ($date == $this->activeDate) {
+			$class = "active ";
+		} else {
+			$class = NULL;
+		}
+
 		if (!$opentime) {
-			return array('class' => 'closed', 'title' => 'Zavřeno');
+			return array('class' => $class . 'closed', 'title' => 'Zavřeno');
 		}
 		$event = $this->getEvent($date);
 		if ($event) {
-			return array('class' => 'event', 'title' => $event[1]);
+			return array('class' => $class . 'event', 'title' => $event[1]);
 		}
 		if ($this->isTimeChanged($date)) {
-			return array('class' => 'changed', 'title' => 'Změna otevírací doby');
+			return array('class' => $class . 'changed', 'title' => 'Změna otevírací doby');
 		}
-		return array('class' => NULL, 'title' => 'Otevřeno');
+		return array('class' => $class, 'title' => 'Otevřeno');
 	}
 
 	public function isTimeChanged($date) {
