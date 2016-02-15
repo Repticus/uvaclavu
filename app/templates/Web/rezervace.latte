@@ -29,12 +29,10 @@
 		{block flash}{/block}
 		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 	</div>
-	{if $event}
-		<div id="event" class="button">
-			<p>Akce na tento den:</p>
-			<h2>Od {$event[0]} - {$event[1]}</h2>
-		</div>
-	{/if}
+	<div id="event" class="button" n:if="$event">
+		<p>Akce na tento den:</p>
+		<h2>Od {$event[0]} - {$event[1]}</h2>
+	</div>
 {else}
 	<h2>Zavřeno</h2>
 {/if}

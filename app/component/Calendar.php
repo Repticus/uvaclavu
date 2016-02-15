@@ -122,9 +122,8 @@ class Calendar extends Control {
 	}
 
 	public function setNextEvent() {
-		$event = $this->eventData;
-		foreach ($event as $date => $data) {
-			if ($this->thisDate <= $date) {
+		foreach ($this->eventData as $date => $data) {
+			if (isset($data['event']) && $this->thisDate <= $date) {
 				$data['event']['date'] = $date;
 				return $data['event'];
 			}

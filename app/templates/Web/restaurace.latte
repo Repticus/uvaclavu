@@ -12,9 +12,9 @@
 				K dispozici také zastřešená terasa.
 			</p>
 			<br>
-			<div id="event" class="button">
-				<p>Nejbližší akce:</p>
-				<h2>{$event['date']|date:'d.m.Y'} - {$event[1]}</h2>
+			<div id="event" class="button" n:if="$event">
+				<p>Nejbližší akce:<br />{$event['date']|date:'%A %d. %B %Y'} od {$event['0']} h</p>
+				<h2>{$event['1']}</h2>
 			</div>
 			<p>
 				<img src="/img/layout/pivo-bakalar.png" alt=""/>

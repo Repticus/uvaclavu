@@ -4,13 +4,15 @@ parameters:
 # event: {16:00,'nazev akce'} #Nastavi zacatek a nazev akce pro dany den. Pokud je v dany den zavreno, musi byt zadana oteviraci doba.
 	event:
 		'12.2.2016':
-			event: {16:00,'Valentýnské menu'}
+			event: {16:00,'Valentýnské menu','valentyn.jpg'}
 		'13.2.2016':
-			event: {16:00,'Valentýnské menu'}
+			event: {16:00,'Valentýnské menu','valentyn.jpg'}
 		'14.2.2016':
 			open: {12:00,20:00}
-			event: {12:00,'Valentýnské menu'}
+			event: {12:00,'Valentýnské menu','valentyn.jpg'}
 		'17.2.2016':
 			open: false
 		'18.2.2016':
 			open: false
+		'26.2.2016':
+			event: {19:00,'Degustace sýrů','degustace-syru.jpg'}
