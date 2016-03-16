@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'7.3.2016':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Pikantní vepřové medailonky, opečené brambory'
-			b: 'Zeleninové rizoto se šunkou, zelný salát'
-		'8.3.2016':
-			p: 'Pórková s vejcem'
-			a: 'Kuřecí prsa v sýrovém těstíčku, šťouchané brambory s cibulkou'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'9.3.2016':
-			p: 'Hrachová'
-			a: 'Kuřecí soté se zeleninou, dušená rýže'
-			b: 'Vepřová játra na roštu, vařené brambory'
-		'10.3.2016':
-			p: 'Dršťková'
-			a: 'Vepřová plec po Valašsku, houskové knedlíky'
-			b: 'Zapečené brambory s kuřecím masem, smetanou a sýrem'
-		'11.3.2016':
-			p: 'Hovězí vývar játrovou zavářkou '
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: 'Špekové knedlíky se zelím'
 		'14.3.2016':
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Vepřová panenka na barevném pepři, zelené fazolky s česnekem'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Gulášová'
 			a: 'Smažený holandský řízek, bramborová kaše'
 			b: 'Bramborový knedlík plněný masovou směsí, smetanový špenát'
+		'21.3.2016':
+			p: 'Jarní zeleninová'
+			a: 'Kuřecí plněná kapsa, vařené brambory'
+			b: 'Srbské vepřové rizoto, kys. okurka'
+		'22.3.2016':
+			p: 'Bramborová'
+			a: 'Vepřová plec na houbách, dušená rýže'
+			b: 'Směs trhaných salátů s čerstvou zeleninou a smaženým hermelínem'
+		'23.3.2016':
+			p: 'Zelná bílá'
+			a: 'Pečené kuřecí stehno na másle, vařené brambory'
+			b: 'Mexické fazole s klobásou, ovoce'
+		'24.3.2016':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Vídeňský hovězí guláš, houskové knedlíky'
+			b: 'Vepřové maso v mrkvi, opékané brambory'
+		'25.3.2016':
+			p: ''
+			a: 'Z důvodů státního svátku se nevaří'
+			b: ''
