@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'14.3.2016':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Vepřová panenka na barevném pepři, zelené fazolky s česnekem'
-			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
-		'15.3.2016':
-			p: 'Kmínová s vejci'
-			a: 'Smažený sýr, vařené brambory'
-			b: 'Gnocchi s kuřecím masem a listovým špenátem'
-		'16.3.2016':
-			p: 'Žampiónová'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Lázeňské rybí filé, vařené brambory'
-		'17.3.2016':
-			p: 'Hovězí vývar se zeleninovým svítkem'
-			a: 'Nadívaný vepřový bůček, houskové knedlíky, zelí'
-			b: 'Kari rýže s kuřecím masem, zeleninou a sýrovou omáčkou'
-		'18.3.2016':
-			p: 'Gulášová'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Bramborový knedlík plněný masovou směsí, smetanový špenát'
 		'21.3.2016':
 			p: 'Jarní zeleninová'
 			a: 'Kuřecí plněná kapsa, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: ''
 			a: 'Z důvodů státního svátku se nevaří'
 			b: ''
+		'28.3.2016':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
+		'29.3.2016':
+			p: 'Špenátová'
+			a: 'Vepřový šleh, dušená rýže'
+			b: 'Kapustový karbanátek, bramborová kaše'
+		'30.3.2016':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Střapačky s uzeným masem a zelím'
+			b: 'Dalmátské čufty, houskové knedlíky'
+		'31.3.2016':
+			p: 'Čočková s uzeninou'
+			a: 'Smažený vepřový řízek, šťouchané brambory'
+			b: 'Lasagne s mletým masem'
+		'1.4.2016':
+			p: 'Hovězí vývar s krupicí a vejcem'
+			a: 'Kuřecí prsa na másle s čerstvým tymiánem, vařené brambory'
+			b: 'Opečená jitrnice, lepenice'
