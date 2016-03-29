@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'21.3.2016':
-			p: 'Jarní zeleninová'
-			a: 'Kuřecí plněná kapsa, vařené brambory'
-			b: 'Srbské vepřové rizoto, kys. okurka'
-		'22.3.2016':
-			p: 'Bramborová'
-			a: 'Vepřová plec na houbách, dušená rýže'
-			b: 'Směs trhaných salátů s čerstvou zeleninou a smaženým hermelínem'
-		'23.3.2016':
-			p: 'Zelná bílá'
-			a: 'Pečené kuřecí stehno na másle, vařené brambory'
-			b: 'Mexické fazole s klobásou, ovoce'
-		'24.3.2016':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Vídeňský hovězí guláš, houskové knedlíky'
-			b: 'Vepřové maso v mrkvi, opékané brambory'
-		'25.3.2016':
-			p: ''
-			a: 'Z důvodů státního svátku se nevaří'
-			b: ''
 		'28.3.2016':
 			p: ''
 			a: 'Z důvodu státního svátku se nevaří'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s krupicí a vejcem'
 			a: 'Kuřecí prsa na másle s čerstvým tymiánem, vařené brambory'
 			b: 'Opečená jitrnice, lepenice'
+		'4.4.2016':
+			p: 'Prácheňská'
+			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+			b: 'Smažená vepřová játra, vařené brambory'
+		'5.4.2016':
+			p: 'Česneková s bramborem'
+			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
+			b: 'Zeleninový salát s grilovaným kuřecím masem a dresinkem'
+		'6.4.2016':
+			p: 'Hráškový krém'
+			a: 'Kuřecí plátek Apollo (smetana, žampióny, slanina), dušená rýže'
+			b: 'Opečená klobása, vařená čočka'
+		'7.4.2016':
+			p: 'Hovězí vývar se strouháním'
+			a: 'Smažený karbanátek, bramborová kaše'
+			b: 'Špagety Pomodoro (bazalka, česnek, cibule rajčata)'
+		'8.4.2016':
+			p: 'Zelná s uzeninou'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Smažený sýrový špíz se šunkou, vařené brambory'
