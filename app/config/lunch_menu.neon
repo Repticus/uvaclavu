@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'28.3.2016':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří'
-			b: ''
-		'29.3.2016':
-			p: 'Špenátová'
-			a: 'Vepřový šleh, dušená rýže'
-			b: 'Kapustový karbanátek, bramborová kaše'
-		'30.3.2016':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Střapačky s uzeným masem a zelím'
-			b: 'Dalmátské čufty, houskové knedlíky'
-		'31.3.2016':
-			p: 'Čočková s uzeninou'
-			a: 'Smažený vepřový řízek, šťouchané brambory'
-			b: 'Lasagne s mletým masem'
-		'1.4.2016':
-			p: 'Hovězí vývar s krupicí a vejcem'
-			a: 'Kuřecí prsa na másle s čerstvým tymiánem, vařené brambory'
-			b: 'Opečená jitrnice, lepenice'
 		'4.4.2016':
 			p: 'Prácheňská'
 			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Zelná s uzeninou'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Smažený sýrový špíz se šunkou, vařené brambory'
+		'11.4.2016':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Masový špíz s klobásou a zeleninou, vařené brambory'
+			b: 'Zapečené těstoviny s uzeným masem'
+		'12.4.2016':
+			p: 'Kulajda'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Květákové řízečky, bramborová kaše'
+		'13.4.2016':
+			p: 'Kapustová'
+			a: 'Pečená krkovice po selsku, houskové knedlíky, zelí'
+			b: 'Těstovinový salát s kuřecím masem a zeleninou'
+		'14.4.2016':
+			p: 'Frankfurtská'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Opečená vinná klobása, šťouchané brambory'
+		'15.4.2016':
+			p: 'Hovězí vývar s jarní zeleninou'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Cmunda po kaplicku'
