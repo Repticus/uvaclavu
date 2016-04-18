@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'11.4.2016':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Masový špíz s klobásou a zeleninou, vařené brambory'
-			b: 'Zapečené těstoviny s uzeným masem'
-		'12.4.2016':
-			p: 'Kulajda'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Květákové řízečky, bramborová kaše'
-		'13.4.2016':
-			p: 'Kapustová'
-			a: 'Pečená krkovice po selsku, houskové knedlíky, zelí'
-			b: 'Těstovinový salát s kuřecím masem a zeleninou'
-		'14.4.2016':
-			p: 'Frankfurtská'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Opečená vinná klobása, šťouchané brambory'
-		'15.4.2016':
-			p: 'Hovězí vývar s jarní zeleninou'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b: 'Cmunda po kaplicku'
 		'18.4.2016':
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Vepřové ražniči, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Boršč'
 			a: 'Vepřová žebírko na kmíně, dušená rýže'
 			b: 'Švestkové bramborové knedlíky s mákem a cukrem, zelný salát'
+		'25.4.2016':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Marinovaná vepřová krkovice, vařené brambory'
+			b: 'Penne s kuřecím masem a sýrovou omáčkou'
+		'26.4.2016':
+			p: 'Francouzská cibulačka'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Směs trhaných salátu s čerstvou zeleninou, tuňákem a vejcem'
+		'27.4.2016':
+			p: 'Kmínová s vejci'
+			a: 'Vepřové nudličky na žampiónech, dušená rýže'
+			b: 'Gnocchi Siciliana (kuřecí, olivi, česnek čili)'
+		'28.4.2016':
+			p: 'Ovarová s kroupami'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
+		'29.4.2016':
+			p: 'Hovězí vývar s fridátovými nudlemi '
+			a: 'Smažený Kyjevský kotlet (kuřecí stehno), vařené brambory'
+			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
