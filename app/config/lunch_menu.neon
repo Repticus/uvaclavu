@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'18.4.2016':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Vepřové ražniči, vařené brambory'
-			b: 'Rizoto s kuřecím masem a zeleninou'
-		'19.4.2016':
-			p: 'Zeleninová bílá'
-			a: 'Smažená kuřecí prsa ve vinném těstíčku, bramborová kaše'
-			b: 'Mletý řízek na grilu, zelené fazolky s česnekem'
-		'20.4.2016':
-			p: 'Šalotkový krém'
-			a: 'Debrecínský vepřový guláš, houskové knedlíky'
-			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vař. brambory, 1/2 zelný salát'
-		'21.4.2016':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Hovězí pečeně na česneku, bramborové knedlíky, špenát'
-			b: 'Maminčino kuře (těstoviny, drůbeží játra, pórek, žampión)'
-		'22.4.2016':
-			p: 'Boršč'
-			a: 'Vepřová žebírko na kmíně, dušená rýže'
-			b: 'Švestkové bramborové knedlíky s mákem a cukrem, zelný salát'
 		'25.4.2016':
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Marinovaná vepřová krkovice, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s fridátovými nudlemi '
 			a: 'Smažený Kyjevský kotlet (kuřecí stehno), vařené brambory'
 			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
+		'2.5.2016':
+			p: 'Zelná bílá'
+			a: 'Plněná kuřecí roláda, bramborová kaše'
+			b: 'Boloňské špagety'
+		'3.5.2016':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Segedínský guláš, houskové knedlíky'
+			b: 'Smažený květák, vařené brambory'
+		'4.5.2016':
+			p: 'Čočková'
+			a: 'Flamendránská masová směs, dušená rýže'
+			b: 'Francouzské brambory, kys. okurka'
+		'5.5.2016':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: 'Vepřová játra na roštu, opékané brambory'
+		'6.5.2016':
+			p: 'Gulášová'
+			a: 'Smažený kuřecí řízek plněný šunkou a sýrem, šťouchané brambory'
+			b: 'Kynuté jahodové knedlíky s tvarohem'
