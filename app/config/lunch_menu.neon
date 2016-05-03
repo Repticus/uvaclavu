@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'25.4.2016':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Marinovaná vepřová krkovice, vařené brambory'
-			b: 'Penne s kuřecím masem a sýrovou omáčkou'
-		'26.4.2016':
-			p: 'Francouzská cibulačka'
-			a: 'Smažený hermelín, vařené brambory'
-			b: 'Směs trhaných salátu s čerstvou zeleninou, tuňákem a vejcem'
-		'27.4.2016':
-			p: 'Kmínová s vejci'
-			a: 'Vepřové nudličky na žampiónech, dušená rýže'
-			b: 'Gnocchi Siciliana (kuřecí, olivi, česnek čili)'
-		'28.4.2016':
-			p: 'Ovarová s kroupami'
-			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
-		'29.4.2016':
-			p: 'Hovězí vývar s fridátovými nudlemi '
-			a: 'Smažený Kyjevský kotlet (kuřecí stehno), vařené brambory'
-			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
 		'2.5.2016':
 			p: 'Zelná bílá'
 			a: 'Plněná kuřecí roláda, bramborová kaše'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Gulášová'
 			a: 'Smažený kuřecí řízek plněný šunkou a sýrem, šťouchané brambory'
 			b: 'Kynuté jahodové knedlíky s tvarohem'
+		'9.5.2016':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Masové kuličky s brusinkovou omáčkou, vařené brambory'
+			b: 'Srbské vepřové rizoto sypané sýrem, kys. okurka'
+		'10.5.2016':
+			p: 'Bramborová'
+			a: 'Kuřecí nudličky se smetanou, nivou a žampióny, dušená rýže'
+			b: 'Halušky se zelím a uzeným masem'
+		'11.5.2016':
+			p: 'Pórková s vejcem'
+			a: 'Medailonky z vepřové panenky, opečené brambory'
+			b: 'Tortila s masem, zeleninou a dresinkem'
+		'12.5.2016':
+			p: 'Hovězí vývar s krupicí a vejcem'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'13.5.2016':
+			p: 'Brokolicový krém'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Smažené rybí filé, bramborová kaše'
