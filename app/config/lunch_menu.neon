@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'9.5.2016':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Masové kuličky s brusinkovou omáčkou, vařené brambory'
-			b: 'Srbské vepřové rizoto sypané sýrem, kys. okurka'
-		'10.5.2016':
-			p: 'Bramborová'
-			a: 'Kuřecí nudličky se smetanou, nivou a žampióny, dušená rýže'
-			b: 'Halušky se zelím a uzeným masem'
-		'11.5.2016':
-			p: 'Pórková s vejcem'
-			a: 'Medailonky z vepřové panenky, opečené brambory'
-			b: 'Tortila s masem, zeleninou a dresinkem'
-		'12.5.2016':
-			p: 'Hovězí vývar s krupicí a vejcem'
-			a: 'Katův šleh, dušená rýže'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'13.5.2016':
-			p: 'Brokolicový krém'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Smažené rybí filé, bramborová kaše'
 		'16.5.2016':
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Smažený holandský řízek, bramborová kaše'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hrachová'
 			a: 'Hovězí guláš, houskové knedlíky'
 			b: 'Vepřový pašerácký řízek, vařené brambory'
+		'23.5.2016':
+			p: 'Drůbeží vývar se strouháním'
+			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+			b: 'Kapustový karbanátek, bramborová kaše'
+		'24.5.2016':
+			p: 'Zelná s uzeninou'
+			a: 'Smažený kuřecí řízek, vařené brambory'
+			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
+		'25.5.2016':
+			p: 'Česneková s bramborem'
+			a: 'Vepřová plec po Valašsku, houskové knedlíky'
+			b: 'Zeleninové rizoto se šunkou a sýrem, zelný salát'
+		'26.5.2016':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Šunkové krokety se sýrem, vařené brambory'
+		'27.5.2016':
+			p: 'Kulajda'
+			a: 'Čevabčiči, opékané brambory'
+			b: 'Vepřová játra na cibulce, dušená rýže'
