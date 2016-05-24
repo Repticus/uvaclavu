@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'16.5.2016':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Zeleninové lasagne'
-		'17.5.2016':
-			p: 'Prácheňská'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Zeleninový salát se smaženými kuřecími nugetkami'
-		'18.5.2016':
-			p: 'Frankfurtská s bramborem'
-			a: 'Vepřová plec na houbách, dušená rýže'
-			b: 'Domácí sekaná, lepenice'
-		'19.5.2016':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Plněné bramborové knedlíky uzeným masem, zelí'
-			b: 'Pečené kuřecí prso s kůží s čerstvým tymiánem a bylinkovým máslem, opečené brambory'
-		'20.5.2016':
-			p: 'Hrachová'
-			a: 'Hovězí guláš, houskové knedlíky'
-			b: 'Vepřový pašerácký řízek, vařené brambory'
 		'23.5.2016':
 			p: 'Drůbeží vývar se strouháním'
 			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Kulajda'
 			a: 'Čevabčiči, opékané brambory'
 			b: 'Vepřová játra na cibulce, dušená rýže'
+		'30.5.2016':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Pštrosí vejce, bramborová kaše'
+			b: 'Mexické fazole s klobásou, zelný salát'
+		'31.5.2016':
+			p: 'Zeleninová bílá'
+			a: 'Pečené kuře, vařené brambory, dušená zelenina'
+			b: 'Gnocchi se šunkou, listovým špenátem, žampióny a smetanou'
+		'1.6.2016':
+			p: 'Šalotkový krém'
+			a: 'Vepřová plec na paprice, houskové knedlíky'
+			b: 'Opečená klobása, vařená čočka, kys. okurka'
+		'2.6.2016':
+			p: 'Gulášová'
+			a: 'Smažený karbanátek, vařené brambory, kys. okurka'
+			b: 'Caesar salát s kuřecím masem'
+		'3.6.2016':
+			p: 'Hovězí vývar s vaječnou sedlinou'
+			a: 'Frankfurtský hovězí závitek, dušená rýže'
+			b: 'Domácí lívance s jahodami a smetanou'
