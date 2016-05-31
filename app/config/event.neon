@@ -16,3 +16,9 @@ parameters:
 			open: false
 		'26.2.2016':
 			event: {19:00,'Degustace sýrů','degustace-syru.jpg'}
+		'10.6.2016':
+			event: {17:00,'Burger víkend','hamburger.jpg'}
+		'11.6.2016':
+			event: {11:30,'Burger víkend','hamburger.jpg'}
+		'12.6.2016':
+			event: {11:00,'Burger víkend','hamburger.jpg'}

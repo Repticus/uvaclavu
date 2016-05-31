@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'23.5.2016':
-			p: 'Drůbeží vývar se strouháním'
-			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-			b: 'Kapustový karbanátek, bramborová kaše'
-		'24.5.2016':
-			p: 'Zelná s uzeninou'
-			a: 'Smažený kuřecí řízek, vařené brambory'
-			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
-		'25.5.2016':
-			p: 'Česneková s bramborem'
-			a: 'Vepřová plec po Valašsku, houskové knedlíky'
-			b: 'Zeleninové rizoto se šunkou a sýrem, zelný salát'
-		'26.5.2016':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Šunkové krokety se sýrem, vařené brambory'
-		'27.5.2016':
-			p: 'Kulajda'
-			a: 'Čevabčiči, opékané brambory'
-			b: 'Vepřová játra na cibulce, dušená rýže'
 		'30.5.2016':
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Pštrosí vejce, bramborová kaše'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s vaječnou sedlinou'
 			a: 'Frankfurtský hovězí závitek, dušená rýže'
 			b: 'Domácí lívance s jahodami a smetanou'
+		'6.6.2016':
+			p: 'Hovězí vývar s jarní zeleninou'
+			a: 'Plněná kuřecí kapsa, vařené brambory'
+			b: 'Špagety "Pomodoro" (rajčata, bazalka, česnek, cibule)'
+		'7.6.2016':
+			p: 'Špenátová'
+			a: 'Pikantní vepřové medailonky, opečené brambory'
+			b: 'Jablková žemlovka'
+		'8.6.2016':
+			p: 'Kmínová s vejci'
+			a: 'Smažená kuřecí prsa v těstíčku, bramborová kaše'
+			b: 'Dalmátské čufty, dušená rýže'
+		'9.6.2016':
+			p: 'Ovarová s kroupami'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Lázeňské rybí filé, vařené brambory'
+		'10.6.2016':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Pirohy z listového těsta plněné mletým masem, zelný salát'
