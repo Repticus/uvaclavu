@@ -11,6 +11,14 @@ parameters:
 	owner:
 		name: 'restaurace U Václavů' #alias emailu - jak se bude email zobrazovat
 		mail: 'restaurace@uvaclavu.cz' #email na ktery se budou odesilat prihlasky
+database:
+	default:
+		dsn: "mysql:host=127.0.0.1;dbname=uvaclavu"
+		user: "root"
+		password: "password"
+		debugger: true
+		explain: true
+		autowired: true
 
 php:
 	date.timezone: Europe/Prague

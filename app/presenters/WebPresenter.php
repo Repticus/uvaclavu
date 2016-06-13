@@ -7,12 +7,19 @@ use Nette,
 	 App\QuestionForm,
 	 App\ReservationForm,
 	 Nette\Mail\Message,
-	 Nette\Mail\SendmailMailer;
+	 Nette\Mail\SendmailMailer,
+	 Nette\Database\Context;
 
 class WebPresenter extends Nette\Application\UI\Presenter {
 
 	public $date;
 	public $openTime;
+	public $database;
+
+	public function __construct(Context $database) {
+		parent::__construct();
+		$this->database = $database;
+	}
 
 	public function actionRestaurace() {
 		$calendar = $this['calendar'];
@@ -38,24 +45,35 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->template->drink = $this->context->parameters['drink-menu'];
 	}
 
-	public function actionPoledniMenu($week = NULL) {
-		$data = $this->convertDates("lunch-menu");
-		$week = (int) $week;
-		if (!$week) {
-			$week = (int) date('W');
+	public function actionPoledniMenu($shift = NULL, $date = NULL) {
+		switch ($shift) {
+			case 'prev':
+				$date = strtotime('-7 days', $date);
+				break;
+			case 'next':
+				$date = strtotime('8 days', $date);
+				break;
+			default:
+				$date = time();
 		}
-		$setWeek = array();
-		foreach ($data as $key => $date) {
-			$weekId = (int) date('W', $key);
-			if ($weekId == $week) {
-				$setWeek[$weekId] = TRUE;
-			} else {
-				$setWeek[$weekId] = FALSE;
-				unset($data[$key]);
+		$start = strtotime('last monday', strtotime('next monday', $date));
+		$end = strtotime('next friday', $start);
+		for ($day = $start; $day <= $end; $day = strtotime('next day', $day)) {
+			$menu[$day] = FALSE;
+		}
+		$foods = $this->database->table('lunch')->where("date >= ? AND date <= ?", date('Y-m-d', $start), date('Y-m-d', $end));
+		foreach ($foods as $food) {
+			$stamp = strtotime($food->date);
+			if (isset($menu[$stamp])) {
+				$menu[$stamp] = array(
+					 'soup' => $food->soup,
+					 'food1' => $food->lunch1,
+					 'food2' => $food->lunch2
+				);
 			}
 		}
-		$this->template->menu = $data;
-		$this->template->week = $setWeek;
+		$this->template->menu = $menu;
+		$this->template->date = $start;
 	}
 
 	public function actionTuristikaPribram() {

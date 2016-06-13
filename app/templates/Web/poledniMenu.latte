@@ -11,26 +11,34 @@
 </style>
 <div id="content" class="mnu">
 	<h1>Polední menu</h1>
-	<div n:if="$week" class="menuButton">
-		<a n:foreach="$week as $weekId => $active" n:class="button, $active ? active" n:href="poledniMenu $weekId">Týden {$weekId}</a>
+
+	<div class="menuButton">
+		{var $actione = prev}
+		<a class="button" n:href="poledniMenu prev, $date">Předchozí</a>
+		<a class="button" n:href="poledniMenu">Aktuální</a>
+		<a class="button" n:href="poledniMenu next, $date">Další</a>
 	</div>
+
 	<h1 n:if="!$menu">Polední menu pro tento týden ještě nebylo vypsáno.</h1>
 	<table>
+		{*if !($food->soup && $food->lunch1 && $food->lunch2)} - Nevaří se{/if*}
 		{foreach $menu as $date => $food}
 			<tr>
-				<th colspan="2"><h2>{$date|date:'%A %d.%m.%Y'}</h2></th>
+				<th colspan="2">
+					<h2>{$date|date:'%A %d.%m.%Y'}</h2>
+				</th>
 			</tr>
-			<tr>
+			<tr n:if="$food['soup']">
 				<td>Polévka:</td>
-				<td>{$food['p']}</td>
+				<td>{$food['soup']}</td>
 			</tr>
-			<tr>
+			<tr n:if="$food['food1']">
 				<td>Jídlo A:</td>
-				<td>{$food['a']}</td>
+				<td>{$food['food1']}</td>
 			</tr>
-			<tr>
+			<tr n:if="$food['food2']">
 				<td>Jídlo B:</td>
-				<td>{$food['b']}</td>
+				<td>{$food['food2']}</td>
 			</tr>
 		{/foreach}
 	</table>
