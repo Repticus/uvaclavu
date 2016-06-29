@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'20.6.2016':
-			p: 'Pórková s vejci'
-			a: 'Masový špíz se zeleninou, opečené brambory'
-			b: 'Bramborový knedlík plněný masovou směsí, smetanový špenát'
-		'21.6.2016':
-			p: 'Zelná s klobásou'
-			a: 'Kuřecí soté, dušená rýže'
-			b: 'Zeleninové řízečky, bramborová kaše'
-		'22.6.2016':
-			p: 'Květáková'
-			a: 'Štěpánská hovězí pečeně, houskové knedlíky'
-			b: 'Maminčino kuře'
-		'23.6.2016':
-			p: 'Jemná kuřecí'
-			a: 'Plněná vepřová pečeně "Avignon" (šunka, cibule), šťouchané brambory'
-			b: 'Gruzínská rýže, kys. okurka'
-		'24.6.2016':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Studentský řízek (sm. Gothaj), bramborová kaše'
 		'27.6.2016':
 			p: 'Kapustová'
 			a: 'Pikantní vepřové medailonky, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Smažená kuřecí prsa, bramborová kaše'
 			b: 'Směs trhaných salátů s čerstvou zeleninou, tuňákem a vejcem'
+		'4.7.2016':
+			p: 'Z provozních důvodů se nevaří'
+			a: ''
+			b: ''
+		'5.7.2016':
+			p: 'Z důvodu státního svátku se nevaří'
+			a: ''
+			b: ''
+		'6.7.2016':
+			p: 'Z důvodu státního svátku se nevaří'
+			a: ''
+			b: ''
+		'7.7.2016':
+			p: 'Čočková s uzeninou'
+			a: 'Kuřecí nudličky po římsku, dušená rýže'
+			b: 'Střapačky se zelím a uzeným masem'
+		'8.7.2016':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Sikulské vepřové žebírko, houskové knedlíky'
+			b: 'Zapečené bramborové nočky se sýrem a šunkou'
