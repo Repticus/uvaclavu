@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'27.6.2016':
-			p: 'Kapustová'
-			a: 'Pikantní vepřové medailonky, vařené brambory'
-			b: 'Drůbeží rizoto se zeleninou, kys. okurka'
-		'28.6.2016':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Vepřové výpečky, houskové knedlíky, zelí'
-			b: 'Zapečná brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
-		'29.6.2016':
-			p: 'Hrstková'
-			a: 'Slovenská pochoutka, bramborové placky'
-			b: 'Lasagne s mletým masem'
-		'30.6.2016':
-			p: 'Bramborová'
-			a: 'Znojemská hovězí pečeně, dušená rýže'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
-		'1.7.2016':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Smažená kuřecí prsa, bramborová kaše'
-			b: 'Směs trhaných salátů s čerstvou zeleninou, tuňákem a vejcem'
 		'4.7.2016':
 			p: 'Z provozních důvodů se nevaří'
 			a: ''
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Sikulské vepřové žebírko, houskové knedlíky'
 			b: 'Zapečené bramborové nočky se sýrem a šunkou'
+		'11.7.2016':
+			p: 'Kuřecí vývar s masem a nudlemi'
+			a: 'Přírodní vepřový řízek, vařené brambory'
+			b: 'Zapečené palačinky s tvarohem'
+		'12.7.2016':
+			p: 'Selská'
+			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
+			b: 'Čevabčiči, vařené brambory'
+		'13.7.2016':
+			p: 'Česneková s bramborem'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Smažená treska, bramborová kaše'
+		'14.7.2016':
+			p: 'Dršťková'
+			a: 'Cikánský hovězí plátek, dušená rýže'
+			b: 'Domácí jitrnicový prejt, lepenice'
+		'15.7.2016':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Gnocchi s kuřecím masem, brokolicí a smetanou'
