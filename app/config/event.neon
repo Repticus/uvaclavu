@@ -26,3 +26,7 @@ parameters:
 			event: {17:00,'Venkovní grilování','grilovani.jpg'}
 		'25.6.2016':
 			event: {11:30,'Venkovní grilování','grilovani.jpg'}
+		'15.7.2016':
+			event: {17:00,'Venkovní grilování','grilovani2.jpg'}
+		'16.7.2016':
+			event: {11:30,'Venkovní grilování','grilovani2.jpg'}
