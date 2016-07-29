@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'18.7.2016':
-			p: 'Zelná bílá'
-			a: 'Smažená plněná kuřecí kapsa, vařené brambory'
-			b: 'Uzená krkovice, vařená čočka, kys. okurka'
-		'19.7.2016':
-			p: 'Hráškový krém'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Těstovinový salát s kuřecím masem'
-		'20.7.2016':
-			p: 'Francouzská cibulačka'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Rizoto z vepřového masa, zelný salát'
-		'21.7.2016':
-			p: 'Gulášová'
-			a: 'Smažený karbanátek s hermelínem, vařené brambory'
-			b: 'Špekové knedlíky se zelím'
-		'22.7.2016':
-			p: 'Hovězí vývar s játrovými knedlíčky '
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
 		'25.7.2016':
 			p: 'Kmínová s vejci'
 			a: 'Kuřecí špíz se zeleninou, opečené brambory'
@@ -40,3 +20,43 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
 			b: 'Zapečené těstoviny "Primavera"'
+		'1.8.2016':
+			p: 'Kulajda'
+			a: 'Marinovaná vepřová krkovička, vařené brambory'
+			b: 'Kari rýže s kuřecím masem, zeleninou a sýrovou omáčkou'
+		'2.8.2016':
+			p: 'Drůbková'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
+		'3.8.2016':
+			p: 'Fazolová bílá'
+			a: 'Hovězí guláš, houskové knedlíky'
+			b: 'Vepřová játra na roštu, opečené brambory'
+		'4.8.2016':
+			p: 'Květáková'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b: 'Smažený sýrový špíz se šunkou, vařené brambory'
+		'5.8.2016':
+			p: 'Hovězí vývar s krupicí a vejcem'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Těstoviny penne s kuřecím masem, žampióny, smetanou a sýrem'
+		'8.8.2016':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Maso dvou barev (kuřecí, kýta), dušená rýže'
+			b: 'Plněné knedlíky uzeným masem, zelí'
+		'9.8.2016':
+			p: 'Fazolová s klobásou'
+			a: 'Smažený holandský řízek, bramborová kaše'
+			b: 'Zeleninové rizoto se šunkou a sýrem, kys. okurka'
+		'10.8.2016':
+			p: 'Ovarová s kroupami'
+			a: 'Klatovský hovězí závitek, houskové knedlíky'
+			b: 'Lázeňské rybí filé, vařené brambory'
+		'11.8.2016':
+			p: 'Prácheňská'
+			a: 'Plněný paprikový lusk, dušená rýže'
+			b: 'Mexické fazole, pečená bagetka'
+		'12.8.2016':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Vepřové žebírko na kmíně, houskové knedlíky'
+			b: 'Boloňské špagety'
