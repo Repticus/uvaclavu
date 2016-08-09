@@ -1,45 +1,5 @@
 parameters:
 	lunch-menu:
-		'25.7.2016':
-			p: 'Kmínová s vejci'
-			a: 'Kuřecí špíz se zeleninou, opečené brambory'
-			b: 'Plněné bramborové švestkové knedlíky s mákem a cukrem'
-		'26.7.2016':
-			p: 'Jemná kuřecí'
-			a: 'Medailonky z vepřové panenky, fazolové lusky s česnekem'
-			b: 'Smažený květák, vařené brambory'
-		'27.7.2016':
-			p: 'Brokolicová'
-			a: 'Vepřový pašerácký řízek, vařené brambory'
-			b: 'Směs trhaných salátů s čerstvou zeleninou a grilovaným kuřecím masem'
-		'28.7.2016':
-			p: 'Zeleninová bílá'
-			a: 'Domažlické vepřové ragú, dušená rýže'
-			b: 'Cmunda po kaplicku'
-		'29.7.2016':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
-			b: 'Zapečené těstoviny "Primavera"'
-		'1.8.2016':
-			p: 'Kulajda'
-			a: 'Marinovaná vepřová krkovička, vařené brambory'
-			b: 'Kari rýže s kuřecím masem, zeleninou a sýrovou omáčkou'
-		'2.8.2016':
-			p: 'Drůbková'
-			a: 'Katův šleh, dušená rýže'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
-		'3.8.2016':
-			p: 'Fazolová bílá'
-			a: 'Hovězí guláš, houskové knedlíky'
-			b: 'Vepřová játra na roštu, opečené brambory'
-		'4.8.2016':
-			p: 'Květáková'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Smažený sýrový špíz se šunkou, vařené brambory'
-		'5.8.2016':
-			p: 'Hovězí vývar s krupicí a vejcem'
-			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
-			b: 'Těstoviny penne s kuřecím masem, žampióny, smetanou a sýrem'
 		'8.8.2016':
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Maso dvou barev (kuřecí, kýta), dušená rýže'
@@ -60,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Vepřové žebírko na kmíně, houskové knedlíky'
 			b: 'Boloňské špagety'
+		'15.8.2016':
+			p: 'Frankfurtská s bramborem'
+			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
+			b: 'Květákové placičky, rajčatový salát'
+		'16.8.2016':
+			p: 'Čočková'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: 'Jablková žemlovka s tvarohem'
+		'17.8.2016':
+			p: 'Zelená s uzeninou'
+			a: 'Smažený kyjevský kotlet (kuřecí stehno), vařené brambory'
+			b: 'Směs trhaných salátu se smaženým hermelínem a brusinkami'
+		'18.8.2016':
+			p: 'Pórková s vejcem'
+			a: 'Kachní galantina, lepenice'
+			b: 'Lasagne s mletým masem'
+		'19.8.2016':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Pečený vepřový bůček, červené zelí, houskové knedlíky'
+			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
