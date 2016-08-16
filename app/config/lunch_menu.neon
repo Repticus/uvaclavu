@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'8.8.2016':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Maso dvou barev (kuřecí, kýta), dušená rýže'
-			b: 'Plněné knedlíky uzeným masem, zelí'
-		'9.8.2016':
-			p: 'Fazolová s klobásou'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Zeleninové rizoto se šunkou a sýrem, kys. okurka'
-		'10.8.2016':
-			p: 'Ovarová s kroupami'
-			a: 'Klatovský hovězí závitek, houskové knedlíky'
-			b: 'Lázeňské rybí filé, vařené brambory'
-		'11.8.2016':
-			p: 'Prácheňská'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Mexické fazole, pečená bagetka'
-		'12.8.2016':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Vepřové žebírko na kmíně, houskové knedlíky'
-			b: 'Boloňské špagety'
 		'15.8.2016':
 			p: 'Frankfurtská s bramborem'
 			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Pečený vepřový bůček, červené zelí, houskové knedlíky'
 			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
+		'22.8.2016':
+			p: 'Drůbeží vývar se strouháním'
+			a: 'Kuřecí prsa s rozmarýnem, vařené brambory'
+			b: 'Srbské vepřové rizoto, kys. okurka'
+		'23.8.2016':
+			p: 'Kapustová se slaninou'
+			a: 'Smažený vepřový řízek, vařené brambory'
+			b: 'Gnocchi Siciliana (kuřecí, olivy, bazalka, česnek, čili)'
+		'24.8.2016':
+			p: 'Hrstková'
+			a: 'Debrecínský vepřový guláš, houskové knedlíky'
+			b: 'Maminčino kuře'
+		'25.8.2016':
+			p: 'Italská'
+			a: 'Hovězí pečeně na slanině, dušená rýže'
+			b: 'Zapečené francouzské brambory, kys. okurka'
+		'26.8.2016':
+			p: 'Hovězí vývar s fridátovými nudlemi'
+			a: 'Vepřový závitek na česneku, bramborové knedlíky'
+			b: 'Opečená vinná klobása, šťouchané brambory'
