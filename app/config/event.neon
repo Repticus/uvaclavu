@@ -38,3 +38,7 @@ parameters:
 			event: {17:00,'Venkovní grilování','ryby.jpg'}
 		'13.8.2016':
 			event: {11:30,'Venkovní grilování','ryby.jpg'}
+		'26.8.2016':
+			event: {17:00,'Burger víkend','hamburger2.jpg'}
+		'27.8.2016':
+			event: {11:30,'Burger víkend','hamburger2.jpg'}
