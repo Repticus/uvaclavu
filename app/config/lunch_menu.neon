@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'15.8.2016':
-			p: 'Frankfurtská s bramborem'
-			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
-			b: 'Květákové placičky, rajčatový salát'
-		'16.8.2016':
-			p: 'Čočková'
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: 'Jablková žemlovka s tvarohem'
-		'17.8.2016':
-			p: 'Zelená s uzeninou'
-			a: 'Smažený kyjevský kotlet (kuřecí stehno), vařené brambory'
-			b: 'Směs trhaných salátu se smaženým hermelínem a brusinkami'
-		'18.8.2016':
-			p: 'Pórková s vejcem'
-			a: 'Kachní galantina, lepenice'
-			b: 'Lasagne s mletým masem'
-		'19.8.2016':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Pečený vepřový bůček, červené zelí, houskové knedlíky'
-			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
 		'22.8.2016':
 			p: 'Drůbeží vývar se strouháním'
 			a: 'Kuřecí prsa s rozmarýnem, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s fridátovými nudlemi'
 			a: 'Vepřový závitek na česneku, bramborové knedlíky'
 			b: 'Opečená vinná klobása, šťouchané brambory'
+		'29.8.2016':
+			p: 'Bramborová'
+			a: 'Flamendránská masová směs, dušená rýže'
+			b: 'Zapečené těstoviny s kuřecím masem a zeleninou'
+		'30.8.2016':
+			p: 'Žampiónová'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Opečená klobása, hrachová kaše, kys. okurka'
+		'31.8.2016':
+			p: 'Francouzská cibulačka'
+			a: 'Mletý řízek na grilu, fazolové lusky s česnekem, pepřová omáčka'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'1.9.2016':
+			p: 'Gulášová'
+			a: 'Vepřová plec po selsku, houskové knedlíky zelí'
+			b: 'Šunkové krokety se sýrem, bramborová kaše'
+		'2.9.2016':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Nadívané pečené kuře, vařené brambory'
+			b: 'Dalmátské čufty, dušená rýže'
