@@ -1,45 +1,5 @@
 parameters:
 	lunch-menu:
-		'22.8.2016':
-			p: 'Drůbeží vývar se strouháním'
-			a: 'Kuřecí prsa s rozmarýnem, vařené brambory'
-			b: 'Srbské vepřové rizoto, kys. okurka'
-		'23.8.2016':
-			p: 'Kapustová se slaninou'
-			a: 'Smažený vepřový řízek, vařené brambory'
-			b: 'Gnocchi Siciliana (kuřecí, olivy, bazalka, česnek, čili)'
-		'24.8.2016':
-			p: 'Hrstková'
-			a: 'Debrecínský vepřový guláš, houskové knedlíky'
-			b: 'Maminčino kuře'
-		'25.8.2016':
-			p: 'Italská'
-			a: 'Hovězí pečeně na slanině, dušená rýže'
-			b: 'Zapečené francouzské brambory, kys. okurka'
-		'26.8.2016':
-			p: 'Hovězí vývar s fridátovými nudlemi'
-			a: 'Vepřový závitek na česneku, bramborové knedlíky'
-			b: 'Opečená vinná klobása, šťouchané brambory'
-		'29.8.2016':
-			p: 'Bramborová'
-			a: 'Flamendránská masová směs, dušená rýže'
-			b: 'Zapečené těstoviny s kuřecím masem a zeleninou'
-		'30.8.2016':
-			p: 'Žampiónová'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Opečená klobása, hrachová kaše, kys. okurka'
-		'31.8.2016':
-			p: 'Francouzská cibulačka'
-			a: 'Mletý řízek na grilu, fazolové lusky s česnekem, pepřová omáčka'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
-		'1.9.2016':
-			p: 'Gulášová'
-			a: 'Vepřová plec po selsku, houskové knedlíky zelí'
-			b: 'Šunkové krokety se sýrem, bramborová kaše'
-		'2.9.2016':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Nadívané pečené kuře, vařené brambory'
-			b: 'Dalmátské čufty, dušená rýže'
 		'5.9.2016':
 			p: 'Špenátová'
 			a: 'Pikantní vepřové medailonky, opékané brambory'
@@ -60,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Domácí lívance s jahodami a zakysanou smetanou'
+		'12.9.2016':
+			p: 'Kuřecí vývar se strouháním'
+			a: 'Pašerácký vepřový řízek, vařené brambory'
+			b: 'Špagety po uhlířsku, rajčatový salát'
+		'13.9.2016':
+			p: 'Kmínová s vejci'
+			a: 'Smažená kuřecí prsa ve vinném těstíčku, vařené brambory'
+			b: 'Tortila s masem, zeleninou a dresinkem'
+		'14.9.2016':
+			p: 'Hráškový krém'
+			a: 'Štěpánská hovězí pečeně, dušená rýže'
+			b: 'Směs trhaných salátů s tuňákem a vejcem'
+		'15.9.2016':
+			p: 'Boršč'
+			a: 'Vepřové maso v mrkvi, vařené brambory'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'16.9.2016':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Kuře na paprice, houskové knedlíky'
+			b: 'Pštrosí vejce, bramborová kaše'
