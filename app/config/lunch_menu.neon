@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'5.9.2016':
-			p: 'Špenátová'
-			a: 'Pikantní vepřové medailonky, opékané brambory'
-			b: 'Kuskus s kuřecím masem a zeleninou, zelný salát'
-		'6.9.2016':
-			p: 'Zeleninová'
-			a: 'Kuřecí nudličky po římsku, dušená rýže'
-			b: 'Kapustový karbanátek, bramborová kaše'
-		'7.9.2016':
-			p: 'Čočková s uzeninou'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Sekaná pečeně, šťouchané brambory'
-		'10.9.2016':
-			p: 'Zelná bílá'
-			a: 'Pečená kuřecí křidélka v pikantní marinádě, vařené brambory'
-			b: 'Slovenská pochoutka, bramborové placky'
-		'11.9.2016':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Domácí lívance s jahodami a zakysanou smetanou'
 		'12.9.2016':
 			p: 'Kuřecí vývar se strouháním'
 			a: 'Pašerácký vepřový řízek, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Kuře na paprice, houskové knedlíky'
 			b: 'Pštrosí vejce, bramborová kaše'
+		'19.9.2016':
+			p: 'Květáková'
+			a: 'Přírodní hovězí pečeně, dušená rýže'
+			b: 'Smažený sýr, vařené brambory'
+		'20.9.2016':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
+			b: 'Brokolicové placičky, vařené brambory'
+		'21.9.2016':
+			p: 'Bramborová'
+			a: 'Kuřecí soté, dušená rýže'
+			b: 'Střapačky se zelím a uzeným masem'
+		'22.9.2016':
+			p: 'Dršťková'
+			a: 'Smažený holandský řízek, bramborová kaše'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'23.9.2016':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Vepřová plec po Valašsku, houskové knedlíky'
+			b: 'Těstoviny penne s kuřecím masem, žampióny a smetanou'
