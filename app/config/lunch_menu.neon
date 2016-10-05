@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'26.9.2016':
-			p: 'Selská'
-			a: 'Pečená kuřecí prsa na zázvoru s medem, vařené brambory'
-			b: 'Vepřová játra na cibulce, dušená rýže'
-		'27.9.2016':
-			p: 'Hovězí vývar s kurpicí a vejcem'
-			a: 'Vepřové maso na kmíně, vařené těstoviny'
-			b: 'Smažené rybí filé, bramborová kaše'
-		'28.9.2016':
-			p: 'Z důvodu státního svátku se nevaří'
-			a: ''
-			b: ''
-		'29.9.2016':
-			p: 'Zelná s uzeninou'
-			a: 'Kuřecí nudličky po čínsku, kari rýže'
-			b: 'Studentský smažený řízek (Gothaj), bramborová kaše'
-		'30.9.2016':
-			p: 'Česneková s bramborem'
-			a: 'Segedínský guláš, houskové knedlíky'
-			b: 'Těstovinový salát s kuřecím masem a zeleninou'
 		'3.10.2016':
 			p: 'Drůbeží vývar s kapáním'
 			a: 'Vepřový šleh, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Hovězí svíčková na smetaně, houskové knedlíky'
 			b: 'Domácí jitrnicový prejt, lepenice'
+		'10.10.2016':
+			p: 'Kulajda'
+			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
+			b: 'Zapečené palačinky s tvarohem'
+		'11.10.2016':
+			p: 'Frankfurtská'
+			a: 'Vepřové nudličky po zahradnicku, dušená rýže'
+			b: 'Paprikový salát s majonézou, šunkou a vejci, pečená bagetka'
+		'12.10.2016':
+			p: 'Pórková s vejci'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: 'Vepřová játra na roštu, vařené brambory'
+		'13.10.2016':
+			p: 'Hrstková'
+			a: 'Medailonky z vepřové krkovičky, opečené brambory'
+			b: 'Gnocchi s kuřecím masem, listovým špenátem a smetanou'
+		'14.10.2016':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Smažená kuřecí prsa s česnekem, vařené brambory'
+			b: 'Plněné bramborové knedlíky uzeným masem, zelí'
