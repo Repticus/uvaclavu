@@ -42,3 +42,5 @@ parameters:
 			event: {17:00,'Burger víkend','hamburger2.jpg'}
 		'27.8.2016':
 			event: {11:30,'Burger víkend','hamburger2.jpg'}
+		'11.11.2016':
+			event: {19:00,'Ochutnávka Svatomartinského vína','svatomartinske.jpg'}
