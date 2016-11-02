@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'24.10.2016':
-			p: 'Drůbeží vývar se strouháním'
-			a: 'Smažený vepřový řízek, bramborový salát'
-			b: 'Opečená klobása, hrachová kaše, kys. okurka'
-		'25.10.2016':
-			p: 'Gulášová'
-			a: 'Kuřecí nudličky se smetanovou omáčkou, dušená rýže'
-			b: 'Směs trhaných salátů se smaženým hermelínem a brusinkami'
-		'26.10.2016':
-			p: 'Bramborová'
-			a: 'Vídeňský hovězí guláš, houskové knedlíky'
-			b: 'Zapečené švýcarské brambory se šunkou a sýrem'
-		'27.10.2016':
-			p: 'Hovězí vývar s fridátovými nudlemi'
-			a: 'Vepřová kotleta na kmíně, dušená rýže'
-			b: 'Staročeská sekanina, lepenice'
-		'28.10.2016':
-			p: 'Z důvodu státního svátku se nevaří'
-			a:
-			b:
 		'31.10.2016':
 			p: 'Květáková'
 			a: 'Kuřecí nudličky po indicku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Boršč'
 			a: 'Pečené kuře s nádivkou, vařené brambory'
 			b: 'Srbské vepřové rizoto, kys. okurka'
+		'7.11.2016':
+			p: 'Zeleninový vývar se strouháním'
+			a: 'Vepřové medailonky "Delikates", dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'8.11.2016':
+			p: 'Veselská zelnice'
+			a: 'Masové kuličky po mexicku, vařené brambory'
+			b: 'Špagety s hříbky, šunkou a sýrem'
+		'9.11.2016':
+			p: 'Ovarová bílá'
+			a: 'Pražská hovězí pečeně, dušená rýže'
+			b: 'Šunkové krokety se sýrem, bramborová kaše'
+		'10.11.2016':
+			p: 'Havířská fazolačka'
+			a: 'Uzený bůček, bramborové knedlíky, špenát'
+			b: 'Opečená vinná klobása, šťouchané brambory'
+		'11.11.2016':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Kuřecí prsa na másle s čerstvým tymiánem, vařené brambory'
+			b: 'Zabíjačkový guláš, houskové knedlíky'
