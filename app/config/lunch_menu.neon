@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'31.10.2016':
-			p: 'Květáková'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Přírodní sekaný řízek na žampiónech, vařené brambory'
-		'1.11.2016':
-			p: 'Čočková s klobásou'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Smažená vepřová játra, vařené brambory'
-		'2.11.2016':
-			p: 'Špenátová'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Zapečené těstoviny "Primavera", zelný salát'
-		'3.11.2016':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Vepřový vrabec, chlupaté knedlíky, zelí'
-			b: 'Smažená kuřecí prsa těstíčku, bramborová kaše'
-		'4.11.2016':
-			p: 'Boršč'
-			a: 'Pečené kuře s nádivkou, vařené brambory'
-			b: 'Srbské vepřové rizoto, kys. okurka'
 		'7.11.2016':
 			p: 'Zeleninový vývar se strouháním'
 			a: 'Vepřové medailonky "Delikates", dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Kuřecí prsa na másle s čerstvým tymiánem, vařené brambory'
 			b: 'Zabíjačkový guláš, houskové knedlíky'
+		'14.11.2016':
+			p: 'Kuřecí vývar s kapáním'
+			a: 'Přírodní závitek z vepřového masa, dušená rýže'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'15.11.2016':
+			p: 'Žampiónová'
+			a: 'Plněný paprikový lusk, houskové knedlíky'
+			b: 'Gnocchi "Siciliana" (kuřecí maso, olivy, bazalka, česnek, čili)'
+		'16.11.2016':
+			p: 'Kmínová s vejci'
+			a: 'Hovězí pečeně na slanině, dušená rýže'
+			b: 'Maminčino kuře'
+		'17.11.2016':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
+		'18.11.2016':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Cmunda po kaplicku'
+			b: 'Tortila s kuřecím masem a zeleninou'
