@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'21.11.2016':
-			p: 'Drůbková'
-			a: 'Vepřové nudličky s klobásovou směsí, dušená rýže'
-			b: 'Brokolicový řízek se sýrem, bramborová kaše'
-		'22.11.2016':
-			p: 'Česneková'
-			a: 'Vepřová plec po selsku, bramborové knedlíky, zelí'
-			b: 'Zapečené lázenšké rybí filé, vařené brambory'
-		'23.11.2016':
-			p: 'Prácheňská'
-			a: 'Smažený karbanátek, vařené brambory'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
-		'24.11.2016':
-			p: 'Dršťková'
-			a: 'Marinovaná vepřová krkovice, gurmánské brambory se slaninou a cibulkou'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'25.11.2016':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Placičky z mletého masa v  rajské omáčce, dušená rýže'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okruka'
 		'28.11.2016':
 			p: 'Frankfurtská'
 			a: 'Kuřecí nudličky po římsku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s fridátovými nudlemi'
 			a: 'Svíčková na smetaně, houskové knedlíky'
 			b: 'Smažený celer se šunkou, bramborová kaše'
+		'5.12.2016':
+			p: 'Kulajda'
+			a: 'Kuřecí nudličky s brokolicí a smetanou, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'6.12.2016':
+			p: 'Zeleninová bílá'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Květákové placičky, 1/2 vařené brambory, 1/2 zelný salát'
+		'7.12.2016':
+			p: 'Francouzská cibulačka'
+			a: 'Hovězí maso na houbách, vařené těstoviny'
+			b: 'Uzená krkovice, vařená čočka, kys. okurka'
+		'8.12.2016':
+			p: 'Hrachová s uzeninou'
+			a: 'Pečené kuřecí stehno, vařené brambory'
+			b: 'Směs trhaných salátů se zeleninou, tuňákem a vejcem'
+		'9.12.2016':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Smažený holandský řízek, vařené brambory'
+			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
