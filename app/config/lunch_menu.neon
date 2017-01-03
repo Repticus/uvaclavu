@@ -1,45 +1,5 @@
 parameters:
 	lunch-menu:
-		'12.12.2016':
-			p: 'Ragú polévka s masem'
-			a: 'Záhorácký závitek, bramborové knedlíky'
-			b: 'Zapečené těstoviny s kuřecím masem a zeleninou'
-		'13.12.2016':
-			p: 'Kuřecí vývar se strouháním'
-			a: 'Vepřové žebírko na kmíně, vařené brambory'
-			b: 'Jablková žemlovka s tvarohem'
-		'14.12.2016':
-			p: 'Hráškový krém'
-			a: 'Cikánská hovězí pečeně, houskové knedlíky'
-			b: 'Kuřecí roláda, šťouchané brambory'
-		'15.12.2016':
-			p: 'Zelná s bramborem'
-			a: 'Sekaný řízek v těstíčku, bramborová kaše'
-			b: 'Vepřové rizoto se sýrem, kys. okurka'
-		'16.12.2016':
-			p: 'Hovězí vývar s masem a rýží'
-			a: 'Kuřecí prsa na na bylinkách, vařené brambory'
-			b: 'Vepřové ledvinky na cibulce, dušená rýže'
-		'19.12.2016':
-			p: 'Selská'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Pštrosí vejce, bramborová kaše'
-		'20.12.2016':
-			p: 'Zeleninový vývar s kapáním'
-			a: 'Vepřový šleh, dušená rýže'
-			b: 'Kus kus s kuřecím masem a zeleninou'
-		'21.12.2016':
-			p: 'Žampiónová'
-			a: 'Kuře na papřice, houskové knedlíky'
-			b: 'Smažené rybí filé, vařené brambory'
-		'22.12.2016':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Domácí lívance s jahodami a smetanou'
-		'23.12.2016':
-			p:
-			a: 'Z důvodu plánované dovolené u většiny našich zákazníků se nevaří'
-			b: 'Všem našim zákazníkům přejeme krásné prožití vánočních svátků a hodně zdraví i úspěchů v nadcházejícím roce 2017'
 		'2.1.2017':
 			p: 'Květáková'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -60,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Čevabčiči, vařené brambory'
 			b: 'Slovenská pochoutka, bramborové placky'
+		'9.1.2017':
+			p: 'Bramborová'
+			a: 'Maso dvou barev, kari rýže'
+			b: 'Zeleninové řízečky, bramborová kaše'
+		'10.1.2017':
+			p: 'Fazolová s uzeninou'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Lasagne s mletým masem'
+		'11.1.2017':
+			p: 'Boršč'
+			a: 'Pikantní vepřové medailonky, vařené brambory'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'12.1.2017':
+			p: 'Ovarová bílá'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Vepřová játra na roštu, vařené brambory'
+		'13.1.2017':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Gnocchci s kuřecím masem, listovým špenátem a smetanou'
