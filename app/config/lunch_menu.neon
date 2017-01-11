@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'2.1.2017':
-			p: 'Květáková'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Těstoviny penne se šunkou, žampióny a sýrovou omáčkou'
-		'3.1.2017':
-			p: 'Gulášová'
-			a: 'Vepřový pašerácký řízek, vařené brambory'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'4.1.2017':
-			p: 'Pórková s vejci'
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: 'Pečená kuřecí křidélka, vařené brambory'
-		'5.1.2017':
-			p: 'Hrstková'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Boloňské špagety'
-		'6.1.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Čevabčiči, vařené brambory'
-			b: 'Slovenská pochoutka, bramborové placky'
 		'9.1.2017':
 			p: 'Bramborová'
 			a: 'Maso dvou barev, kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Gnocchci s kuřecím masem, listovým špenátem a smetanou'
+		'16.1.2017':
+			p: 'Česneková'
+			a: 'Plněná kuřecí kapsa, vařené brambory'
+			b: 'Zeleninové rizoto se šunkou a sýrem, zelný salát'
+		'17.1.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Smažený karbanátek, šťouchané brambory'
+			b: 'Špekové knedlíky se zelím'
+		'18.1.2017':
+			p: 'Italská'
+			a: 'Domažlické vepřové ragú, dušená rýže'
+			b: 'Francouzské brambory, kys. okurka'
+		'19.1.2017':
+			p: 'Hrachová'
+			a: 'Vídeňský hovězí guláš, houskové knedlíky'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
+		'20.1.2017':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
+			b: 'Opečená jitrnice, lepenice'
