@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'9.1.2017':
-			p: 'Bramborová'
-			a: 'Maso dvou barev, kari rýže'
-			b: 'Zeleninové řízečky, bramborová kaše'
-		'10.1.2017':
-			p: 'Fazolová s uzeninou'
-			a: 'Smažený sýr, vařené brambory'
-			b: 'Lasagne s mletým masem'
-		'11.1.2017':
-			p: 'Boršč'
-			a: 'Pikantní vepřové medailonky, vařené brambory'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'12.1.2017':
-			p: 'Ovarová bílá'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Vepřová játra na roštu, vařené brambory'
-		'13.1.2017':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Gnocchci s kuřecím masem, listovým špenátem a smetanou'
 		'16.1.2017':
 			p: 'Česneková'
 			a: 'Plněná kuřecí kapsa, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
 			b: 'Opečená jitrnice, lepenice'
+		'23.1.2017':
+			p: 'Zeleninová bílá'
+			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
+			b: 'Uzená rolovaná plec, hrachová kaše'
+		'24.1.2017':
+			p: 'Špenátová'
+			a: 'Plněná vepřová roláda, vařené brambory'
+			b: 'Těstovinový salát s kuřecím masem'
+		'25.1.2017':
+			p: 'Francouzská cibulačka'
+			a: 'Vepřový flamendr, dušená rýže'
+			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
+		'26.1.2017':
+			p: 'Čočková'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Studentský smažený řízek (Gothaj), bramborová kaše'
+		'27.1.2017':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Plněný paprikový lusk, dušená rýže'
+			b: 'Maminčino kuře'
