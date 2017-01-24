@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'16.1.2017':
-			p: 'Česneková'
-			a: 'Plněná kuřecí kapsa, vařené brambory'
-			b: 'Zeleninové rizoto se šunkou a sýrem, zelný salát'
-		'17.1.2017':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Smažený karbanátek, šťouchané brambory'
-			b: 'Špekové knedlíky se zelím'
-		'18.1.2017':
-			p: 'Italská'
-			a: 'Domažlické vepřové ragú, dušená rýže'
-			b: 'Francouzské brambory, kys. okurka'
-		'19.1.2017':
-			p: 'Hrachová'
-			a: 'Vídeňský hovězí guláš, houskové knedlíky'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
-		'20.1.2017':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
-			b: 'Opečená jitrnice, lepenice'
 		'23.1.2017':
 			p: 'Zeleninová bílá'
 			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Plněný paprikový lusk, dušená rýže'
 			b: 'Maminčino kuře'
+		'30.1.2017':
+			p: 'Žampiónová'
+			a: 'Mletý řízek na grilu, fazolové lusky s česnekem, pepřová omáčka'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'31.1.2017':
+			p: 'Kulajda'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'1.2.2017':
+			p: 'Zeleninový vývar s kapáním'
+			a: 'Kuřecí nudličky po čínsku, kari rýže'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'2.2.2017':
+			p: 'Ragú polévka s masem'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Smažený celer se šunkou, vařené brambory'
+		'3.2.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Hovězí pečeně na slanině, dušená rýže'
+			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, bazalka, česnek, čili)'
