@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'23.1.2017':
-			p: 'Zeleninová bílá'
-			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
-			b: 'Uzená rolovaná plec, hrachová kaše'
-		'24.1.2017':
-			p: 'Špenátová'
-			a: 'Plněná vepřová roláda, vařené brambory'
-			b: 'Těstovinový salát s kuřecím masem'
-		'25.1.2017':
-			p: 'Francouzská cibulačka'
-			a: 'Vepřový flamendr, dušená rýže'
-			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'26.1.2017':
-			p: 'Čočková'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Studentský smažený řízek (Gothaj), bramborová kaše'
-		'27.1.2017':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Maminčino kuře'
 		'30.1.2017':
 			p: 'Žampiónová'
 			a: 'Mletý řízek na grilu, fazolové lusky s česnekem, pepřová omáčka'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Hovězí pečeně na slanině, dušená rýže'
 			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, bazalka, česnek, čili)'
+		'6.2.2017':
+			p: 'Pórková s vejcem'
+			a: 'Kuřecí prsa na másle a čerstvém tymiánu, vařené brambory'
+			b: 'Mexické fazole s klobásou'
+		'7.2.2017':
+			p: 'Zelná s uzeninou'
+			a: 'Vepřové nudličky po zahradnicku, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'8.2.2017':
+			p: 'Selská'
+			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
+			b: 'Vepřová játra na cibulce, dušená rýže'
+		'9.2.2017':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Smažený vepřový řízek, bramborový salát'
+			b: 'Halušky se zelím a uzeným masem'
+		'10.2.2017':
+			p: 'Bramborová '
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Kari rýže s kuřecím masem a sýrovou omáčkou'
