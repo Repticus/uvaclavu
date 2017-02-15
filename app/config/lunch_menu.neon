@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'6.2.2017':
-			p: 'Pórková s vejcem'
-			a: 'Kuřecí prsa na másle a čerstvém tymiánu, vařené brambory'
-			b: 'Mexické fazole s klobásou'
-		'7.2.2017':
-			p: 'Zelná s uzeninou'
-			a: 'Vepřové nudličky po zahradnicku, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'8.2.2017':
-			p: 'Selská'
-			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
-			b: 'Vepřová játra na cibulce, dušená rýže'
-		'9.2.2017':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Smažený vepřový řízek, bramborový salát'
-			b: 'Halušky se zelím a uzeným masem'
-		'10.2.2017':
-			p: 'Bramborová '
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Kari rýže s kuřecím masem a sýrovou omáčkou'
 		'13.2.2017':
 			p: 'Gulášová'
 			a: 'Smažený holandský řízek, vařené brambory, kys. okurka'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hrachová s uzeninou'
 			a: 'Vepřová plec na houbách, dušená rýže'
 			b: 'Zapečené lázeňské rybí filé, vařené brambory'
+		'20.2.2017':
+			p: 'Zeleninová bílá'
+			a: 'Smažená kuřecí prsa ve vinném těstíčku, vařené brambory'
+			b: 'Ze zdravotních důvodů budeme vařit v následujících 3 týdnech pouze jedno menu denně. Velice se omlouváme a děkujeme za pochopení.'
+		'21.2.2017':
+			p: 'Čočková s uzeninou'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b:
+		'22.2.2017':
+			p: 'Česneková'
+			a: 'Plněná vepřová roláda, vařené brambory'
+			b:
+		'23.2.2017':
+			p: 'Frankfurtská s bramborem'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b:
+		'24.2.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Vepřové žebírko na kmíně, dušená rýže'
+			b:
