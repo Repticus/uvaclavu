@@ -78,9 +78,9 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	public function submitQuestion($form) {
 		$formData = $form->getValues();
 		$clientMail = $formData['email'];
-		$template = $this->template;
-		$template->formData = $formData;
+		$template = $this->createTemplate();
 		$template->setFile(__DIR__ . "/../templates/Mail/question.latte");
+		$template->formData = $formData;
 		$this->sendMail($clientMail, $template);
 		$flashMessage = "Děkujeme, Vaše zpráva byla úspěšně odeslána.";
 		$this->flashMessage($flashMessage, 'success');
@@ -99,9 +99,9 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	public function submitReservation($form) {
 		$formData = $form->getValues();
 		$clientMail = $formData['email'];
-		$template = $this->template;
-		$template->formData = $formData;
+		$template = $this->createTemplate();
 		$template->setFile(__DIR__ . "/../templates/Mail/reservation.latte");
+		$template->formData = $formData;
 		$this->sendMail($clientMail, $template);
 		$flashMessage = "Děkujeme, Vaše rezervace byla úspěšně odeslána.";
 		$this->flashMessage($flashMessage, 'success');
