@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'20.2.2017':
-			p: 'Zeleninová bílá'
-			a: 'Smažená kuřecí prsa ve vinném těstíčku, vařené brambory'
-			b: 'Ze zdravotních důvodů budeme vařit v následujících 3 týdnech pouze jedno menu denně. Velice se omlouváme a děkujeme za pochopení.'
-		'21.2.2017':
-			p: 'Čočková s uzeninou'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b:
-		'22.2.2017':
-			p: 'Česneková'
-			a: 'Plněná vepřová roláda, vařené brambory'
-			b:
-		'23.2.2017':
-			p: 'Frankfurtská s bramborem'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b:
-		'24.2.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Vepřové žebírko na kmíně, dušená rýže'
-			b:
 		'27.2.2017':
 			p: 'Drůbeží vývar s kapáním'
 			a: 'Vepřový šleh, dušená rýže'
@@ -39,4 +19,24 @@ parameters:
 		'4.3.2017':
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Moravský vrabec, houskové knedlíky zelí'
+			b: ''
+		'6.3.2017':
+			p: 'Krupicová s vejcem'
+			a: 'Smažený kuřecí řízek, vařené brambory'
+			b: ''
+		'7.3.2017':
+			p: 'Špenátová'
+			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+			b: ''
+		'8.3.2017':
+			p: 'Zelná u uzeninou'
+			a: 'Masový špíz s nivovým přelivem, vařené brambory'
+			b: ''
+		'9.3.2017':
+			p: 'Hrachová'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: ''
+		'10.3.2017':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Pečené kuře, vařené brambory'
 			b: ''
