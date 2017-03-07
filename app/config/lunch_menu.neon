@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'27.2.2017':
-			p: 'Drůbeží vývar s kapáním'
-			a: 'Vepřový šleh, dušená rýže'
-			b: ''
-		'28.2.2017':
-			p: 'Květáková'
-			a: 'Kuřecí prsa na másle s čerstvým tymiánem, vařené brambory'
-			b: ''
-		'1.3.2017':
-			p: 'Bramborová'
-			a: 'Boloňské špagety'
-			b: ''
-		'2.3.2017':
-			p: 'Kmínová s vejci'
-			a: 'Kuřecí nudličky s brokolicí a smetanou'
-			b: ''
-		'4.3.2017':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Moravský vrabec, houskové knedlíky zelí'
-			b: ''
 		'6.3.2017':
 			p: 'Krupicová s vejcem'
 			a: 'Smažený kuřecí řízek, vařené brambory'
@@ -39,4 +19,24 @@ parameters:
 		'10.3.2017':
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Pečené kuře, vařené brambory'
+			b: ''
+		'13.3.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Střapačky se zelím a uzeným masem'
+			b: ''
+		'14.3.2017':
+			p: 'Kulajda'
+			a: 'Vepřová plec na žampiónech, dušená rýže'
+			b: ''
+		'15.3.2017':
+			p: 'Zeleninová bílá'
+			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
+			b: ''
+		'16.3.2017':
+			p: 'Gulášová'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: ''
+		'17.3.2017':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Španělský ptáček, dušená rýže'
 			b: ''
