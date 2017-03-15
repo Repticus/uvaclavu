@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'6.3.2017':
-			p: 'Krupicová s vejcem'
-			a: 'Smažený kuřecí řízek, vařené brambory'
-			b: ''
-		'7.3.2017':
-			p: 'Špenátová'
-			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-			b: ''
-		'8.3.2017':
-			p: 'Zelná u uzeninou'
-			a: 'Masový špíz s nivovým přelivem, vařené brambory'
-			b: ''
-		'9.3.2017':
-			p: 'Hrachová'
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: ''
-		'10.3.2017':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Pečené kuře, vařené brambory'
-			b: ''
 		'13.3.2017':
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Střapačky se zelím a uzeným masem'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Španělský ptáček, dušená rýže'
 			b: ''
+		'20.3.2017':
+			p: 'Žampiónová'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
+		'21.3.2017':
+			p: 'Zeleninový vývar se strouháním'
+			a: 'Kuřecí soté, dušená rýže'
+			b: 'Vepřová játra na roštu, vařené brambory'
+		'22.3.2017':
+			p: 'Fazolová bílá'
+			a: 'Vídeňský hovězí guláš, houskové knedlíky'
+			b: 'Vepřové rizoto se sýrem, kys. okurka'
+		'23.3.2017':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Vepřové maso v mrkvi, opečené brambory'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'24.3.2017':
+			p: 'Brokolicová'
+			a: 'Plněný paprikový lusk, dušená rýže'
+			b: 'Těstoviny penne se šunkou, žampióny a sýrovou omáčkou'
