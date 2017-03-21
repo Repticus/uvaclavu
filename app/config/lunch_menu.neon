@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'13.3.2017':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: ''
-		'14.3.2017':
-			p: 'Kulajda'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: ''
-		'15.3.2017':
-			p: 'Zeleninová bílá'
-			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
-			b: ''
-		'16.3.2017':
-			p: 'Gulášová'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: ''
-		'17.3.2017':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Španělský ptáček, dušená rýže'
-			b: ''
 		'20.3.2017':
 			p: 'Žampiónová'
 			a: 'Smažený hermelín, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Brokolicová'
 			a: 'Plněný paprikový lusk, dušená rýže'
 			b: 'Těstoviny penne se šunkou, žampióny a sýrovou omáčkou'
+		'27.3.2017':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Smažená kuřecí prsa v sýrovém těstíčku, bramborová kaše'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'28.3.2017':
+			p: 'Hrachová s uzeninou'
+			a: 'Vepřová plec na paprice, dušená rýže'
+			b: 'Gnocchi s kuřecím masem, listovým špenátem a smetanou'
+		'29.3.2017':
+			p: 'Italská'
+			a: 'Smažený karbanátek, bramborový salát'
+			b: 'Hovězí maso vařené, křenová omáčka, houskové knedlíky'
+		'30.3.2017':
+			p: 'Hovězí vývar s játrovými knedlíčky'
+			a: 'Kuřecí roláda, šťouchané brambory'
+			b: 'Uzená krkovice, vařená čočka, kys. okurka'
+		'31.3.2017':
+			p: 'Česneková s bramborem'
+			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
+			b: 'Domácí lívance s jahodami a smetanou'
