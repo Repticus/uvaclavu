@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'20.3.2017':
-			p: 'Žampiónová'
-			a: 'Smažený hermelín, vařené brambory'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'21.3.2017':
-			p: 'Zeleninový vývar se strouháním'
-			a: 'Kuřecí soté, dušená rýže'
-			b: 'Vepřová játra na roštu, vařené brambory'
-		'22.3.2017':
-			p: 'Fazolová bílá'
-			a: 'Vídeňský hovězí guláš, houskové knedlíky'
-			b: 'Vepřové rizoto se sýrem, kys. okurka'
-		'23.3.2017':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'24.3.2017':
-			p: 'Brokolicová'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Těstoviny penne se šunkou, žampióny a sýrovou omáčkou'
 		'27.3.2017':
 			p: 'Drůbeží vývar s kapáním'
 			a: 'Smažená kuřecí prsa v sýrovém těstíčku, bramborová kaše'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Česneková s bramborem'
 			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
 			b: 'Domácí lívance s jahodami a smetanou'
+		'3.4.2017':
+			p: 'Květáková'
+			a: 'Vepřový flamendr, dušená rýže'
+			b: 'Caesar salát s kuřecím masem, slaninou a krutóny'
+		'4.4.2017':
+			p: 'Hrstková'
+			a: 'Pečená kuřecí prsa s čerstvými bylinkami, vařené brambory'
+			b: 'Vepřová játra na cibulce, dušená rýže'
+		'5.4.2017':
+			p: 'Krupicová s vejcem'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Smažené rybí filé, bramborová kaše'
+		'6.4.2017':
+			p: 'Pórková s vejcem'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Opečená vinná klobása, lepenice'
+		'7.4.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Plněné knedlíky uzeným masem, zelí'
