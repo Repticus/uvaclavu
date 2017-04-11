@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'3.4.2017':
-			p: 'Květáková'
-			a: 'Vepřový flamendr, dušená rýže'
-			b: 'Caesar salát s kuřecím masem, slaninou a krutóny'
-		'4.4.2017':
-			p: 'Hrstková'
-			a: 'Pečená kuřecí prsa s čerstvými bylinkami, vařené brambory'
-			b: 'Vepřová játra na cibulce, dušená rýže'
-		'5.4.2017':
-			p: 'Krupicová s vejcem'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Smažené rybí filé, bramborová kaše'
-		'6.4.2017':
-			p: 'Pórková s vejcem'
-			a: 'Segedínský vepřový guláš, houskové knedlíky'
-			b: 'Opečená vinná klobása, lepenice'
-		'7.4.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Smažený sýr, vařené brambory'
-			b: 'Plněné knedlíky uzeným masem, zelí'
 		'10.4.2017':
 			p: 'Čočková'
 			a: 'Kuřecí prsa Apollo, dušená rýže (smetana, anglická slanina, žampión)'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Z důvodu státního svátku se nevaří'
 			a: ''
 			b: ''
+		'17.4.2017':
+			p: 'Z důvodu státního svátku se nevaří'
+			a: ''
+			b: ''
+		'18.4.2017':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'19.4.2017':
+			p: 'Bramborová'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Kari rýže se šunkou, zeleninou a sýrovou omáčkou'
+		'20.4.2017':
+			p: 'Drůbková'
+			a: 'Kuličky z mletého masa, brusinková omáčka, vařené brambory'
+			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, bazalka, česnek, čili papričky)'
+		'21.4.2017':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Medailonky z vepřové panenky, pepřová omáčka, fazolové lusky s česnekem'
+			b: 'Kynuté jahodové knedlíky s tvarohem'
