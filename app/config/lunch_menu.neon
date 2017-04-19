@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'10.4.2017':
-			p: 'Čočková'
-			a: 'Kuřecí prsa Apollo, dušená rýže (smetana, anglická slanina, žampión)'
-			b: 'Smažený studentský řízek, bramborová kaše (Gothaj)'
-		'11.4.2017':
-			p: 'Drůbeží vývar se sýrovým smaženým hráškem'
-			a: 'Vepřový "Pašerák", vařené brambory'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'12.4.2017':
-			p: 'Veselská zelnice'
-			a: 'Hovězí pečeně na slanině, dušená rýže'
-			b: 'Domácí sekaná, šťouchané brambory'
-		'13.4.2017':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
-			b: 'Mexické fazole'
-		'14.4.2017':
-			p: 'Z důvodu státního svátku se nevaří'
-			a: ''
-			b: ''
 		'17.4.2017':
 			p: 'Z důvodu státního svátku se nevaří'
 			a: ''
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Medailonky z vepřové panenky, pepřová omáčka, fazolové lusky s česnekem'
 			b: 'Kynuté jahodové knedlíky s tvarohem'
+		'24.4.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Smažený kuřecí řízek, vařené brambory'
+			b: 'Opečená klobása, vařená čočka, kys. okurka'
+		'25.4.2017':
+			p: 'Havířská fazolačka'
+			a: 'Bratislavská vepřová plec, dušená rýže'
+			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
+		'26.4.2017':
+			p: 'Gulášová'
+			a: 'Plněná vepřová roláda, šťouchané brambory'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
+		'27.4.2017':
+			p: 'Zeleninová bílá'
+			a: 'Frankfurtská hovězí pečeně, dušená rýže'
+			b: 'Zapečené Francouzské brambory, kys. okurka'
+		'28.4.2017':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Pečený vepřový bůček, houskové knedlíky, červené zelí'
+			b: 'Tortila s masem a zeleninou'
