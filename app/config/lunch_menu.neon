@@ -1,42 +1,42 @@
 parameters:
 	lunch-menu:
-		'17.4.2017':
-			p: 'Z důvodu státního svátku se nevaří'
-			a: ''
+		'1.5.2017':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
 			b: ''
-		'18.4.2017':
-			p: 'Špenátová'
-			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'19.4.2017':
-			p: 'Bramborová'
-			a: 'Vepřový guláš, houskové knedlíky'
-			b: 'Kari rýže se šunkou, zeleninou a sýrovou omáčkou'
-		'20.4.2017':
-			p: 'Drůbková'
-			a: 'Kuličky z mletého masa, brusinková omáčka, vařené brambory'
-			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, bazalka, česnek, čili papričky)'
-		'21.4.2017':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Medailonky z vepřové panenky, pepřová omáčka, fazolové lusky s česnekem'
-			b: 'Kynuté jahodové knedlíky s tvarohem'
-		'24.4.2017':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Smažený kuřecí řízek, vařené brambory'
-			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'25.4.2017':
-			p: 'Havířská fazolačka'
-			a: 'Bratislavská vepřová plec, dušená rýže'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
-		'26.4.2017':
-			p: 'Gulášová'
-			a: 'Plněná vepřová roláda, šťouchané brambory'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'27.4.2017':
-			p: 'Zeleninová bílá'
-			a: 'Frankfurtská hovězí pečeně, dušená rýže'
-			b: 'Zapečené Francouzské brambory, kys. okurka'
-		'28.4.2017':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Pečený vepřový bůček, houskové knedlíky, červené zelí'
-			b: 'Tortila s masem a zeleninou'
+		'2.5.2017':
+			p: 'Žampiónová'
+			a: 'Vepřový šleh, dušená rýže'
+			b: 'Zeleninové řízečky, bramborová kaše'
+		'3.5.2017':
+			p: 'Zelná s uzeninou'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Smažený karbanátek, bramborový salát'
+		'4.5.2017':
+			p: 'Brokolicová'
+			a: 'Plněná kuřecí kapsa, vařené brambory'
+			b: 'Cmunda po kaplicku'
+		'5.5.2017':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Kuskus s kuřecím masem a zeleninou'
+		'8.5.2017':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
+		'9.5.2017':
+			p: 'Česneková s bramborem'
+			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
+			b: 'Smažená vepřová játra, vařené brambory'
+		'10.5.2017':
+			p: 'Hrachová'
+			a: 'Smažená kuřecí prsa ve vinném těstíčku, vařené brambory'
+			b: 'Zapečené palačinky s tvarohem'
+		'11.5.2017':
+			p: 'Rovňanská'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Kapustový karbanátek, bramborová kaše'
+		'12.5.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Čevabčiči, vařené brambory'
+			b: 'Těstovinový salát s kuřecím masem'
