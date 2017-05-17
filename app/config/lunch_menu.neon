@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'8.5.2017':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří'
-			b: ''
-		'9.5.2017':
-			p: 'Česneková s bramborem'
-			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
-			b: 'Smažená vepřová játra, vařené brambory'
-		'10.5.2017':
-			p: 'Hrachová'
-			a: 'Smažená kuřecí prsa ve vinném těstíčku, vařené brambory'
-			b: 'Zapečené palačinky s tvarohem'
-		'11.5.2017':
-			p: 'Rovňanská'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Kapustový karbanátek, bramborová kaše'
-		'12.5.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Čevabčiči, vařené brambory'
-			b: 'Těstovinový salát s kuřecím masem'
 		'15.5.2017':
 			p: 'Fazolová s uzeninou'
 			a: 'Kuřecí nudličky po čínsku, kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Pečená marinovaná kuřecí křidélka, vařené brambory'
 			b: 'Gruzínská rýže (hovězí maso, cibule, protlak)'
+		'22.5.2017':
+			p: 'Čočková'
+			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
+			b: 'Uzený bůček, hrachová kaše, kys. okurka'
+		'23.5.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Plněný paprikový lusk, dušená rýže'
+			b: 'Smažená brokolice, bramborová kaše'
+		'24.5.2017':
+			p: 'Zelná bílá'
+			a: 'Přírodní vepřový závitek, houskové knedlíky'
+			b: 'Boloňské špagety'
+		'25.5.2017':
+			p: 'Gulášová'
+			a: 'Střapačky se zelím a uzeným masem'
+			b: 'Jablková žemlovka s tvarohem'
+		'26.5.2017':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Smažený holandský řízek, vařené brambory'
+			b: 'Vepřová játra na cibulce, dušená rýže'
