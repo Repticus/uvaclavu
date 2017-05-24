@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'15.5.2017':
-			p: 'Fazolová s uzeninou'
-			a: 'Kuřecí nudličky po čínsku, kari rýže'
-			b: 'Zeleninový salát s tuňákem a vejcem'
-		'16.5.2017':
-			p: 'Zeleninový vývar s kapáním'
-			a: 'Vepřové medailonky po srbsku, opečené brambory'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'17.5.2017':
-			p: 'Francouzská cibulačka'
-			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
-			b: 'Rajská hovězí pečeně, houskové knedlíky'
-		'18.5.2017':
-			p: 'Pórková s vejcem'
-			a: 'Slovenská pochoutka, bramborové placky'
-			b: 'Lasagne s mletým masem'
-		'19.5.2017':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Pečená marinovaná kuřecí křidélka, vařené brambory'
-			b: 'Gruzínská rýže (hovězí maso, cibule, protlak)'
 		'22.5.2017':
 			p: 'Čočková'
 			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Smažený holandský řízek, vařené brambory'
 			b: 'Vepřová játra na cibulce, dušená rýže'
+		'29.5.2017':
+			p: 'Špenátová'
+			a: 'Kuřecí prsa na másle, vařené brambory'
+			b: 'Vepřové rizoto se sýrem, kys. okurka'
+		'30.5.2017':
+			p: 'Zeleninová bílá'
+			a: 'Přírodní hovězí pečeně, dušená rýže'
+			b: 'Maminčino kuře'
+		'31.5.2017':
+			p: 'Bramborová'
+			a: 'Vepřové nudličky s klobásovou směsí'
+			b: 'Zapečená brokolice še šunkou, 1/2 vařené brambory, 1/2 zelný salát'
+		'1.6.2017':
+			p: 'Italská'
+			a: 'Moravský vrabec, bramborové knedlíky, červené zelí'
+			b: 'Gnocchi s kuřecím masem a listovým špenátem'
+		'2.6.2017':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Masový špíz se zeleninou, šťouchané brambory'
+			b: 'Zabíjačkový guláš, houskové knedlíky'
