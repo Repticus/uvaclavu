@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'29.5.2017':
-			p: 'Špenátová'
-			a: 'Kuřecí prsa na másle, vařené brambory'
-			b: 'Vepřové rizoto se sýrem, kys. okurka'
-		'30.5.2017':
-			p: 'Zeleninová bílá'
-			a: 'Přírodní hovězí pečeně, dušená rýže'
-			b: 'Maminčino kuře'
-		'31.5.2017':
-			p: 'Bramborová'
-			a: 'Vepřové nudličky s klobásovou směsí'
-			b: 'Zapečená brokolice še šunkou, 1/2 vařené brambory, 1/2 zelný salát'
-		'1.6.2017':
-			p: 'Italská'
-			a: 'Moravský vrabec, bramborové knedlíky, červené zelí'
-			b: 'Gnocchi s kuřecím masem a listovým špenátem'
-		'2.6.2017':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Masový špíz se zeleninou, šťouchané brambory'
-			b: 'Zabíjačkový guláš, houskové knedlíky'
 		'5.6.2017':
 			p: 'Krupicová s vejcem'
 			a: 'Kuřecí prsa "Apollo" (smetana, anglická slanina, žampióny), dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Plněné knedlíky uzeným masem, zelí'
 			b: 'Smažený hermelín, vařené brambory'
+		'12.6.2017':
+			p: 'Česneková s bramborem'
+			a: 'Kuřecí nudličky po římsku, dušená rýže'
+			b: 'Těstoviny penne s brokolicí, žampióny a sýrovou omáčkou'
+		'13.6.2017':
+			p: 'Hrstková'
+			a: 'Vepřové maso v mrkvi, opečené brambory'
+			b: 'Květákové placičky, zelný salát'
+		'14.6.2017':
+			p: 'Šalotková'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Domácí sekaná, lepenice'
+		'15.6.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Zapečené lázeňské rybí filé, vařené brambory'
+		'16.6.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Vepřové medailonky zapečené se třemi druhý sýrů, vařené brambory'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
