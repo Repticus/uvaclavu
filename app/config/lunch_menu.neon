@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'5.6.2017':
-			p: 'Krupicová s vejcem'
-			a: 'Kuřecí prsa "Apollo" (smetana, anglická slanina, žampióny), dušená rýže'
-			b: 'Smažené rybí filé, vařené brambory'
-		'6.6.2017':
-			p: 'Drůbeží vývar se strouháním'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Zapečené těstoviny "Primavera"'
-		'7.6.2017':
-			p: 'Žampiónová'
-			a: 'Plněná kuřecí roláda, bramborová kaše'
-			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
-		'8.6.2017':
-			p: 'Kapustová se slaninou'
-			a: 'Plněná vepřová pečeně "Avignon (šunka, cibule), šťouchané brambory'
-			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
-		'9.6.2017':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Plněné knedlíky uzeným masem, zelí'
-			b: 'Smažený hermelín, vařené brambory'
 		'12.6.2017':
 			p: 'Česneková s bramborem'
 			a: 'Kuřecí nudličky po římsku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Vepřové medailonky zapečené se třemi druhý sýrů, vařené brambory'
 			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'19.6.2017':
+			p: 'Hrachová s uzeninou'
+			a: 'Smažená kuřecí prsa v pivním těstíčku, vařené brambory'
+			b: 'Špagety po uhlířsku'
+		'20.6.2017':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
+			b: 'Bramborové švestkové knedlíky s mákem a cukrem'
+		'21.6.2017':
+			p: 'Květáková'
+			a: 'Pečené kuře, 1/2 vařené brambory, 1/2 dušená zelenina'
+			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
+		'22.6.2017':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Domažlické vepřové ragú, dušená rýže'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'23.6.2017':
+			p: 'Gulášová'
+			a: 'Pštrosí vejce, bramborová kaše'
+			b: 'Rizoto s kuřecím masem a zeleninou, kys. okurka'
