@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'12.6.2017':
-			p: 'Česneková s bramborem'
-			a: 'Kuřecí nudličky po římsku, dušená rýže'
-			b: 'Těstoviny penne s brokolicí, žampióny a sýrovou omáčkou'
-		'13.6.2017':
-			p: 'Hrstková'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Květákové placičky, zelný salát'
-		'14.6.2017':
-			p: 'Šalotková'
-			a: 'Vepřový guláš, houskové knedlíky'
-			b: 'Domácí sekaná, lepenice'
-		'15.6.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Zapečené lázeňské rybí filé, vařené brambory'
-		'16.6.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Vepřové medailonky zapečené se třemi druhý sýrů, vařené brambory'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
 		'19.6.2017':
 			p: 'Hrachová s uzeninou'
 			a: 'Smažená kuřecí prsa v pivním těstíčku, vařené brambory'
@@ -40,3 +20,63 @@ parameters:
 			p: 'Gulášová'
 			a: 'Pštrosí vejce, bramborová kaše'
 			b: 'Rizoto s kuřecím masem a zeleninou, kys. okurka'
+		'26.6.2017':
+			p: 'Kmínová s vejci'
+			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
+			b: 'Uzená krkovice, vařená čočka, kys. okurka'
+		'27.6.2017':
+			p: 'Zelná s uzeninou'
+			a: 'Kuličky z mletého masa, brusinková omáčka, vařené brambory'
+			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
+		'28.6.2017':
+			p: 'Drůbková'
+			a: 'Vepřová plec na paprice, dušená rýže'
+			b: 'Šunkové krokety se sýrem, bramborová kaše'
+		'29.6.2017':
+			p: 'Bramborová'
+			a: 'Dalmátské čufty, houskové knedlíky'
+			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
+		'30.6.2017':
+			p: 'Hovězí vývar s fridátovými nudlemi'
+			a: 'Smažená plněná kuřecí kapsa, vařené brambory'
+			b: 'Domácí lívance s jahodami a smetanou'
+		'3.7.2017':
+			p: 'Čočková s uzeninou'
+			a: 'Maso dvou barev, kari rýže'
+			b: 'Smažený sýr, vařené brambory'
+		'4.7.2017':
+			p: ''
+			a: 'Dovolená'
+			b: ''
+		'5.7.2017':
+			p: ''
+			a: 'Dovolená'
+			b: 'Objednávky na 28. týden prosím zašlete z důvodu dovolené společně s objednávkou na 27. týden. Děkujeme.'
+		'6.7.2017':
+			p: ''
+			a: 'Dovolená'
+			b: ''
+		'7.7.2017':
+			p: ''
+			a: 'Dovolená'
+			b: ''
+		'10.7.2017':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b: ''
+		'11.7.2017':
+			p: 'Veselská zelnice'
+			a: 'Vepřové medailonky po srbsku, vařené brambory'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'12.7.2017':
+			p: 'Francouzská cibulačka'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Gnocchi "Siciliána" (kuřecí, bazalka, čili paprička, olivy, česnek)'
+		'13.7.2017':
+			p: 'Kulajda'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Vepřová játra na roštu, opečené brambory'
+		'14.7.2017':
+			p: 'Hovězí vývar s fridátovými nudlemi'
+			a: 'Smažený karbanátek, bramborová kaše'
+			b: 'Tortila s masem a zeleninou'
