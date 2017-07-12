@@ -1,65 +1,5 @@
 parameters:
 	lunch-menu:
-		'19.6.2017':
-			p: 'Hrachová s uzeninou'
-			a: 'Smažená kuřecí prsa v pivním těstíčku, vařené brambory'
-			b: 'Špagety po uhlířsku'
-		'20.6.2017':
-			p: 'Drůbeží vývar s kapáním'
-			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
-			b: 'Bramborové švestkové knedlíky s mákem a cukrem'
-		'21.6.2017':
-			p: 'Květáková'
-			a: 'Pečené kuře, 1/2 vařené brambory, 1/2 dušená zelenina'
-			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
-		'22.6.2017':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Domažlické vepřové ragú, dušená rýže'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
-		'23.6.2017':
-			p: 'Gulášová'
-			a: 'Pštrosí vejce, bramborová kaše'
-			b: 'Rizoto s kuřecím masem a zeleninou, kys. okurka'
-		'26.6.2017':
-			p: 'Kmínová s vejci'
-			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
-			b: 'Uzená krkovice, vařená čočka, kys. okurka'
-		'27.6.2017':
-			p: 'Zelná s uzeninou'
-			a: 'Kuličky z mletého masa, brusinková omáčka, vařené brambory'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'28.6.2017':
-			p: 'Drůbková'
-			a: 'Vepřová plec na paprice, dušená rýže'
-			b: 'Šunkové krokety se sýrem, bramborová kaše'
-		'29.6.2017':
-			p: 'Bramborová'
-			a: 'Dalmátské čufty, houskové knedlíky'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
-		'30.6.2017':
-			p: 'Hovězí vývar s fridátovými nudlemi'
-			a: 'Smažená plněná kuřecí kapsa, vařené brambory'
-			b: 'Domácí lívance s jahodami a smetanou'
-		'3.7.2017':
-			p: 'Čočková s uzeninou'
-			a: 'Maso dvou barev, kari rýže'
-			b: 'Smažený sýr, vařené brambory'
-		'4.7.2017':
-			p: ''
-			a: 'Dovolená'
-			b: ''
-		'5.7.2017':
-			p: ''
-			a: 'Dovolená'
-			b: 'Objednávky na 28. týden prosím zašlete z důvodu dovolené společně s objednávkou na 27. týden. Děkujeme.'
-		'6.7.2017':
-			p: ''
-			a: 'Dovolená'
-			b: ''
-		'7.7.2017':
-			p: ''
-			a: 'Dovolená'
-			b: ''
 		'10.7.2017':
 			p: 'Špenátová'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -80,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s fridátovými nudlemi'
 			a: 'Smažený karbanátek, bramborová kaše'
 			b: 'Tortila s masem a zeleninou'
+		'17.7.2017':
+			p: 'Krupicová s vejcem'
+			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), šťouchané brambory'
+			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
+		'18.7.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Hovězí guláš, houskové knedlíky'
+			b: 'Zapečená cuketa s mletým masem a rajčaty, vařené brambory'
+		'19.7.2017':
+			p: 'Kapustová se slaninou'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
+		'20.7.2017':
+			p: 'Zeleninová bílá'
+			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
+			b: 'Caesar slát s kuřecím masem, slaninou a krutóny'
+		'21.7.2017':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Opečená klobása, hrachová kaše se smaženou cibulkou'
