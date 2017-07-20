@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'10.7.2017':
-			p: 'Špenátová'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: ''
-		'11.7.2017':
-			p: 'Veselská zelnice'
-			a: 'Vepřové medailonky po srbsku, vařené brambory'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'12.7.2017':
-			p: 'Francouzská cibulačka'
-			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
-			b: 'Gnocchi "Siciliána" (kuřecí, bazalka, čili paprička, olivy, česnek)'
-		'13.7.2017':
-			p: 'Kulajda'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Vepřová játra na roštu, opečené brambory'
-		'14.7.2017':
-			p: 'Hovězí vývar s fridátovými nudlemi'
-			a: 'Smažený karbanátek, bramborová kaše'
-			b: 'Tortila s masem a zeleninou'
 		'17.7.2017':
 			p: 'Krupicová s vejcem'
 			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), šťouchané brambory'
@@ -40,3 +20,43 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Katův šleh, dušená rýže'
 			b: 'Opečená klobása, hrachová kaše se smaženou cibulkou'
+		'24.7.2017':
+			p: 'Pórková s vejcem'
+			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'25.7.2017':
+			p: 'Hrachová'
+			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
+		'26.7.2017':
+			p: 'Česneková s bramborem'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: 'Kuskus s kuřecím masem a zeleninou'
+		'27.7.2017':
+			p: 'Italská'
+			a: 'Plněná vepřová roláda, bramborová kaše'
+			b: 'Vepřová játra na cibulce, dušená rýže'
+		'28.7.2017':
+			p: 'Hovězí vývar s hráškem a rýží'
+			a: 'Cmunda po kaplicku'
+			b: 'Lasagne s mletým masem'
+		'31.7.2017':
+			p: 'Květáková'
+			a: 'Kuřecí soté se zeleninou, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'1.8.2017':
+			p: 'Šalotková'
+			a: 'Vepřový pašerácký řízek, vařené brambory'
+			b: 'Boloňské špagety'
+		'2.8.2017':
+			p: 'Bramborová'
+			a: 'Plněný paprikový lusk, dušená rýže'
+			b: 'Francouzské brambory, kys. okurka'
+		'3.8.2017':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Marinovaná kuřecí křídla, vařené brambory'
+			b: 'Těstoviny penne s kuřecím masem, žampióny a sýrovou omáčkou'
+		'4.8.2017':
+			p: ''
+			a: 'Z důvodu dolvolené se nevaří'
+			b: ''
