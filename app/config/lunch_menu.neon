@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'17.7.2017':
-			p: 'Krupicová s vejcem'
-			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), šťouchané brambory'
-			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
-		'18.7.2017':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Hovězí guláš, houskové knedlíky'
-			b: 'Zapečená cuketa s mletým masem a rajčaty, vařené brambory'
-		'19.7.2017':
-			p: 'Kapustová se slaninou'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'20.7.2017':
-			p: 'Zeleninová bílá'
-			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
-			b: 'Caesar slát s kuřecím masem, slaninou a krutóny'
-		'21.7.2017':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Katův šleh, dušená rýže'
-			b: 'Opečená klobása, hrachová kaše se smaženou cibulkou'
 		'24.7.2017':
 			p: 'Pórková s vejcem'
 			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
@@ -60,3 +40,23 @@ parameters:
 			p: ''
 			a: 'Z důvodu dolvolené se nevaří'
 			b: ''
+		'7.8.2017':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky po mexicku, kari rýže'
+			b: 'Zapečená brokolice se šunkou a sýrem, zelný salát'
+		'8.8.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Střapačky se zelím a uzeným masem'
+			b: 'Zapečené těstoviny "Primavera"'
+		'9.8.2017':
+			p: 'Hrstková'
+			a: 'Cikánská hovězí pečeně, dušená rýže'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'10.8.2017':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Masový špíz se zeleninou přelitý omáčkou z modrého sýra, vařené brambory'
+			b: 'Debrecínský vepřový guláš, houskové knedlíky'
+		'11.8.2017':
+			p: 'Gulášová'
+			a: 'Smažená kuřecí prsa v pikantním těstíčku, šťouchané brambory'
+			b: 'Plněné knedlíky uzeným masem, zelí'
