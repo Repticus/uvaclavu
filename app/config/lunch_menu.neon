@@ -1,45 +1,5 @@
 parameters:
 	lunch-menu:
-		'24.7.2017':
-			p: 'Pórková s vejcem'
-			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'25.7.2017':
-			p: 'Hrachová'
-			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'26.7.2017':
-			p: 'Česneková s bramborem'
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: 'Kuskus s kuřecím masem a zeleninou'
-		'27.7.2017':
-			p: 'Italská'
-			a: 'Plněná vepřová roláda, bramborová kaše'
-			b: 'Vepřová játra na cibulce, dušená rýže'
-		'28.7.2017':
-			p: 'Hovězí vývar s hráškem a rýží'
-			a: 'Cmunda po kaplicku'
-			b: 'Lasagne s mletým masem'
-		'31.7.2017':
-			p: 'Květáková'
-			a: 'Kuřecí soté se zeleninou, dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'1.8.2017':
-			p: 'Šalotková'
-			a: 'Vepřový pašerácký řízek, vařené brambory'
-			b: 'Boloňské špagety'
-		'2.8.2017':
-			p: 'Bramborová'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Francouzské brambory, kys. okurka'
-		'3.8.2017':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Marinovaná kuřecí křídla, vařené brambory'
-			b: 'Těstoviny penne s kuřecím masem, žampióny a sýrovou omáčkou'
-		'4.8.2017':
-			p: ''
-			a: 'Z důvodu dolvolené se nevaří'
-			b: ''
 		'7.8.2017':
 			p: 'Špenátová'
 			a: 'Kuřecí nudličky po mexicku, kari rýže'
@@ -60,3 +20,23 @@ parameters:
 			p: 'Gulášová'
 			a: 'Smažená kuřecí prsa v pikantním těstíčku, šťouchané brambory'
 			b: 'Plněné knedlíky uzeným masem, zelí'
+		'14.8.2017':
+			p: 'Zeleninový vývar s kapáním'
+			a: 'Kuřecí prsa "Appolo" (smetana, anglická slanina, žampióny), dušená rýže'
+			b: 'Smažená brokolice, bramborová kaše'
+		'15.8.2017':
+			p: 'Žampiónová'
+			a: 'Moravský vrabec, bramborové knedlíky, zelí'
+			b: 'Těstovinový salát s kuřecím masem'
+		'16.8.2017':
+			p: 'Zelná s uzeninou'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Jablková žemlovka s tvarohem'
+		'17.8.2017':
+			p: 'Drůbková'
+			a: 'Přírodní vepřový závitek, dušená rýže'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'18.8.2017':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Smažený holandský řízek, vařené brambory'
+			b: 'Kari rýže s kuřecím masem, šunkou, zeleninou a sýrem'
