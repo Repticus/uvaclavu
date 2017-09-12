@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'4.9.2017':
-			p: 'Krupicová s vejcem'
-			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-			b: 'Smažený sýr, vařené brambory'
-		'5.9.2017':
-			p: 'Bramborová'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'6.9.2017':
-			p: 'Zeleninová bílá'
-			a: 'Mletý řízek na grilu, pepřová omáčka, fazolové lusky s česnekem'
-			b: 'Smažené rybí filé, vařené brambory'
-		'7.9.2017':
-			p: 'Hovězí vývar s hráškem a rýží'
-			a: 'Marinovaná vepřová krkovice, opečené brambory'
-			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, česnek, bazalka, čili papričky)'
-		'8.9.2017':
-			p: 'Italská'
-			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
-			b: 'Brokolicové placičky, 1/2 vařené brambory, 1/2 zelný salát'
 		'11.9.2017':
 			p: 'Špenátová'
 			a: 'Kuřecí nudličky po indicku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Hamburská vepřová kýta, houskové knedlíky'
 			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
+		'18.9.2017':
+			p: 'Brokolicová'
+			a: 'Kuřecí prsa s čerstvými bylinkami, vařené brambory'
+			b: 'Zeleninové rizoto se šunkou a sýrem, kys. okurka'
+		'19.9.2017':
+			p: 'Kulajda'
+			a: 'Vepřová plec na paprice, dušená rýže'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
+		'20.9.2017':
+			p: 'Čočková s uzeninou'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Šunkové krokety se sýrem, bramborová kaše'
+		'21.9.2017':
+			p: 'Kmínová s vejci'
+			a: 'Dalmátské čufty, dušená rýže'
+			b: 'Opečená vinná klobása, lepenice'
+		'22.9.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Tortila s masem, zeleninou a dresingem'
