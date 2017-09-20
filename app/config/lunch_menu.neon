@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'11.9.2017':
-			p: 'Špenátová'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Smažený hermelín, vařené brambory'
-		'12.9.2017':
-			p: 'Gulášová'
-			a: 'Srbské vepřové medailonky, šťouchané brambory'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'13.9.2017':
-			p: 'Zelná bílá'
-			a: 'Vídeňský hovězí guláš, houskové knedlíky'
-			b: 'Maminčino kuře'
-		'14.9.2017':
-			p: 'Francouzská cibulačka'
-			a: 'Smažený vepřový řízek, bramborový salát'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
-		'15.9.2017':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
 		'18.9.2017':
 			p: 'Brokolicová'
 			a: 'Kuřecí prsa s čerstvými bylinkami, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Hovězí tokáň na červeném víně, špagety'
 			b: 'Tortila s masem, zeleninou a dresingem'
+		'25.9.2017':
+			p: 'Hrachová'
+			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'26.9.2017':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
+		'27.9.2017':
+			p: 'Šalotková'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: 'Vepřová játra na roštu, opečené brambory'
+		'28.9.2017':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
+		'29.9.2017':
+			p: ''
+			a: 'Z provozních důvodů se nevaří'
+			b: ''
