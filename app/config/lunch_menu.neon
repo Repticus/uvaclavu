@@ -40,3 +40,23 @@ parameters:
 			p: ''
 			a: 'Z provozních důvodů se nevaří'
 			b: ''
+		'2.10.2017':
+			p: 'Květáková'
+			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
+			b: ''
+		'3.10.2017':
+			p: 'Zeleninový vývar s kapáním'
+			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'4.10.2017':
+			p: 'Hrstková'
+			a: 'Debrecínský vepřový guláš, dušená rýže'
+			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'5.10.2017':
+			p: 'Zelná s uzeninou'
+			a: 'Štěpánská hovězí pečeně, dušená rýže'
+			b: 'Smažený karbanátek s hermelínem, bramborová kaše'
+		'6.10.2017':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
+			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
