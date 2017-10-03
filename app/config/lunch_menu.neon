@@ -1,45 +1,5 @@
 parameters:
 	lunch-menu:
-		'18.9.2017':
-			p: 'Brokolicová'
-			a: 'Kuřecí prsa s čerstvými bylinkami, vařené brambory'
-			b: 'Zeleninové rizoto se šunkou a sýrem, kys. okurka'
-		'19.9.2017':
-			p: 'Kulajda'
-			a: 'Vepřová plec na paprice, dušená rýže'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, vařené brambory'
-		'20.9.2017':
-			p: 'Čočková s uzeninou'
-			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
-			b: 'Šunkové krokety se sýrem, bramborová kaše'
-		'21.9.2017':
-			p: 'Kmínová s vejci'
-			a: 'Dalmátské čufty, dušená rýže'
-			b: 'Opečená vinná klobása, lepenice'
-		'22.9.2017':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Tortila s masem, zeleninou a dresingem'
-		'25.9.2017':
-			p: 'Hrachová'
-			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'26.9.2017':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'27.9.2017':
-			p: 'Šalotková'
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: 'Vepřová játra na roštu, opečené brambory'
-		'28.9.2017':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří'
-			b: ''
-		'29.9.2017':
-			p: ''
-			a: 'Z provozních důvodů se nevaří'
-			b: ''
 		'2.10.2017':
 			p: 'Květáková'
 			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
@@ -60,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s těstovinou'
 			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
 			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
+		'9.10.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Vepřový šleh, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'10.10.2017':
+			p: 'Bramborová'
+			a: 'Střapačky se zelím a uzeným masem'
+			b: 'Gruzínská rýže (hovězí maso, cibule, protlak)'
+		'11.10.2017':
+			p: 'Žampiónová'
+			a: 'Smažený holandský řízek, bramborová kaše'
+			b: 'Boloňské špagety'
+		'12.10.2017':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Bratislavská vepřová plec, houskové knedlíky'
+			b: 'Zapečené těstoviny "Primavera", kys. okurka'
+		'13.10.2017':
+			p: 'Kapustová se slaninou'
+			a: 'Marinovaná kuřecí křídla, opečené brambory'
+			b: 'Domácí lívance s jahodami a smetanou'
