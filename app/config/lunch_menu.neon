@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'2.10.2017':
-			p: 'Květáková'
-			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
-			b: ''
-		'3.10.2017':
-			p: 'Zeleninový vývar s kapáním'
-			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
-		'4.10.2017':
-			p: 'Hrstková'
-			a: 'Debrecínský vepřový guláš, dušená rýže'
-			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
-		'5.10.2017':
-			p: 'Zelná s uzeninou'
-			a: 'Štěpánská hovězí pečeně, dušená rýže'
-			b: 'Smažený karbanátek s hermelínem, bramborová kaše'
-		'6.10.2017':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
-			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
 		'9.10.2017':
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Vepřový šleh, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Kapustová se slaninou'
 			a: 'Marinovaná kuřecí křídla, opečené brambory'
 			b: 'Domácí lívance s jahodami a smetanou'
+		'16.10.2017':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky po mexicku, kari rýže'
+			b: 'Smažená brokolice, bramborová kaše'
+		'17.10.2017':
+			p: 'Krupicová s vejcem'
+			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky s česnekem'
+			b: 'Domácí sekaná, lepenice'
+		'18.10.2017':
+			p: 'Zeleninová bílá'
+			a: 'Plněný paprikový lusk, dušená rýže'
+			b: 'Uzený bůček, hrachová kaše, kys. okurka'
+		'19.10.2017':
+			p: 'Čočková'
+			a: 'Živáňská vepřová krkovice (pečená v alobalu s brambory, cibulí a paprikou)'
+			b: 'Těstovinový salát s kuřecím masem'
+		'20.10.2017':
+			p: 'Drůbeží vývar s rýží a hráškem'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
