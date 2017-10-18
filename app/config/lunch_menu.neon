@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'9.10.2017':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Vepřový šleh, dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'10.10.2017':
-			p: 'Bramborová'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: 'Gruzínská rýže (hovězí maso, cibule, protlak)'
-		'11.10.2017':
-			p: 'Žampiónová'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Boloňské špagety'
-		'12.10.2017':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Bratislavská vepřová plec, houskové knedlíky'
-			b: 'Zapečené těstoviny "Primavera", kys. okurka'
-		'13.10.2017':
-			p: 'Kapustová se slaninou'
-			a: 'Marinovaná kuřecí křídla, opečené brambory'
-			b: 'Domácí lívance s jahodami a smetanou'
 		'16.10.2017':
 			p: 'Špenátová'
 			a: 'Kuřecí nudličky po mexicku, kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s rýží a hráškem'
 			a: 'Segedínský vepřový guláš, houskové knedlíky'
 			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'23.10.2017':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Smažený kuřecí řízek, vařené brambory, kys. okurka'
+			b: 'Omlouváme se, ale z provozních důvodů se bude vařit tento týden pouze jedno menu. Děkujeme za pochopení.'
+		'24.10.2017':
+			p: 'Česneková s bramborem'
+			a: 'Vepřová plec na slanině, houskové knedlíky'
+			b: ''
+		'25.10.2017':
+			p: 'Fazolová s klobásou'
+			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
+			b: ''
+		'26.10.2017':
+			p: 'Zelná bílá'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: ''
+		'27.10.2017':
+			p: 'Hovězí vývar se strouháním'
+			a: 'Plněná kuřecí roláda, šťouchané brambory'
+			b: ''
