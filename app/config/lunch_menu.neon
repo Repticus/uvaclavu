@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'30.10.2017':
-			p: 'Brokolicová'
-			a: 'Vepřový flamendr, dušená rýže'
-			b: 'Omlouváme se, ale z provozních důvodů se bude vařit tento týden pouze jedno menu. Děkujeme za pochopení.'
-		'31.10.2017':
-			p: 'Kulajda'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: ''
-		'1.11.2017':
-			p: 'Pórková s vejcem'
-			a: 'Hovězí mexický guláš, dušená rýže'
-			b: ''
-		'2.11.2017':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: ''
-		'3.11.2017':
-			p: 'Gulášová'
-			a: 'Smažený sýr, vařené brambory'
-			b: ''
 		'6.11.2017':
 			p: 'Hráškový krém'
 			a: 'Kuřecí prsa "Apollo" (smetana, anglická slanina, žampión), dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Pečené kuře, vařené brambory, dušená zelenina'
 			b: 'Špagety po uhlířsku'
+		'13.11.2017':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b: 'Halušky se zelím a uzeným masem'
+		'14.11.2017':
+			p: 'Italská'
+			a: 'Šunkové krokety se sýrem, vařené brambory'
+			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
+		'15.11.2017':
+			p: 'Zeleninový vývar s kapáním'
+			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), šťouchané brambory'
+			b: 'Lasagne s mletým masem'
+		'16.11.2017':
+			p: 'Bramborová'
+			a: 'Bratislavská vepřová plec, houskové knedlíky'
+			b: 'Opečená klobása, čočka na kyselo, kys. okurka'
+		'17.11.2017':
+			p: 'Hovězí vývar '
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Těstoviny penne s kuřecím masem, listovým špenátem, česnekem a smetanou'
