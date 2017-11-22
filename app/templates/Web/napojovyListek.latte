@@ -5,10 +5,10 @@
 	<table>
 		{foreach $drink as $group}
 			<tr>
-				<th></th>
-				<th colspan="2">
-			<h2>{$group['group']}</h2>
-			</th>
+				<td></td>
+				<td colspan="2">
+					<h2>{$group['group']}</h2>
+				</td>
 			</tr>
 			{foreach $group['drink'] as $drink}
 				<tr>
@@ -24,7 +24,7 @@
 				</tr>
 				<tr n:ifset="$drink['description']">
 					<td></td>
-					<td>
+					<td colspan="2">
 						<i>{$drink['description']|noescape}</i>
 					</td>
 				</tr>

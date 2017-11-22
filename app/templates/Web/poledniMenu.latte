@@ -1,5 +1,5 @@
 {block title}Polední menu restaurace{/block}
-{block content}
+{block head}
 <style media="print">
 	#head,.menu,.menuButton{
 		display: none;
@@ -9,6 +9,8 @@
 		font-size: 26px;
 	}
 </style>
+{/block}
+{block content}
 <div id="content" class="mnu">
 	<h1>Polední menu</h1>
 	<div n:if="$week" class="menuButton">
@@ -18,7 +20,10 @@
 	<table>
 		{foreach $menu as $date => $food}
 			<tr>
-				<th colspan="2"><h2>{$date|date:'%A %d.%m.%Y'}</h2></th>
+				<td></td>
+				<td>
+					<h2>{$date|date:'%A %d.%m.%Y'}</h2>
+				</td>
 			</tr>
 			<tr>
 				<td>Polévka:</td>

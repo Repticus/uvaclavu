@@ -360,9 +360,6 @@ iframe {
 .mnu table {
   margin: 0 30px 30px 30px;
 }
-.mnu th {
-  text-align: left;
-}
 .mnu td {
   vertical-align: top;
 }
@@ -370,7 +367,7 @@ iframe {
   display: block;
   padding-bottom: 10px;
 }
-.mnu h2, .mnu tr td:nth-child(2) {
+.mnu tr td:nth-child(2) {
   padding: 0 10px 0 10px;
   width: 100%;
 }
