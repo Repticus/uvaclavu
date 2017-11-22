@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'13.11.2017':
-			p: 'Špenátová'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Halušky se zelím a uzeným masem'
-		'14.11.2017':
-			p: 'Italská'
-			a: 'Šunkové krokety se sýrem, vařené brambory'
-			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
-		'15.11.2017':
-			p: 'Zeleninový vývar s kapáním'
-			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), šťouchané brambory'
-			b: 'Lasagne s mletým masem'
-		'16.11.2017':
-			p: 'Bramborová'
-			a: 'Bratislavská vepřová plec, houskové knedlíky'
-			b: 'Opečená klobása, čočka na kyselo, kys. okurka'
-		'17.11.2017':
-			p: 'Z důvodu státního svátku se nevaří'
-			a: ''
-			b: ''
 		'20.11.2017':
 			p: 'Květáková'
 			a: 'Kuřecí nudličky "Stroganov", dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Smažené rybí filé, bramborová kaše'
+		'27.11.2017':
+			p: 'Kapustová se slaninou'
+			a: 'Kuřecí prsa s čerstvým tymiánem, šťouchané brambory'
+			b: 'Zeleninové rizoto se šunkou a sýrem, rajčatový salát'
+		'28.11.2017':
+			p: 'Žampiónová'
+			a: 'Vepřová plec na paprice, dušená rýže'
+			b: 'Smažený studentský řízek (gothaj), lepenice'
+		'29.11.2017':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
+			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, česnek, čili papričky, bazalka)'
+		'30.11.2017':
+			p: 'Čočková'
+			a: 'Kuřecí prsa po římsku, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'1.12.2017':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Smažená kuřecí prsa v pikantním těstíčku, vařené brambory'
+			b: 'Kuskus s vepřovým masem a zeleninou'
