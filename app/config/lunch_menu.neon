@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'20.11.2017':
-			p: 'Květáková'
-			a: 'Kuřecí nudličky "Stroganov", dušená rýže'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'21.11.2017':
-			p: 'Frankfurtská s párkem'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem, česnekem a smetanou'
-		'22.11.2017':
-			p: 'Francouzská cibulačka'
-			a: 'Kuřecí "Pašerák", vařené brambory'
-			b: 'Vepřová játra na cibulce, dušená rýže'
-		'23.11.2017':
-			p: 'Hrstková'
-			a: 'Pečený vepřový bůček, houskové knedlíky, červené zelí'
-			b: 'Zeleninové řízečky, 1/2 vařené brambory, 1/2 zelný salát'
-		'24.11.2017':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Smažené rybí filé, bramborová kaše'
 		'27.11.2017':
 			p: 'Kapustová se slaninou'
 			a: 'Kuřecí prsa s čerstvým tymiánem, šťouchané brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Smažená kuřecí prsa v pikantním těstíčku, vařené brambory'
 			b: 'Kuskus s vepřovým masem a zeleninou'
+		'4.12.2017':
+			p: 'Brokolicová'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'5.12.2017':
+			p: 'Česneková s bramborem'
+			a: 'Smažený holandský řízek, bramborová kaše'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'6.12.2017':
+			p: 'Hrachová s uzeninou'
+			a: 'Rajská hovězí pečeně, vařené těstoviny'
+			b: 'Francouzské brambory, kys. okurka'
+		'7.12.2017':
+			p: 'Boršč'
+			a: 'Domažlické vepřové ragú, dušená rýže'
+			b: 'Opečená vinná klobása, šťouchané brambory'
+		'8.12.2017':
+			p: 'Hovězí vývar s fridátovými nudlemi'
+			a: 'Marinovaná kuřecí křídla, vařené brambory'
+			b: 'Boloňské špagety'
