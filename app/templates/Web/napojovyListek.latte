@@ -6,26 +6,21 @@
 		{foreach $drink as $group}
 			<tr>
 				<td></td>
-				<td colspan="2">
+				<td class="left" colspan="2">
 					<h2>{$group['group']}</h2>
 				</td>
 			</tr>
 			{foreach $group['drink'] as $drink}
 				<tr>
-					<td>
+					<td class="right">
 						{$drink['amount']}
 					</td>
-					<td>
+					<td class="left">
 						{$drink['name']|noescape}
+						<i n:ifset="$drink['description']">{$drink['description']|noescape}</i>
 					</td>
-					<td>
+					<td class="right">
 						{$drink['price']} Kč
-					</td>
-				</tr>
-				<tr n:ifset="$drink['description']">
-					<td></td>
-					<td colspan="2">
-						<i>{$drink['description']|noescape}</i>
 					</td>
 				</tr>
 			{/foreach}

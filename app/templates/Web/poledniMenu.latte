@@ -21,21 +21,21 @@
 		{foreach $menu as $date => $food}
 			<tr>
 				<td></td>
-				<td>
+				<td class="left">
 					<h2>{$date|date:'%A %d.%m.%Y'}</h2>
 				</td>
 			</tr>
 			<tr>
-				<td>Polévka:</td>
-				<td>{$food['p']}</td>
+				<td class="right">Polévka:</td>
+				<td class="left">{$food['p']}</td>
 			</tr>
 			<tr>
-				<td>Jídlo A:</td>
-				<td>{$food['a']}</td>
+				<td class="right">Jídlo A:</td>
+				<td class="left">{$food['a']}</td>
 			</tr>
 			<tr>
-				<td>Jídlo B:</td>
-				<td>{$food['b']}</td>
+				<td class="right">Jídlo B:</td>
+				<td class="left">{$food['b']}</td>
 			</tr>
 		{/foreach}
 	</table>

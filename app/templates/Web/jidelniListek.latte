@@ -6,25 +6,26 @@
 		{foreach $menu as $group}
 			<tr>
 				<td></td>
-				<td colspan="2">
+				<td class="left" colspan="2">
 					<h2>{$group['group']}</h2>
 				</td>
 			</tr>
 			{foreach $group['food'] as $food}
 				<tr>
-					<td>
-					{ifset $food['amount']}{$food['amount']}{/ifset}
-				</td>
-				<td>
-					{$food['name']|noescape}
-					<span n:ifset="$food['alergen']">(A: {$food['alergen']|implode:', '})</span>
-					<i n:ifset="$food['note']">({$food['note']|noescape})</i>
-				</td>
-				<td>
-					{$food['price']} Kč
-				</td>
-			</tr>
+					<td class="right">
+						{ifset $food['amount']}{$food['amount']}
+						{/ifset}
+					</td>
+					<td class="left">
+						{$food['name']|noescape}
+						<span n:ifset="$food['alergen']">(A: {$food['alergen']|implode:', '})</span>
+						<i n:ifset="$food['note']">({$food['note']|noescape})</i>
+					</td>
+					<td class="right">
+						{$food['price']} Kč
+					</td>
+				</tr>
+			{/foreach}
 		{/foreach}
-	{/foreach}
-</table>
+	</table>
 </div>

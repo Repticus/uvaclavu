@@ -350,7 +350,7 @@ iframe {
   min-height: 1px;
 }
 
-.mnu tr:not(:first-child) h2 {
+.mnu h2 {
   margin-top: 20px;
 }
 .mnu span {
@@ -367,11 +367,11 @@ iframe {
   display: block;
   padding-bottom: 10px;
 }
-.mnu tr td:nth-child(2) {
+.mnu .left {
   padding: 0 10px 0 10px;
   width: 100%;
 }
-.mnu td:not(:nth-child(2)) {
+.mnu .right {
   white-space: nowrap;
   text-align: right;
 }
