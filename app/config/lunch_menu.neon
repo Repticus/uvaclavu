@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'27.11.2017':
-			p: 'Kapustová se slaninou'
-			a: 'Kuřecí prsa s čerstvým tymiánem, šťouchané brambory'
-			b: 'Zeleninové rizoto se šunkou a sýrem, rajčatový salát'
-		'28.11.2017':
-			p: 'Žampiónová'
-			a: 'Vepřová plec na paprice, dušená rýže'
-			b: 'Smažený studentský řízek (gothaj), lepenice'
-		'29.11.2017':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
-			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, česnek, čili papričky, bazalka)'
-		'30.11.2017':
-			p: 'Čočková'
-			a: 'Kuřecí prsa po římsku, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'1.12.2017':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Smažená kuřecí prsa v pikantním těstíčku, vařené brambory'
-			b: 'Kuskus s vepřovým masem a zeleninou'
 		'4.12.2017':
 			p: 'Brokolicová'
 			a: 'Kuřecí nudličky po indicku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s fridátovými nudlemi'
 			a: 'Marinovaná kuřecí křídla, vařené brambory'
 			b: 'Boloňské špagety'
+		'11.12.2017':
+			p: 'Zeleninová bílá'
+			a: 'Smažený vepřový řízek, vařené brambory'
+			b: 'Rizoto s kuřecím masem a zeleninou, kys. okurka'
+		'12.12.2017':
+			p: 'Fazolová s klobásou'
+			a: 'Maso dvou barev, kari rýže'
+			b: 'Zapečené těstoviny s uzeným masem'
+		'13.12.2017':
+			p: 'Kulajda'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Květákové placičky, 1/2 vařené brambory, 1/2 zelný salát'
+		'14.12.2017':
+			p: 'Bramborová'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Tortila s kuřecím masem, zeleninou a dresingem'
+		'15.12.2017':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
+			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
