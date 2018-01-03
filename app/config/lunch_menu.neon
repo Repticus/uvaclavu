@@ -1,42 +1,42 @@
 parameters:
 	lunch-menu:
-		'4.12.2017':
-			p: 'Brokolicová'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'5.12.2017':
-			p: 'Česneková s bramborem'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
-		'6.12.2017':
-			p: 'Hrachová s uzeninou'
-			a: 'Rajská hovězí pečeně, vařené těstoviny'
-			b: 'Francouzské brambory, kys. okurka'
-		'7.12.2017':
-			p: 'Boršč'
-			a: 'Domažlické vepřové ragú, dušená rýže'
-			b: 'Opečená vinná klobása, šťouchané brambory'
-		'8.12.2017':
-			p: 'Hovězí vývar s fridátovými nudlemi'
-			a: 'Marinovaná kuřecí křídla, vařené brambory'
-			b: 'Boloňské špagety'
-		'11.12.2017':
-			p: 'Zeleninová bílá'
-			a: 'Smažený vepřový řízek, vařené brambory'
-			b: 'Rizoto s kuřecím masem a zeleninou, kys. okurka'
-		'12.12.2017':
-			p: 'Fazolová s klobásou'
-			a: 'Maso dvou barev, kari rýže'
-			b: 'Zapečené těstoviny s uzeným masem'
-		'13.12.2017':
-			p: 'Kulajda'
-			a: 'Vepřový guláš, houskové knedlíky'
-			b: 'Květákové placičky, 1/2 vařené brambory, 1/2 zelný salát'
-		'14.12.2017':
-			p: 'Bramborová'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Tortila s kuřecím masem, zeleninou a dresingem'
-		'15.12.2017':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
-			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
+		'1.1.2018':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
+		'2.1.2018':
+			p: 'Špenátová'
+			a: 'Vepřový šleh, dušená rýže'
+			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
+		'3.1.2018':
+			p: 'Francouzská cibulačka'
+			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
+			b: 'Uzená krkovice, čočka nakyselo, kys. okurka'
+		'4.1.2018':
+			p: 'Kapustová se slaninou'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Kari rýže s kuřecím masem, šunkou, zeleninou a sýrem'
+		'5.1.2018':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'8.1.2018':
+			p: 'Čočková'
+			a: 'Kuřecí nudličky se smetanou a zeleninou, dušená rýže'
+			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
+		'9.1.2018':
+			p: 'Frankfurtská s párkem'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Špagety "Carobnara"'
+		'10.1.2018':
+			p: 'Pórková'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Těstoviny penne se šunkou, žampióny a sýrovou omáčkou'
+		'11.1.2018':
+			p: 'Italská'
+			a: 'Pečené kuře ala kachna, bramborové knedlíky, červené zelí'
+			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
+		'12.1.2018':
+			p: 'Hovězí vývar s rýží a hrášekm'
+			a: 'Smažený karbanátek, šťouchané brambory'
+			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
