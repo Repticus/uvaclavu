@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'1.1.2018':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří'
-			b: ''
-		'2.1.2018':
-			p: 'Špenátová'
-			a: 'Vepřový šleh, dušená rýže'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'3.1.2018':
-			p: 'Francouzská cibulačka'
-			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
-			b: 'Uzená krkovice, čočka nakyselo, kys. okurka'
-		'4.1.2018':
-			p: 'Kapustová se slaninou'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Kari rýže s kuřecím masem, šunkou, zeleninou a sýrem'
-		'5.1.2018':
-			p: 'Hovězí vývar s kapáním'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
 		'8.1.2018':
 			p: 'Čočková'
 			a: 'Kuřecí nudličky se smetanou a zeleninou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hrášekm'
 			a: 'Smažený karbanátek, šťouchané brambory'
 			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
+		'15.1.2018':
+			p: 'Květáková'
+			a: 'Kuřecí prsa Apollo (anglická slanina, žampión, cibule, smetana), dušená rýže'
+			b: 'Jablková žemlovka s tvarohem'
+		'16.1.2018':
+			p: 'Zeleninový vývar'
+			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
+			b: 'Kuličky z mletého masa se širokými nudlemi a brusinkami'
+		'17.1.2018':
+			p: 'Zelná s uzeninou'
+			a: 'Debrecínský vepřový guláš, houskové knedlíky'
+			b: 'Těstovinový salát s kuřecím masem'
+		'18.1.2018':
+			p: 'Žampiónová'
+			a: 'Bratislavská vepřová plec, dušená rýže'
+			b: 'Smažená vepřová játra, vařené brambory'
+		'19.1.2018':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky s česnekem'
+			b: 'Smažené kuřecí paličky, vařené brambory'
