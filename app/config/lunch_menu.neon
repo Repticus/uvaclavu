@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'15.1.2018':
-			p: 'Květáková'
-			a: 'Kuřecí prsa Apollo (anglická slanina, žampión, cibule, smetana), dušená rýže'
-			b: 'Jablková žemlovka s tvarohem'
-		'16.1.2018':
-			p: 'Zeleninový vývar'
-			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
-			b: 'Kuličky z mletého masa se širokými nudlemi a brusinkami'
-		'17.1.2018':
-			p: 'Zelná s uzeninou'
-			a: 'Debrecínský vepřový guláš, houskové knedlíky'
-			b: 'Těstovinový salát s kuřecím masem'
-		'18.1.2018':
-			p: 'Žampiónová'
-			a: 'Bratislavská vepřová plec, dušená rýže'
-			b: 'Smažená vepřová játra, vařené brambory'
-		'19.1.2018':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky s česnekem'
-			b: 'Smažené kuřecí paličky, vařené brambory'
 		'22.1.2018':
 			p: 'Selská'
 			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Jelení guláš, houskové knedlíky'
 			b: 'Lasagne s mletým masem'
+		'29.1.2018':
+			p: 'Zeleninová bílá'
+			a: 'Vepřové nudličky s klobásou, dušená rýže'
+			b: 'Smažený květák, vařené brambory '
+		'30.1.2018':
+			p: 'Fazolová s párkem'
+			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
+			b: 'Gruzínská rýže (hovězí maso, cibule, protlak), kys. okurka'
+		'31.1.2018':
+			p: 'Boršč'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: 'Zeleninový salát se smaženými kuřecími nugetkami'
+		'1.2.2018':
+			p: 'Bramborová'
+			a: 'Masový špíz s nivovým přelivem, šťouchané brambory'
+			b: 'Boloňské špagety'
+		'2.2.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
+			b: 'Domácí lívance s jahodami a smetanou'
