@@ -3,5 +3,6 @@ parameters:
 # open: {16:00,24:00} #Zmeni oteviraci dobu {od,do}.
 # event: {16:00,'nazev akce'} #Nastavi zacatek a nazev akce pro dany den. Pokud je v dany den zavreno, musi byt zadana oteviraci doba.
 	event:
-		'11.11.2017':
-			event: {20:00,'Degustace vín','degustace.jpg'}
+		'14.2.2018':
+			open: {17:00,24:00}
+			event: {17:00,'Valentýnské menu','valentyn.jpg'}
