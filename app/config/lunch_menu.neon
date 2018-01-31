@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'22.1.2018':
-			p: 'Selská'
-			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
-			b: 'Kapustový karbanátek, bramborová kaše'
-		'23.1.2018':
-			p: 'Drůbeží vývar s kapáním'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: 'Opečená jitrnice, lepenice'
-		'24.1.2018':
-			p: 'Hrachová'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'25.1.2018':
-			p: 'Česneková se sýrem a uzeným masem'
-			a: 'Pivovarská vepřová krkovice (cibule, kapie, žampióny, pivo) šťouchané brambory'
-			b: 'Plněný paprikový lusk, dušená rýže'
-		'26.1.2018':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Jelení guláš, houskové knedlíky'
-			b: 'Lasagne s mletým masem'
 		'29.1.2018':
 			p: 'Zeleninová bílá'
 			a: 'Vepřové nudličky s klobásou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
 			b: 'Domácí lívance s jahodami a smetanou'
+		'5.2.2018':
+			p: 'Špenátová'
+			a: 'Smažený Cordon bleu (šunka, sýr), vařené brambory'
+			b: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+		'6.2.2018':
+			p: 'Šalotková'
+			a: 'Vepřové medailonky po srbsku, opečené brambory'
+			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, česnek, bazalka, čili papričky)'
+		'7.2.2018':
+			p: 'Kulajda'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Opečená klobása, hrachová kaše'
+		'8.2.2018':
+			p: 'Gulášová'
+			a: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+			b: 'Smažené zeleninové řízečky, 1/2 vařené brambory, 1/2 zelný salát'
+		'9.2.2018':
+			p: 'Drůbeží vývar s těstovinou'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Pštrosí vejce, bramborová kaše'
