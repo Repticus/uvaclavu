@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'29.1.2018':
-			p: 'Zeleninová bílá'
-			a: 'Vepřové nudličky s klobásou, dušená rýže'
-			b: 'Smažený květák, vařené brambory '
-		'30.1.2018':
-			p: 'Fazolová s párkem'
-			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
-			b: 'Gruzínská rýže (hovězí maso, cibule, protlak), kys. okurka'
-		'31.1.2018':
-			p: 'Boršč'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Zeleninový salát se smaženými kuřecími nugetkami'
-		'1.2.2018':
-			p: 'Bramborová'
-			a: 'Masový špíz s nivovým přelivem, šťouchané brambory'
-			b: 'Boloňské špagety'
-		'2.2.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
-			b: 'Domácí lívance s jahodami a smetanou'
 		'5.2.2018':
 			p: 'Špenátová'
 			a: 'Smažený Cordon bleu (šunka, sýr), vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s těstovinou'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Pštrosí vejce, bramborová kaše'
+		'12.2.2018':
+			p: 'Brokolicová'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'13.2.2018':
+			p: 'Čočková s uzeninou'
+			a: 'Plněná vepřová roláda, šťouchané brambory'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'14.2.2018':
+			p: 'Francouzská cibulačka'
+			a: 'Slovenská pochoutka, bramborové placky'
+			b: 'Smažený studentský řízek, bramborový salát'
+		'15.2.2018':
+			p: 'Pórková'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'16.2.2018':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Smažená rybí treska, bramborová kaše'
+			b: 'Cmunda po kaplicku'
