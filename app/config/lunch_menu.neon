@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'5.2.2018':
-			p: 'Špenátová'
-			a: 'Smažený Cordon bleu (šunka, sýr), vařené brambory'
-			b: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-		'6.2.2018':
-			p: 'Šalotková'
-			a: 'Vepřové medailonky po srbsku, opečené brambory'
-			b: 'Gnocchi "Siciliána" (kuřecí maso, olivy, česnek, bazalka, čili papričky)'
-		'7.2.2018':
-			p: 'Kulajda'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Opečená klobása, hrachová kaše'
-		'8.2.2018':
-			p: 'Gulášová'
-			a: 'Zapečené těstoviny s uzeným masem, kys. okurka'
-			b: 'Smažené zeleninové řízečky, 1/2 vařené brambory, 1/2 zelný salát'
-		'9.2.2018':
-			p: 'Drůbeží vývar s těstovinou'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Pštrosí vejce, bramborová kaše'
 		'12.2.2018':
 			p: 'Brokolicová'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Smažená rybí treska, bramborová kaše'
 			b: 'Cmunda po kaplicku'
+		'19.2.2018':
+			p: 'Žampiónová'
+			a: 'Pašerácký kuřecí plátek, dušená rýže'
+			b: 'Špagety po uhlířsku'
+		'20.2.2018':
+			p: 'Ovarová s kroupami'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Domažlické vepřové ragú, hrášková rýže'
+		'21.2.2018':
+			p: 'Kmínová s vejci'
+			a: 'Smažený holandský řízek, bramborová kaše'
+			b: 'Hovězí maso vařené, rajská omáčka, houskové knedlíky'
+		'22.2.2018':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Marinovaná kuřecí křídla, vařené brambory'
+			b: 'Vepřová játra po mlynářsku, dušená rýže'
+		'23.2.2018':
+			p: 'Kapustová se slaninou'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
