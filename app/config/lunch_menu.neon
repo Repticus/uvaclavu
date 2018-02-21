@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'12.2.2018':
-			p: 'Brokolicová'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'13.2.2018':
-			p: 'Čočková s uzeninou'
-			a: 'Plněná vepřová roláda, šťouchané brambory'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'14.2.2018':
-			p: 'Francouzská cibulačka'
-			a: 'Slovenská pochoutka, bramborové placky'
-			b: 'Smažený studentský řízek, bramborový salát'
-		'15.2.2018':
-			p: 'Pórková'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
-		'16.2.2018':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Smažená rybí treska, bramborová kaše'
-			b: 'Cmunda po kaplicku'
 		'19.2.2018':
 			p: 'Žampiónová'
 			a: 'Pašerácký kuřecí plátek, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Kapustová se slaninou'
 			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
 			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
+		'26.2.2018':
+			p: 'Česneková s bramborem'
+			a: 'Kuřecí nudličky po mexicku, dušená rýže'
+			b: 'Smažená brokolice, bramborová kaše'
+		'27.2.2018':
+			p: 'Italská'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Zapečené palačinky s tvarohem'
+		'28.2.2018':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
+		'1.3.2018':
+			p: 'Zelná s uzeninou'
+			a: 'Vepřová žebírko Balkán, opečené brambory'
+			b: 'Drůbeží rizoto se zeleninou a sýrem, kys. okurka'
+		'2.3.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Pečené kuře, vařené brambory, dušená zelenina'
+			b: 'Valašská vepřová plec, houskové knedlíky'
