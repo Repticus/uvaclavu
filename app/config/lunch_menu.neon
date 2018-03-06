@@ -1,42 +1,42 @@
 parameters:
 	lunch-menu:
-		'19.2.2018':
-			p: 'Žampiónová'
-			a: 'Pašerácký kuřecí plátek, dušená rýže'
-			b: 'Špagety po uhlířsku'
-		'20.2.2018':
-			p: 'Ovarová s kroupami'
-			a: 'Smažený sýr, vařené brambory'
-			b: 'Domažlické vepřové ragú, hrášková rýže'
-		'21.2.2018':
-			p: 'Kmínová s vejci'
-			a: 'Smažený holandský řízek, bramborová kaše'
-			b: 'Hovězí maso vařené, rajská omáčka, houskové knedlíky'
-		'22.2.2018':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Marinovaná kuřecí křídla, vařené brambory'
-			b: 'Vepřová játra po mlynářsku, dušená rýže'
-		'23.2.2018':
-			p: 'Kapustová se slaninou'
-			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
-			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
-		'26.2.2018':
-			p: 'Česneková s bramborem'
-			a: 'Kuřecí nudličky po mexicku, dušená rýže'
-			b: 'Smažená brokolice, bramborová kaše'
-		'27.2.2018':
-			p: 'Italská'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Zapečené palačinky s tvarohem'
-		'28.2.2018':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Segedínský vepřový guláš, houskové knedlíky'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
-		'1.3.2018':
-			p: 'Zelná s uzeninou'
-			a: 'Vepřová žebírko Balkán, opečené brambory'
-			b: 'Drůbeží rizoto se zeleninou a sýrem, kys. okurka'
-		'2.3.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Pečené kuře, vařené brambory, dušená zelenina'
-			b: 'Valašská vepřová plec, houskové knedlíky'
+		'5.3.2018':
+			p: 'Zeleninová bílá'
+			a: 'Smažený kuřecí řízek, vařené brambory'
+			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
+		'6.3.2018':
+			p: 'Ragú polévka'
+			a: 'Hukvaldský závitek, dušená rýže'
+			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
+		'7.3.2018':
+			p: 'Rovňanská'
+			a: 'Plněná veřová pečeně "Avignon" (šunka, cibule), šťouchané brambory'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
+		'8.3.2018':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Burgundská hovězí pečeně, dušená rýže'
+			b: 'Francouzské brambory, kys. okurka'
+		'9.3.2018':
+			p: 'Havířská fazolačka'
+			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky s česnekem'
+			b: 'Staročeská sekanina, lepenice'
+		'12.3.2018':
+			p: 'Květáková'
+			a: 'Kuřecí směs po čínsku, dušená rýže'
+			b: 'Uzená krkovice, vařená čočka, kys. okurka'
+		'13.3.2018':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Šunkové krokety se sýrem, vařené brambory'
+			b: 'Kari rýže s kuřecím masem, zeleninou a sýrem'
+		'14.3.2018':
+			p: 'Gulášová'
+			a: 'Vepřové výpečky, houskové knedlíky, zelí'
+			b: 'Opečená vinná klobása, šťouchané brambory'
+		'15.3.2018':
+			p: 'Šalotková'
+			a: 'Pražská hovězí pečeně, dušená rýže'
+			b: 'Vepřová játra "Alcron" (kečup, česnek, čili), opečené brambory,'
+		'16.3.2018':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Smažený karbanátek s hermelínem, vařené brambory'
+			b: 'Krůtí maso na špenátu s kukuřicí, vařené těstoviny'
