@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'5.3.2018':
-			p: 'Zeleninová bílá'
-			a: 'Smažený kuřecí řízek, vařené brambory'
-			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
-		'6.3.2018':
-			p: 'Ragú polévka'
-			a: 'Hukvaldský závitek, dušená rýže'
-			b: 'Špagety "Pomodoro" (bazalka, česnek, cibule, rajčata)'
-		'7.3.2018':
-			p: 'Rovňanská'
-			a: 'Plněná veřová pečeně "Avignon" (šunka, cibule), šťouchané brambory'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'8.3.2018':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Burgundská hovězí pečeně, dušená rýže'
-			b: 'Francouzské brambory, kys. okurka'
-		'9.3.2018':
-			p: 'Havířská fazolačka'
-			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky s česnekem'
-			b: 'Staročeská sekanina, lepenice'
 		'12.3.2018':
 			p: 'Květáková'
 			a: 'Kuřecí směs po čínsku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Smažený karbanátek s hermelínem, vařené brambory'
 			b: 'Krůtí maso na špenátu s kukuřicí, vařené těstoviny'
+		'19.3.2018':
+			p: 'Špenátová'
+			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
+			b: 'Špagety "Carbonara", horalka'
+		'20.3.2018': 
+			p: 'Bramborová'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'21.3.2018':
+			p: 'Selská'
+			a: 'Čevabčiči z mletého masa, opečené brambory'
+			b: 'Těstovinový salát s kuřecím masem'
+		'22.3.2018':
+			p: 'Hrachová s uzeninou'
+			a: 'Marinovaná vepřová krkovice zapečená s nivou, šťouchané brambory'
+			b: 'Švestkové knedlíky z bramborového těsta s mákem'
+		'23.3.2018':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Smažená kuřecí křidélka, vařené brambory'
