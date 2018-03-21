@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'12.3.2018':
-			p: 'Květáková'
-			a: 'Kuřecí směs po čínsku, dušená rýže'
-			b: 'Uzená krkovice, vařená čočka, kys. okurka'
-		'13.3.2018':
-			p: 'Drůbeží vývar s kapáním'
-			a: 'Šunkové krokety se sýrem, vařené brambory'
-			b: 'Kari rýže s kuřecím masem, zeleninou a sýrem'
-		'14.3.2018':
-			p: 'Gulášová'
-			a: 'Vepřové výpečky, houskové knedlíky, zelí'
-			b: 'Opečená vinná klobása, šťouchané brambory'
-		'15.3.2018':
-			p: 'Šalotková'
-			a: 'Pražská hovězí pečeně, dušená rýže'
-			b: 'Vepřová játra "Alcron" (kečup, česnek, čili), opečené brambory,'
-		'16.3.2018':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Smažený karbanátek s hermelínem, vařené brambory'
-			b: 'Krůtí maso na špenátu s kukuřicí, vařené těstoviny'
 		'19.3.2018':
 			p: 'Špenátová'
 			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
 			b: 'Špagety "Carbonara", horalka'
-		'20.3.2018': 
+		'20.3.2018':
 			p: 'Bramborová'
 			a: 'Vepřová plec na slanině, dušená rýže'
 			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Svíčková na smetaně, houskové knedlíky'
 			b: 'Smažená kuřecí křidélka, vařené brambory'
+		'26.3.2018':
+			p: 'Brokolicová'
+			a: 'Kuřecí prsa "Apollo" (angl. slanina, žampión, cibule, smetana), dušená rýže'
+			b: 'Opečená klobása, hrachová kaše, kys. okurka'
+		'27.3.2018':
+			p: 'Česneková s bramborem'
+			a: 'Smažený hermelín, vařené brambory, tatarská omáčka'
+			b: 'Lasagne s mletým masem'
+		'28.3.2018':
+			p: 'Čočková s uzeninou'
+			a: 'Vepřový šleh, dušená rýže'
+			b: 'Maminčino kuře'
+		'29.3.2018':
+			p: 'Hovězí vývar s fridátovými nudlemi'
+			a: 'Kuřecí roláda se slaninou a špenátem pečená metodou Sous-vide, bramborová kaše'
+			b: 'Zabíjačkový guláš, dušená rýže'
+		'30.3.2018':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
