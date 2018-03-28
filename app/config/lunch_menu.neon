@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'19.3.2018':
-			p: 'Špenátová'
-			a: 'Přírodní plněná kuřecí kapsa, vařené brambory'
-			b: 'Špagety "Carbonara", horalka'
-		'20.3.2018':
-			p: 'Bramborová'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
-		'21.3.2018':
-			p: 'Selská'
-			a: 'Čevabčiči z mletého masa, opečené brambory'
-			b: 'Těstovinový salát s kuřecím masem'
-		'22.3.2018':
-			p: 'Hrachová s uzeninou'
-			a: 'Marinovaná vepřová krkovice zapečená s nivou, šťouchané brambory'
-			b: 'Švestkové knedlíky z bramborového těsta s mákem'
-		'23.3.2018':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b: 'Smažená kuřecí křidélka, vařené brambory'
 		'26.3.2018':
 			p: 'Brokolicová'
 			a: 'Kuřecí prsa "Apollo" (angl. slanina, žampión, cibule, smetana), dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: ''
 			a: 'Z důvodu státního svátku se nevaří'
 			b: ''
+		'2.4.2018':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří'
+			b: ''
+		'3.4.2018':
+			p: 'Žampiónová'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'4.4.2018':
+			p: 'Francouzská cibulačka'
+			a: 'Pikantní vepřové medailonky, vařené brambory'
+			b: 'Zeleninový salát s grilovaným kuřecím masem a dresinkem'
+		'5.4.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'6.4.2018':
+			p: 'Dršťková'
+			a: 'Boloňské špagety'
+			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
