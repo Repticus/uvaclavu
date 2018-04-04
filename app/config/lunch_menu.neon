@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'26.3.2018':
-			p: 'Brokolicová'
-			a: 'Kuřecí prsa "Apollo" (angl. slanina, žampión, cibule, smetana), dušená rýže'
-			b: 'Opečená klobása, hrachová kaše, kys. okurka'
-		'27.3.2018':
-			p: 'Česneková s bramborem'
-			a: 'Smažený hermelín, vařené brambory, tatarská omáčka'
-			b: 'Lasagne s mletým masem'
-		'28.3.2018':
-			p: 'Čočková s uzeninou'
-			a: 'Vepřový šleh, dušená rýže'
-			b: 'Maminčino kuře'
-		'29.3.2018':
-			p: 'Hovězí vývar s fridátovými nudlemi'
-			a: 'Kuřecí roláda se slaninou a špenátem pečená metodou Sous-vide, bramborová kaše'
-			b: 'Zabíjačkový guláš, dušená rýže'
-		'30.3.2018':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří'
-			b: ''
 		'2.4.2018':
 			p: ''
 			a: 'Z důvodu státního svátku se nevaří'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Dršťková'
 			a: 'Boloňské špagety'
 			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
+		'9.4.2018':
+			p: 'Pórková'
+			a: 'Kuřecí prsa na másle s bylinkami, šťouchané brambory'
+			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
+		'10.4.2018':
+			p: 'Zelná s uzeninou'
+			a: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'11.4.2018':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Debrecínský vepřový guláš, houskové knedlíky'
+			b: 'Chilli con carne'
+		'12.4.2018':
+			p: 'Kapustová se slaninou'
+			a: 'Klatovský hovězí závitek, dušená rýže'
+			b: 'Gnocchi "Siciliána" (kuřecí maso, bazalka, česnek, čili papričky, olivy)'
+		'13.4.2018':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Krůtí plátek zapečený s rajčaty a sýrem, vařené brambory'
+			b: 'Bramborové knedlíky plněné uzeným masem, zelí'
