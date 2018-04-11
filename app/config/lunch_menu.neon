@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'2.4.2018':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří'
-			b: ''
-		'3.4.2018':
-			p: 'Žampiónová'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'4.4.2018':
-			p: 'Francouzská cibulačka'
-			a: 'Pikantní vepřové medailonky, vařené brambory'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresinkem'
-		'5.4.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'6.4.2018':
-			p: 'Dršťková'
-			a: 'Boloňské špagety'
-			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
 		'9.4.2018':
 			p: 'Pórková'
 			a: 'Kuřecí prsa na másle s bylinkami, šťouchané brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Krůtí plátek zapečený s rajčaty a sýrem, vařené brambory'
 			b: 'Bramborové knedlíky plněné uzeným masem, zelí'
+		'16.4.2018':
+			p: 'Kmínová s vejci'
+			a: 'Pikantní masový špíz, vařené brambory'
+			b: 'Kuskus s kuřecím masem a zeleninou'
+		'17.4.2018':
+			p: 'Polévka z fazolových lusků'
+			a: 'Střapačky se zelím a uzeným masem'
+			b: 'Smažené květákové řízečky, 1/2 vařené brambory, 1/2 zelný salát'
+		'18.4.2018':
+			p: 'Ovarová s kroupami'
+			a: 'Vepřová plec na žampiónech, dušená rýže'
+			b: 'Zeleninový salát se smaženými kuřecími nugetami, '
+		'19.4.2018':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Kuře ala kachna, bramborové knedlíky, červené zelí'
+			b: 'Těstoviny penne se šunkou, žampióny a sýrovou omáčkou'
+		'20.4.2018':
+			p: 'Boršč'
+			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
+			b: 'Dalmátské čufty, houskové knedlíky'
