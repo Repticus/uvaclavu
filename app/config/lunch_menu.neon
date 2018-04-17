@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'9.4.2018':
-			p: 'Pórková'
-			a: 'Kuřecí prsa na másle s bylinkami, šťouchané brambory'
-			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
-		'10.4.2018':
-			p: 'Zelná s uzeninou'
-			a: 'Zapečené těstoviny s uzeným masem, kys. okurka'
-			b: 'Smažený kapustový karbanátek, bramborová kaše'
-		'11.4.2018':
-			p: 'Drůbeží vývar s kapáním'
-			a: 'Debrecínský vepřový guláš, houskové knedlíky'
-			b: 'Chilli con carne'
-		'12.4.2018':
-			p: 'Kapustová se slaninou'
-			a: 'Klatovský hovězí závitek, dušená rýže'
-			b: 'Gnocchi "Siciliána" (kuřecí maso, bazalka, česnek, čili papričky, olivy)'
-		'13.4.2018':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Krůtí plátek zapečený s rajčaty a sýrem, vařené brambory'
-			b: 'Bramborové knedlíky plněné uzeným masem, zelí'
 		'16.4.2018':
 			p: 'Kmínová s vejci'
 			a: 'Pikantní masový špíz, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Boršč'
 			a: 'Kuřecí prsa v sýrovém těstíčku, vařené brambory'
 			b: 'Dalmátské čufty, houskové knedlíky'
+		'23.4.2018':
+			p: 'Čočková'
+			a: 'Kuřecí soté se zeleninou, dušená rýže'
+			b: 'Smažená brokolice, vařené brambory'
+		'24.4.2018': 
+			p: 'Květáková'
+			a: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem a angl. slaninou'
+			b: 'Zapečené těstoviny "Primavera"'
+		'25.4.2018':
+			p: 'Italská'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: 'Gruzínská rýže (hovězí maso, protlak, cibule)'
+		'26.4.2018':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Kuřecí plátek zapečený s nivou a jablky, vařené brambory'
+			b: 'Jablková žemlovka s tvarohem'
+		'27.4.2018':
+			p: 'Gulášová'
+			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
+			b: 'Smažená vepřová játra, vařené brambory'
