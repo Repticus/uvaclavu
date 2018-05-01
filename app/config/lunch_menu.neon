@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'23.4.2018':
-			p: 'Čočková'
-			a: 'Kuřecí soté se zeleninou, dušená rýže'
-			b: 'Smažená brokolice, vařené brambory'
-		'24.4.2018':
-			p: 'Květáková'
-			a: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem a angl. slaninou'
-			b: 'Zapečené těstoviny "Primavera"'
-		'25.4.2018':
-			p: 'Italská'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Gruzínská rýže (hovězí maso, protlak, cibule)'
-		'26.4.2018':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Kuřecí plátek zapečený s nivou a jablky, vařené brambory'
-			b: 'Jablková žemlovka s tvarohem'
-		'27.4.2018':
-			p: 'Gulášová'
-			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
-			b: 'Smažená vepřová játra, vařené brambory'
 		'30.4.2018':
 			p: ''
 			a: 'Z provozních důvodů se nevaří.'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Smažený holandský řízek, vařené brambory'
 			b: 'Domácí lívance s jahodami a smetanou'
+		'7.5.2018':
+			p: 'Brokolicová'
+			a: 'Kuřecí flamendr, dušená rýže'
+			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
+		'8.5.2018': 
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří.'
+			b: ''
+		'9.5.2018':
+			p: 'Šalotková'
+			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
+			b: 'Mexické fazlole s klobásou'
+		'10.5.2018':
+			p: 'Bramborová'
+			a: 'Plněná vepřová roláda, šťouchané brambory'
+			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
+		'11.5.2018':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Plněný paprikový lusk, dušený rýže'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
