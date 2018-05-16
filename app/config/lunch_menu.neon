@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'7.5.2018':
-			p: 'Brokolicová'
-			a: 'Kuřecí flamendr, dušená rýže'
-			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
-		'8.5.2018':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří.'
-			b: ''
-		'9.5.2018':
-			p: 'Šalotková'
-			a: 'Smažený kuřecí Cordon bleu (šunka, sýr), vařené brambory'
-			b: 'Mexické fazlole s klobásou'
-		'10.5.2018':
-			p: 'Bramborová'
-			a: 'Plněná vepřová roláda, šťouchané brambory'
-			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
-		'11.5.2018':
-			p: 'Hovězí vývar s kapáním'
-			a: 'Plněný paprikový lusk, dušený rýže'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
 		'14.5.2018':
 			p: 'Žampiónová'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Krůtí prsa s drůbežími játry, šťouchané brambory'
+		'21.5.2018':
+			p: 'Hrachová'
+			a: 'Pašerácký kuřecí plátek, dušený rýže'
+			b: 'Zapečený květák se sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'22.5.2018':
+			p: 'Kapustová se slaninou'
+			a: 'Smažený karbanátek, vařené brambory'
+			b: 'Špagety "Pomodoro" (rajčata, bazalka, česnek, cibule) '
+		'23.5.2018':
+			p: 'Pórková'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Vepřová játra po mlynářsku, dušená rýže'
+		'24.5.2018':
+			p: 'Francouzská cibulačka'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Zapečené francouzské brambory, kys. okurka'
+		'25.5.2018':
+			p: 'Drůbeží vývar s tarhoňou'
+			a: 'Smažený vepřový řízek s česnekem, vařené brambory'
+			b: 'Cmunda po kaplicku'
