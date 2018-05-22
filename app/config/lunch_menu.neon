@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'14.5.2018':
-			p: 'Žampiónová'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Gnocchi se šunkou, listovým špenátem, česnekem a smetanou'
-		'15.5.2018':
-			p: 'Hrstková'
-			a: 'Masové kuličky z mletého masa, vařené brambory'
-			b: 'Zeleninový salát s tuňákem a vejcem'
-		'16.5.2018':
-			p: 'Česneková s bramborem'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Pečený vepřový bůček, houskové knedlíky, červené zelí'
-		'17.5.2018':
-			p: 'Fazolová s párkem'
-			a: 'Pivovarská krkovice, vařené brambory'
-			b: 'Vepřový guláš, houskové knedlíky'
-		'18.5.2018':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Krůtí prsa s drůbežími játry, šťouchané brambory'
 		'21.5.2018':
 			p: 'Hrachová'
 			a: 'Pašerácký kuřecí plátek, dušený rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s tarhoňou'
 			a: 'Smažený vepřový řízek s česnekem, vařené brambory'
 			b: 'Cmunda po kaplicku'
+		'28.5.2018':
+			p: 'Kmínová s vejci'
+			a: 'Vepřové nudličky na černém pivu s červenou cibulkou, čili, paprikou a pórkem, dušená rýže'
+			b: 'Opečená klobása, vařená čočka, kys. okurka'
+		'29.5.2018':
+			p: 'Čočková s uzeninou'
+			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
+			b: 'Smažené rybí filé, bramborová kaše'
+		'30.5.2018':
+			p: 'Zelná bílá'
+			a: 'Pečené kuře, 1/2 vařené brambory, 1/2 dušená zelenina'
+			b: 'Hovězí maso vařené, koprová omáčka, houskové knedlíky'
+		'31.5.2018':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Staročeská sekanina, lepenice'
+		'1.6.2018':
+			p: 'Květáková'
+			a: 'Vepřové medilonky s pepřovou omáčkou, fazolové lusky s česnekem a slaninou'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
