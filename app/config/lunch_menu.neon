@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'28.5.2018':
-			p: 'Kmínová s vejci'
-			a: 'Vepřové nudličky na černém pivu s červenou cibulkou, čili, paprikou a pórkem, dušená rýže'
-			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'29.5.2018':
-			p: 'Čočková s uzeninou'
-			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
-			b: 'Smažené rybí filé, bramborová kaše'
-		'30.5.2018':
-			p: 'Zelná bílá'
-			a: 'Pečené kuře, 1/2 vařené brambory, 1/2 dušená zelenina'
-			b: 'Hovězí maso vařené, koprová omáčka, houskové knedlíky'
-		'31.5.2018':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Staročeská sekanina, lepenice'
-		'1.6.2018':
-			p: 'Květáková'
-			a: 'Vepřové medilonky s pepřovou omáčkou, fazolové lusky s česnekem a slaninou'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
 		'4.6.2018':
 			p: 'Špenátová'
 			a: 'Kuřecí plátek "Apollo" (angl. slanina, žampióny, smetana), dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Slovenská pochoutka, bramborové gnocchi'
 			b: 'Pštrosí vejce, bramborová kaše'
+		'11.6.2018':
+			p: 'Zelenínová bílá'
+			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
+		'12.6.2018':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Kynuté jahodové knedlíky s tvarohem, máslem a cukrem'
+		'13.6.2018':
+			p: 'Italská'
+			a: 'Živáňská vepřová krkovice (pečená v alobalu s bramborami, cibulí a paprikou)'
+			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
+		'14.6.2018':
+			p: 'Šalotková'
+			a: 'Pečené krůtí prso s glazurou z javorového sirupu, jarní bramborový salát bez majonézy'
+			b: 'Vepřové žebírko na kmíně, dušená rýže'
+		'15.6.2018':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Frankfurtský hovězí závitek, houskové knedlíky'
+			b: 'Smažená brokolice v těstíčku z uzeného sýra, bramborová kaše'
