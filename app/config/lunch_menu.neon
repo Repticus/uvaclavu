@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'4.6.2018':
-			p: 'Špenátová'
-			a: 'Kuřecí plátek "Apollo" (angl. slanina, žampióny, smetana), dušená rýže'
-			b: 'Špagety Carbonara, sušenka'
-		'5.6.2018':
-			p: 'Havířská fazolačka'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Smažené zeleninové řízečky,1/2 vařené brambory, 1/2 zelný salát'
-		'6.6.2018':
-			p: 'Gulášová'
-			a: 'Marinovaná kuřecí křidélka, vařené brambory'
-			b: 'Vepřové rizoto se sýrem, kys. okurka'
-		'7.6.2018':
-			p: 'Selská'
-			a: 'Štěpánská hovězí pečeně, dušená rýže'
-			b: 'Těstoviny penně s kuřecím masem a sýrovou omáčkou'
-		'8.6.2018':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Slovenská pochoutka, bramborové gnocchi'
-			b: 'Pštrosí vejce, bramborová kaše'
 		'11.6.2018':
 			p: 'Zelenínová bílá'
 			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Frankfurtský hovězí závitek, houskové knedlíky'
 			b: 'Smažená brokolice v těstíčku z uzeného sýra, bramborová kaše'
+		'18.6.2018':
+			p: 'Čočková'
+			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
+			b: 'Špagety "Alio, olio, e peperoncino", ovoce '
+		'19.6.2018':
+			p: 'Drůbeží vývar s těstovinou'
+			a: 'Smažený karbanátek s hermelínem, šťouchané brambory'
+			b: 'Těstovinový salát s kuřecím masem'
+		'20.6.2018':
+			p: 'Kulajda'
+			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vař. brambory, 1/2 zelný salát'
+		'21.6.2018':
+			p: 'Boršč'
+			a: 'Znojemská hovězí pečeně, dušená rýže'
+			b: 'Vepřová játra "Alcron" (kečup, česnek, čili)'
+		'22.6.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Kuřecí roláda se slaninou a špenátem pečená metoudou Sous-vide, bramborová kaše'
+			b: 'Zapečené palačinky s tvarohem'
