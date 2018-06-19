@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'11.6.2018':
-			p: 'Zelenínová bílá'
-			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'12.6.2018':
-			p: 'Hovězí vývar s kapáním'
-			a: 'Smažený sýr, vařené brambory'
-			b: 'Kynuté jahodové knedlíky s tvarohem, máslem a cukrem'
-		'13.6.2018':
-			p: 'Italská'
-			a: 'Živáňská vepřová krkovice (pečená v alobalu s bramborami, cibulí a paprikou)'
-			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
-		'14.6.2018':
-			p: 'Šalotková'
-			a: 'Pečené krůtí prso s glazurou z javorového sirupu, jarní bramborový salát bez majonézy'
-			b: 'Vepřové žebírko na kmíně, dušená rýže'
-		'15.6.2018':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Frankfurtský hovězí závitek, houskové knedlíky'
-			b: 'Smažená brokolice v těstíčku z uzeného sýra, bramborová kaše'
 		'18.6.2018':
 			p: 'Čočková'
 			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Kuřecí roláda se slaninou a špenátem pečená metoudou Sous-vide, bramborová kaše'
 			b: 'Zapečené palačinky s tvarohem'
+		'25.6.2018':
+			p: 'Žampiónová'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
+		'26.6.2018': 
+			p: 'Zelná s uzeninou'
+			a: 'Vepřová plec na houbách, houskové knedlíky'
+			b: 'Smažený studentský řízek (Gothaj), bramborová kaše'
+		'27.6.2018':
+			p: 'Francouzská cibulačka'
+			a: 'Srbské vepřové medailonky, opečené brambory'
+			b: 'Maminčino kuře'
+		'28.6.2018':
+			p: 'Fazolová bílá'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'29.6.2018':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Lasagne s mletým masem a zeleninou'
