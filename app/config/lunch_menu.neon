@@ -1,42 +1,42 @@
 parameters:
 	lunch-menu:
-		'18.6.2018':
+		'16.7.2018':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky po římsku, dušená rýže'
+			b: ''
+		'17.7.2018':
+			p: 'Česneková s bramborem'
+			a: 'Smažený holandský řízek, vařené brambory'
+			b: ''
+		'18.7.2018':
+			p: 'Květáková'
+			a: 'Gnocchi "Siciliána" (kuřecí maso, olivi, česnek, čili papričky, bazalka)'
+			b: ''
+		'19.7.2018':
+			p: 'Hráškový krém'
+			a: 'Vídeňský hovězí guláš, houskové knedlíky'
+			b: ''
+		'20.7.2018':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Masový špíz se zeleninou, vařené brambory'
+			b: ''
+		'23.7.2018':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Katův šleh, dušená rýže'
+			b: ''
+		'24.7.2018': 
+			p: 'Frankfurtská s párkem'
+			a: 'Zapečené těstoviny s uzeným masem'
+			b: ''
+		'25.7.2018':
+			p: 'Kmínová s vejci'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: ''
+		'26.7.2018':
 			p: 'Čočková'
-			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
-			b: 'Špagety "Alio, olio, e peperoncino", ovoce '
-		'19.6.2018':
-			p: 'Drůbeží vývar s těstovinou'
-			a: 'Smažený karbanátek s hermelínem, šťouchané brambory'
-			b: 'Těstovinový salát s kuřecím masem'
-		'20.6.2018':
-			p: 'Kulajda'
-			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vař. brambory, 1/2 zelný salát'
-		'21.6.2018':
-			p: 'Boršč'
-			a: 'Znojemská hovězí pečeně, dušená rýže'
-			b: 'Vepřová játra "Alcron" (kečup, česnek, čili)'
-		'22.6.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Kuřecí roláda se slaninou a špenátem pečená metoudou Sous-vide, bramborová kaše'
-			b: 'Zapečené palačinky s tvarohem'
-		'25.6.2018':
-			p: 'Žampiónová'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'26.6.2018': 
-			p: 'Zelná s uzeninou'
-			a: 'Vepřová plec na houbách, houskové knedlíky'
-			b: 'Smažený studentský řízek (Gothaj), bramborová kaše'
-		'27.6.2018':
-			p: 'Francouzská cibulačka'
-			a: 'Srbské vepřové medailonky, opečené brambory'
-			b: 'Maminčino kuře'
-		'28.6.2018':
-			p: 'Fazolová bílá'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'29.6.2018':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Smažený hermelín, vařené brambory'
-			b: 'Lasagne s mletým masem a zeleninou'
+			a: 'Smažený kuřecí řízek, vařené brambory'
+			b: ''
+		'27.7.2018':
+			p: 'Brokolicová'
+			a: 'Boloňské špagety'
+			b: ''
