@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'23.7.2018':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Katův šleh, dušená rýže'
-			b: ''
-		'24.7.2018':
-			p: 'Frankfurtská s párkem'
-			a: 'Zapečené těstoviny s uzeným masem'
-			b: ''
-		'25.7.2018':
-			p: 'Kmínová s vejci'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: ''
-		'26.7.2018':
-			p: 'Čočková'
-			a: 'Smažený kuřecí řízek, vařené brambory'
-			b: ''
-		'27.7.2018':
-			p: 'Brokolicová'
-			a: 'Boloňské špagety'
-			b: ''
 		'30.7.2018':
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Zelná bílá'
 			a: 'Marinovaná kuřecí křídla, vařené brambory'
 			b: ''
+		'6.8.2018':
+			p: 'Zeleninová bílá'
+			a: 'Kuřecí nudličky po mexicku, dušená rýže'
+			b: 'Smažené rybí filé, bramborová kaše'
+		'7.8.2018':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Debrecínský vepřový guláš, houskové knedlíky'
+			b: 'Kari rýže se šunkou, zeleninou a sýrem'
+		'8.8.2018':
+			p: 'Kulajda'
+			a: 'Vepřové maso v mrkvi, opečené brambory'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'9.8.2018':
+			p: 'Gulášová'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Bramborové šveskové knedlíky s mákem a cukrem'
+		'10.8.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Čevabčiči, vařené brambory'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
