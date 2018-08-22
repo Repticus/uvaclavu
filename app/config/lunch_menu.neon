@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'13.8.2018':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Vepřové nudličky na černém pivu s červenou cibulkou, čili, paprikou a pórkem, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'14.8.2018':
-			p: 'Kapustová se slaninou'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Staročeská sekanina, lepenice'
-		'15.8.2018':
-			p: 'Bramborová'
-			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky s česnekem a slaninou'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresingem'
-		'16.8.2018':
-			p: 'Selská'
-			a: 'Šunkové krokety se sýrem, vařené brambory'
-			b: 'Dalmátské čufty, houskové knedlíky'
-		'17.8.2018':
-			p: 'Francouzská cibulačka'
-			a: 'Bramborové knedlíky plněné uzeným masem, zelí'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
 		'20.8.2018':
 			p: 'Špenátová'
 			a: 'Kuřecí flamendr, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Boršč'
 			a: 'Plněná vepřová roláda, šťouchané brambory'
 			b: 'Jablková žemlovka s tvarohem'
+		'27.8.2018':
+			p: 'Čočková'
+			a: 'Maso dvou barev (kuřecí, kýta), karirýže'
+			b: 'Brokolice v těstíčku s uzeným sýrem, bramborová kaše'
+		'28.8.2018':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Slovenská pochoutka, bramborové placky'
+			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
+		'29.8.2018':
+			p: 'Šalotková'
+			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
+			b: 'Domácí lívance s jahodami a smetanou'
+		'30.8.2018':
+			p: 'Česneková s bramborem'
+			a: 'Kuřecí plátek, zapečený s rajčaty a sýrem, vařené brambory'
+			b: 'Vepřová játra po mlynářsku, dušená rýže'
+		'31.8.2018':
+			p: 'Frankfurtská s párkem'
+			a: 'Smažený karbanátek, jarní bramborový salát bez majonézy'
+			b: 'Hovězí maso vařené omáčka smetanový křen, houskové knedlíky'
