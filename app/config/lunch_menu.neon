@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'20.8.2018':
-			p: 'Špenátová'
-			a: 'Kuřecí flamendr, dušená rýže'
-			b: 'Špagety  Carbonara, ovoce'
-		'21.8.2018':
-			p: 'Italská'
-			a: 'Cmunda po kaplicku'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vař. brambory, 1/2 zelný salát'
-		'22.8.2018':
-			p: 'Fazolová bílá'
-			a: 'Klatovský hovězí závitek, houskové knedlíky'
-			b: 'Těstovinový salát s kuřecím masem'
-		'23.8.2018':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Smažený kapustový karbanátek, bramborová kaše'
-		'24.8.2018':
-			p: 'Boršč'
-			a: 'Plněná vepřová roláda, šťouchané brambory'
-			b: 'Jablková žemlovka s tvarohem'
 		'27.8.2018':
 			p: 'Čočková'
 			a: 'Maso dvou barev (kuřecí, kýta), karirýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Frankfurtská s párkem'
 			a: 'Smažený karbanátek, jarní bramborový salát bez majonézy'
 			b: 'Hovězí maso vařené omáčka smetanový křen, houskové knedlíky'
+		'3.9.2018':
+			p: 'Brokolicová'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'4.9.2018':
+			p: 'Žampiónová'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Smažené zeleninové řízečky, 1/2 vař. brambory, 1/2 zelný salát'
+		'5.9.2018':
+			p: 'Hrstková'
+			a: 'Kuřecí roláda se špenátem a slaninou pečená metedou Sous-vide, šťouchané brambory'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
+		'6.9.2018':
+			p: 'Zelná s uzeninou'
+			a: 'Vepřové žebírko na kmíně, dušená rýže'
+			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
+		'7.9.2018':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Smažený vepřový řízek s česnekem, vařené brambory'
