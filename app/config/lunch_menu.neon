@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'27.8.2018':
-			p: 'Čočková'
-			a: 'Maso dvou barev (kuřecí, kýta), karirýže'
-			b: 'Brokolice v těstíčku s uzeným sýrem, bramborová kaše'
-		'28.8.2018':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Slovenská pochoutka, bramborové placky'
-			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
-		'29.8.2018':
-			p: 'Šalotková'
-			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
-			b: 'Domácí lívance s jahodami a smetanou'
-		'30.8.2018':
-			p: 'Česneková s bramborem'
-			a: 'Kuřecí plátek, zapečený s rajčaty a sýrem, vařené brambory'
-			b: 'Vepřová játra po mlynářsku, dušená rýže'
-		'31.8.2018':
-			p: 'Frankfurtská s párkem'
-			a: 'Smažený karbanátek, jarní bramborový salát bez majonézy'
-			b: 'Hovězí maso vařené omáčka smetanový křen, houskové knedlíky'
 		'3.9.2018':
 			p: 'Brokolicová'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Svíčková na smetaně, houskové knedlíky'
 			b: 'Smažený vepřový řízek s česnekem, vařené brambory'
+		'10.9.2018':
+			p: 'Zeleninová bílá'
+			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
+			b: 'Špagety "Alio, olio, e peperencino", ovoce'
+		'11.9.2018': 
+			p: 'Čočková s uzeninou'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Zeleninové rizoto, rajčatový salát'
+		'12.9.2018':
+			p: 'Gulášová'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Vepřová játra "Alcron" (kečup, čili, česnek), opečené brambory'
+		'13.9.2018':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Krutí prsa s glazurou z javorového sirupu, šťouchané brambory'
+			b: 'Gnocchi se šunkou, listovým špenátem, česnekem a smetanou'
+		'14.9.2018':
+			p: 'Kmínová s vejci'
+			a: 'Kuře na paprice, houskové knedlíky'
+			b: 'Lasagne s mletým masem'
