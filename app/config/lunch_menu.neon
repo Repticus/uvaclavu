@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'3.9.2018':
-			p: 'Brokolicová'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'4.9.2018':
-			p: 'Žampiónová'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Smažené zeleninové řízečky, 1/2 vař. brambory, 1/2 zelný salát'
-		'5.9.2018':
-			p: 'Hrstková'
-			a: 'Kuřecí roláda se špenátem a slaninou pečená metedou Sous-vide, šťouchané brambory'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'6.9.2018':
-			p: 'Zelná s uzeninou'
-			a: 'Vepřové žebírko na kmíně, dušená rýže'
-			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
-		'7.9.2018':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b: 'Smažený vepřový řízek s česnekem, vařené brambory'
 		'10.9.2018':
 			p: 'Zeleninová bílá'
 			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
 			b: 'Špagety "Alio, olio, e peperencino", ovoce'
-		'11.9.2018': 
+		'11.9.2018':
 			p: 'Čočková s uzeninou'
 			a: 'Smažený sýr, vařené brambory'
 			b: 'Zeleninové rizoto, rajčatový salát'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Kmínová s vejci'
 			a: 'Kuře na paprice, houskové knedlíky'
 			b: 'Lasagne s mletým masem'
+		'17.9.2018':
+			p: 'Květáková'
+			a: 'Kuřecí prsa na bylinkách, dušená rýže'
+			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
+		'18.9.2018':
+			p: 'Pórková s vejci'
+			a: 'Přírodní vepřový závitek, bramborové knedlíky'
+			b: 'Kuskus s kuřecím masem a zeleninou'
+		'19.9.2018':
+			p: 'Hrachová'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Smažený studentský řízek (Gothaj), bramborová kaše'
+		'20.9.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Boloňské špagety'
+			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže '
+		'21.9.2018':
+			p: 'Bramborová'
+			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
+			b: 'Smažený holandský řízek, vařené brambory'
