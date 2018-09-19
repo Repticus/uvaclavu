@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'10.9.2018':
-			p: 'Zeleninová bílá'
-			a: 'Kuřecí nudličky na žampiónech, dušená rýže'
-			b: 'Špagety "Alio, olio, e peperencino", ovoce'
-		'11.9.2018':
-			p: 'Čočková s uzeninou'
-			a: 'Smažený sýr, vařené brambory'
-			b: 'Zeleninové rizoto, rajčatový salát'
-		'12.9.2018':
-			p: 'Gulášová'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Vepřová játra "Alcron" (kečup, čili, česnek), opečené brambory'
-		'13.9.2018':
-			p: 'Drůbeží vývar s kapáním'
-			a: 'Krutí prsa s glazurou z javorového sirupu, šťouchané brambory'
-			b: 'Gnocchi se šunkou, listovým špenátem, česnekem a smetanou'
-		'14.9.2018':
-			p: 'Kmínová s vejci'
-			a: 'Kuře na paprice, houskové knedlíky'
-			b: 'Lasagne s mletým masem'
 		'17.9.2018':
 			p: 'Květáková'
 			a: 'Kuřecí prsa na bylinkách, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Bramborová'
 			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
 			b: 'Smažený holandský řízek, vařené brambory'
+		'24.9.2018':
+			p: 'Hovězí vývars masem a nudlemi'
+			a: 'Kuřecí soté se zeleninou a smetanou, dušená rýže'
+			b: 'Špagety po uhlířsku, tatranka'
+		'25.9.2018':
+			p: 'Selská'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: 'Zapečený květák se sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'26.9.2018':
+			p: 'Kulajda'
+			a: 'Pečené kuře, 1/2 vařené brambory, 1/2 dušená zelenina'
+			b: 'Zeleninový salát s tuňákem a vejci'
+		'27.9.2018':
+			p: 'Kapustová se slaninou'
+			a: 'Krůtí prsa s drůbežími játry, dušená rýže'
+			b: 'Přírodní mletý řízek, lepenice'
+		'28.9.2018':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří!'
+			b: ''
