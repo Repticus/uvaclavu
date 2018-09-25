@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'17.9.2018':
-			p: 'Květáková'
-			a: 'Kuřecí prsa na bylinkách, dušená rýže'
-			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
-		'18.9.2018':
-			p: 'Pórková s vejci'
-			a: 'Přírodní vepřový závitek, bramborové knedlíky'
-			b: 'Kuskus s kuřecím masem a zeleninou'
-		'19.9.2018':
-			p: 'Hrachová'
-			a: 'Segedínský vepřový guláš, houskové knedlíky'
-			b: 'Smažený studentský řízek (Gothaj), bramborová kaše'
-		'20.9.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Boloňské špagety'
-			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže '
-		'21.9.2018':
-			p: 'Bramborová'
-			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
-			b: 'Smažený holandský řízek, vařené brambory'
 		'24.9.2018':
 			p: 'Hovězí vývars masem a nudlemi'
 			a: 'Kuřecí soté se zeleninou a smetanou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: ''
 			a: 'Z důvodu státního svátku se nevaří!'
 			b: ''
+		'1.10.2018':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
+			b: 'Opečená klobása, vařená čočka, kys. okurka'
+		'2.10.2018': 
+			p: 'Hráškový krém'
+			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
+			b: 'Zapečené těstoviny s uzeným masem'
+		'3.10.2018':
+			p: 'Francouzská cibulačka'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Gruzínská rýže (hovězí maso, protlak, cibule)'
+		'4.10.2018':
+			p: 'Ovarová s kroupami'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'5.10.2018':
+			p: 'Fazolová s uzeninou'
+			a: 'Vepřové medailonky s pepřovou omáčkou, fazolové lusky se slaninou a česnekem'
+			b: 'Francouzské brambory, kys. okurka'
