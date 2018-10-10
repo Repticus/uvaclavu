@@ -6,3 +6,7 @@ parameters:
 		'14.2.2018':
 			open: {17:00,24:00}
 			event: {17:00,'Valentýnské menu','valentyn.jpg'}
+		'26.10.2018':
+			event: {17:30,'Burger víkend','hamburger4.jpg'}
+		'27.10.2018':
+			event: {16:00,'Burger víkend','hamburger4.jpg'}
