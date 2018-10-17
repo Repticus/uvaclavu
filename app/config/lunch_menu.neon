@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'8.10.2018':
-			p: 'Zeleninová bílá'
-			a: 'Pašerácký kuřecí plátek (šunka, sýr), dušená rýže'
-			b: 'Smažená brokolice, bramborová kaše'
-		'9.10.2018':
-			p: 'Gulášová'
-			a: 'Pečená krkovice, houskové knedlíky, zelí'
-			b: 'Gnocchi "Siciliana" (kuřecí maso, olivy, česnek, čili papričky, bazalka)'
-		'10.10.2018':
-			p: 'Šalotková'
-			a: 'Bratislavská vepřová plec, dušená rýže'
-			b: 'Lázeňské rybí filé, 1/2 vařené brambory, 1/2 zelný salát'
-		'11.10.2018':
-			p: 'Čočková'
-			a: 'Kuřecí Cordon Bleu, vařené brambory'
-			b: 'Kynuté knedlíky s jahodami, tvarohem a cukrem'
-		'12.10.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Pražská hovězí pečeně, dušená rýže'
-			b: 'Smažená vepřová játra, šťouchané brambory'
 		'15.10.2018':
 			p: 'Brokolicová'
 			a: 'Kuřecí nudličky po mexicku, kari rýže,'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Svíčková na smetaně, houskové knedlíky'
 			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'22.10.2018':
+			p: 'Květáková'
+			a: 'Kuřecí prsa ve vinném těstíčku, vařené brambory'
+			b: 'Špagety "Carbonara"'
+		'23.10.2018':
+			p: 'Krupicová s vejcem'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
+		'24.10.2018':
+			p: 'Zeleninový vývar s kapáním'
+			a: 'Smažený karbanátek, bramborový salát'
+			b: 'Jablková žemlovka s tvarohem'
+		'25.10.2018':
+			p: 'Italská'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Vepřové rizoto sypané sýrem, kys. okurka'
+		'26.10.2018':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Plněná kuřecí kapsa, dušená rýže'
+			b: 'Opečená jitrnice, lepenice'
