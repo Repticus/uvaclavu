@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'15.10.2018':
-			p: 'Brokolicová'
-			a: 'Kuřecí nudličky po mexicku, kari rýže,'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'16.10.2018':
-			p: 'Hrachová s uzeninou'
-			a: 'Smažený hermelín, vařené brambory'
-			b: 'Zapečené těstoviny "Primavera", kys. okurka'
-		'17.10.2018':
-			p: 'Pórková s vejci'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vař. brambory, 1/ zelný salát'
-		'18.10.2018':
-			p: 'Boršč'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Smažené kuřecí paličky, vařené brambory'
-		'19.10.2018':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
 		'22.10.2018':
 			p: 'Květáková'
 			a: 'Kuřecí prsa ve vinném těstíčku, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Plněná kuřecí kapsa, dušená rýže'
 			b: 'Opečená jitrnice, lepenice'
+		'29.10.2018':
+			p: 'Žampiónová'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
+		'30.10.2018':
+			p: 'Kapustová se slaninou'
+			a: 'Valašská vepřová plec, houskové knedlíky'
+			b: 'Zeleninový salát se smaženými kuřecími nugetami'
+		'31.10.2018':
+			p: 'Drůbková'
+			a: 'Vepřové maso v mrkvi, opékané brambory'
+			b: 'Maminčino kuře'
+		'1.11.2018':
+			p: 'Bramborová'
+			a: 'Zabíjačkový guláš, houskové knedlíky'
+			b: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem'
+		'2.11.2018':
+			p: 'Zelná'
+			a: 'Krůtí plátek zapečený s rajčaty a sýrem, šťouchané brambory'
+			b: 'Kari rýže se šunkou, zeleninou a sýrem'
