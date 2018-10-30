@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'22.10.2018':
-			p: 'Květáková'
-			a: 'Kuřecí prsa ve vinném těstíčku, vařené brambory'
-			b: 'Špagety "Carbonara"'
-		'23.10.2018':
-			p: 'Krupicová s vejcem'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Těstoviny penne s kuřecím masem, listovým špenátem a smetanou'
-		'24.10.2018':
-			p: 'Zeleninový vývar s kapáním'
-			a: 'Smažený karbanátek, bramborový salát'
-			b: 'Jablková žemlovka s tvarohem'
-		'25.10.2018':
-			p: 'Italská'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Vepřové rizoto sypané sýrem, kys. okurka'
-		'26.10.2018':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Plněná kuřecí kapsa, dušená rýže'
-			b: 'Opečená jitrnice, lepenice'
 		'29.10.2018':
 			p: 'Žampiónová'
 			a: 'Katův šleh, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Zelná'
 			a: 'Krůtí plátek zapečený s rajčaty a sýrem, šťouchané brambory'
 			b: 'Kari rýže se šunkou, zeleninou a sýrem'
+		'5.11.2018':
+			p: 'Špenátová'
+			a: 'Kuřecí nudličky po římsku, dušená rýže'
+			b: 'Špagety "Alio, olio, e peperencino"'
+		'6.11.2018':
+			p: 'Česneková s bramborem'
+			a: 'Slovenská pochoutka, bramborové gnocchi'
+			b: 'Těstovinový salát s kuřecím masem'
+		'7.11.2018':
+			p: 'Frankfurtská s párkem'
+			a: 'Plněná kuřecí roláda sušenými švestkami a anglickou slaninou, šťouchané brambory'
+			b: 'Dalmátské čufty, houskové knedlíky'
+		'8.11.2018':
+			p: 'Hráškový krém'
+			a: 'Cmunda po kaplicku'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'9.11.2018':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Přírodní hovězí pečeně, dušená rýže'
+			b: 'Opečená vinná klobása, lepenice'
