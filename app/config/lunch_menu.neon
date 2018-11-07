@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'29.10.2018':
-			p: 'Žampiónová'
-			a: 'Katův šleh, dušená rýže'
-			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
-		'30.10.2018':
-			p: 'Kapustová se slaninou'
-			a: 'Valašská vepřová plec, houskové knedlíky'
-			b: 'Zeleninový salát se smaženými kuřecími nugetami'
-		'31.10.2018':
-			p: 'Drůbková'
-			a: 'Vepřové maso v mrkvi, opékané brambory'
-			b: 'Maminčino kuře'
-		'1.11.2018':
-			p: 'Bramborová'
-			a: 'Zabíjačkový guláš, houskové knedlíky'
-			b: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem'
-		'2.11.2018':
-			p: 'Zelná'
-			a: 'Krůtí plátek zapečený s rajčaty a sýrem, šťouchané brambory'
-			b: 'Kari rýže se šunkou, zeleninou a sýrem'
 		'5.11.2018':
 			p: 'Špenátová'
 			a: 'Kuřecí nudličky po římsku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Přírodní hovězí pečeně, dušená rýže'
 			b: 'Opečená vinná klobása, lepenice'
+		'12.11.2018':
+			p: 'Zeleninová bílá'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'13.11.2018':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Záhorácký vepřový závitek, bramborové knedlíky'
+			b: 'Smažený květák, vařené brambory'
+		'14.11.2018':
+			p: 'Kulajda'
+			a: 'Sikulské vepřové žebírko, houskové knedlíky'
+			b: 'Smažené zeleninové řízečky, 1/2 vařené brambory, 1/2 zelný salát'
+		'15.11.2018':
+			p: 'Veselská zelnice'
+			a: 'Burgundská hovězí pečeně, dušná rýže'
+			b: 'Těstoviny penne s kuřecím masem a sýrovou omáčkou'
+		'16.11.2018':
+			p: 'Hovězí vývar s rýží a hráškem'
+			a: 'Pštrosí vejce, bramborová kaše'
+			b: 'Domácí lívance s jahodami a smetanou'
