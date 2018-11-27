@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'19.11.2018':
-			p: 'Krupicová s vejcem'
-			a: 'Kuřecí prsa "Apollo" (angl. slanina, žampióny, smetana, česnek), dušená rýže'
-			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
-		'20.11.2018':
-			p: 'Čočková'
-			a: 'Smažený karbanátek s hermelínem, jarní bramborový salát bez majonéry'
-			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
-		'21.11.2018':
-			p: 'Gulášová'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Zapečená brokolice se šunkou a sýrem, vařené brambory'
-		'22.11.2018':
-			p: 'Šalotková'
-			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
-			b: 'Smažené rybí filé, bramborová kaše'
-		'23.11.2018':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Mexický hovězí guláš, dušená rýže'
-			b: 'Staročeská sekanina, lepenice'
 		'26.11.2018':
 			p: 'Brokolicová'
 			a: 'Kuřecí prsa na bylinkách, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s masem a nudlemi'
 			a: 'Smažený kuřecí řízek, šťouchané brambory'
 			b: 'Jelení guláš, houskové knedlíky'
+		'3.12.2018':
+			p: 'Drůbeží vývar s těstovinou'
+			a: 'Maso dvou barev, kari rýže'
+			b: 'Gnocchi se šunkou, listovým špenátem, česnekem a smetanou'
+		'4.12.2018':
+			p: 'Selská'
+			a: 'Boloňské špagety'
+			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
+		'5.12.2018':
+			p: 'Italská'
+			a: 'Kuře ale bažant, bramborové knedlíky, špenát'
+			b: 'Studentský řízek (Gothaj), bramborová kaše'
+		'6.12.2018':
+			p: 'Zelná s uzeninou'
+			a: 'Kuřecí paličky pečené ve sladké chilli marinádě, šťouchané brambory'
+			b: 'Zapečené palačinky s tvarohem'
+		'7.12.2018':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Vepřová plec na žampiónech, dušená rýže'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
