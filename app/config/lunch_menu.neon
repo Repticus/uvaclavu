@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'26.11.2018':
-			p: 'Brokolicová'
-			a: 'Kuřecí prsa na bylinkách, dušená rýže'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'27.11.2018':
-			p: 'Francouzská cibulačka'
-			a: 'Smažený uzený sýr, vařené brambory'
-			b: 'Kuskus s kuřecím masem a zeleninou'
-		'28.11.2018':
-			p: 'Kachní kaldoun'
-			a: 'Plněný paprikový lusk, dušená rýže'
-			b: 'Vepřová játra na roštu, opékané brambory'
-		'29.11.2018':
-			p: 'Pórková'
-			a: 'Plněné knedlíky uzeným masem, zelí'
-			b: 'Hovězí hamburger'
-		'30.11.2018':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Smažený kuřecí řízek, šťouchané brambory'
-			b: 'Jelení guláš, houskové knedlíky'
 		'3.12.2018':
 			p: 'Drůbeží vývar s těstovinou'
 			a: 'Maso dvou barev, kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s kapáním'
 			a: 'Vepřová plec na žampiónech, dušená rýže'
 			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'10.12.2018':
+			p: 'Květáková'
+			a: 'Kuřecí soté se zeleninou, dušená rýže'
+			b: 'Opečená klobása, hrachová kaše, kys. okurka'
+		'11.12.2018': 
+			p: 'Franfurtská s párkem'
+			a: 'Pikantní vepřové medailonky, fazolové lusky s česnekem'
+			b: 'Smažený celer se šunkou, 1/2 vařené brambory, 1/2 zelný salát'
+		'12.12.2018':
+			p: 'Bramborová'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
+		'13.12.2018':
+			p: 'Kmínová s vejcem'
+			a: 'Smažený holandský řízek, vařené brambory'
+			b: 'Drůbeží rizoto sypané sýrem, kys. okurka'
+		'14.12.2018':
+			p: 'Česneková s bramborem'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Smažená kuřecí prsa v sýrovém těstíčku, bramborová kaše'
