@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'3.12.2018':
-			p: 'Drůbeží vývar s těstovinou'
-			a: 'Maso dvou barev, kari rýže'
-			b: 'Gnocchi se šunkou, listovým špenátem, česnekem a smetanou'
-		'4.12.2018':
-			p: 'Selská'
-			a: 'Boloňské špagety'
-			b: 'Hovězí maso vařené, okurková omáčka, houskové knedlíky'
-		'5.12.2018':
-			p: 'Italská'
-			a: 'Kuře ale bažant, bramborové knedlíky, špenát'
-			b: 'Studentský řízek (Gothaj), bramborová kaše'
-		'6.12.2018':
-			p: 'Zelná s uzeninou'
-			a: 'Kuřecí paličky pečené ve sladké chilli marinádě, šťouchané brambory'
-			b: 'Zapečené palačinky s tvarohem'
-		'7.12.2018':
-			p: 'Hovězí vývar s kapáním'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
 		'10.12.2018':
 			p: 'Květáková'
 			a: 'Kuřecí soté se zeleninou, dušená rýže'
 			b: 'Opečená klobása, hrachová kaše, kys. okurka'
-		'11.12.2018': 
+		'11.12.2018':
 			p: 'Franfurtská s párkem'
 			a: 'Pikantní vepřové medailonky, fazolové lusky s česnekem'
 			b: 'Smažený celer se šunkou, 1/2 vařené brambory, 1/2 zelný salát'
@@ -40,3 +20,43 @@ parameters:
 			p: 'Česneková s bramborem'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Smažená kuřecí prsa v sýrovém těstíčku, bramborová kaše'
+		'17.12.2018':
+			p: 'Žampiónová'
+			a: 'Kuřecí flamendr, dušená rýže'
+			b: 'Špagety po uhlířsku, tatranka'
+		'18.12.2018':
+			p: 'Gulášová'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Gnocchi "Siciliana" (kuřecí maso, olivy, česnek, čili papričky, bazalka)'
+		'19.12.2018':
+			p: 'Hrachová'
+			a: 'Kuřecí řízek, bramborový salát'
+			b: ''
+		'20.12.2018':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Halušky se zelím a uzeným masem'
+			b: ''
+		'21.12.2018':
+			p: ''
+			a: 'Z provozních důvodů se nevaří.'
+			b: 'Všem našim zákazníkům přejeme krásné prožití vánočních svátků a do nového roku hodně zdraví, lásky a pracovních úspěchů.'
+		'31.12.2018':
+			p: ''
+			a: 'Dovolená'
+			b: ''
+		'1.1.2019':
+			p: ''
+			a: 'Dovolená'
+			b: ''
+		'2.1.2019':
+			p: 'Čočková'
+			a: 'Vepřové nudličky na černém pivu s červenou cibulí, čili, paprikou a pórkem, dušená rýže'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'3.1.2019':
+			p: ''
+			a: 'Čevabčiči, vařené brambory'
+			b: 'Kari rýže se šunkou, zeleninou a sýrem, kys. okurka'
+		'4.1.2019':
+			p: ''
+			a: 'Přírodní hovězí pečeně, dušená rýže'
+			b: 'Lasagne s mletým masem'
