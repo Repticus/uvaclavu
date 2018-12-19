@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'10.12.2018':
-			p: 'Květáková'
-			a: 'Kuřecí soté se zeleninou, dušená rýže'
-			b: 'Opečená klobása, hrachová kaše, kys. okurka'
-		'11.12.2018':
-			p: 'Franfurtská s párkem'
-			a: 'Pikantní vepřové medailonky, fazolové lusky s česnekem'
-			b: 'Smažený celer se šunkou, 1/2 vařené brambory, 1/2 zelný salát'
-		'12.12.2018':
-			p: 'Bramborová'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
-		'13.12.2018':
-			p: 'Kmínová s vejcem'
-			a: 'Smažený holandský řízek, vařené brambory'
-			b: 'Drůbeží rizoto sypané sýrem, kys. okurka'
-		'14.12.2018':
-			p: 'Česneková s bramborem'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Smažená kuřecí prsa v sýrovém těstíčku, bramborová kaše'
 		'17.12.2018':
 			p: 'Žampiónová'
 			a: 'Kuřecí flamendr, dušená rýže'
@@ -44,7 +24,7 @@ parameters:
 			p: ''
 			a: 'Dovolená'
 			b: ''
-		'1.1.2019':
+		'1.1.2019': 
 			p: ''
 			a: 'Dovolená'
 			b: ''
@@ -53,10 +33,10 @@ parameters:
 			a: 'Vepřové nudličky na černém pivu s červenou cibulí, čili, paprikou a pórkem, dušená rýže'
 			b: 'Koprová omáčka s vejcem, houskové knedlíky'
 		'3.1.2019':
-			p: ''
+			p: 'Zeleninová bílá'
 			a: 'Čevabčiči, vařené brambory'
 			b: 'Kari rýže se šunkou, zeleninou a sýrem, kys. okurka'
 		'4.1.2019':
-			p: ''
+			p: 'Hovězí vývar s tarhoňou'
 			a: 'Přírodní hovězí pečeně, dušená rýže'
 			b: 'Lasagne s mletým masem'
