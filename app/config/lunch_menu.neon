@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'31.12.2018':
-			p: ''
-			a: 'Dovolená'
-			b: ''
-		'1.1.2019': 
-			p: ''
-			a: 'Dovolená'
-			b: ''
-		'2.1.2019':
-			p: 'Čočková'
-			a: 'Vepřové nudličky na černém pivu s červenou cibulí, čili, paprikou a pórkem, dušená rýže'
-			b: 'Koprová omáčka s vejcem, houskové knedlíky'
-		'3.1.2019':
-			p: 'Zeleninová bílá'
-			a: 'Čevabčiči, vařené brambory'
-			b: 'Kari rýže se šunkou, zeleninou a sýrem, kys. okurka'
-		'4.1.2019':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Přírodní hovězí pečeně, dušená rýže'
-			b: 'Lasagne s mletým masem'
 		'7.1.2019':
 			p: 'Hráškový krém'
 			a: 'Kuřecí "Pašerák" (šunka, sýr), dušená rýže'
 			b: 'Zeleninový salát s tuňákem a vejcem'
-		'8.1.2019': 
+		'8.1.2019':
 			p: 'Slepičí vývar s masem a nudlemi'
 			a: 'Plněná vepřová roláda, bramborová kaše'
 			b: 'Zapečené těstoviny "Primavera", kys.okurka'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Francouzská cibulačka'
 			a: 'Masové kuličky z mletého masa, fazolové lusky s česnekem'
 			b: 'Opečená jitrnice, lepenice'
+		'14.1.2019':
+			p: 'Pórková'
+			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
+			b: 'Špagety "Carbonara", ovoce'
+		'15.1.2019':
+			p: 'Krupicová s vejcem'
+			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
+			b: 'Kuskus s kuřecím masem a zeleninou'
+		'16.1.2019':
+			p: 'Frankurtská s uzeninou'
+			a: 'Pečené kuře, vařené brambory'
+			b: 'Špekové knedlíky se zelím'
+		'17.1.2019':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Krůtí plátek zapečený s rajčátkem a mozzarellou, šťouchané brambory'
+			b: 'Uzená krkovice, vařená čočka, kys. okurka'
+		'18.1.2019':
+			p: 'Bramborová'
+			a: 'Bratislavská vepřová plec, dušená rýže'
+			b: 'Smažená brokolice, bramborová kaše'
