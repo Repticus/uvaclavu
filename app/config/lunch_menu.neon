@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'14.1.2019':
-			p: 'Pórková'
-			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
-			b: 'Špagety "Carbonara", ovoce'
-		'15.1.2019':
-			p: 'Krupicová s vejcem'
-			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
-			b: 'Kuskus s kuřecím masem a zeleninou'
-		'16.1.2019':
-			p: 'Frankurtská s uzeninou'
-			a: 'Pečené kuře, vařené brambory'
-			b: 'Špekové knedlíky se zelím'
-		'17.1.2019':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Krůtí plátek zapečený s rajčátkem a mozzarellou, šťouchané brambory'
-			b: 'Uzená krkovice, vařená čočka, kys. okurka'
-		'18.1.2019':
-			p: 'Bramborová'
-			a: 'Bratislavská vepřová plec, dušená rýže'
-			b: 'Smažená brokolice, bramborová kaše'
 		'21.1.2019':
 			p: 'Hrachová'
 			a: 'Kuřecí nudličky po mexicku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Zelná s uzeninou'
 			a: 'Přírodní vepřový závitek, dušená rýže'
 			b: 'Opečená vinná klobása, lepenice'
+		'28.1.2019':
+			p: 'Květáková'
+			a: 'Kuřecí prsa "Apollo" (angl. slanina, smetana, česnek, žampión), dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'29.1.2019':
+			p: 'Čočková s párkem'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'30.1.2019':
+			p: 'Drůbeží vývar s kapáním'
+			a: 'Vepřové maso v mrkvi, opečené brambory'
+			b: 'Maminčino kuře'
+		'31.1.2019':
+			p: 'Žampiónová'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Zeleninové řízečky, 1/2 vařené brambory, 1/2 zelný salát'
+		'1.2.2019':
+			p: 'Gulášová'
+			a: 'Vepřová plec na slanině, dušená rýže'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
