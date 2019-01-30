@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'21.1.2019':
-			p: 'Hrachová'
-			a: 'Kuřecí nudličky po mexicku, dušená rýže'
-			b: 'Gnocchi se šunkou, listovým špenátem a smetanou'
-		'22.1.2019':
-			p: 'Italská'
-			a: 'Šunkové krokety se sýrem, vařené brambory'
-			b: 'Hovězí maso vařené, omáčka smetanový křen, houskové knedlíky'
-		'23.1.2019':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Segedínský vepřový guláš, houskové knedlíky'
-			b: 'Těstovinový salát s kuřecím masem'
-		'24.1.2019':
-			p: 'Kulajda'
-			a: 'Smažený karbanátek, vařené brambory'
-			b: 'Vepřové žebírko na kmíně, dušená rýže'
-		'25.1.2019':
-			p: 'Zelná s uzeninou'
-			a: 'Přírodní vepřový závitek, dušená rýže'
-			b: 'Opečená vinná klobása, lepenice'
 		'28.1.2019':
 			p: 'Květáková'
 			a: 'Kuřecí prsa "Apollo" (angl. slanina, smetana, česnek, žampión), dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Gulášová'
 			a: 'Vepřová plec na slanině, dušená rýže'
 			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'4.2.2019':
+			p: 'Zeleninová'
+			a: 'Kuřecí prsa na bylinkách, dušená rýže'
+			b: 'Špagety "Aglio, olio e peperencino"'
+		'5.2.2019':
+			p: 'Hrstková'
+			a: 'Vepřový guláš, houskové knedlíky'
+			b: 'Jablková žemlovka s tvarohem'
+		'6.2.2019':
+			p: 'Česneková s bramborem'
+			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
+			b: 'Francouzské brambory, kys. okurka'
+		'7.2.2019':
+			p: 'Selská'
+			a: 'Pečené kuře ala kachna, červené zelí, bramborové knedlíky'
+			b: 'Smažená vepřová játra, vařené brambory, tatarská omáčka'
+		'8.2.2019':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Kuřecí prsa na paprice, dušená rýže'
+			b: 'Pštrosí vejce, bramborová kaše'
