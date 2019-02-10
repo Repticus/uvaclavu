@@ -1,31 +1,14 @@
 {block title}Jídelní lístek restaurace{/block}
 {block content}
-<div id="content" class="mnu">
+<div id="content" class="cnt">
 	<h1>Jídelní lístek</h1>
-	<table>
-		{foreach $menu as $group}
-			<tr>
-				<td></td>
-				<td class="left" colspan="2">
-					<h2>{$group['group']}</h2>
-				</td>
-			</tr>
-			{foreach $group['food'] as $food}
-				<tr>
-					<td class="right">
-						{ifset $food['amount']}{$food['amount']}
-						{/ifset}
-					</td>
-					<td class="left">
-						{$food['name']|noescape}
-						<span n:ifset="$food['alergen']">(A: {$food['alergen']|implode:', '})</span>
-						<i n:ifset="$food['note']">({$food['note']|noescape})</i>
-					</td>
-					<td class="right">
-						{$food['price']} Kč
-					</td>
-				</tr>
-			{/foreach}
-		{/foreach}
-	</table>
+	<div class="pnl w12">
+		<h3>
+			Vážení zákazníci,<br>
+			Jelikož nabízíme každý víkend jiné menu,<br>
+			nemá naše	restaurace stálý jídelní lístek.
+		</h3>
+		<br>
+	</div>
+	<div class="clr"></div>
 </div>

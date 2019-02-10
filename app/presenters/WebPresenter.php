@@ -30,10 +30,6 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 		$this->template->event = $calendar->getEvent($date);
 	}
 
-	public function actionJidelniListek() {
-		$this->template->menu = $this->context->parameters['main-menu'];
-	}
-
 	public function actionNapojovyListek() {
 		$this->template->drink = $this->context->parameters['drink-menu'];
 	}
