@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'4.2.2019':
-			p: 'Zeleninová'
-			a: 'Kuřecí prsa na bylinkách, dušená rýže'
-			b: 'Špagety "Aglio, olio e peperencino"'
-		'5.2.2019':
-			p: 'Hrstková'
-			a: 'Vepřový guláš, houskové knedlíky'
-			b: 'Jablková žemlovka s tvarohem'
-		'6.2.2019':
-			p: 'Česneková s bramborem'
-			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
-			b: 'Francouzské brambory, kys. okurka'
-		'7.2.2019':
-			p: 'Selská'
-			a: 'Pečené kuře ala kachna, červené zelí, bramborové knedlíky'
-			b: 'Smažená vepřová játra, vařené brambory, tatarská omáčka'
-		'8.2.2019':
-			p: 'Hovězí vývar s masem a nudlemi'
-			a: 'Kuřecí prsa na paprice, dušená rýže'
-			b: 'Pštrosí vejce, bramborová kaše'
 		'11.2.2019':
 			p: 'Čočková'
 			a: 'Boloňské špagety'
 			b: 'Rizoto s kuřecím masem sypané sýrem, kys. okurka'
-		'12.2.2019': 
+		'12.2.2019':
 			p: 'Frankfurtská s párkem'
 			a: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem a angl. slaninou'
 			b: 'Smažený uzený sýr, vařené brambory'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Přírodní plněná kuřecí kapsa, dušená rýže'
 			b: 'Cmunda po kaplicku'
+		'18.2.2019':
+			p: 'Brokolicová'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Těstoviny penne se šunkou, brokolicí a omáčkou se třemi druhy sýrů'
+		'19.2.2019':
+			p: 'Drůbková'
+			a: 'Slovenská pochoutka, bramborové gnocchi'
+			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
+		'20.2.2019':
+			p: 'Zelná s klobásou'
+			a: 'Valašská vepřová plec, houskové knedlíky'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'21.2.2019':
+			p: 'Pórková'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Smažený studentský řízek (Gothaj), bramborový salát'
+		'22.2.2019':
+			p: 'Krupicová s vejcem'
+			a: 'Španělský ptáček, dušená rýže'
+			b: 'Smažená kuřecí prsa v pikantním těstíčku, šťouchané brambory'
