@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'18.2.2019':
-			p: 'Brokolicová'
-			a: 'Katův šleh, dušená rýže'
-			b: 'Těstoviny penne se šunkou, brokolicí a omáčkou se třemi druhy sýrů'
-		'19.2.2019':
-			p: 'Drůbková'
-			a: 'Slovenská pochoutka, bramborové gnocchi'
-			b: 'Drůbeží jatýrka na čerstvém tymiánu, dušená rýže'
-		'20.2.2019':
-			p: 'Zelná s klobásou'
-			a: 'Valašská vepřová plec, houskové knedlíky'
-			b: 'Smažený kapustový karbanátek, bramborová kaše'
-		'21.2.2019':
-			p: 'Pórková'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Smažený studentský řízek (Gothaj), bramborový salát'
-		'22.2.2019':
-			p: 'Krupicová s vejcem'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Smažená kuřecí prsa v pikantním těstíčku, šťouchané brambory'
 		'25.2.2019':
 			p: 'Hráškový krém'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s játrovou rýží'
 			a: 'Smažený holandský řízek, vařené brambory'
 			b: 'Opečená klobása, hrachová kaše'
+		'4.3.2019':
+			p: 'Špenátová'
+			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+			b: 'Smažený květák, vařené brambory'
+		'5.3.2019':
+			p: 'Slepičí vývar s masem a nudlemi'
+			a: 'Vepřová plec na žampiónech, dušená rýže'
+			b: 'Gnocchi "Siciliána" (kuřecí maso, bazalka, česnek, olivy, čili papričky)'
+		'6.3.2019':
+			p: 'Hrachová s uzeninou'
+			a: 'Pečené kuře na másle, vařené brambory'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
+		'7.3.2019':
+			p: 'Prácheňská'
+			a: 'Zabíjačkový guláš, houskové knedlíky'
+			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'8.3.2019':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Šumavský vepřový závitek, dušená rýže'
+			b: 'Smažený kuřecí Cordon bleu, šťouchané brambory'
