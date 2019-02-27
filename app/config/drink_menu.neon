@@ -6,47 +6,48 @@ parameters:
 				-
 					name: 'Bakalář světlý výčepní 10°'
 					amount: '0,3 / 0,5 l'
-					price: '16 / 21'
+					price: '21 / 25'
 					description: 'Příjemné hořké pivo vyvážené chuti a zlaté barvy.'
 				-
 					name: 'Bakalář světlý ležák za studena chmelený 12°'
 					amount: '0,3 / 0,5 l'
-					price: 19 / 25
+					price: '25 / 30'
 					description: 'Nezaměnitelné pivo s vyšší původní stupňovitostí, charakteristické nádherným aroma sušených<br> chmelových hlávek Žateckého poloraného červeňáku a sytou barvou s temně zlatými odlesky.'
 				-
-					name: 'Bakalář za studena chmelený nealkoholický'
+					name: 'Bakalář řezaný výčepní'
 					amount: '0,3 / 0,5 l'
 					price: 16 / 21
+					description: 'Plnější pivo rubínové barvy s jemnou příchutí karamelu a nádechem chmelové hořkosti.'
 				-
 					name: 'Velkopopovický Kozel 11°'
 					amount: '0,3 / 0,5 l'
-					price: 18 / 24
+					price: '22 / 27'
 		-
 			group: 'Lahvové pivo'
 			drink:
 				-
-					name: 'Bakalář tmavý 10°'
+					name: 'Bakalář za studena chmelený nealkoholický'
 					amount: '0,5 l'
-					price: 23
+					price: 25
 				-
 					name: 'Pilsner Urquell ležák 12°'
 					amount: '0,5 l'
-					price: 31
+					price: 35
 		-
 			group: 'Nealkoholické rozlévané nápoje'
 			drink:
 				-
 					name: 'Točená kofola'
 					amount: '1 dl'
-					price: 5
+					price: 6
 				-
 					name: 'Coca Cola, Fanta, Sprite, Tonic'
 					amount: '3 dl'
-					price: 20
+					price: 22
 				-
 					name: 'Džus (dle nabídky)'
 					amount: '3 dl'
-					price: 27
+					price: 35
 				-
 					name: 'Soda'
 					amount: '3 dl'
@@ -55,33 +56,17 @@ parameters:
 			group: 'Lahvové nealkoholické nápoje'
 			drink:
 				-
-					name: 'Mattoni'
+					name: 'Toma natura (jemně perlivá, neperlivá)'
 					amount: '3,3 dl'
-					price: 22
+					price: 24
 				-
-					name: 'Bonaqua (jemně perlivá, neperlivá)'
-					amount: '2,5 dl'
-					price: 22
-				-
-					name: 'Coca Cola, Fanta, Sprite'
+					name: 'Coca Cola, Fanta, Sprite, Tonic'
 					amount: '3 dl'
-					price: 27
-				-
-					name: 'Kinley Tonic'
-					amount: '2,5 dl'
-					price: 27
-				-
-					name: 'Kinley Ginger'
-					amount: '2,5 dl'
-					price: 27
+					price: 35				
 				-
 					name: 'Cappy (dle nabídky)'
 					amount: '2 dl'
-					price: 27
-				-
-					name: 'Ice Tea (dle nabídky)'
-					amount: '2 dl'
-					price: 55
+					price: 35				
 				-
 					name: 'Red Bull'
 					amount: '2 dl'
@@ -92,43 +77,39 @@ parameters:
 				-
 					name: 'Cinzano Bianco'
 					amount: '1 dl'
-					price: '40'
+					price: '45'
 				-
 					name: 'Slivovice Fleret'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
-				-
-					name: 'Hruškovice Fleret'
-					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '25 / 45'				
 				-
 					name: 'Beefeater Gin'
 					amount: '2 / 4 cl'
-					price: '22 / 40'
+					price: '25 / 40'
 				-
 					name: 'Becherovka'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '25 / 40'
 				-
 					name: 'Becherovka Lemond'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '25 / 40'
 				-
 					name: 'Amundsen (dle nabídky)'
 					amount: '2 / 4 cl'
-					price: '13 / 25'
+					price: '18 / 30'
 				-
 					name: 'Božkov Peprmintový likér'
 					amount: '2 / 4 cl'
-					price: '12 / 22'
+					price: '15 / 25'
 				-
 					name: 'Fernet Stock'
 					amount: '2 / 4 cl'
-					price: '15 / 27'
+					price: '18 / 30'
 				-
 					name: 'Fernet Stock citrus'
 					amount: '2 / 4 cl'
-					price: '15 / 27'
+					price: '18 / 30'
 				-
 					name: 'Jagermeister'
 					amount: '2 / 4 cl'
@@ -136,100 +117,92 @@ parameters:
 				-
 					name: 'Magister'
 					amount: '2 / 4 cl'
-					price: '18 / 35'
+					price: '20 / 35'
 				-
 					name: 'Metaxa (5*)'
 					amount: '2 / 4 cl'
-					price: '30 / 55'
+					price: '33 / 55'
 				-
-					name: 'Vaječný likér'
+					name: 'Diplomatico 12y'
 					amount: '2 / 4 cl'
-					price: '12 / 23'
+					price: '60 / 110'
 				-
-					name: 'Griotte'
+					name: 'Don Papa'
 					amount: '2 / 4 cl'
-					price: '12 / 23'
+					price: '60 / 110'
+				-
+					name: 'Capitan Bucanero'
+					amount: '2 / 4 cl'
+					price: '45 / 80'
 				-
 					name: 'Captain Morgan'
 					amount: '2 / 4 cl'
-					price: '22 / 40'
-				-
-					name: 'Bacardi rum'
-					amount: '2 / 4 cl'
 					price: '25 / 45'
+				-
+					name: 'Legendario'
+					amount: '2 / 4 cl'
+					price: '50 / 90'
+				-
+					name: 'Božkov Republica'
+					amount: '2 / 4 cl'
+					price: '30 / 55'
 				-
 					name: 'Božkov rum tuzemský'
 					amount: '2 / 4 cl'
-					price: '12 / 23'
-				-
-					name: 'Tequila Sierra silver'
-					amount: '2 / 4 cl'
-					price: '30 / 50'
+					price: '15 / 25'					
 				-
 					name: 'Božkov vodka'
 					amount: '2 / 4 cl'
-					price: '12 / 23'
+					price: '15 / 25'
 				-
 					name: 'Finlandia vodka'
 					amount: '2 / 4 cl'
-					price: '22 / 40'
-				-
-					name: 'Koskenkorva peach vodka'
-					amount: '2 / 4 cl'
-					price: '13 / 25'
-				-
-					name: 'Jim Beam'
-					amount: '2 / 4 cl'
-					price: '30 / 50'
-				-
-					name: 'Jameson'
-					amount: '2 / 4 cl'
-					price: '32 / 55'
+					price: '22 / 40'				
 				-
 					name: 'Tullamore Dew'
 					amount: '2 / 4 cl'
-					price: '32 / 55'
-				-
-					name: 'Ballantines'
-					amount: '2 / 4 cl'
-					price: '32 / 55'
+					price: '35 / 60'
 				-
 					name: 'Johnnie Walker Red Label'
 					amount: '2 / 4 cl'
-					price: '32 / 55'
+					price: '32 / 55'				
+				-
+					name: 'Jack Daniels Honey'
+					amount: '2 / 4 cl'
+					price: '50 / 90'
 		-
 			group: 'Rozlévaná vína'
 			drink:
 				-
 					name: 'Bílé víno (dle nabídky)'
 					amount: '2 dl'
-					price: '35'
+					price: '40'
 				-
-					name: 'Červené - Modrý portugal'
+					name: 'Červené - (dle nabídky)'
 					amount: '2 dl'
-					price: '35'
+					price: '40'
 		-
 			group: 'Šumivá vína'
 			drink:
 				-
 					name: 'Bohemia sekt (demi)'
 					amount: '0,7 l'
-					price: '220'
+					price: '250'
 		-
 			group: 'Káva'
 			drink:
 				-
 					name: 'Káva espresso'
 					amount:
-					price: 30
+					price: 35
 				-
 					name: 'Café Latté'
 					amount:
-					price: 36
+					price: 45
 				-
 					name: 'Capuccino'
 					amount:
-					price: 33
+					price: 40
 				-
 					name: 'Káva nescafé'
 					amount:
@@ -237,62 +210,56 @@ parameters:
 				-
 					name: 'Káva vídeňská'
 					amount:
-					price: 35
+					price: 40
 				-
 					name: 'Káva turecká'
 					amount:
-					price: 17
-				-
-					name: 'Káva alžírská'
-					amount:
-					price: 45
+					price: 20
+				
 		-
 			group: 'Teplé nápoje'
 			drink:
 				-
 					name: 'Horký čaj (dle nabídky)'
-					amount: '2 dl'
+					amount:
 					price: 20
 				-
 					name: 'Horký čaj s medem a citrónem (dle nabídky)'
-					amount: '2 dl'
+					amount:
 					price: 25
 				-
 					name: 'Čaj Revolution'
-					amount: '2 dl'
+					amount:
 					price: 35
 				-
 					name: 'Svařené víno'
-					amount: '2 dl'
-					price: 40
+					amount:
+					price: 45
 				-
 					name: 'Grog'
-					amount: '2 / 0,4 dl'
-					price: 30
-				-
-					name: 'Horká griotka'
-					amount: '2 / 0,4 dl'
-					price: 30
+					amount:
+					price: 35
+				
 		-
 			group: 'Pochutiny'
 			drink:
 				-
 					name: 'Mandle pražené'
-					amount: '60 g'
+					amount: 
 					price: 38
 				-
 					name: 'Čerstvě pražené mandle'
-					amount: '60 g'
-					price: 45
+					amount: 
+					price: 50
 				-
 					name: 'Arašídy'
-					amount: '100 g'
+					amount: 
 					price: 23
 				-
 					name: 'Brambůrky Bohemia Chips (dle nabídky)'
 					amount:
 					price: 30
 				-
-					name: 'Pivní tyčinky'
+					name: 'Cibulové kroužky'
 					amount:
-					price: 25
+					price: 30
