@@ -5,12 +5,5 @@ parameters:
 	event:
 		'26.10.2018':
 			event: {17:30,'Burger víkend','hamburger4.jpg'}
-		'16.11.2018':
-			event: {18:30,'Ochutnávka mladého svatomartinského vína','svatomartinske.jpg'}
-		'14.2.2019':
-			open: {17:00,24:00}
-			event: {17:00,'Valentýnské menu','valentyn.jpg'}
 		'8.2.2019':
-			open: false
-		'9.2.2019':
 			open: false

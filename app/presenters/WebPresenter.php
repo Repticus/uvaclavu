@@ -115,10 +115,13 @@ class WebPresenter extends Nette\Application\UI\Presenter {
 	}
 
 	private function convertDates($section) {
+		$today = strtotime(date("d.m.Y"));
 		$data = (array) $this->context->parameters[$section];
 		foreach ($data as $date => $value) {
 			$stamp = strtotime($date);
-			$data[$stamp] = $value;
+			if ($stamp >= $today) {
+				$data[$stamp] = $value;
+			}
 			unset($data[$date]);
 		}
 		ksort($data);
