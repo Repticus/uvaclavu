@@ -16,7 +16,7 @@ parameters:
 				-
 					name: 'Bakalář řezaný výčepní'
 					amount: '0,3 / 0,5 l'
-					price: 16 / 21
+					price: 22 / 26
 					description: 'Plnější pivo rubínové barvy s jemnou příchutí karamelu a nádechem chmelové hořkosti.'
 				-
 					name: 'Velkopopovický Kozel 11°'
@@ -62,11 +62,11 @@ parameters:
 				-
 					name: 'Coca Cola, Fanta, Sprite, Tonic'
 					amount: '3 dl'
-					price: 35				
+					price: 35
 				-
 					name: 'Cappy (dle nabídky)'
 					amount: '2 dl'
-					price: 35				
+					price: 35
 				-
 					name: 'Red Bull'
 					amount: '2 dl'
@@ -81,7 +81,7 @@ parameters:
 				-
 					name: 'Slivovice Fleret'
 					amount: '2 / 4 cl'
-					price: '25 / 45'				
+					price: '25 / 45'
 				-
 					name: 'Beefeater Gin'
 					amount: '2 / 4 cl'
@@ -149,7 +149,7 @@ parameters:
 				-
 					name: 'Božkov rum tuzemský'
 					amount: '2 / 4 cl'
-					price: '15 / 25'					
+					price: '15 / 25'
 				-
 					name: 'Božkov vodka'
 					amount: '2 / 4 cl'
@@ -157,7 +157,7 @@ parameters:
 				-
 					name: 'Finlandia vodka'
 					amount: '2 / 4 cl'
-					price: '22 / 40'				
+					price: '22 / 40'
 				-
 					name: 'Tullamore Dew'
 					amount: '2 / 4 cl'
@@ -165,7 +165,7 @@ parameters:
 				-
 					name: 'Johnnie Walker Red Label'
 					amount: '2 / 4 cl'
-					price: '32 / 55'				
+					price: '32 / 55'
 				-
 					name: 'Jack Daniels Honey'
 					amount: '2 / 4 cl'
@@ -215,7 +215,7 @@ parameters:
 					name: 'Káva turecká'
 					amount:
 					price: 20
-				
+
 		-
 			group: 'Teplé nápoje'
 			drink:
@@ -239,21 +239,21 @@ parameters:
 					name: 'Grog'
 					amount:
 					price: 35
-				
+
 		-
 			group: 'Pochutiny'
 			drink:
 				-
 					name: 'Mandle pražené'
-					amount: 
+					amount:
 					price: 38
 				-
 					name: 'Čerstvě pražené mandle'
-					amount: 
+					amount:
 					price: 50
 				-
 					name: 'Arašídy'
-					amount: 
+					amount:
 					price: 23
 				-
 					name: 'Brambůrky Bohemia Chips (dle nabídky)'

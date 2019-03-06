@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'25.2.2019':
-			p: 'Hráškový krém'
-			a: 'Kuřecí nudličky na kari, dušená rýže'
-			b: 'Špagety po uhlířsku'
-		'26.2.2019':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: 'Plněné bramborové švestkové knedlíky s mákem a cukrem'
-		'27.2.2019':
-			p: 'Kapustová se slaninou'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Smažený sýrový špíz se šunkou, vařené brambory'
-		'28.2.2019':
-			p: 'Francouzská cibulačka'
-			a: 'Pečená krkovice, houskové knedlíky, zelí'
-			b: 'Vepřové ledvinky na cibulce, dušená rýže'
-		'1.3.2019':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Smažený holandský řízek, vařené brambory'
-			b: 'Opečená klobása, hrachová kaše'
 		'4.3.2019':
 			p: 'Špenátová'
 			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s kapáním'
 			a: 'Šumavský vepřový závitek, dušená rýže'
 			b: 'Smažený kuřecí Cordon bleu, šťouchané brambory'
+		'11.3.2019':
+			p: 'Žampiónová'
+			a: 'Kuřecí plátek s rokfórovou omáčkou, fazolové lusky s česnekem'
+			b: 'Kari rýže se šunkou, zeleninou a sýrem'
+		'12.3.2019':
+			p: 'Kulajda'
+			a: 'Hovězí tokáň na červeném víně, špagety'
+			b: 'Smažená brokolice v těstíčku s uzeným sýrem, vařené brambory'
+		'13.3.2019':
+			p: 'Gulášová'
+			a: 'Uzené kuřecí stehno, bramborová kaše'
+			b: 'Vepřové žebírko "Balkán", dušená rýže'
+		'14.3.2019':
+			p: 'Kmínová s vejci'
+			a: 'Srbské vepřové medailonky, dušená rýže'
+			b: 'Opečená jitrnice, lepenice'
+		'15.3.2019':
+			p: 'Zeleninový vývar s těstovinou'
+			a: 'Smažený karbanátek s hermelínem, šťouchané brambory'
+			b: 'Pečený vepřový bůček, houskové knedlíky, červené zelí'
