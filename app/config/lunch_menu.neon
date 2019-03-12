@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'4.3.2019':
-			p: 'Špenátová'
-			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-			b: 'Smažený květák, vařené brambory'
-		'5.3.2019':
-			p: 'Slepičí vývar s masem a nudlemi'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Gnocchi "Siciliána" (kuřecí maso, bazalka, česnek, olivy, čili papričky)'
-		'6.3.2019':
-			p: 'Hrachová s uzeninou'
-			a: 'Pečené kuře na másle, vařené brambory'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'7.3.2019':
-			p: 'Prácheňská'
-			a: 'Zabíjačkový guláš, houskové knedlíky'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
-		'8.3.2019':
-			p: 'Hovězí vývar s kapáním'
-			a: 'Šumavský vepřový závitek, dušená rýže'
-			b: 'Smažený kuřecí Cordon bleu, šťouchané brambory'
 		'11.3.2019':
 			p: 'Žampiónová'
 			a: 'Kuřecí plátek s rokfórovou omáčkou, fazolové lusky s česnekem'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Zeleninový vývar s těstovinou'
 			a: 'Smažený karbanátek s hermelínem, šťouchané brambory'
 			b: 'Pečený vepřový bůček, houskové knedlíky, červené zelí'
+		'18.3.2019':
+			p: 'Drůbeží vývar s tarhoňou'
+			a: 'Kuřecí soté se zeleninou, dušená rýže'
+			b: 'Špagety "Pomodoro"'
+		'19.3.2019': 
+			p: 'Bramborová'
+			a: 'Hovězí maso na česneku, bramborové knedlíky, špenát'
+			b: 'Domácí lívance s jahodami'
+		'20.3.2019':
+			p: 'Česneková s bramborem'
+			a: 'Debrecínský vepřový guláš, houskové knedlíky'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'21.3.2019':
+			p: 'Čočková s uzeninou'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Vepřová játra "Alcron", dušená rýže'
+		'22.3.2019':
+			p: 'Italská'
+			a: 'Čevabčiči, vařené brambory'
+			b: 'Kuskus s kuřecím masem a zeleninou'
