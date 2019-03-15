@@ -3,7 +3,9 @@ parameters:
 # open: {16:00,24:00} #Zmeni oteviraci dobu {od,do}.
 # event: {16:00,'nazev akce'} #Nastavi zacatek a nazev akce pro dany den. Pokud je v dany den zavreno, musi byt zadana oteviraci doba.
 	event:
-		'26.10.2018':
-			event: {17:30,'Burger víkend','hamburger4.jpg'}
 		'8.2.2019':
 			open: false
+		'29.3.2019':
+			event: {17:30,'Burger víkend','burger.jpg'}
+		'30.3.2019':
+			event: {17:30,'Burger víkend','burger.jpg'}
