@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'25.3.2019':
-			p: 'Květáková'
-			a: 'Vepřové nudličky na černém pivu s paprikou, čili a pórkem, kari rýže'
-			b: 'Těstoviny penne s anglickou slaninou, česnekem, listovým špenátem a smetanou'
-		'26.3.2019':
-			p: 'Frankfurtská s párkem'
-			a: 'Masové kuličky z mletého masa, fazolové lusky s česnekem'
-			b: 'Smažený celer se šunkou, bramborová kaše'
-		'27.3.2019':
-			p: 'Celerová'
-			a: 'Pražská hovězí pečeně, houskové knedlíky'
-			b: 'Uzená krkovice, vařená čočka, kys. okurka'
-		'28.3.2019':
-			p: 'Ovarová s kroupami'
-			a: 'Krůtí prsa s drůbežími játry, dušená rýže'
-			b: 'Opečená vinná klobása, lepenice'
-		'29.3.2019':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Lasagne s mletým masem'
-			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
 		'1.4.2019':
 			p: 'Brokolicová'
 			a: 'Kuřecí "Pašerák", dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Šalotková'
 			a: 'Znojemská hovězí pečečně, dušená rýže'
 			b: 'Smažené zeleninové řízečky, bramborová kaše'
+		'8.4.2019':
+			p: 'Hráškový krém'
+			a: 'Kuřecí flamendr, dušená rýže'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'9.4.2019':
+			p: 'Zelná s uzeninou'
+			a: 'Slovenská pochoutka, bramborové gnocchi'
+			b: 'Špagety "Carbonara"'
+		'10.4.2019':
+			p: 'Slepičí vývar s masem a nudlemi'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Domácí sekanina, lepenice'
+		'11.4.2019':
+			p: 'Pórková'
+			a: 'Vepřové výpečky, bramborové knedlíky, špenát'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'12.4.2019':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Smažený kuřecí řízek, bramborový salát'
+			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
