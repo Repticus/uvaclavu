@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'1.4.2019':
-			p: 'Brokolicová'
-			a: 'Kuřecí "Pašerák", dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'2.4.2019':
-			p: ''
-			a: 'Segedínský vepřový guláš, houskové knedlíky'
-			b: 'Zapečená brokolice se šunkou a sýrem, 1/2 vařené brambory, 1/2 zelný salát'
-		'3.4.2019':
-			p: 'Kapustová se slaninou'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Těstoviny s kuřecím masem a sýrovou omáčkou'
-		'4.4.2019':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Plněná vepřová roláda, vařené brambory'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninkou a krutóny'
-		'5.4.2019':
-			p: 'Šalotková'
-			a: 'Znojemská hovězí pečečně, dušená rýže'
-			b: 'Smažené zeleninové řízečky, bramborová kaše'
 		'8.4.2019':
 			p: 'Hráškový krém'
 			a: 'Kuřecí flamendr, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s kapáním'
 			a: 'Smažený kuřecí řízek, bramborový salát'
 			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
+		'15.4.2019':
+			p: 'Zeleninová bílá'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Opečená klobása, vařená čočka, kys. okurka'
+		'16.4.2019':
+			p: 'Gulášová'
+			a: 'Boloňské špagety'
+			b: 'Smažená brokolice, bramborová kaše'
+		'17.4.2019':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
+			b: 'Zapečené těstoviny "Primavera", kys. okurka'
+		'18.4.2019':
+			p: 'Špenátová'
+			a: 'Spanělský hovězí ptáček, dušená rýže'
+			b: 'Smažená vepřová játra, vařené brambory, tatarská omáčka'
+		'19.4.2019':
+			p: ''
+			a: 'Z důvodu státního svátku se nevaří.'
+			b: ''
