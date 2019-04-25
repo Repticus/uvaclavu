@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'15.4.2019':
-			p: 'Zeleninová bílá'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'16.4.2019':
-			p: 'Gulášová'
-			a: 'Boloňské špagety'
-			b: 'Smažená brokolice, bramborová kaše'
-		'17.4.2019':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Zapečené těstoviny "Primavera", kys. okurka'
-		'18.4.2019':
-			p: 'Špenátová'
-			a: 'Spanělský hovězí ptáček, dušená rýže'
-			b: 'Smažená vepřová játra, vařené brambory, tatarská omáčka'
-		'19.4.2019':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří.'
-			b: ''
 		'22.4.2019':
 			p: ''
 			a: 'Z důvodu státního svátku se nevaří.'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
 			b: 'Brokolicové řízečky se šunkou, 1/2 vařené brambory, 1/2 zelný salát'
+		'29.4.2019':
+			p: 'Květáková'
+			a: 'Kuřecí prsa "Apollo", dušená rýže'
+			b: 'Špagety "Aglio olio, peperoncino"'
+		'30.4.2019':
+			p: 'Bramborová'
+			a: 'Přírodní vepřový závitek na česneku, bramborové knedlíky'
+			b: 'Gruzínská rýže (hovězí maso. cibule, protlak), kys okurka'
+		'1.5.2019':
+			p: ''
+			a: ''
+			b: 'Z důvodu státního svátku se nevaří.'
+		'2.5.2019':
+			p: 'Hrachová s uzeninou'
+			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
+			b: 'Maminčino kuře'
+		'3.5.2019':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Plněné bramborové knedlíky uzeným masem, zelí'
+			b: 'Krůtí prsa zapečené s rajčátky a mozzarellou, vařené brambory'
