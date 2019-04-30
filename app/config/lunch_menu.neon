@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'22.4.2019':
-			p: ''
-			a: 'Z důvodu státního svátku se nevaří.'
-			b: ''
-		'23.4.2019':
-			p: 'Čočková'
-			a: 'Kuřecí nudličky po mexicku, kari rýže'
-			b: 'Jablková žemlovka s tvarohem'
-		'24.4.2019':
-			p: 'Veselská zelnice'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Zeleninový salát s grilovaným kuřecím masem a dresinkem'
-		'25.4.2019':
-			p: 'Francouzská cibulačka'
-			a: 'Smažený holandský řízek, vařené brambory'
-			b: 'Vepřová plec na houbách, dušená rýže'
-		'26.4.2019':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
-			b: 'Brokolicové řízečky se šunkou, 1/2 vařené brambory, 1/2 zelný salát'
 		'29.4.2019':
 			p: 'Květáková'
 			a: 'Kuřecí prsa "Apollo", dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Plněné bramborové knedlíky uzeným masem, zelí'
 			b: 'Krůtí prsa zapečené s rajčátky a mozzarellou, vařené brambory'
+		'6.5.2019':
+			p: 'Drůbeží vývar s masem a nudlemi'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
+		'7.5.2019':
+			p: 'Fazolová bílá'
+			a: 'Smažený vepřový řízek s česnekem, vařené brambory'
+			b: 'Hovězí maso vařené, křenová omáčka, houskové knedlíky'
+		'8.5.2019':
+			p: ''
+			a: ''
+			b: 'Z důvodu státního svátku se nevaří.'
+		'9.5.2019':
+			p: 'Kulajda'
+			a: 'Kuřecí prsa na paprice, dušená rýže'
+			b: 'Smažený květák, vařené brambory'
+		'10.5.2019':
+			p: 'Italská'
+			a: 'Hamburská vepřová kýta, houskové knedlíky'
+			b: 'Těstoviny penne se šunkou, brokolicí a omáčkou z modrého sýra'
