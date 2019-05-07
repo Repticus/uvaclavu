@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'29.4.2019':
-			p: 'Květáková'
-			a: 'Kuřecí prsa "Apollo", dušená rýže'
-			b: 'Špagety "Aglio olio, peperoncino"'
-		'30.4.2019':
-			p: 'Bramborová'
-			a: 'Přírodní vepřový závitek na česneku, bramborové knedlíky'
-			b: 'Gruzínská rýže (hovězí maso. cibule, protlak), kys okurka'
-		'1.5.2019':
-			p: ''
-			a: ''
-			b: 'Z důvodu státního svátku se nevaří.'
-		'2.5.2019':
-			p: 'Hrachová s uzeninou'
-			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
-			b: 'Maminčino kuře'
-		'3.5.2019':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Plněné bramborové knedlíky uzeným masem, zelí'
-			b: 'Krůtí prsa zapečené s rajčátky a mozzarellou, vařené brambory'
 		'6.5.2019':
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Katův šleh, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Italská'
 			a: 'Hamburská vepřová kýta, houskové knedlíky'
 			b: 'Těstoviny penne se šunkou, brokolicí a omáčkou z modrého sýra'
+		'13.5.2019':
+			p: 'Žampiónová'
+			a: 'Kuřecí nudličky na kari, dušená rýže'
+			b: 'Špagety po uhlířsku, ovoce'
+		'14.5.2019':
+			p: 'Frankfurtská s párkem'
+			a: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem'
+			b: 'Gnocchi "Siciliána" (kuřecí, bazalka, česnek, olivy, čili papričky)'
+		'15.5.2019':
+			p: 'Pórková'
+			a: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+			b: 'Dalmátské čufty, dušená rýže'
+		'16.5.2019':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Hovězí vídeňský guláš, houskové knedlíky'
+			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
+		'17.5.2019':
+			p: 'Česneková s bramborem'
+			a: 'Šumavský vepřový závitek, dušená rýže'
+			b: 'Smažená rybí treska, bramborová kaše'
