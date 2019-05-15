@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'6.5.2019':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Katův šleh, dušená rýže'
-			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
-		'7.5.2019':
-			p: 'Fazolová bílá'
-			a: 'Smažený vepřový řízek s česnekem, vařené brambory'
-			b: 'Hovězí maso vařené, křenová omáčka, houskové knedlíky'
-		'8.5.2019':
-			p: ''
-			a: ''
-			b: 'Z důvodu státního svátku se nevaří.'
-		'9.5.2019':
-			p: 'Kulajda'
-			a: 'Kuřecí prsa na paprice, dušená rýže'
-			b: 'Smažený květák, vařené brambory'
-		'10.5.2019':
-			p: 'Italská'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Těstoviny penne se šunkou, brokolicí a omáčkou z modrého sýra'
 		'13.5.2019':
 			p: 'Žampiónová'
 			a: 'Kuřecí nudličky na kari, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Česneková s bramborem'
 			a: 'Šumavský vepřový závitek, dušená rýže'
 			b: 'Smažená rybí treska, bramborová kaše'
+		'20.5.2019':
+			p: 'Špenátová'
+			a: 'Kuřecí prsa s čerstvými bylinkami, dušená rýže'
+			b: 'Mexické fazole s klobásou'
+		'21.5.2019':
+			p: 'Zelná s uzeninou'
+			a: 'Vepřová plec po valašsku, houskové knedlíky'
+			b: 'Pštrosí vejce, bramborová kaše'
+		'22.5.2019':
+			p: 'Zeleninový vývar s kapáním'
+			a: 'Burgundská hovězí pečeně, dušená rýže'
+			b: 'Kus kus s kuřecím masem a zeleninou'
+		'23.5.2019':
+			p: 'Gulášová'
+			a: 'Pečené kuře na másle, vařené brambory, dušená zelenina'
+			b: 'Vepřová játra po mlynářsku, dušená rýže'
+		'24.5.2019':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Sikulské vepřové žebírko, houskové knedlíky'
+			b: 'Smažený studentský řízek (Gothaj), jarní bramborový salát bez majonézy'
