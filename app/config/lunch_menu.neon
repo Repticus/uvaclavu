@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'20.5.2019':
-			p: 'Špenátová'
-			a: 'Kuřecí prsa s čerstvými bylinkami, dušená rýže'
-			b: 'Mexické fazole s klobásou'
-		'21.5.2019':
-			p: 'Zelná s uzeninou'
-			a: 'Vepřová plec po valašsku, houskové knedlíky'
-			b: 'Pštrosí vejce, bramborová kaše'
-		'22.5.2019':
-			p: 'Zeleninový vývar s kapáním'
-			a: 'Burgundská hovězí pečeně, dušená rýže'
-			b: 'Kus kus s kuřecím masem a zeleninou'
-		'23.5.2019':
-			p: 'Gulášová'
-			a: 'Pečené kuře na másle, vařené brambory, dušená zelenina'
-			b: 'Vepřová játra po mlynářsku, dušená rýže'
-		'24.5.2019':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Sikulské vepřové žebírko, houskové knedlíky'
-			b: 'Smažený studentský řízek (Gothaj), jarní bramborový salát bez majonézy'
 		'27.5.2019':
 			p: 'Hráškový krém'
 			a: 'Kuřecí soté se zeleninou, dušená rýže'
 			b: 'Těstoviny s anglickou slaninou, česnekem a smetanou'
-		'28.5.2019': 
+		'28.5.2019':
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Uzené kuřecí stehno, bramborová kaše'
 			b: 'Bramborové švestkové knedlíky s mákem a cukrem'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Hovězí maso na pepři, vařené těstoviny'
 			b: 'Zapečený květák se sýrem, 1/2 vařené brambory, 1/2 zelný salát'
+		'3.6.2019':
+			p: 'Brokolicová'
+			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
+			b: 'Špagety "Pomodoro", dezert'
+		'4.6.2019':
+			p: 'Selská'
+			a: 'Masové kuličky z mletého masa, fazolové lusky s česnekem'
+			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
+		'5.6.2019':
+			p: 'Fazolová s uzeninou'
+			a: 'Pražská hovězí pečeně, dušená rýže'
+			b: 'Staročeská sekanina, lepenice'
+		'6.6.2019':
+			p: 'Šalotková'
+			a: 'Smažená kuřecí prsa v pikantním těstíčku, vařené brambory'
+			b: 'Debrecínský vepřový guláš, dušená rýže'
+		'7.6.2019':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
