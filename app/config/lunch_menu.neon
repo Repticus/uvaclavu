@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'3.6.2019':
-			p: 'Brokolicová'
-			a: 'Maso dvou barev (kuřecí, kýta), kari rýže'
-			b: 'Špagety "Pomodoro", dezert'
-		'4.6.2019':
-			p: 'Selská'
-			a: 'Masové kuličky z mletého masa, fazolové lusky s česnekem'
-			b: 'Caesar salát s kuřecím masem, opečenou slaninou a krutóny'
-		'5.6.2019':
-			p: 'Fazolová s uzeninou'
-			a: 'Pražská hovězí pečeně, dušená rýže'
-			b: 'Staročeská sekanina, lepenice'
-		'6.6.2019':
-			p: 'Šalotková'
-			a: 'Smažená kuřecí prsa v pikantním těstíčku, vařené brambory'
-			b: 'Debrecínský vepřový guláš, dušená rýže'
-		'7.6.2019':
-			p: 'Hovězí vývar s těstovinou'
-			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
-			b: 'Smažený kapustový karbanátek, bramborová kaše'
 		'10.6.2019':
 			p: 'Květáková'
 			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
 			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'11.6.2019': 
+		'11.6.2019':
 			p: 'Zelná bílá'
 			a: 'Čevabčiči, vařené brambory'
 			b: 'Těstovinový salát s kuřecím masem'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Celerová'
 			a: 'Moravský vrabec, bramborové knedlíky, špenát'
 			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
+		'17.6.2019':
+			p: 'Hrachová'
+			a: 'Kuřecí flamendr, dušená rýže'
+			b: 'Těstoviny se šunkou, brokolicí a omáčkou z modrého sýra'
+		'18.6.2019':
+			p: 'Kulajda'
+			a: 'Slovenská pochoutka, bramborové gnocchi'
+			b: 'Rizoto s kuřecím masem sypané sýrem, kys. okurka'
+		'19.6.2019':
+			p: 'Gulášová'
+			a: 'Vepřová plec na slanině, houskové knedlíky'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vař. brambory, 1/2 zelný salát'
+		'20.6.2019':
+			p: 'Drůbková'
+			a: 'Cikánská hovězí pečeně, dušená rýže'
+			b: 'Jablková žemlovka s tvarohem'
+		'21.6.2019':
+			p: 'Kmínová s vejcem'
+			a: 'Smažený uzený sýr, vařené brambory'
+			b: 'Lasagne s mletým masem a zeleninou'
