@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'10.6.2019':
-			p: 'Květáková'
-			a: 'Kuřecí nudličky s nivou, žampióny a smetanou, dušená rýže'
-			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'11.6.2019':
-			p: 'Zelná bílá'
-			a: 'Čevabčiči, vařené brambory'
-			b: 'Těstovinový salát s kuřecím masem'
-		'12.6.2019':
-			p: 'Hrstková'
-			a: 'Hovězí tokáň na červeném víně, špagety'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'13.6.2019':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Vepřové žebírko "Balkán", dušená rýže'
-			b: 'Smažený celer se šunkou, bramborová kaše'
-		'14.6.2019':
-			p: 'Celerová'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Tortila s kuřecím masem, zeleninou a dresinkem'
 		'17.6.2019':
 			p: 'Hrachová'
 			a: 'Kuřecí flamendr, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Kmínová s vejcem'
 			a: 'Smažený uzený sýr, vařené brambory'
 			b: 'Lasagne s mletým masem a zeleninou'
+		'24.6.2019':
+			p: 'Čočková'
+			a: 'Kuřecí prsa "Apollo" (smetana, slanina, žampión), dušená rýže'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'25.6.2019':
+			p: 'Frankfurtská s párkem'
+			a: 'Šunkové krokety se sýrem, vařené brambory'
+			b: 'Vepřová játra "Alcron", dušená rýže'
+		'26.6.2019':
+			p: 'Francouzská cibulačka'
+			a: 'Kuře ala bažant, bramborové knedlíky, špenát'
+			b: 'Smažené zeleninové řízečky, bramborová kaše'
+		'27.6.2019':
+			p: 'Pórková'
+			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
+			b: 'Zeleninový salát se smaženými kuřecími nugetami'
+		'28.6.2019':
+			p: 'Hovězí vývar s masem a nudlemi'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Zapečené francouzské brambory, kys. okurka'
