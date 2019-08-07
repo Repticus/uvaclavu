@@ -1,45 +1,5 @@
 parameters:
 	lunch-menu:
-		'15.7.2019':
-			p: 'Čočková s uzeninou'
-			a: 'Kuřecí "Pašerák" (šunka, sýr), dušená rýže'
-			b: 'Mexické fazole'
-		'16.7.2019':
-			p: 'Krupicová s vejcem'
-			a: 'Vepřová plec po selsku, houskové knedlíky, zelí'
-			b: 'Kari rýže se šunkou zeleninou a sýrem'
-		'17.7.2019':
-			p: 'Kapustová se slaninou'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Maminčino kuře'
-		'18.7.2019':
-			p: 'Hovězí vývar s celestýnskými nudlemi'
-			a: 'Frankfurtská hovězí pečeně, dušená rýže'
-			b: 'Smažená vepřová játra, vařené brambory, tatarská omáčka'
-		'19.7.2019':
-			p: 'Zeleninová bílá'
-			a: 'Smažený kuřecí řízek, vařené brambory'
-			b: 'Z důvodu konání páteční svatby vaříme pouze jednotné menu. Děkujeme za pochopení.'
-		'29.7.2019':
-			p: 'Květáková'
-			a: 'Kuřecí nudličky po římsku, dušená rýže'
-			b: ''
-		'30.7.2019':
-			p: 'Frankfurtská s párkem'
-			a: 'Plněné knedlíky uzeným masem, zelí'
-			b: ''
-		'31.7.2019':
-			p: 'Zelná bílá'
-			a: 'Smažený hermelín, vařené brambory'
-			b: ''
-		'1.8.2019':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Hovězí hamburger'
-			b: ''
-		'2.8.2019':
-			p: 'Gulášová'
-			a: 'Smažený vepřový řízek, vařené brambory'
-			b: ''
 		'5.8.2019':
 			p: 'Žampiónová'
 			a: 'Střapačky se zelím a uzeným masem'
@@ -60,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s rýží a hráškem'
 			a: 'Svíčková na smetaně, houskové knedlíky'
 			b: ''
+		'19.8.2019':
+			p: 'Brokolicová'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'20.8.2019':
+			p: 'Zelná s klobásou'
+			a: 'Smažený sýrový špíz se šunkou, vařené brambory'
+			b: 'Gnocchci "Siciliána" (kuřecí, olivy, bazalka, česnek, chili papričky)'
+		'21.8.2019':
+			p: 'Kulajda'
+			a: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+			b: 'Chili con carne, dušená rýže'
+		'22.8.2019':
+			p: 'Česneková s bramborem'
+			a: 'Hovězí guláš, houskové knedlíky'
+			b: 'Kuřecí prsa s rokfórovou omáčkou, fazolové lusky s česnekem'
+		'23.8.2019':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Pštrosí vejce, bramborová kaše'
+			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
