@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'5.8.2019':
-			p: 'Žampiónová'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: ''
-		'6.8.2019':
-			p: 'Bramborová'
-			a: 'Boloňské špagety'
-			b: ''
-		'7.8.2019':
-			p: 'Hrachová s uzeninou'
-			a: 'Smažený holandský řízek, vařené brambory'
-			b: ''
-		'9.8.2019':
-			p: 'Zeleninová bílá'
-			a: 'Živáňská vepřová krkovice pečená v alobalu s bramborami, cibulí a kapií'
-			b: ''
-		'10.8.2019':
-			p: 'Hovězí vývar s rýží a hráškem'
-			a: 'Svíčková na smetaně, houskové knedlíky'
-			b: ''
 		'19.8.2019':
 			p: 'Brokolicová'
 			a: 'Katův šleh, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s kapáním'
 			a: 'Pštrosí vejce, bramborová kaše'
 			b: 'Drůbeží jatýrka s čerstvým tymiánem, dušená rýže'
+		'26.8.2019':
+			p: 'Čočková'
+			a: 'Maso dvou barev, kari rýže'
+			b: 'Špagety po uhlířsku, pudink'
+		'27.8.2019': 
+			p: 'Krupicová s vejcem'
+			a: 'Vepřová plec na žampiónech, dušená rýže'
+			b: 'Kuskus s kuřecím masem a zeleninou'
+		'28.8.2019':
+			p: 'Boršč'
+			a: 'Pečené kuře na másle, vařené brambory, dušená zelenina'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'29.8.2019':
+			p: 'Francouzská cibulačka'
+			a: 'Moravský vrabec, bramborové knedlíky, špenát'
+			b: 'Caesar salát s kuřecím masem'
+		'30.8.2019':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Hovězí maso na pepři, vařené těstoviny'
+			b: 'Zapečené francouzské brambory, kys. okurka'
