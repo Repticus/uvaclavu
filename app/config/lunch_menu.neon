@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'26.8.2019':
-			p: 'Čočková'
-			a: 'Maso dvou barev, kari rýže'
-			b: 'Špagety po uhlířsku, pudink'
-		'27.8.2019':
-			p: 'Krupicová s vejcem'
-			a: 'Vepřová plec na žampiónech, dušená rýže'
-			b: 'Kuskus s kuřecím masem a zeleninou'
-		'28.8.2019':
-			p: 'Boršč'
-			a: 'Pečené kuře na másle, vařené brambory, dušená zelenina'
-			b: 'Dukátové buchtičky s vanilkovým krémem'
-		'29.8.2019':
-			p: 'Francouzská cibulačka'
-			a: 'Moravský vrabec, bramborové knedlíky, špenát'
-			b: 'Caesar salát s kuřecím masem'
-		'30.8.2019':
-			p: 'Hovězí vývar s játrovou rýží'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Zapečené francouzské brambory, kys. okurka'
 		'2.9.2019':
 			p: 'Špenátová'
 			a: 'Kuřecí soté se zeleninou, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Španělský ptáček, dušená rýže'
 			b: 'Kuřecí roláda s anglickou slaninou a špenátem (Sous-vide), šťouchané brambory'
+		'9.9.2019':
+			p: 'Hráškový krém'
+			a: 'Kuřecí nudličky po indicku, dušená rýže'
+			b: 'Špagety Aglio, olio e peperencino'
+		'10.9.2019':
+			p: 'Bramborová'
+			a: 'Segedínský vepřový guláš, houskové knedlíky'
+			b: 'Těstovinový salát s kuřecím masem'
+		'11.9.2019':
+			p: 'Pórková'
+			a: 'Vepřové maso v mrkvi, opečené brambory'
+			b: 'Opečená klobása, vařená čočka, kys. okurka'
+		'12.9.2019':
+			p: 'Frankfurtská s párkem'
+			a: 'Znojemská hovězí pečeně, dušená rýže'
+			b: 'Smažený kapustový karbanátek, bramborová kaše'
+		'13.9.2019':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Marinovaná kuřecí křídélka, vařené brambory'
+			b: 'Dalmátské čufty, dušená rýže'
