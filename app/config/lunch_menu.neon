@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'2.9.2019':
-			p: 'Špenátová'
-			a: 'Kuřecí soté se zeleninou, dušená rýže'
-			b: 'Penne se šunkou, brokolicí a omáčkou z modrého sýra'
-		'3.9.2019':
-			p: 'Selská'
-			a: 'Masové kuličky z mletého masa, fazolové lusky s česnekem'
-			b: 'Jablková žemlovka s tvarohem'
-		'4.9.2019':
-			p: 'Hrstková'
-			a: 'Slovenská pochoutka, bramborové gnocchi'
-			b: 'Smažený květák, vařené brambory'
-		'5.9.2019':
-			p: 'Italská'
-			a: 'Hamburská vepřová kýta, houskové knedlíky'
-			b: 'Srbské vepřové rizoto se sýrem, kys. okurka'
-		'6.9.2019':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Španělský ptáček, dušená rýže'
-			b: 'Kuřecí roláda s anglickou slaninou a špenátem (Sous-vide), šťouchané brambory'
 		'9.9.2019':
 			p: 'Hráškový krém'
 			a: 'Kuřecí nudličky po indicku, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Marinovaná kuřecí křídélka, vařené brambory'
 			b: 'Dalmátské čufty, dušená rýže'
+		'16.9.2019':
+			p: 'Květáková'
+			a: 'Kuřecí nudličky s nivou, smetanou a žampióny, dušená rýže'
+			b: 'Mexické fazole'
+		'17.9.2019':
+			p: 'Zelná s uzeninou'
+			a: 'Šumavský vepřový závitek, houskové knedlíky'
+			b: 'Kari rýže se šunkou, zeleninou a sýrem'
+		'18.9.2019':
+			p: 'Šalotková'
+			a: 'Smažený sýr, vařené brambory'
+			b: 'Lasagne s mletým masem'
+		'19.9.2019':
+			p: 'Krupicová s vejcem'
+			a: 'Hovězí maso vařené, rajská omáčka, vařené těstoviny'
+			b: 'Zeleninový salát s kuřecím masem a dresinkem'
+		'20.9.2019':
+			p: 'Hovězí vývar s celestýnskými nudlemi'
+			a: 'Smažené rybí filé, bramborová kaše'
+			b: 'Tortila s kuřecím masem, zeleninou a česnekovým dipem'
