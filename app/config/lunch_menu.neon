@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'9.9.2019':
-			p: 'Hráškový krém'
-			a: 'Kuřecí nudličky po indicku, dušená rýže'
-			b: 'Špagety Aglio, olio e peperencino'
-		'10.9.2019':
-			p: 'Bramborová'
-			a: 'Segedínský vepřový guláš, houskové knedlíky'
-			b: 'Těstovinový salát s kuřecím masem'
-		'11.9.2019':
-			p: 'Pórková'
-			a: 'Vepřové maso v mrkvi, opečené brambory'
-			b: 'Opečená klobása, vařená čočka, kys. okurka'
-		'12.9.2019':
-			p: 'Frankfurtská s párkem'
-			a: 'Znojemská hovězí pečeně, dušená rýže'
-			b: 'Smažený kapustový karbanátek, bramborová kaše'
-		'13.9.2019':
-			p: 'Hovězí vývar s tarhoňou'
-			a: 'Marinovaná kuřecí křídélka, vařené brambory'
-			b: 'Dalmátské čufty, dušená rýže'
 		'16.9.2019':
 			p: 'Květáková'
 			a: 'Kuřecí nudličky s nivou, smetanou a žampióny, dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s celestýnskými nudlemi'
 			a: 'Smažené rybí filé, bramborová kaše'
 			b: 'Tortila s kuřecím masem, zeleninou a česnekovým dipem'
+		'23.9.2019':
+			p: 'Žampiónová'
+			a: 'Kuřecí nudličky po mexicku, dušená rýže'
+			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
+		'24.9.2019':
+			p: 'Čočková s uzeninou'
+			a: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem'
+			b: 'Smažená brokolice v těstíčku s uzeným sýrem, vařené brambory'
+		'25.9.2019':
+			p: 'Česneková s bramborem'
+			a: 'Uzené kuřecí stehno, bramborová kaše'
+			b: 'Těstoviny s listovým špenátem, anglickou slaninou, česnekem a smetanou'
+		'26.9.2019':
+			p: 'Hovězí vývar s kapáním'
+			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
+			b: 'Drůbeží jatýrka na slanině, dušená rýže'
+		'27.9.2019':
+			p: 'Kmnínová s vejci'
+			a: 'Smažený karbanátek s hermelínem, vařené brambory'
+			b: 'Zapečené těstoviny "Primavera", kys. okurka'
