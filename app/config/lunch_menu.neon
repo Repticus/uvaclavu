@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'23.9.2019':
-			p: 'Žampiónová'
-			a: 'Kuřecí nudličky po mexicku, dušená rýže'
-			b: 'Uzená krkovice, hrachová kaše, kys. okurka'
-		'24.9.2019':
-			p: 'Čočková s uzeninou'
-			a: 'Mletý řízek s pepřovou omáčkou, fazolové lusky s česnekem'
-			b: 'Smažená brokolice v těstíčku s uzeným sýrem, vařené brambory'
-		'25.9.2019':
-			p: 'Česneková s bramborem'
-			a: 'Uzené kuřecí stehno, bramborová kaše'
-			b: 'Těstoviny s listovým špenátem, anglickou slaninou, česnekem a smetanou'
-		'26.9.2019':
-			p: 'Hovězí vývar s kapáním'
-			a: 'Pečená vepřová krkovice, houskové knedlíky, zelí'
-			b: 'Drůbeží jatýrka na slanině, dušená rýže'
-		'27.9.2019':
-			p: 'Kmnínová s vejci'
-			a: 'Smažený karbanátek s hermelínem, vařené brambory'
-			b: 'Zapečené těstoviny "Primavera", kys. okurka'
 		'30.9.2019':
 			p: 'Hrachová s uzeninou'
 			a: 'Pašerácký kuřecí plátek (šunka, sýr), dušená rýže'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Drůbeží vývar s masem a nudlemi'
 			a: 'Smažený kuřecí řízek v sezamu, bramborový salát'
 			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
+		'7.10.2019':
+			p: 'Špenátová'
+			a: 'Kuřecí flamendr, dušená rýže'
+			b: 'Gnocchi se šunkou, brokolicí a smetanou'
+		'8.10.2019': 
+			p: 'Francouzská cibulačka'
+			a: 'Boloňské špagety'
+			b: 'Drůbeží rizoto se sýrem, kys. okurka'
+		'9.10.2019':
+			p: 'Gulášová'
+			a: 'Srbské vepřové medailonky, fazolové lusky s česnekem'
+			b: 'Vepřová játra "Alcron", dušená rýže'
+		'10.10.2019':
+			p: 'Zelná bílá'
+			a: 'Svíčková na smetaně, houskové knedlíky'
+			b: 'Zapečená cuketa s mletým masem, rajčaty a sýrem, 1/2 vař. brambory, 1/2 zelný salát'
+		'11.10.2019':
+			p: 'Hovězí vývar s tarhoňou'
+			a: 'Smažený hermelín, vařené brambory'
+			b: 'Pečený bůček, bramborové knedlíky, červené zelí'
