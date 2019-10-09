@@ -1,30 +1,10 @@
 parameters:
 	lunch-menu:
-		'30.9.2019':
-			p: 'Hrachová s uzeninou'
-			a: 'Pašerácký kuřecí plátek (šunka, sýr), dušená rýže'
-			b: 'Špagety "Pomodoro"'
-		'1.10.2019':
-			p: 'Kulajda'
-			a: 'Střapačky se zelím a uzeným masem'
-			b: 'Zeleninové řízečky, bramborová kaše'
-		'2.10.2019':
-			p: 'Kapustová se slaninou'
-			a: 'Vepřová plec na slanině, dušená rýže'
-			b: 'Bramborové švestkové knedlíky s mákem a cukrem'
-		'3.10.2019':
-			p: 'Ovarová s kroupami'
-			a: 'Krůtí prsa zapečená s mozzarellou a rajčaty, vařené brambory'
-			b: 'Plněný paprikový lusk, houskové knedlíky'
-		'4.10.2019':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Smažený kuřecí řízek v sezamu, bramborový salát'
-			b: 'Zapečené těstoviny s uzeným masem, kys. okurka'
 		'7.10.2019':
 			p: 'Špenátová'
 			a: 'Kuřecí flamendr, dušená rýže'
 			b: 'Gnocchi se šunkou, brokolicí a smetanou'
-		'8.10.2019': 
+		'8.10.2019':
 			p: 'Francouzská cibulačka'
 			a: 'Boloňské špagety'
 			b: 'Drůbeží rizoto se sýrem, kys. okurka'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hovězí vývar s tarhoňou'
 			a: 'Smažený hermelín, vařené brambory'
 			b: 'Pečený bůček, bramborové knedlíky, červené zelí'
+		'14.10.2019':
+			p: 'Čočková'
+			a: 'Kuřecí Kung-pao, kari rýže'
+			b: 'Špagety "Carbonara"'
+		'15.10.2019':
+			p: 'Fazolová s klobásou'
+			a: 'Vepřová plec po valašsku, houskové knedlíky'
+			b: 'Zapečený květák se sýrem, 1/2 vařené brambory 1/2 okrukový salát'
+		'16.10.2019':
+			p: 'Hovězí vývar s játrovou rýží'
+			a: 'Burgundská hovězí pečeně, dušená rýže'
+			b: 'Salátek se špenátových listů s vejcem, řajčaty, olivami a balkánským sýrem'
+		'17.10.2019':
+			p: 'Zeleninová bílá'
+			a: 'Vepřová kotleta s dijonskou omáčkou, vařené brambory'
+			b: 'Zabíjačkový guláš, houskové knedlíky'
+		'18.10.2019':
+			p: 'Boršč'
+			a: 'Kuřecí medailonky se sýrovým přelivem, dušená rýže'
+			b: 'Opečená jitrnice, lepenice'
