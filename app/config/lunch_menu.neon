@@ -1,25 +1,5 @@
 parameters:
 	lunch-menu:
-		'21.10.2019':
-			p: 'Hráškový krém'
-			a: 'Kuřecí plátek na bylinkách, dušená rýže'
-			b: 'Zeleninový salát se smaženým hermelínem a brusinkami'
-		'22.10.2019':
-			p: 'Pórková'
-			a: 'Smažené řízečky z vepřové panenky, vařené brambory'
-			b: 'Plněné bramborové knedlíky uzeným masem, zelí'
-		'23.10.2019':
-			p: 'Bramborová'
-			a: 'Hovězí maso na pepři, vařené těstoviny'
-			b: 'Vepřová játra po mlynářsku, dušená rýže'
-		'24.10.2019':
-			p: 'Dršťková'
-			a: 'Šunkové krokety se sýrem, vařené brambory'
-			b: 'Zeleninové rizoto, kys. okurka, horalka'
-		'25.10.2019':
-			p: 'Drůbeží vývar s masem a nudlemi'
-			a: 'Smažený holandský řízek, vařené brambory'
-			b: 'Gnocchi "Siciliana" (kuřecí, česnek, olivy, bazalka, chilli papričky)'
 		'28.10.2019':
 			p: ''
 			a: 'Z důvodu státního svátku se nevaří.'
@@ -40,3 +20,23 @@ parameters:
 			p: 'Hrachová'
 			a: 'Hovězí tokáň na červeném víně, špagety'
 			b: 'Smažený studentský řízek (gothaj), jarní bramborový salát bez majonézy'
+		'4.11.2019':
+			p: 'Hovězí vývar s těstovinou'
+			a: 'Katův šleh, dušená rýže'
+			b: 'Koprová omáčka s vejcem, houskové knedlíky'
+		'5.11.2019':
+			p: 'Čočková s uzeninou'
+			a: 'Slovenská pochoutka, bramborové gnocchi'
+			b: 'Caesar salát s kuřecím masem'
+		'6.11.2019':
+			p: 'Žampiónová'
+			a: 'Štěpánská hovězí pečeně, houskové knedlíky'
+			b: 'Dukátové buchtičky s vanilkovým krémem'
+		'7.11.2019':
+			p: 'Hovězí vývar s celestýnskými nudlemo'
+			a: 'Přírodní kuřecí kapsa plněná anglickou slaninou a listovým špenátem, dušená rýže'
+			b: 'Špagety Aglio, olio e peperencino'
+		'8.11.2019':
+			p: 'Kmínová s vejci'
+			a: 'Kachní roláda, bramborové knedlíky, špenát'
+			b: 'Vepřová játra na roštu, vařené brambory, tatarská omáčka'
