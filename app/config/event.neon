@@ -7,3 +7,7 @@ parameters:
 			open: false
 		'15.11.2019':
 			event: {18:00,'Ochutnávka mladého Svatomartinského vína','svatomartinske.jpg'}
+		'22.11.2019':
+			event: {18:00,'Ochutnávka mladého Svatomartinského vína','burger.jpg'}
+		'23.11.2019':
+			event: {18:00,'Ochutnávka mladého Svatomartinského vína','burger.jpg'}
